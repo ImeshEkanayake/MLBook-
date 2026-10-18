@@ -503,6 +503,226 @@
         "function-to-function operator family"
       ],
       "execution_report": "CHAPTER_02_EXECUTION.md"
+    },
+    {
+      "id": "code_012",
+      "chapter": 3,
+      "subtopic": "3.1",
+      "title": "Random variables and conditional distributions",
+      "path": "notebooks/012_Chapter_03_01_Random_Variables_And_Conditional_Distributions.ipynb",
+      "registry_anchor": "code_012",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_012",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "invented populations and generated statistical teaching data; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 312,
+      "runtime_seconds": 1.62,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "joint marginal and conditional probabilities",
+        "explicit denominators and reverse conditionals",
+        "independence",
+        "population mixtures",
+        "expectation and variance",
+        "continuous density units"
+      ],
+      "execution_report": "CHAPTER_03_EXECUTION.md"
+    },
+    {
+      "id": "code_013",
+      "chapter": 3,
+      "subtopic": "3.2",
+      "title": "Sampling and data-generating processes",
+      "path": "notebooks/013_Chapter_03_02_Sampling_And_Data_Generating_Processes.ipynb",
+      "registry_anchor": "code_013",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_013",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "invented populations and generated statistical teaching data; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 313,
+      "runtime_seconds": 1.659,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "population and observation units",
+        "hierarchical dependence",
+        "equal-row sampling designs",
+        "design effect and sampling distribution",
+        "selection bias",
+        "measurement offset"
+      ],
+      "execution_report": "CHAPTER_03_EXECUTION.md"
+    },
+    {
+      "id": "code_014",
+      "chapter": 3,
+      "subtopic": "3.3",
+      "title": "Estimation, likelihood and Bayesian updating",
+      "path": "notebooks/014_Chapter_03_03_Estimation_Likelihood_And_Bayesian_Updating.ipynb",
+      "registry_anchor": "code_014",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_014",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "invented populations and generated statistical teaching data; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 314,
+      "runtime_seconds": 1.65,
+      "code_cells_executed": 7,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "binomial likelihood and MLE",
+        "beta prior and posterior",
+        "sequential equivalence",
+        "credible intervals",
+        "predictive versus parameter uncertainty",
+        "zero outcomes and prior sensitivity"
+      ],
+      "execution_report": "CHAPTER_03_EXECUTION.md"
+    },
+    {
+      "id": "code_015",
+      "chapter": 3,
+      "subtopic": "3.4",
+      "title": "Statistical comparisons and resampling",
+      "path": "notebooks/015_Chapter_03_04_Statistical_Comparisons_And_Resampling.ipynb",
+      "registry_anchor": "code_015",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_015",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "invented populations and generated statistical teaching data; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 315,
+      "runtime_seconds": 1.664,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "paired equal-building estimand",
+        "cluster versus row bootstrap",
+        "percentile interval limitations",
+        "practical effect size",
+        "assumption-dependent sign-flip test",
+        "multiple comparisons and Bonferroni"
+      ],
+      "execution_report": "CHAPTER_03_EXECUTION.md"
+    },
+    {
+      "id": "code_016",
+      "chapter": 3,
+      "subtopic": "3.5",
+      "title": "Kinds and sources of uncertainty",
+      "path": "notebooks/016_Chapter_03_05_Kinds_And_Sources_Of_Uncertainty.ipynb",
+      "registry_anchor": "code_016",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_016",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "invented populations and generated statistical teaching data; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 316,
+      "runtime_seconds": 1.65,
+      "code_cells_executed": 7,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "predictive variance decomposition",
+        "mean versus future-outcome intervals",
+        "measurement noise versus bias",
+        "training-only compliance estimate",
+        "held-out material shift",
+        "coverage and interval scope ledger"
+      ],
+      "execution_report": "CHAPTER_03_EXECUTION.md"
     }
   ]
 }
