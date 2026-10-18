@@ -283,6 +283,226 @@
         "baseline-first resource plan"
       ],
       "execution_report": "CHAPTER_01_EXECUTION.md"
+    },
+    {
+      "id": "code_007",
+      "chapter": 2,
+      "subtopic": "2.1",
+      "title": "Vectors, matrices and tensors as data",
+      "path": "notebooks/007_Chapter_02_01_Vectors_Matrices_And_Tensors.ipynb",
+      "registry_anchor": "code_007",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_007",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated mathematical teaching examples; no measured structural data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 202,
+      "runtime_seconds": 1.237,
+      "code_cells_executed": 6,
+      "inline_figures": 1,
+      "concepts_demonstrated": [
+        "axis and units ledger",
+        "dot products and affine maps",
+        "broadcast failure",
+        "constrained spring equilibrium",
+        "graph batching and masks"
+      ],
+      "execution_report": "CHAPTER_02_EXECUTION.md"
+    },
+    {
+      "id": "code_008",
+      "chapter": 2,
+      "subtopic": "2.2",
+      "title": "Geometry, projections and decompositions",
+      "path": "notebooks/008_Chapter_02_02_Geometry_Projections_And_Decompositions.ipynb",
+      "registry_anchor": "code_008",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_008",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated mathematical teaching examples; no measured structural data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 202,
+      "runtime_seconds": 2.611,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "norms and reference scales",
+        "orthogonal projection",
+        "SVD and PCA reconstruction",
+        "discarded low-variance signal",
+        "conditioning and coefficient sensitivity"
+      ],
+      "execution_report": "CHAPTER_02_EXECUTION.md"
+    },
+    {
+      "id": "code_009",
+      "chapter": 2,
+      "subtopic": "2.3",
+      "title": "Functions, derivatives and the chain rule",
+      "path": "notebooks/009_Chapter_02_03_Derivatives_And_The_Chain_Rule.ipynb",
+      "registry_anchor": "code_009",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_009",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated mathematical teaching examples; no measured structural data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 202,
+      "runtime_seconds": 1.366,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "derivative units",
+        "spring sensitivities",
+        "chain rule and dimensionless loss",
+        "manual reverse accumulation",
+        "coordinate and directional finite differences",
+        "step-size error tradeoff"
+      ],
+      "execution_report": "CHAPTER_02_EXECUTION.md"
+    },
+    {
+      "id": "code_010",
+      "chapter": 2,
+      "subtopic": "2.4",
+      "title": "Optimization and numerical computation",
+      "path": "notebooks/010_Chapter_02_04_Optimization_And_Numerical_Computation.ipynb",
+      "registry_anchor": "code_010",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_010",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated mathematical teaching examples; no measured structural data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 202,
+      "runtime_seconds": 2.563,
+      "code_cells_executed": 6,
+      "inline_figures": 1,
+      "concepts_demonstrated": [
+        "quadratic curvature and step stability",
+        "coordinate scaling and preconditioning",
+        "box constraints",
+        "float32 cancellation",
+        "residual versus solution sensitivity",
+        "least squares and squared conditioning"
+      ],
+      "execution_report": "CHAPTER_02_EXECUTION.md"
+    },
+    {
+      "id": "code_011",
+      "chapter": 2,
+      "subtopic": "2.5",
+      "title": "Just-in-time mathematics for scientific models",
+      "path": "notebooks/011_Chapter_02_05_Mathematics_For_Scientific_Models.ipynb",
+      "registry_anchor": "code_011",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_011",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated mathematical teaching examples; no measured structural data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 202,
+      "runtime_seconds": 2.653,
+      "code_cells_executed": 7,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "weighted integration",
+        "ODE versus PDE worksheet",
+        "explicit diffusion and boundary conditions",
+        "time-step stability",
+        "stencil and graph correspondence",
+        "sine reference and refinement",
+        "periodic FFT and aliasing",
+        "function-to-function operator family"
+      ],
+      "execution_report": "CHAPTER_02_EXECUTION.md"
     }
   ]
 }
