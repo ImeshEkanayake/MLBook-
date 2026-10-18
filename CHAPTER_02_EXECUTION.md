@@ -1,6 +1,6 @@
 # Chapter 2 execution evidence
 
-**Date:** 18 October 2026 (Australia/Melbourne). **Status:** all five notebooks executed; publication verification pending.
+**Date:** 18 October 2026 (Australia/Melbourne). **Status:** published on main; all remote file blobs verified.
 
 Every code cell ran in order in a fresh kernel using the existing runner and unchanged pinned environment. Each notebook supplies all imports, inputs, generators and helpers. Ordinary runs use no network data, keys, private project modules or GPU. No new dependency was introduced. Versions printed by every kernel: CPython 3.14.3, NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.3, Matplotlib 3.11.0 and scikit-learn 1.9.0. Hardware: Darwin arm64 CPU. Full pins are in [requirements-lock.txt](requirements-lock.txt).
 
@@ -27,3 +27,7 @@ Total: **31 code cells, nine inline figures**. Runtimes are observed on this mac
 Notebook format, sequential execution counts, absence of error outputs, meaningful assertions, local links, explicit anchors, manifest uniqueness and self-containment are checked. All nine notebook figures are visually inspected; contrast in the error matrix and arrow endpoints in the dependency diagram were repaired and the affected notebooks rerun. Plot labels use declared units or dimensionless scales and distinguish curves by shape or line style. `pip check` verifies the existing environment. Original notebooks code_001–code_006 and their manifest records are preserved.
 
 These are controlled mathematics laboratories, not fitted population-performance studies. A supervised split is not required to verify an algebraic identity or a numerical reference solution. A future predictive pipeline must fit scales, PCA and other representations on training information only. The exact-curvature optimization advantage is disclosed; fixed-end and periodic physical conventions are separated. No trained neural operator, generic autodiff library, causal effect or field-valid structural model is claimed. The manuscript and book figure sources remain outside this public repository.
+
+## Publication verification
+
+The initial chapter publication at [`6fdb324`](https://github.com/ImeshEkanayake/MLBook-/commit/6fdb324964889b5560c6b2c0d738ed04127112b2) was pushed normally to main. The GitHub API tree matched all 25 local file blobs, including the five notebooks, registry and guides. A metadata follow-up records the verified publication state. Original six notebooks and manifest records remain unchanged. No manuscript or private local artifact was published.

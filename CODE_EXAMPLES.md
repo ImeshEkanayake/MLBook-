@@ -100,7 +100,7 @@ Five independent numerical laboratories. Use the [concept-to-code guide](CHAPTER
 - **Data/dependencies:** local synthetic arrays and exact toy equations; no downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** axis and units ledger, dot products and affine maps, broadcast failure, constrained spring equilibrium, graph batching and masks.
 - **Verification:** 6 code cells, 1 inline figures; 1.237 seconds including fresh-kernel lifecycle, CPython 3.14.3 / NumPy 2.4.4, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
 
 <a id="code_008"></a>
 ### code_008 — Geometry, projections and decompositions
@@ -110,7 +110,7 @@ Five independent numerical laboratories. Use the [concept-to-code guide](CHAPTER
 - **Data/dependencies:** local synthetic arrays and exact toy equations; no downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** norms and reference scales, orthogonal projection, SVD and PCA reconstruction, discarded low-variance signal, conditioning and coefficient sensitivity.
 - **Verification:** 6 code cells, 2 inline figures; 2.611 seconds including fresh-kernel lifecycle, CPython 3.14.3 / NumPy 2.4.4, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
 
 <a id="code_009"></a>
 ### code_009 — Functions, derivatives and the chain rule
@@ -120,7 +120,7 @@ Five independent numerical laboratories. Use the [concept-to-code guide](CHAPTER
 - **Data/dependencies:** local synthetic arrays and exact toy equations; no downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** derivative units, spring sensitivities, chain rule and dimensionless loss, manual reverse accumulation, coordinate and directional finite differences, step-size error tradeoff.
 - **Verification:** 6 code cells, 2 inline figures; 1.366 seconds including fresh-kernel lifecycle, CPython 3.14.3 / NumPy 2.4.4, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
 
 <a id="code_010"></a>
 ### code_010 — Optimization and numerical computation
@@ -130,7 +130,7 @@ Five independent numerical laboratories. Use the [concept-to-code guide](CHAPTER
 - **Data/dependencies:** local synthetic arrays and exact toy equations; no downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** quadratic curvature and step stability, coordinate scaling and preconditioning, box constraints, float32 cancellation, residual versus solution sensitivity, least squares and squared conditioning.
 - **Verification:** 6 code cells, 1 inline figures; 2.563 seconds including fresh-kernel lifecycle, CPython 3.14.3 / NumPy 2.4.4, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
 
 <a id="code_011"></a>
 ### code_011 — Just-in-time mathematics for scientific models
@@ -140,4 +140,4 @@ Five independent numerical laboratories. Use the [concept-to-code guide](CHAPTER
 - **Data/dependencies:** local synthetic arrays and exact toy equations; no downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** weighted integration, ODE versus PDE worksheet, explicit diffusion and boundary conditions, time-step stability, stencil and graph correspondence, sine reference and refinement, periodic FFT and aliasing, function-to-function operator family.
 - **Verification:** 7 code cells, 3 inline figures; 2.653 seconds including fresh-kernel lifecycle, CPython 3.14.3 / NumPy 2.4.4, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 18 October 2026. [Run evidence](CHAPTER_02_EXECUTION.md).
