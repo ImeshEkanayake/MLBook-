@@ -1,6 +1,6 @@
 # Chapter 3 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** published on main; remote tree and file blobs verified.
 
 Every cell ran in order in a fresh kernel using the existing runner and unchanged pinned environment. The five runs were launched concurrently; timings include kernel lifecycle and are observations on this machine, not performance promises. Every notebook defines its own data and helpers, needs no ordinary-run network/data downloads or keys, and prints actual versions, seed, hardware and results. Versions: CPython 3.14.3, NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.3, Matplotlib 3.11.0 and scikit-learn 1.9.0, Darwin arm64 CPU. `pip check` passes; no new dependency was added.
 
@@ -31,3 +31,7 @@ Beta updates assume one common recorded-event probability, independent comparabl
 The paired bootstrap concerns assessment-sample uncertainty for fixed predictors and an equal-building estimand. It omits retraining/selection uncertainty. Percentile intervals are pedagogically transparent, with no exact small-sample coverage claim. Sign flips require symmetry/appropriate randomization, not merely equal means. Null multiplicity experiments use valid normal-model t tests. Bonferroni relies on valid individual tests and a defined family. The support flag for a new material is not a calibrated error probability or guaranteed interval.
 
 Notebook schemas, execution sequence, no error outputs, meaningful assertions, output-summary/manifest agreement, permanent anchors and local links are checked with `scripts/check_chapter03.py`. All ten figures are visually reviewed. Numerical plots use explicit units/reference populations and line styles/hatching for grayscale. The original eleven notebook files and their manifest entries remain unchanged. Manuscript and book-figure sources are maintained separately and excluded from this public repository.
+
+## Publication
+
+Initial source publication is [`00e8f41`](https://github.com/ImeshEkanayake/MLBook-/commit/00e8f41fc3df580ac7c1225cfed8a89a5ea556b5). A normal push to main was verified against the GitHub API tree: all 33 local file blobs match the remote publication. A metadata follow-up records verified status. The eleven previous notebooks and registry records remain unchanged; private manuscript sources and local figure artifacts were excluded.
