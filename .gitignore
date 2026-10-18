@@ -1,0 +1,34 @@
+# Local environments and configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Reproducible execution products and large model/data artifacts
+build/
+outputs/
+checkpoints/
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.safetensors
+*.parquet
+*.h5
+*.hdf5
+# Machine/editor state
+.DS_Store
+.vscode/
+.idea/

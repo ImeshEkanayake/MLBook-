@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/ImeshEkanayake/MLBook-",
+  "branch": "main",
+  "examples": [
+    {
+      "id": "code_001",
+      "chapter": 18,
+      "subtopic": "18.1",
+      "title": "Decision trees: rules, complexity and controlled experiments",
+      "path": "notebooks/001_Chapter_18_01_Decision_Tree.ipynb",
+      "registry_anchor": "code_001",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_001",
+      "status": "executed_locally_ready_for_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated synthetic teaching data",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "main": "1800 make_moons observations, noise=0.27, seed=418",
+        "auxiliary": [
+          "non-uniform training weights",
+          "two signal plus four independent noise features",
+          "imbalanced make_classification",
+          "ordered load/resistance indices with explicit Bernoulli labels"
+        ]
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 418,
+      "runtime_seconds": 3.011,
+      "code_cells_executed": 21,
+      "inline_figures": 19,
+      "constructor_parameters_covered": [
+        "ccp_alpha",
+        "class_weight",
+        "criterion",
+        "max_depth",
+        "max_features",
+        "max_leaf_nodes",
+        "min_impurity_decrease",
+        "min_samples_leaf",
+        "min_samples_split",
+        "min_weight_fraction_leaf",
+        "monotonic_cst",
+        "random_state",
+        "splitter"
+      ],
+      "execution_report": "EXECUTION_REPORT.md"
+    }
+  ]
+}
