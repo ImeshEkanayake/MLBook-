@@ -60,6 +60,229 @@
         "splitter"
       ],
       "execution_report": "EXECUTION_REPORT.md"
+    },
+    {
+      "id": "code_002",
+      "chapter": 1,
+      "subtopic": "1.1",
+      "title": "Specify the task and respect the information clock",
+      "path": "notebooks/002_Chapter_01_01_Task_Framing.ipynb",
+      "registry_anchor": "code_002",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_002",
+      "status": "executed_locally_ready_for_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated synthetic teaching data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 101,
+      "runtime_seconds": 1.296,
+      "code_cells_executed": 5,
+      "inline_figures": 1,
+      "concepts_demonstrated": [
+        "task specification",
+        "observation versus action units",
+        "event versus availability time",
+        "future-information leakage",
+        "label horizon",
+        "follow-up and repeated entities"
+      ],
+      "execution_report": "CHAPTER_01_EXECUTION.md"
+    },
+    {
+      "id": "code_003",
+      "chapter": 1,
+      "subtopic": "1.2",
+      "title": "Prediction and discovery on related observations",
+      "path": "notebooks/003_Chapter_01_02_Prediction_And_Discovery.ipynb",
+      "registry_anchor": "code_003",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_003",
+      "status": "executed_locally_ready_for_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated synthetic teaching data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 101,
+      "runtime_seconds": 5.389,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "regression",
+        "classification",
+        "ranking and capacity metrics",
+        "clustering",
+        "anomaly reference",
+        "descriptive versus causal claims"
+      ],
+      "execution_report": "CHAPTER_01_EXECUTION.md"
+    },
+    {
+      "id": "code_004",
+      "chapter": 1,
+      "subtopic": "1.3",
+      "title": "Generate scenarios, simulate forward, and infer what is identifiable",
+      "path": "notebooks/004_Chapter_01_03_Generation_Simulation_And_Inversion.ipynb",
+      "registry_anchor": "code_004",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_004",
+      "status": "executed_locally_ready_for_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated synthetic teaching data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 101,
+      "runtime_seconds": 1.956,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "scenario generation and dependence",
+        "Hooke-law units and assumptions",
+        "forward simulation",
+        "surrogate approximation",
+        "inverse effective compliance",
+        "structural non-identifiability",
+        "additional measurements"
+      ],
+      "execution_report": "CHAPTER_01_EXECUTION.md"
+    },
+    {
+      "id": "code_005",
+      "chapter": 1,
+      "subtopic": "1.4",
+      "title": "Turn scores into actions and follow their consequences",
+      "path": "notebooks/005_Chapter_01_04_Decisions_And_Sequential_Interaction.ipynb",
+      "registry_anchor": "code_005",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_005",
+      "status": "executed_locally_ready_for_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated synthetic teaching data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 101,
+      "runtime_seconds": 1.825,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "probabilities versus actions",
+        "capacity and expected cost",
+        "causal prevention assumptions",
+        "policy and state",
+        "sequential transitions",
+        "terminal fairness",
+        "planning baseline versus RL"
+      ],
+      "execution_report": "CHAPTER_01_EXECUTION.md"
+    },
+    {
+      "id": "code_006",
+      "chapter": 1,
+      "subtopic": "1.5",
+      "title": "One small building, several useful representations",
+      "path": "notebooks/006_Chapter_01_05_Representations_And_Reading_Map.ipynb",
+      "registry_anchor": "code_006",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_006",
+      "status": "executed_locally_ready_for_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-18",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated synthetic teaching data",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 101,
+      "runtime_seconds": 1.298,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "tabular entities",
+        "relational keys and cardinality",
+        "graph adjacency and permutation",
+        "spatial coordinates",
+        "temporal order versus summaries",
+        "task architecture objective adaptation",
+        "baseline-first resource plan"
+      ],
+      "execution_report": "CHAPTER_01_EXECUTION.md"
     }
   ]
 }
