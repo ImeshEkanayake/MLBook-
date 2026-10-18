@@ -1,6 +1,6 @@
 # Chapter 5 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five published and executed; remote tree verified.
 
 Every cell ran in order in a fresh kernel using the unchanged runner. The five jobs ran concurrently; wall times include kernel lifecycle and are measurements, not performance promises. The notebooks import no private helpers and require no ordinary-run files, data downloads, keys or GPU. No dependency was added. Each printed CPython 3.14.3, NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.3, Matplotlib 3.11.0 and scikit-learn 1.9.0 on Darwin arm64 CPU. The full dependency lock remains unchanged.
 
@@ -29,3 +29,7 @@ Training-only transformations and fits, development-only selection and fixed-rul
 All ten inline figures are visually reviewed with labels, units, descriptive text and grayscale line/marker distinctions. Seven selected experiments are reproduced as vector book figures by the local manuscript authoring pipeline and checked against the exact executed result dictionaries. Source/schema/sequential execution/no-error/meaningful assertions, manifest/summary agreement and local guide anchors are checked by scripts/check_chapter05.py. The 21 previous notebooks and manifest entries are preserved exactly. Only companion notebooks and documentation are published, not the manuscript or outline.
 
 The laboratories do not establish real engineering validity, causal acquisition benefits, universally U-shaped validation curves, uncertainty calibration, general model-family rankings or a universal bias–variance decomposition for arbitrary losses. Hard constraints, finite penalties, checkpoint selection and augmentation assumptions have distinct meanings.
+
+## Publication evidence
+
+The first published content commit is [9ee5b87797374e258b7495d46e9d02d6baae8575](https://github.com/ImeshEkanayake/MLBook-/commit/9ee5b87797374e258b7495d46e9d02d6baae8575). The GitHub main-branch tree matched all 49 local tracked file blobs, including the five executed notebooks, registry, manifest, guide, report and checker. The following metadata commit records this successful check. Final branch/tree and raw-file byte comparisons are also recorded by the manuscript handoff.

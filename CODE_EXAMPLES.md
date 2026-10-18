@@ -268,7 +268,7 @@ Five independent synthetic laboratories connect target populations, capacity, pr
 - **Data/dependencies:** generated observations and numerical checks; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** known-site versus new-site estimands, row and group information boundaries, training-only site state, equal-site versus row averaging, joint support and extrapolation.
 - **Verification:** 6 code cells, 2 inline figures; 1.461 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
+- **Status:** published and executed; remote file tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
 
 <a id="code_023"></a>
 ### code_023 — Capacity, overfitting and bias–variance
@@ -278,7 +278,7 @@ Five independent synthetic laboratories connect target populations, capacity, pr
 - **Data/dependencies:** generated observations and numerical checks; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** controlled polynomial capacity curve, development-only degree selection, fresh final assessment, repeated-sample prediction variation, squared-error bias variance identity.
 - **Verification:** 5 code cells, 2 inline figures; 1.635 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
+- **Status:** published and executed; remote file tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
 
 <a id="code_024"></a>
 ### code_024 — Regularization and inductive bias
@@ -288,7 +288,7 @@ Five independent synthetic laboratories connect target populations, capacity, pr
 - **Data/dependencies:** generated observations and numerical checks; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** same-data line smooth local monotone lenses, ridge shrinkage coordinate dependence, early stopping as a preference, smooth additive versus monotone versus deep predictors, valid augmentation under a declared symmetry.
 - **Verification:** 6 code cells, 2 inline figures; 1.879 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
+- **Status:** published and executed; remote file tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
 
 <a id="code_025"></a>
 ### code_025 — Learning curves and data value
@@ -298,7 +298,7 @@ Five independent synthetic laboratories connect target populations, capacity, pr
 - **Data/dependencies:** generated observations and numerical checks; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** nested training-size development curve, repeat-sample descriptive variability, readings versus independent sites, subgroup coverage and data value, sealed final fixed-rule assessment.
 - **Verification:** 6 code cells, 2 inline figures; 1.505 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
+- **Status:** published and executed; remote file tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
 
 <a id="code_026"></a>
 ### code_026 — Assumptions as testable commitments
@@ -308,4 +308,4 @@ Five independent synthetic laboratories connect target populations, capacity, pr
 - **Data/dependencies:** generated observations and numerical checks; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** assumption ledger with observable stress tests, linearity and load extrapolation, local support and stationarity failures, exchangeability as a sampling commitment, anisotropic rotation versus coordinate equivariance, physical residual versus empirical validity.
 - **Verification:** 6 code cells, 2 inline figures; 1.481 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
+- **Status:** published and executed; remote file tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
