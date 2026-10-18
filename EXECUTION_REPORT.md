@@ -1,6 +1,6 @@
 # Execution report — code_001
 
-**Verified:** 18 October 2026, Australia/Melbourne. **Publication:** Executed locally; remote publication has not yet been verified.
+**Verified:** 18 October 2026, Australia/Melbourne. **Publication:** Published on `main`; remote registry and notebook paths verified.
 
 The [reference notebook](notebooks/001_Chapter_18_01_Decision_Tree.ipynb) was run top-to-bottom in a fresh kernel inside an isolated virtual environment installed from the pinned requirements. System site packages were disabled. `pip check` reported no broken requirements. The runner uses its exact interpreter and a temporary kernel specification; it imports no private project code. Ordinary notebook execution makes no network requests or data downloads. The full package set is preserved in [requirements-lock.txt](requirements-lock.txt).
 

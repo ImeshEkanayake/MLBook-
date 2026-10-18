@@ -11,8 +11,8 @@
       "path": "notebooks/001_Chapter_18_01_Decision_Tree.ipynb",
       "registry_anchor": "code_001",
       "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_001",
-      "status": "executed_locally_ready_for_publication",
-      "publication_verified": false,
+      "status": "published_and_executed",
+      "publication_verified": true,
       "verified_on": "2026-10-18",
       "timezone": "Australia/Melbourne",
       "data": {

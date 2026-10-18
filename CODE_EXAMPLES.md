@@ -25,7 +25,7 @@ A bare `#code_001` does not create a remote hyperlink. If a notebook moves, reta
 | Measured runtime | 3.011 seconds including fresh-kernel lifecycle; 1.640 seconds inside the notebook on the reference run. Allow extra time for installation, startup and font caches. |
 | Coverage | All 13 exposed classifier constructor parameters, one depth × leaf-support interaction, model guide, 19 inline figures and eight exercises |
 | Verification | 21 code cells executed in order in a fresh kernel; assertions passed; final test used only after selection; [execution evidence](EXECUTION_REPORT.md) |
-| Status | Executed locally; remote publication has not yet been verified. |
+| Status | Published on `main`; remote registry and notebook paths verified. |
 | Checked date | 18 October 2026 (Australia/Melbourne) |
 
 [Open the notebook](notebooks/001_Chapter_18_01_Decision_Tree.ipynb) and work through predictions before changing settings. Use [AUTHORING_GUIDE.md](AUTHORING_GUIDE.md) when adding another example. This is one complete reference example, not executable coverage of the entire book.
