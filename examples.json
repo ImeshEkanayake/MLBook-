@@ -723,6 +723,226 @@
         "coverage and interval scope ledger"
       ],
       "execution_report": "CHAPTER_03_EXECUTION.md"
+    },
+    {
+      "id": "code_017",
+      "chapter": 4,
+      "subtopic": "4.1",
+      "title": "Parameters, predictions and objectives",
+      "path": "notebooks/017_Chapter_04_01_Parameters_Predictions_And_Objectives.ipynb",
+      "registry_anchor": "code_017",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_017",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated learning-mechanism teaching data and explicit numerical checks; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 417,
+      "runtime_seconds": 2.277,
+      "code_cells_executed": 7,
+      "inline_figures": 1,
+      "concepts_demonstrated": [
+        "task and independent split contract",
+        "parameter hyperparameter state ledger",
+        "unit-aware empirical risk",
+        "training-only least squares and baseline",
+        "gradient stationarity",
+        "one-example predict compare adjust"
+      ],
+      "execution_report": "CHAPTER_04_EXECUTION.md"
+    },
+    {
+      "id": "code_018",
+      "chapter": 4,
+      "subtopic": "4.2",
+      "title": "Loss functions and output meanings",
+      "path": "notebooks/018_Chapter_04_02_Loss_Functions_And_Output_Meanings.ipynb",
+      "registry_anchor": "code_018",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_018",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated learning-mechanism teaching data and explicit numerical checks; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 418,
+      "runtime_seconds": 2.618,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "squared absolute and pinball output meanings",
+        "mean median and quantile fit",
+        "sigmoid and Bernoulli cross entropy",
+        "stable score-space loss",
+        "declared split and estimator controls",
+        "held-out output assessment"
+      ],
+      "execution_report": "CHAPTER_04_EXECUTION.md"
+    },
+    {
+      "id": "code_019",
+      "chapter": 4,
+      "subtopic": "4.3",
+      "title": "Gradients and iterative optimization",
+      "path": "notebooks/019_Chapter_04_03_Gradients_And_Iterative_Optimization.ipynb",
+      "registry_anchor": "code_019",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_019",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated learning-mechanism teaching data and explicit numerical checks; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 419,
+      "runtime_seconds": 2.362,
+      "code_cells_executed": 6,
+      "inline_figures": 1,
+      "concepts_demonstrated": [
+        "hand-calculated two-feature gradient",
+        "finite-difference check",
+        "full stochastic and minibatch updates",
+        "unbiased with-replacement batch gradients",
+        "gradient variance scaling",
+        "update versus exposure budgets"
+      ],
+      "execution_report": "CHAPTER_04_EXECUTION.md"
+    },
+    {
+      "id": "code_020",
+      "chapter": 4,
+      "subtopic": "4.4",
+      "title": "Training, inference and reusable learned state",
+      "path": "notebooks/020_Chapter_04_04_Training_Inference_And_Reusable_State.ipynb",
+      "registry_anchor": "code_020",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_020",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated learning-mechanism teaching data and explicit numerical checks; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 420,
+      "runtime_seconds": 2.504,
+      "code_cells_executed": 7,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "training-only fitted preprocessing",
+        "frozen prediction state round trip",
+        "actual autoencoder reconstruction pretraining",
+        "frozen encoder downstream head",
+        "episodically pretrained contextual kernel",
+        "context changes output without parameter updates"
+      ],
+      "execution_report": "CHAPTER_04_EXECUTION.md"
+    },
+    {
+      "id": "code_021",
+      "chapter": 4,
+      "subtopic": "4.5",
+      "title": "Learning failures and useful diagnostics",
+      "path": "notebooks/021_Chapter_04_05_Learning_Failures_And_Diagnostics.ipynb",
+      "registry_anchor": "code_021",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_021",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated learning-mechanism teaching data and explicit numerical checks; no measured structural observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 421,
+      "runtime_seconds": 2.427,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "flat zero-step loss with nonzero gradients",
+        "reported versus true derivative",
+        "corrected training and reference optimum",
+        "capacity floor versus optimization failure",
+        "tiny-data memorization limitation",
+        "target availability and objective-role ledger"
+      ],
+      "execution_report": "CHAPTER_04_EXECUTION.md"
     }
   ]
 }

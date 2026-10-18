@@ -2,7 +2,7 @@
 
 Self-contained notebooks for learning how applied machine-learning models work, how to choose their settings, and how to check their limits. This companion repository belongs to the ML Book project; the book manuscript and its planning files are maintained separately.
 
-**Start here:** [code_001 — Decision trees](notebooks/001_Chapter_18_01_Decision_Tree.ipynb), for Chapter 18.1. It contains a model guide, a mechanism diagram, executed tree/boundary figures, controlled experiments covering all 13 `DecisionTreeClassifier` constructor parameters, an interaction study, a protected final assessment and eight exercises. It generates all data locally. The five [Chapter 1 concept notebooks](CHAPTER_01_GUIDE.md) now accompany it, covering task framing, prediction/discovery, generation/simulation/inversion, decisions and representations. Five [Chapter 2 mathematics laboratories](CHAPTER_02_GUIDE.md) cover arrays, geometry, derivatives, optimization and scientific numerics. Five [Chapter 3 statistics laboratories](CHAPTER_03_GUIDE.md) develop probability, sampling, estimation, comparisons and uncertainty. There are sixteen completed notebooks and no placeholder notebooks.
+**Start here:** [code_001 — Decision trees](notebooks/001_Chapter_18_01_Decision_Tree.ipynb), for Chapter 18.1. It contains a model guide, a mechanism diagram, executed tree/boundary figures, controlled experiments covering all 13 `DecisionTreeClassifier` constructor parameters, an interaction study, a protected final assessment and eight exercises. It generates all data locally. The five [Chapter 1 concept notebooks](CHAPTER_01_GUIDE.md) now accompany it, covering task framing, prediction/discovery, generation/simulation/inversion, decisions and representations. Five [Chapter 2 mathematics laboratories](CHAPTER_02_GUIDE.md) cover arrays, geometry, derivatives, optimization and scientific numerics. Five [Chapter 3 statistics laboratories](CHAPTER_03_GUIDE.md) develop probability, sampling, estimation, comparisons and uncertainty. Five [Chapter 4 learning laboratories](CHAPTER_04_GUIDE.md) connect parameters, objectives, updates, reusable state and diagnostics. There are twenty-one completed notebooks and no placeholder notebooks.
 
 ## Chapter 1 reading route
 
@@ -15,6 +15,10 @@ Read the [mathematics traceability guide](CHAPTER_02_GUIDE.md) and [Chapter 2 ru
 ## Chapter 3 reading route
 
 Use the [statistics traceability guide](CHAPTER_03_GUIDE.md) and [measured run evidence](CHAPTER_03_EXECUTION.md). IDs code_012–code_016 each map to one section. These notebooks distinguish conditional probabilities, independent sampling units, parameter/predictive intervals and uncertainty under material shift. Their populations and measurements are synthetic and their statistical assumptions are explicit.
+
+## Chapter 4 reading route
+
+Use the [learning traceability guide](CHAPTER_04_GUIDE.md) and [measured execution evidence](CHAPTER_04_EXECUTION.md). Permanent IDs code_017–code_021 each map to one section. They include exact gradient arithmetic, real tiny encoder/context pretraining and deliberate training failures; examples use synthetic data and explicit assessment boundaries.
 
 ## Quickstart
 
@@ -61,4 +65,4 @@ Use training/validation for exercises and choices; treat the final test as spent
 python scripts/run_notebook.py --output notebooks/001_Chapter_18_01_Decision_Tree.ipynb
 ```
 
-Review changes before committing. Do not publish private datasets, credentials, unrelated manuscript files or the user's visual reference attachment. The repository contains the complete tree laboratory and fifteen executed Chapter 1–3 concept/mathematics/statistics notebooks, plus an authoring standard. It does not yet implement the remaining book chapters.
+Review changes before committing. Do not publish private datasets, credentials, unrelated manuscript files or the user's visual reference attachment. The repository contains the complete tree laboratory and twenty executed Chapter 1–4 concept/mathematics/statistics/learning notebooks, plus an authoring standard. It does not yet implement the remaining book chapters.
