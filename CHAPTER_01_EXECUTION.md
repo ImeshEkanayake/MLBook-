@@ -1,6 +1,6 @@
 # Chapter 1 execution evidence
 
-**Date:** 18 October 2026 (Australia/Melbourne). **Status:** executed locally, awaiting remote verification.
+**Date:** 18 October 2026 (Australia/Melbourne). **Status:** published and remotely verified on main.
 
 All five new notebooks were executed from first to last cell in fresh kernels using the existing `scripts/run_notebook.py` and unchanged pinned environment. They require no external data, keys, project imports or network downloads during an ordinary run. `code_001` is unchanged; its separate [reference report](EXECUTION_REPORT.md) remains valid. These are concept notebooks, not full constructor laboratories for every estimator named in Chapter 1.
 
