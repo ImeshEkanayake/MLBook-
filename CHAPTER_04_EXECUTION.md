@@ -1,6 +1,6 @@
 # Chapter 4 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** published on main; remote tree and file blobs verified.
 
 Every code cell executed in order in a fresh kernel using the unchanged runner and pinned environment. These five runs were launched concurrently; wall times include kernel lifecycle and are observations rather than performance promises. All imports, generated inputs, algorithms and helpers are inside each notebook. Ordinary runs need no data files, downloads, API keys, GPU or private project modules. No dependency was added. CPython 3.14.3, NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.3, Matplotlib 3.11.0 and scikit-learn 1.9.0 were printed by every kernel; Darwin arm64 CPU. Full pins remain in requirements-lock.txt; pip check passes.
 
@@ -31,3 +31,7 @@ Main fitted examples keep training/calibration and final outcomes separate. Pure
 All eight figures are visually inspected, with numeric/textual explanations, units and grayscale line/marker distinctions. Notebook schemas, sequential execution, absence of error outputs, meaningful assertions, self-contained source, guide anchors, local links and output-summary/manifest agreement are checked using scripts/check_chapter04.py. The prior sixteen notebooks and manifest records remain unchanged. Only companion notebooks/docs are published; local manuscript sources and book figures remain separate.
 
 No empirical structural validity, causal effect, universal quantile calibration, optimizer superiority or pretraining benefit is inferred beyond these declared mechanisms. Final outcomes already read here must be treated as spent when designing extensions; use development evidence and genuinely fresh final observations for subsequent choices.
+
+## Publication
+
+Initial source publication is [`cae8eaa`](https://github.com/ImeshEkanayake/MLBook-/commit/cae8eaa305003b7a3fe998f278db2b6fea9bf441). A normal push to main was verified through the GitHub API tree: all 41 local file blobs match the remote source publication. A metadata follow-up records verified status. The sixteen previous notebooks and manifest records remain unchanged; private manuscript sources and local book-figure artifacts were excluded.

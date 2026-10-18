@@ -212,7 +212,7 @@ Five independent laboratories connect objectives, updates, reusable state and di
 - **Data/dependencies:** generated observations, source samples and tasks; no ordinary-run data downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** task and independent split contract, parameter hyperparameter state ledger, unit-aware empirical risk, training-only least squares and baseline, gradient stationarity, one-example predict compare adjust.
 - **Verification:** 7 code cells, 1 inline figures; 2.277 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
 
 <a id="code_018"></a>
 ### code_018 — Loss functions and output meanings
@@ -222,7 +222,7 @@ Five independent laboratories connect objectives, updates, reusable state and di
 - **Data/dependencies:** generated observations, source samples and tasks; no ordinary-run data downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** squared absolute and pinball output meanings, mean median and quantile fit, sigmoid and Bernoulli cross entropy, stable score-space loss, declared split and estimator controls, held-out output assessment.
 - **Verification:** 6 code cells, 2 inline figures; 2.618 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
 
 <a id="code_019"></a>
 ### code_019 — Gradients and iterative optimization
@@ -232,7 +232,7 @@ Five independent laboratories connect objectives, updates, reusable state and di
 - **Data/dependencies:** generated observations, source samples and tasks; no ordinary-run data downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** hand-calculated two-feature gradient, finite-difference check, full stochastic and minibatch updates, unbiased with-replacement batch gradients, gradient variance scaling, update versus exposure budgets.
 - **Verification:** 6 code cells, 1 inline figures; 2.362 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
 
 <a id="code_020"></a>
 ### code_020 — Training, inference and reusable learned state
@@ -242,7 +242,7 @@ Five independent laboratories connect objectives, updates, reusable state and di
 - **Data/dependencies:** generated observations, source samples and tasks; no ordinary-run data downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** training-only fitted preprocessing, frozen prediction state round trip, actual autoencoder reconstruction pretraining, frozen encoder downstream head, episodically pretrained contextual kernel, context changes output without parameter updates.
 - **Verification:** 7 code cells, 2 inline figures; 2.504 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
 
 <a id="code_021"></a>
 ### code_021 — Learning failures and useful diagnostics
@@ -252,4 +252,4 @@ Five independent laboratories connect objectives, updates, reusable state and di
 - **Data/dependencies:** generated observations, source samples and tasks; no ordinary-run data downloads or keys; [pinned environment](requirements-lock.txt).
 - **Scope:** flat zero-step loss with nonzero gradients, reported versus true derivative, corrected training and reference optimum, capacity floor versus optimization failure, tiny-data memorization limitation, target availability and objective-role ledger.
 - **Verification:** 6 code cells, 2 inline figures; 2.427 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
+- **Status:** published on main; remote tree and notebook paths verified. Checked 19 October 2026. [Run evidence](CHAPTER_04_EXECUTION.md).
