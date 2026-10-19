@@ -533,3 +533,59 @@ Use the [concept guide](CHAPTER_09_GUIDE.md) and [execution evidence](CHAPTER_09
 - **Scope:** exploration ledger and alternative explanations, temperature-load interaction discovered on development, training-only fit and group-disjoint roles, frozen candidate selection and one final assessment, paired building uncertainty and limits.
 - **Verification:** 5 code cells, 2 figures; 1.445 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
 - **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+
+<!-- CHAPTER_10_ENTRIES -->
+
+## Chapter 10: Cleaning imperfect data
+
+Use the [concept guide](CHAPTER_10_GUIDE.md) and [actual execution evidence](CHAPTER_10_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_047"></a>
+### code_047 — Missingness and observation processes
+
+- **Book home:** section 10.1.
+- **Notebook:** [047_Chapter_10_01_Missingness_And_Observation_Processes.ipynb](notebooks/047_Chapter_10_01_Missingness_And_Observation_Processes.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** absent censored structural and failed measurements, MCAR MAR and MNAR as generator assumptions, training-only imputation and missingness indicators, development-only policy selection, protected final comparison without identifying missingness from data.
+- **Verification:** 6 code cells, 2 figures; 1.347 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+
+<a id="code_048"></a>
+### code_048 — Duplicates, identities and inconsistent records
+
+- **Book home:** section 10.2.
+- **Notebook:** [048_Chapter_10_02_Duplicates_Identities_And_Updates.ipynb](notebooks/048_Chapter_10_02_Duplicates_Identities_And_Updates.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** reimported records versus legitimate repeat events, composite entity identity, version conflicts and known-at-cutoff resolution, provenance retention during deduplication, duplicate event leakage across role assignments.
+- **Verification:** 5 code cells, 2 figures; 1.257 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+
+<a id="code_049"></a>
+### code_049 — Measurement units, timestamps and validity
+
+- **Book home:** section 10.3.
+- **Notebook:** [049_Chapter_10_03_Units_Timestamps_And_Validity.ipynb](notebooks/049_Chapter_10_03_Units_Timestamps_And_Validity.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** quantity-aware unit conversion, offset-aware timestamp ordering and repeated local clocks, event-arrival validity checks, independent reference calibration, schema checks precede statistical scaling.
+- **Verification:** 5 code cells, 2 figures; 1.285 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+
+<a id="code_050"></a>
+### code_050 — Noisy and uncertain labels
+
+- **Book home:** section 10.4.
+- **Notebook:** [050_Chapter_10_04_Noisy_And_Uncertain_Labels.ipynb](notebooks/050_Chapter_10_04_Noisy_And_Uncertain_Labels.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** continuous severity and threshold ambiguity, annotator disagreement and exclusion, explicit measurement-model soft targets, training-only adjudication and extra evidence budget, fixed logistic objectives and independent reference assessment.
+- **Verification:** 6 code cells, 2 figures; 1.326 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+
+<a id="code_051"></a>
+### code_051 — Outliers, corruption and rare events
+
+- **Book home:** section 10.5.
+- **Notebook:** [051_Chapter_10_05_Outliers_Corruption_And_Rare_Events.ipynb](notebooks/051_Chapter_10_05_Outliers_Corruption_And_Rare_Events.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** provenance-led investigation of extreme strain, known loading event versus isolated source-unit fault, blind outlier deletion erases valid rare cases, fixed-threshold Huber response robustness, verified repair and independent final assessment.
+- **Verification:** 5 code cells, 2 figures; 1.442 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).

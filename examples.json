@@ -2019,6 +2019,221 @@
         "paired building uncertainty and limits"
       ],
       "execution_report": "CHAPTER_09_EXECUTION.md"
+    },
+    {
+      "id": "code_047",
+      "chapter": 10,
+      "subtopic": "10.1",
+      "title": "Missingness and observation processes",
+      "path": "notebooks/047_Chapter_10_01_Missingness_And_Observation_Processes.ipynb",
+      "registry_anchor": "code_047",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_047",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1047,
+      "runtime_seconds": 1.347,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "absent censored structural and failed measurements",
+        "MCAR MAR and MNAR as generator assumptions",
+        "training-only imputation and missingness indicators",
+        "development-only policy selection",
+        "protected final comparison without identifying missingness from data"
+      ],
+      "execution_report": "CHAPTER_10_EXECUTION.md"
+    },
+    {
+      "id": "code_048",
+      "chapter": 10,
+      "subtopic": "10.2",
+      "title": "Duplicates, identities and inconsistent records",
+      "path": "notebooks/048_Chapter_10_02_Duplicates_Identities_And_Updates.ipynb",
+      "registry_anchor": "code_048",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_048",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1048,
+      "runtime_seconds": 1.257,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "reimported records versus legitimate repeat events",
+        "composite entity identity",
+        "version conflicts and known-at-cutoff resolution",
+        "provenance retention during deduplication",
+        "duplicate event leakage across role assignments"
+      ],
+      "execution_report": "CHAPTER_10_EXECUTION.md"
+    },
+    {
+      "id": "code_049",
+      "chapter": 10,
+      "subtopic": "10.3",
+      "title": "Measurement units, timestamps and validity",
+      "path": "notebooks/049_Chapter_10_03_Units_Timestamps_And_Validity.ipynb",
+      "registry_anchor": "code_049",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_049",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1049,
+      "runtime_seconds": 1.285,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "quantity-aware unit conversion",
+        "offset-aware timestamp ordering and repeated local clocks",
+        "event-arrival validity checks",
+        "independent reference calibration",
+        "schema checks precede statistical scaling"
+      ],
+      "execution_report": "CHAPTER_10_EXECUTION.md"
+    },
+    {
+      "id": "code_050",
+      "chapter": 10,
+      "subtopic": "10.4",
+      "title": "Noisy and uncertain labels",
+      "path": "notebooks/050_Chapter_10_04_Noisy_And_Uncertain_Labels.ipynb",
+      "registry_anchor": "code_050",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_050",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1050,
+      "runtime_seconds": 1.326,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "continuous severity and threshold ambiguity",
+        "annotator disagreement and exclusion",
+        "explicit measurement-model soft targets",
+        "training-only adjudication and extra evidence budget",
+        "fixed logistic objectives and independent reference assessment"
+      ],
+      "execution_report": "CHAPTER_10_EXECUTION.md"
+    },
+    {
+      "id": "code_051",
+      "chapter": 10,
+      "subtopic": "10.5",
+      "title": "Outliers, corruption and rare events",
+      "path": "notebooks/051_Chapter_10_05_Outliers_Corruption_And_Rare_Events.ipynb",
+      "registry_anchor": "code_051",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_051",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1051,
+      "runtime_seconds": 1.442,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "provenance-led investigation of extreme strain",
+        "known loading event versus isolated source-unit fault",
+        "blind outlier deletion erases valid rare cases",
+        "fixed-threshold Huber response robustness",
+        "verified repair and independent final assessment"
+      ],
+      "execution_report": "CHAPTER_10_EXECUTION.md"
     }
   ]
 }
