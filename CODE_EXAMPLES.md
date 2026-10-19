@@ -492,7 +492,7 @@ Use the [concept guide](CHAPTER_09_GUIDE.md) and [execution evidence](CHAPTER_09
 - **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** physical and observed support, common bins and subgroup distributions, zeros tails and unit-error review, empirical CDF without bin choices, category absence and logarithm domain.
 - **Verification:** 5 code cells, 2 figures; 1.357 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
 
 <a id="code_043"></a>
 ### code_043 — Dependencies and confounding patterns
@@ -502,7 +502,7 @@ Use the [concept guide](CHAPTER_09_GUIDE.md) and [execution evidence](CHAPTER_09
 - **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** pooled versus material-conditional associations, covariance decomposition with group context, nonlinear dependence with near-zero linear correlation, rank correlation and redundant features, association is not intervention.
 - **Verification:** 5 code cells, 2 figures; 1.288 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
 
 <a id="code_044"></a>
 ### code_044 — Subgroups, rare cases and coverage
@@ -512,7 +512,7 @@ Use the [concept guide](CHAPTER_09_GUIDE.md) and [execution evidence](CHAPTER_09
 - **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** counts and prevalence by operational group, rare-group zero-event uncertainty, Wilson interval assumptions and limits, row counts versus independent structures, unobserved schema categories.
 - **Verification:** 5 code cells, 2 figures; 1.261 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
 
 <a id="code_045"></a>
 ### code_045 — Temporal, spatial and relational patterns
@@ -522,7 +522,7 @@ Use the [concept guide](CHAPTER_09_GUIDE.md) and [execution evidence](CHAPTER_09
 - **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** autocorrelation and seasonal structure, nearby sensor dependence, connected components and split units, cluster dependence changes mean variance, effective sample size is estimand-specific.
 - **Verification:** 5 code cells, 2 figures; 1.490 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
 
 <a id="code_046"></a>
 ### code_046 — Exploration as a recorded hypothesis process
@@ -532,4 +532,4 @@ Use the [concept guide](CHAPTER_09_GUIDE.md) and [execution evidence](CHAPTER_09
 - **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** exploration ledger and alternative explanations, temperature-load interaction discovered on development, training-only fit and group-disjoint roles, frozen candidate selection and one final assessment, paired building uncertainty and limits.
 - **Verification:** 5 code cells, 2 figures; 1.445 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).

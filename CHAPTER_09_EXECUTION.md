@@ -1,6 +1,6 @@
 # Chapter 9 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** five executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** five executed and published; content tree verified.
 
 Fresh kernels executed every code cell using the unchanged runner. The reference environment printed CPython 3.14.3, NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.3, Matplotlib 3.11.0 and scikit-learn 1.9.0, Darwin arm64 CPU. No dependency was added. Inputs/helpers are internal and ordinary runs are offline and CPU-only. Initial runs started concurrently; revised support, symmetry and subgroup notebooks were rerun. Wall times include kernel lifecycle and are observations, not speed comparisons.
 
@@ -222,3 +222,7 @@ Seven original vector book figures reproduce selected outputs with exact result-
 }
 ```
 
+
+## Publication verification
+
+Content commit [7d53de615438b6207ade8ce1731832ecf0ace5c6](https://github.com/ImeshEkanayake/MLBook-/commit/7d53de615438b6207ade8ce1731832ecf0ace5c6) was pushed to main. All 81 remote file blobs match the local tree and remote main resolves to this content revision. This metadata update records publication after verification. Final remote tree and commit-addressed raw-file checks are retained in the local book evidence.
