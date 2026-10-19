@@ -436,7 +436,7 @@ Five independent construction laboratories: [concept guide](CHAPTER_08_GUIDE.md)
 - **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** entity cutoff and horizon form the example key, closed-right target window, censored versus delayed versus resolved outcomes, unknown labels are not negatives, repeated units and overlapping horizons.
 - **Verification:** 5 code cells, 2 figures; 2.240 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
 
 <a id="code_038"></a>
 ### code_038 — Joins, keys and relational structure
@@ -446,7 +446,7 @@ Five independent construction laboratories: [concept guide](CHAPTER_08_GUIDE.md)
 - **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** primary foreign and composite keys, join multiplicity and duplicate amplification, aggregation at the declared learning unit, missing-related-record preservation, flattened views retain source lineage.
 - **Verification:** 5 code cells, 2 figures; 1.256 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
 
 <a id="code_039"></a>
 ### code_039 — Time-aware information availability
@@ -456,7 +456,7 @@ Five independent construction laboratories: [concept guide](CHAPTER_08_GUIDE.md)
 - **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** event arrival and prediction clocks, revision-aware historical snapshots, backward as-of matching after eligibility filtering, staleness and missing-history contracts, future revision invariance.
 - **Verification:** 5 code cells, 2 figures; 2.255 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
 
 <a id="code_040"></a>
 ### code_040 — Sampling, labels and dataset documentation
@@ -466,7 +466,7 @@ Five independent construction laboratories: [concept guide](CHAPTER_08_GUIDE.md)
 - **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** sampling frame and inspection selection, known-probability weighting with support, weak labels abstention and annotator disagreement, dataset card with provenance, fixed constant predictors and protected final population.
 - **Verification:** 5 code cells, 2 figures; 2.224 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
 
 <a id="code_041"></a>
 ### code_041 — Representations and storage contracts
@@ -476,4 +476,4 @@ Five independent construction laboratories: [concept guide](CHAPTER_08_GUIDE.md)
 - **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** linked tables wide views sequences and graph edge lists, node ID order and permutation consistency, missingness masks versus physical zero, mesh connectivity changes interpolation, versioned schema units and safe numeric round trips.
 - **Verification:** 6 code cells, 2 figures; 3.415 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
