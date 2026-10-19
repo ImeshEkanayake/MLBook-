@@ -477,3 +477,59 @@ Five independent construction laboratories: [concept guide](CHAPTER_08_GUIDE.md)
 - **Scope:** linked tables wide views sequences and graph edge lists, node ID order and permutation consistency, missingness masks versus physical zero, mesh connectivity changes interpolation, versioned schema units and safe numeric round trips.
 - **Verification:** 6 code cells, 2 figures; 3.415 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
 - **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+
+<!-- CHAPTER_09_ENTRIES -->
+
+## Chapter 9: exploring and understanding data
+
+Use the [concept guide](CHAPTER_09_GUIDE.md) and [execution evidence](CHAPTER_09_EXECUTION.md). Exploratory distributions, associations, subgroup intervals and dependence checks are distinct from the final hypothesis laboratory's frozen predictive assessment. All evidence is synthetic.
+
+<a id="code_042"></a>
+### code_042 — Distributions, scale and support
+
+- **Book home:** section 9.1.
+- **Notebook:** [042_Chapter_09_01_Distributions_Scale_And_Support.ipynb](notebooks/042_Chapter_09_01_Distributions_Scale_And_Support.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** physical and observed support, common bins and subgroup distributions, zeros tails and unit-error review, empirical CDF without bin choices, category absence and logarithm domain.
+- **Verification:** 5 code cells, 2 figures; 1.357 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+
+<a id="code_043"></a>
+### code_043 — Dependencies and confounding patterns
+
+- **Book home:** section 9.2.
+- **Notebook:** [043_Chapter_09_02_Dependencies_And_Confounding.ipynb](notebooks/043_Chapter_09_02_Dependencies_And_Confounding.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** pooled versus material-conditional associations, covariance decomposition with group context, nonlinear dependence with near-zero linear correlation, rank correlation and redundant features, association is not intervention.
+- **Verification:** 5 code cells, 2 figures; 1.288 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+
+<a id="code_044"></a>
+### code_044 — Subgroups, rare cases and coverage
+
+- **Book home:** section 9.3.
+- **Notebook:** [044_Chapter_09_03_Subgroups_Rare_Cases_And_Coverage.ipynb](notebooks/044_Chapter_09_03_Subgroups_Rare_Cases_And_Coverage.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** counts and prevalence by operational group, rare-group zero-event uncertainty, Wilson interval assumptions and limits, row counts versus independent structures, unobserved schema categories.
+- **Verification:** 5 code cells, 2 figures; 1.261 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+
+<a id="code_045"></a>
+### code_045 — Temporal, spatial and relational patterns
+
+- **Book home:** section 9.4.
+- **Notebook:** [045_Chapter_09_04_Temporal_Spatial_And_Relational_Patterns.ipynb](notebooks/045_Chapter_09_04_Temporal_Spatial_And_Relational_Patterns.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** autocorrelation and seasonal structure, nearby sensor dependence, connected components and split units, cluster dependence changes mean variance, effective sample size is estimand-specific.
+- **Verification:** 5 code cells, 2 figures; 1.490 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).
+
+<a id="code_046"></a>
+### code_046 — Exploration as a recorded hypothesis process
+
+- **Book home:** section 9.5.
+- **Notebook:** [046_Chapter_09_05_Recorded_Hypotheses_And_Confirmation.ipynb](notebooks/046_Chapter_09_05_Recorded_Hypotheses_And_Confirmation.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** exploration ledger and alternative explanations, temperature-load interaction discovered on development, training-only fit and group-disjoint roles, frozen candidate selection and one final assessment, paired building uncertainty and limits.
+- **Verification:** 5 code cells, 2 figures; 1.445 seconds including fresh-kernel lifecycle, CPython 3.14.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_09_EXECUTION.md).

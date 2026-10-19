@@ -1804,6 +1804,221 @@
         "versioned schema units and safe numeric round trips"
       ],
       "execution_report": "CHAPTER_08_EXECUTION.md"
+    },
+    {
+      "id": "code_042",
+      "chapter": 9,
+      "subtopic": "9.1",
+      "title": "Distributions, scale and support",
+      "path": "notebooks/042_Chapter_09_01_Distributions_Scale_And_Support.ipynb",
+      "registry_anchor": "code_042",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_042",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated load, material, subgroup, sensor/graph and building-response experiments; no field evidence",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 942,
+      "runtime_seconds": 1.357,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "physical and observed support",
+        "common bins and subgroup distributions",
+        "zeros tails and unit-error review",
+        "empirical CDF without bin choices",
+        "category absence and logarithm domain"
+      ],
+      "execution_report": "CHAPTER_09_EXECUTION.md"
+    },
+    {
+      "id": "code_043",
+      "chapter": 9,
+      "subtopic": "9.2",
+      "title": "Dependencies and confounding patterns",
+      "path": "notebooks/043_Chapter_09_02_Dependencies_And_Confounding.ipynb",
+      "registry_anchor": "code_043",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_043",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated load, material, subgroup, sensor/graph and building-response experiments; no field evidence",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 943,
+      "runtime_seconds": 1.288,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "pooled versus material-conditional associations",
+        "covariance decomposition with group context",
+        "nonlinear dependence with near-zero linear correlation",
+        "rank correlation and redundant features",
+        "association is not intervention"
+      ],
+      "execution_report": "CHAPTER_09_EXECUTION.md"
+    },
+    {
+      "id": "code_044",
+      "chapter": 9,
+      "subtopic": "9.3",
+      "title": "Subgroups, rare cases and coverage",
+      "path": "notebooks/044_Chapter_09_03_Subgroups_Rare_Cases_And_Coverage.ipynb",
+      "registry_anchor": "code_044",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_044",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated load, material, subgroup, sensor/graph and building-response experiments; no field evidence",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 944,
+      "runtime_seconds": 1.261,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "counts and prevalence by operational group",
+        "rare-group zero-event uncertainty",
+        "Wilson interval assumptions and limits",
+        "row counts versus independent structures",
+        "unobserved schema categories"
+      ],
+      "execution_report": "CHAPTER_09_EXECUTION.md"
+    },
+    {
+      "id": "code_045",
+      "chapter": 9,
+      "subtopic": "9.4",
+      "title": "Temporal, spatial and relational patterns",
+      "path": "notebooks/045_Chapter_09_04_Temporal_Spatial_And_Relational_Patterns.ipynb",
+      "registry_anchor": "code_045",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_045",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated load, material, subgroup, sensor/graph and building-response experiments; no field evidence",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 945,
+      "runtime_seconds": 1.49,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "autocorrelation and seasonal structure",
+        "nearby sensor dependence",
+        "connected components and split units",
+        "cluster dependence changes mean variance",
+        "effective sample size is estimand-specific"
+      ],
+      "execution_report": "CHAPTER_09_EXECUTION.md"
+    },
+    {
+      "id": "code_046",
+      "chapter": 9,
+      "subtopic": "9.5",
+      "title": "Exploration as a recorded hypothesis process",
+      "path": "notebooks/046_Chapter_09_05_Recorded_Hypotheses_And_Confirmation.ipynb",
+      "registry_anchor": "code_046",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_046",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated load, material, subgroup, sensor/graph and building-response experiments; no field evidence",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 946,
+      "runtime_seconds": 1.445,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "exploration ledger and alternative explanations",
+        "temperature-load interaction discovered on development",
+        "training-only fit and group-disjoint roles",
+        "frozen candidate selection and one final assessment",
+        "paired building uncertainty and limits"
+      ],
+      "execution_report": "CHAPTER_09_EXECUTION.md"
     }
   ]
 }
