@@ -421,3 +421,59 @@ Five independent laboratories make comparison claims and information boundaries 
 - **Scope:** observed maintenance association versus intervention, actual predictive model and coefficient interpretation, two observationally identical causal mechanisms, explicit unobserved confounding, randomized simulator check without field identification.
 - **Verification:** 6 code cells, 2 inline figures; 2.735 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
 - **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+
+<!-- CHAPTER_08_ENTRIES -->
+
+## Chapter 8: constructing the learning dataset
+
+Five independent construction laboratories: [concept guide](CHAPTER_08_GUIDE.md) and [actual execution evidence](CHAPTER_08_EXECUTION.md). Keys, time windows, record eligibility, sampling, label provenance and storage semantics precede model choice. Four laboratories test data contracts; the sampling lab alone fits fixed constant probability predictors and assesses an independent final population.
+
+<a id="code_037"></a>
+### code_037 — Units of observation and target design
+
+- **Book home:** section 8.1.
+- **Notebook:** [037_Chapter_08_01_Units_And_Targets.ipynb](notebooks/037_Chapter_08_01_Units_And_Targets.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** entity cutoff and horizon form the example key, closed-right target window, censored versus delayed versus resolved outcomes, unknown labels are not negatives, repeated units and overlapping horizons.
+- **Verification:** 5 code cells, 2 figures; 2.240 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+
+<a id="code_038"></a>
+### code_038 — Joins, keys and relational structure
+
+- **Book home:** section 8.2.
+- **Notebook:** [038_Chapter_08_02_Joins_Keys_And_Relations.ipynb](notebooks/038_Chapter_08_02_Joins_Keys_And_Relations.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** primary foreign and composite keys, join multiplicity and duplicate amplification, aggregation at the declared learning unit, missing-related-record preservation, flattened views retain source lineage.
+- **Verification:** 5 code cells, 2 figures; 1.256 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+
+<a id="code_039"></a>
+### code_039 — Time-aware information availability
+
+- **Book home:** section 8.3.
+- **Notebook:** [039_Chapter_08_03_Time_Aware_Availability.ipynb](notebooks/039_Chapter_08_03_Time_Aware_Availability.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** event arrival and prediction clocks, revision-aware historical snapshots, backward as-of matching after eligibility filtering, staleness and missing-history contracts, future revision invariance.
+- **Verification:** 5 code cells, 2 figures; 2.255 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+
+<a id="code_040"></a>
+### code_040 — Sampling, labels and dataset documentation
+
+- **Book home:** section 8.4.
+- **Notebook:** [040_Chapter_08_04_Sampling_Labels_And_Documentation.ipynb](notebooks/040_Chapter_08_04_Sampling_Labels_And_Documentation.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** sampling frame and inspection selection, known-probability weighting with support, weak labels abstention and annotator disagreement, dataset card with provenance, fixed constant predictors and protected final population.
+- **Verification:** 5 code cells, 2 figures; 2.224 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).
+
+<a id="code_041"></a>
+### code_041 — Representations and storage contracts
+
+- **Book home:** section 8.5.
+- **Notebook:** [041_Chapter_08_05_Representations_And_Storage.ipynb](notebooks/041_Chapter_08_05_Representations_And_Storage.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run files, network, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** linked tables wide views sequences and graph edge lists, node ID order and permutation consistency, missingness masks versus physical zero, mesh connectivity changes interpolation, versioned schema units and safe numeric round trips.
+- **Verification:** 6 code cells, 2 figures; 3.415 seconds including fresh-kernel lifecycle, CPython 3.14.3 / pandas 3.0.3, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_08_EXECUTION.md).

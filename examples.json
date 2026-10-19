@@ -1589,6 +1589,221 @@
         "randomized simulator check without field identification"
       ],
       "execution_report": "CHAPTER_07_EXECUTION.md"
+    },
+    {
+      "id": "code_037",
+      "chapter": 8,
+      "subtopic": "8.1",
+      "title": "Units of observation and target design",
+      "path": "notebooks/037_Chapter_08_01_Units_And_Targets.ipynb",
+      "registry_anchor": "code_037",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_037",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated structural-monitoring, inspection-selection and geometry fixtures; no field observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 837,
+      "runtime_seconds": 2.24,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "entity cutoff and horizon form the example key",
+        "closed-right target window",
+        "censored versus delayed versus resolved outcomes",
+        "unknown labels are not negatives",
+        "repeated units and overlapping horizons"
+      ],
+      "execution_report": "CHAPTER_08_EXECUTION.md"
+    },
+    {
+      "id": "code_038",
+      "chapter": 8,
+      "subtopic": "8.2",
+      "title": "Joins, keys and relational structure",
+      "path": "notebooks/038_Chapter_08_02_Joins_Keys_And_Relations.ipynb",
+      "registry_anchor": "code_038",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_038",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated structural-monitoring, inspection-selection and geometry fixtures; no field observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 838,
+      "runtime_seconds": 1.256,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "primary foreign and composite keys",
+        "join multiplicity and duplicate amplification",
+        "aggregation at the declared learning unit",
+        "missing-related-record preservation",
+        "flattened views retain source lineage"
+      ],
+      "execution_report": "CHAPTER_08_EXECUTION.md"
+    },
+    {
+      "id": "code_039",
+      "chapter": 8,
+      "subtopic": "8.3",
+      "title": "Time-aware information availability",
+      "path": "notebooks/039_Chapter_08_03_Time_Aware_Availability.ipynb",
+      "registry_anchor": "code_039",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_039",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated structural-monitoring, inspection-selection and geometry fixtures; no field observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 839,
+      "runtime_seconds": 2.255,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "event arrival and prediction clocks",
+        "revision-aware historical snapshots",
+        "backward as-of matching after eligibility filtering",
+        "staleness and missing-history contracts",
+        "future revision invariance"
+      ],
+      "execution_report": "CHAPTER_08_EXECUTION.md"
+    },
+    {
+      "id": "code_040",
+      "chapter": 8,
+      "subtopic": "8.4",
+      "title": "Sampling, labels and dataset documentation",
+      "path": "notebooks/040_Chapter_08_04_Sampling_Labels_And_Documentation.ipynb",
+      "registry_anchor": "code_040",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_040",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated structural-monitoring, inspection-selection and geometry fixtures; no field observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 840,
+      "runtime_seconds": 2.224,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "sampling frame and inspection selection",
+        "known-probability weighting with support",
+        "weak labels abstention and annotator disagreement",
+        "dataset card with provenance",
+        "fixed constant predictors and protected final population"
+      ],
+      "execution_report": "CHAPTER_08_EXECUTION.md"
+    },
+    {
+      "id": "code_041",
+      "chapter": 8,
+      "subtopic": "8.5",
+      "title": "Representations and storage contracts",
+      "path": "notebooks/041_Chapter_08_05_Representations_And_Storage.ipynb",
+      "registry_anchor": "code_041",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_041",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated structural-monitoring, inspection-selection and geometry fixtures; no field observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 841,
+      "runtime_seconds": 3.415,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "linked tables wide views sequences and graph edge lists",
+        "node ID order and permutation consistency",
+        "missingness masks versus physical zero",
+        "mesh connectivity changes interpolation",
+        "versioned schema units and safe numeric round trips"
+      ],
+      "execution_report": "CHAPTER_08_EXECUTION.md"
     }
   ]
 }
