@@ -1374,6 +1374,221 @@
         "four-axis taxonomy worksheet without fake transformer training"
       ],
       "execution_report": "CHAPTER_06_EXECUTION.md"
+    },
+    {
+      "id": "code_032",
+      "chapter": 7,
+      "subtopic": "7.1",
+      "title": "Baselines and experimental questions",
+      "path": "notebooks/032_Chapter_07_01_Baselines_And_Experimental_Questions.ipynb",
+      "registry_anchor": "code_032",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_032",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated beam, building, sensor, graph and confounding experiments; no measured engineering outcomes",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 732,
+      "runtime_seconds": 2.793,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "falsifiable improvement claim",
+        "constant heuristic mechanistic and simple learned baselines",
+        "unit-checked beam calculation",
+        "development-only equal-candidate tuning",
+        "paired final errors and practical threshold"
+      ],
+      "execution_report": "CHAPTER_07_EXECUTION.md"
+    },
+    {
+      "id": "code_033",
+      "chapter": 7,
+      "subtopic": "7.2",
+      "title": "Leakage and information boundaries",
+      "path": "notebooks/033_Chapter_07_02_Leakage_And_Information_Boundaries.ipynb",
+      "registry_anchor": "code_033",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_033",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated beam, building, sensor, graph and confounding experiments; no measured engineering outcomes",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 733,
+      "runtime_seconds": 1.381,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "target temporal group relational and preprocessing leakage",
+        "event time versus arrival time",
+        "as-of eligible join and cardinality repair",
+        "outcome-derived aggregate sensitivity",
+        "clean refit and protected new-building assessment"
+      ],
+      "execution_report": "CHAPTER_07_EXECUTION.md"
+    },
+    {
+      "id": "code_034",
+      "chapter": 7,
+      "subtopic": "7.3",
+      "title": "Reproducibility and provenance",
+      "path": "notebooks/034_Chapter_07_03_Reproducibility_And_Provenance.ipynb",
+      "registry_anchor": "code_034",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_034",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated beam, building, sensor, graph and confounding experiments; no measured engineering outcomes",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 734,
+      "runtime_seconds": 1.712,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "canonical data snapshot and schema hash",
+        "critical training-code and configuration provenance",
+        "exact same-environment replay",
+        "seed variation versus independent-data replication",
+        "rolling one-step forecast information boundary"
+      ],
+      "execution_report": "CHAPTER_07_EXECUTION.md"
+    },
+    {
+      "id": "code_035",
+      "chapter": 7,
+      "subtopic": "7.4",
+      "title": "Fair comparisons and ablation",
+      "path": "notebooks/035_Chapter_07_04_Fair_Comparisons_And_Ablation.ipynb",
+      "registry_anchor": "code_035",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_035",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated beam, building, sensor, graph and confounding experiments; no measured engineering outcomes",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 735,
+      "runtime_seconds": 2.755,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual one-hop graph and matched relational predictor",
+        "equal data features parameter and search access",
+        "predeclared repeated initializations",
+        "aligned-neighbor ablations",
+        "failed-attempt ledger and fixed paired final assessment"
+      ],
+      "execution_report": "CHAPTER_07_EXECUTION.md"
+    },
+    {
+      "id": "code_036",
+      "chapter": 7,
+      "subtopic": "7.5",
+      "title": "Prediction, explanation and causal claims",
+      "path": "notebooks/036_Chapter_07_05_Prediction_Explanation_And_Causal_Claims.ipynb",
+      "registry_anchor": "code_036",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_036",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated beam, building, sensor, graph and confounding experiments; no measured engineering outcomes",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 736,
+      "runtime_seconds": 2.735,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "observed maintenance association versus intervention",
+        "actual predictive model and coefficient interpretation",
+        "two observationally identical causal mechanisms",
+        "explicit unobserved confounding",
+        "randomized simulator check without field identification"
+      ],
+      "execution_report": "CHAPTER_07_EXECUTION.md"
     }
   ]
 }

@@ -365,3 +365,59 @@ Five independent laboratories separate evidence, objectives, architecture, adapt
 - **Scope:** actual contextual bandit exploration and reward fitting, independent frozen-policy simulation assessment, offline action-support diagnostic, known-model Bellman planning versus learning, four-axis taxonomy worksheet without fake transformer training.
 - **Verification:** 6 code cells, 2 inline figures; 1.705 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
 - **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_06_EXECUTION.md).
+
+<!-- CHAPTER_07_ENTRIES -->
+
+## Chapter 7: what makes an experiment trustworthy?
+
+Five independent laboratories make comparison claims and information boundaries inspectable. Use the [traceability guide](CHAPTER_07_GUIDE.md) and [measured execution evidence](CHAPTER_07_EXECUTION.md). All data are generated locally; ideal mechanics, controlled failure checks, exact observational tables and actual fitted mechanisms retain distinct evidential meanings.
+
+<a id="code_032"></a>
+### code_032 — Baselines and experimental questions
+
+- **Book home:** section 7.1.
+- **Notebook:** [032_Chapter_07_01_Baselines_And_Experimental_Questions.ipynb](notebooks/032_Chapter_07_01_Baselines_And_Experimental_Questions.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** falsifiable improvement claim, constant heuristic mechanistic and simple learned baselines, unit-checked beam calculation, development-only equal-candidate tuning, paired final errors and practical threshold.
+- **Verification:** 5 code cells, 2 inline figures; 2.793 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+
+<a id="code_033"></a>
+### code_033 — Leakage and information boundaries
+
+- **Book home:** section 7.2.
+- **Notebook:** [033_Chapter_07_02_Leakage_And_Information_Boundaries.ipynb](notebooks/033_Chapter_07_02_Leakage_And_Information_Boundaries.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** target temporal group relational and preprocessing leakage, event time versus arrival time, as-of eligible join and cardinality repair, outcome-derived aggregate sensitivity, clean refit and protected new-building assessment.
+- **Verification:** 6 code cells, 2 inline figures; 1.381 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+
+<a id="code_034"></a>
+### code_034 — Reproducibility and provenance
+
+- **Book home:** section 7.3.
+- **Notebook:** [034_Chapter_07_03_Reproducibility_And_Provenance.ipynb](notebooks/034_Chapter_07_03_Reproducibility_And_Provenance.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** canonical data snapshot and schema hash, critical training-code and configuration provenance, exact same-environment replay, seed variation versus independent-data replication, rolling one-step forecast information boundary.
+- **Verification:** 6 code cells, 2 inline figures; 1.712 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+
+<a id="code_035"></a>
+### code_035 — Fair comparisons and ablation
+
+- **Book home:** section 7.4.
+- **Notebook:** [035_Chapter_07_04_Fair_Comparisons_And_Ablation.ipynb](notebooks/035_Chapter_07_04_Fair_Comparisons_And_Ablation.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual one-hop graph and matched relational predictor, equal data features parameter and search access, predeclared repeated initializations, aligned-neighbor ablations, failed-attempt ledger and fixed paired final assessment.
+- **Verification:** 6 code cells, 2 inline figures; 2.755 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+
+<a id="code_036"></a>
+### code_036 — Prediction, explanation and causal claims
+
+- **Book home:** section 7.5.
+- **Notebook:** [036_Chapter_07_05_Prediction_Explanation_And_Causal_Claims.ipynb](notebooks/036_Chapter_07_05_Prediction_Explanation_And_Causal_Claims.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** observed maintenance association versus intervention, actual predictive model and coefficient interpretation, two observationally identical causal mechanisms, explicit unobserved confounding, randomized simulator check without field identification.
+- **Verification:** 6 code cells, 2 inline figures; 2.735 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
