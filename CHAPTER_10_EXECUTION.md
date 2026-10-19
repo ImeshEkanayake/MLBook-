@@ -1,6 +1,6 @@
 # Chapter 10 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verification passed.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_050 | 10.4 | 6 | 2 | 1.326 |
 | code_051 | 10.5 | 5 | 2 | 1.442 |
 
-Total: **27 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **27 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten inline figures have been visually reviewed; label backgrounds and subplot title spacing were repaired and re-executed where needed.
 
 ## Actual mechanisms and boundaries
 
@@ -279,3 +279,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 
 
 Visual review prompted fresh-kernel reruns of code_048 and code_049 to give timeline labels opaque backgrounds and separate neighboring subplot titles. Both reruns pass with unchanged result dictionaries; the recorded runtimes refer to the current sources.
+
+## Publication verification
+
+The content commit `603dd10f0d29545862c6ba5af330266108b5a00b` was pushed normally to main. Its complete remote tree contains 89 file blobs, all byte-identical by Git blob hash to the local tree; remote main matches and the working tree was clean. All 46 earlier manifest records remain unchanged. Final metadata publication additionally verifies commit-addressed raw registry, manifest, guide, report and five notebooks.

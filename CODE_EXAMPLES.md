@@ -548,7 +548,7 @@ Use the [concept guide](CHAPTER_10_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** absent censored structural and failed measurements, MCAR MAR and MNAR as generator assumptions, training-only imputation and missingness indicators, development-only policy selection, protected final comparison without identifying missingness from data.
 - **Verification:** 6 code cells, 2 figures; 1.347 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
 
 <a id="code_048"></a>
 ### code_048 — Duplicates, identities and inconsistent records
@@ -558,7 +558,7 @@ Use the [concept guide](CHAPTER_10_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** reimported records versus legitimate repeat events, composite entity identity, version conflicts and known-at-cutoff resolution, provenance retention during deduplication, duplicate event leakage across role assignments.
 - **Verification:** 5 code cells, 2 figures; 1.257 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
 
 <a id="code_049"></a>
 ### code_049 — Measurement units, timestamps and validity
@@ -568,7 +568,7 @@ Use the [concept guide](CHAPTER_10_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** quantity-aware unit conversion, offset-aware timestamp ordering and repeated local clocks, event-arrival validity checks, independent reference calibration, schema checks precede statistical scaling.
 - **Verification:** 5 code cells, 2 figures; 1.285 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
 
 <a id="code_050"></a>
 ### code_050 — Noisy and uncertain labels
@@ -578,7 +578,7 @@ Use the [concept guide](CHAPTER_10_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** continuous severity and threshold ambiguity, annotator disagreement and exclusion, explicit measurement-model soft targets, training-only adjudication and extra evidence budget, fixed logistic objectives and independent reference assessment.
 - **Verification:** 6 code cells, 2 figures; 1.326 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
 
 <a id="code_051"></a>
 ### code_051 — Outliers, corruption and rare events
@@ -588,4 +588,4 @@ Use the [concept guide](CHAPTER_10_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** provenance-led investigation of extreme strain, known loading event versus isolated source-unit fault, blind outlier deletion erases valid rare cases, fixed-threshold Huber response robustness, verified repair and independent final assessment.
 - **Verification:** 5 code cells, 2 figures; 1.442 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
