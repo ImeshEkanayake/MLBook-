@@ -1,6 +1,6 @@
 # Chapter 6 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five published and executed; remote tree verified.
 
 All code cells ran in order in fresh kernels using the unchanged runner. The five jobs ran concurrently; wall times include kernel lifecycle and are observations, not performance guarantees. No dependency was added. Each notebook printed CPython 3.14.3, NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.3, Matplotlib 3.11.0 and scikit-learn 1.9.0 on Darwin arm64 CPU. Every import, helper and generated input is inside its notebook; ordinary execution needs no files, downloads, keys or GPU. Requirements and their lock remain unchanged.
 
@@ -182,3 +182,7 @@ These values are copied from the actual fresh-kernel summaries, rather than manu
   "transformer_worksheet_only": true
 }
 ```
+
+## Publication evidence
+
+First published content commit: [f1616f36db5ab4bc439b853536d3b7990f8f7e75](https://github.com/ImeshEkanayake/MLBook-/commit/f1616f36db5ab4bc439b853536d3b7990f8f7e75). All 57 remote tracked file blobs matched the local commit tree, including all five executed notebooks and their registry, manifest, guide, evidence and checker. The following metadata commit records this verification. The manuscript handoff records final branch/tree and raw-file comparisons.
