@@ -604,7 +604,7 @@ Use the [concept guide](CHAPTER_11_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** deterministic validation versus learned transforms, fold-only imputation and scaling, paired leakage audit, stored state and batch-invariant inference.
 - **Verification:** 5 code cells, 2 figures; 1.487 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
 
 <a id="code_053"></a>
 ### code_053 — Scaling and numerical conditioning
@@ -614,7 +614,7 @@ Use the [concept guide](CHAPTER_11_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** unit conversion versus learned scaling, distance and ridge penalty geometry, standard robust and row normalization, model-dependent sensitivity and conditioning.
 - **Verification:** 4 code cells, 2 figures; 1.678 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
 
 <a id="code_054"></a>
 ### code_054 — Encoding categories and unknown values
@@ -624,7 +624,7 @@ Use the [concept guide](CHAPTER_11_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** one-hot unknown handling and ordinal assumptions, group-aware target cross-fitting, high-cardinality identifiers and leakage, encoding compatibility and learned embeddings.
 - **Verification:** 5 code cells, 2 figures; 1.317 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
 
 <a id="code_055"></a>
 ### code_055 — Imputation and internal missing-value handling
@@ -634,7 +634,7 @@ Use the [concept guide](CHAPTER_11_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** simple and conditional imputation, posterior-draw predictive averaging, native tree missing-value routes, same-cohort missingness-shift assessment.
 - **Verification:** 4 code cells, 2 figures; 1.574 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
 
 <a id="code_056"></a>
 ### code_056 — Transformations and model input contracts
@@ -644,4 +644,4 @@ Use the [concept guide](CHAPTER_11_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** log-target estimands and inverse-transform bias, training-residual smearing and original-unit scoring, clipping and power-transform state, release-pinned documentary input contract.
 - **Verification:** 5 code cells, 2 figures; 1.460 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).

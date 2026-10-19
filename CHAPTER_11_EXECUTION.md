@@ -1,6 +1,6 @@
 # Chapter 11 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verification passed.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_055 | 11.4 | 4 | 2 | 1.574 |
 | code_056 | 11.5 | 5 | 2 | 1.460 |
 
-Total: **23 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **23 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten inline figures have been visually reviewed. The foundation-model schematic is a documentary contract review, not an executed foundation model.
 
 ## Actual mechanisms and boundaries
 
@@ -353,3 +353,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 
 
 The first chapter-checker pass exposed an inherited literal-assert count that ignored numerical NumPy assertion calls. The checker now recognizes both forms. Code_055 also gained explicit pairwise role-separation and training-median audits and was re-executed successfully; all result dictionaries remain unchanged and timings reflect current sources.
+
+## Publication verification
+
+Content commit `37247bab506c16ac66fb34da3ad480604b57b139` was pushed normally to main. All 97 remote file blobs match the local tree by Git blob hash; remote main matches, the working tree was clean, and all 51 previous manifest records remain unchanged. Final metadata verification also retrieves commit-addressed raw registry, manifest, guide, report and five notebooks.
