@@ -380,7 +380,7 @@ Five independent laboratories make comparison claims and information boundaries 
 - **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** falsifiable improvement claim, constant heuristic mechanistic and simple learned baselines, unit-checked beam calculation, development-only equal-candidate tuning, paired final errors and practical threshold.
 - **Verification:** 5 code cells, 2 inline figures; 2.793 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
 
 <a id="code_033"></a>
 ### code_033 — Leakage and information boundaries
@@ -390,7 +390,7 @@ Five independent laboratories make comparison claims and information boundaries 
 - **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** target temporal group relational and preprocessing leakage, event time versus arrival time, as-of eligible join and cardinality repair, outcome-derived aggregate sensitivity, clean refit and protected new-building assessment.
 - **Verification:** 6 code cells, 2 inline figures; 1.381 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
 
 <a id="code_034"></a>
 ### code_034 — Reproducibility and provenance
@@ -400,7 +400,7 @@ Five independent laboratories make comparison claims and information boundaries 
 - **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** canonical data snapshot and schema hash, critical training-code and configuration provenance, exact same-environment replay, seed variation versus independent-data replication, rolling one-step forecast information boundary.
 - **Verification:** 6 code cells, 2 inline figures; 1.712 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
 
 <a id="code_035"></a>
 ### code_035 — Fair comparisons and ablation
@@ -410,7 +410,7 @@ Five independent laboratories make comparison claims and information boundaries 
 - **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual one-hop graph and matched relational predictor, equal data features parameter and search access, predeclared repeated initializations, aligned-neighbor ablations, failed-attempt ledger and fixed paired final assessment.
 - **Verification:** 6 code cells, 2 inline figures; 2.755 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
 
 <a id="code_036"></a>
 ### code_036 — Prediction, explanation and causal claims
@@ -420,4 +420,4 @@ Five independent laboratories make comparison claims and information boundaries 
 - **Data/dependencies:** locally generated; no ordinary-run downloads, keys or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** observed maintenance association versus intervention, actual predictive model and coefficient interpretation, two observationally identical causal mechanisms, explicit unobserved confounding, randomized simulator check without field identification.
 - **Verification:** 6 code cells, 2 inline figures; 2.735 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
+- **Status:** published and executed; remote tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_07_EXECUTION.md).
