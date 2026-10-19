@@ -2864,6 +2864,216 @@
         "covariant geometry loads stiffness and targets"
       ],
       "execution_report": "CHAPTER_13_EXECUTION.md"
+    },
+    {
+      "id": "code_067",
+      "chapter": 14,
+      "subtopic": "14.1",
+      "title": "Random, grouped and nested validation",
+      "path": "notebooks/067_Chapter_14_01_Nested_Building_Validation.ipynb",
+      "registry_anchor": "code_067",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_067",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1467,
+      "runtime_seconds": 1.661,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "exchangeability and repeated member measurements",
+        "row versus building split",
+        "nested grouped model selection",
+        "locked new-building assessment"
+      ],
+      "execution_report": "CHAPTER_14_EXECUTION.md"
+    },
+    {
+      "id": "code_068",
+      "chapter": 14,
+      "subtopic": "14.2",
+      "title": "Temporal backtesting and delayed labels",
+      "path": "notebooks/068_Chapter_14_02_Backtesting_Label_Arrival.ipynb",
+      "registry_anchor": "code_068",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_068",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1468,
+      "runtime_seconds": 1.477,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "expanding and rolling origins",
+        "one-day and seven-day horizons",
+        "label-arrival admission",
+        "overlap versus availability and independence"
+      ],
+      "execution_report": "CHAPTER_14_EXECUTION.md"
+    },
+    {
+      "id": "code_069",
+      "chapter": 14,
+      "subtopic": "14.3",
+      "title": "Spatial and graph-aware evaluation",
+      "path": "notebooks/069_Chapter_14_03_Spatial_And_Graph_Protocols.ipynb",
+      "registry_anchor": "code_069",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_069",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1469,
+      "runtime_seconds": 1.536,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "random interpolation versus held spatial region",
+        "unseen nodes in known graphs",
+        "unseen graphs with request-time features",
+        "label-free neighborhood construction"
+      ],
+      "execution_report": "CHAPTER_14_EXECUTION.md"
+    },
+    {
+      "id": "code_070",
+      "chapter": 14,
+      "subtopic": "14.4",
+      "title": "Limited labels, imbalance and rare events",
+      "path": "notebooks/070_Chapter_14_04_Rare_Events_Within_Buildings.ipynb",
+      "registry_anchor": "code_070",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_070",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1470,
+      "runtime_seconds": 1.536,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "grouped stratification limits",
+        "training-only weights and oversampling",
+        "undefined rare-event metrics",
+        "whole-building bootstrap with missing-positive draws"
+      ],
+      "execution_report": "CHAPTER_14_EXECUTION.md"
+    },
+    {
+      "id": "code_071",
+      "chapter": 14,
+      "subtopic": "14.5",
+      "title": "Shift, stress tests and external evidence",
+      "path": "notebooks/071_Chapter_14_05_Performance_Envelope_Under_Shift.ipynb",
+      "registry_anchor": "code_071",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_071",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1471,
+      "runtime_seconds": 1.616,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "source-only procedure selection",
+        "separate site material and support shifts",
+        "frozen sensor-bias stress tests",
+        "synthetic challenge versus external field evidence"
+      ],
+      "execution_report": "CHAPTER_14_EXECUTION.md"
     }
   ]
 }

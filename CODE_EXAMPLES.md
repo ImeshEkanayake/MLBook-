@@ -757,3 +757,59 @@ Use the [concept guide](CHAPTER_13_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** disconnected graph batching and offsets, mask-safe sequence aggregation, neighbor-sampling variability, covariant geometry loads stiffness and targets.
 - **Verification:** 5 code cells, 2 figures; 1.370 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_13_EXECUTION.md).
+
+<!-- CHAPTER_14_ENTRIES -->
+
+## Chapter 14: Validation under real-world conditions
+
+Use the [concept guide](CHAPTER_14_GUIDE.md) and [actual execution evidence](CHAPTER_14_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_067"></a>
+### code_067 — Random, grouped and nested validation
+
+- **Book home:** section 14.1.
+- **Notebook:** [067_Chapter_14_01_Nested_Building_Validation.ipynb](notebooks/067_Chapter_14_01_Nested_Building_Validation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** exchangeability and repeated member measurements, row versus building split, nested grouped model selection, locked new-building assessment.
+- **Verification:** 4 code cells, 2 figures; 1.661 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+
+<a id="code_068"></a>
+### code_068 — Temporal backtesting and delayed labels
+
+- **Book home:** section 14.2.
+- **Notebook:** [068_Chapter_14_02_Backtesting_Label_Arrival.ipynb](notebooks/068_Chapter_14_02_Backtesting_Label_Arrival.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** expanding and rolling origins, one-day and seven-day horizons, label-arrival admission, overlap versus availability and independence.
+- **Verification:** 4 code cells, 2 figures; 1.477 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+
+<a id="code_069"></a>
+### code_069 — Spatial and graph-aware evaluation
+
+- **Book home:** section 14.3.
+- **Notebook:** [069_Chapter_14_03_Spatial_And_Graph_Protocols.ipynb](notebooks/069_Chapter_14_03_Spatial_And_Graph_Protocols.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** random interpolation versus held spatial region, unseen nodes in known graphs, unseen graphs with request-time features, label-free neighborhood construction.
+- **Verification:** 4 code cells, 2 figures; 1.536 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+
+<a id="code_070"></a>
+### code_070 — Limited labels, imbalance and rare events
+
+- **Book home:** section 14.4.
+- **Notebook:** [070_Chapter_14_04_Rare_Events_Within_Buildings.ipynb](notebooks/070_Chapter_14_04_Rare_Events_Within_Buildings.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** grouped stratification limits, training-only weights and oversampling, undefined rare-event metrics, whole-building bootstrap with missing-positive draws.
+- **Verification:** 4 code cells, 2 figures; 1.536 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+
+<a id="code_071"></a>
+### code_071 — Shift, stress tests and external evidence
+
+- **Book home:** section 14.5.
+- **Notebook:** [071_Chapter_14_05_Performance_Envelope_Under_Shift.ipynb](notebooks/071_Chapter_14_05_Performance_Envelope_Under_Shift.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** source-only procedure selection, separate site material and support shifts, frozen sensor-bias stress tests, synthetic challenge versus external field evidence.
+- **Verification:** 4 code cells, 2 figures; 1.616 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
