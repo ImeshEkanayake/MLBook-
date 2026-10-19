@@ -2234,6 +2234,216 @@
         "verified repair and independent final assessment"
       ],
       "execution_report": "CHAPTER_10_EXECUTION.md"
+    },
+    {
+      "id": "code_052",
+      "chapter": 11,
+      "subtopic": "11.1",
+      "title": "Preprocessing as a learned pipeline",
+      "path": "notebooks/052_Chapter_11_01_Fold_Fitting_And_Stored_State.ipynb",
+      "registry_anchor": "code_052",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_052",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1152,
+      "runtime_seconds": 1.487,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "deterministic validation versus learned transforms",
+        "fold-only imputation and scaling",
+        "paired leakage audit",
+        "stored state and batch-invariant inference"
+      ],
+      "execution_report": "CHAPTER_11_EXECUTION.md"
+    },
+    {
+      "id": "code_053",
+      "chapter": 11,
+      "subtopic": "11.2",
+      "title": "Scaling and numerical conditioning",
+      "path": "notebooks/053_Chapter_11_02_Scaling_Distance_And_Penalties.ipynb",
+      "registry_anchor": "code_053",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_053",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1153,
+      "runtime_seconds": 1.678,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "unit conversion versus learned scaling",
+        "distance and ridge penalty geometry",
+        "standard robust and row normalization",
+        "model-dependent sensitivity and conditioning"
+      ],
+      "execution_report": "CHAPTER_11_EXECUTION.md"
+    },
+    {
+      "id": "code_054",
+      "chapter": 11,
+      "subtopic": "11.3",
+      "title": "Encoding categories and unknown values",
+      "path": "notebooks/054_Chapter_11_03_Categories_And_Cross_Fitted_Targets.ipynb",
+      "registry_anchor": "code_054",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_054",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1154,
+      "runtime_seconds": 1.317,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "one-hot unknown handling and ordinal assumptions",
+        "group-aware target cross-fitting",
+        "high-cardinality identifiers and leakage",
+        "encoding compatibility and learned embeddings"
+      ],
+      "execution_report": "CHAPTER_11_EXECUTION.md"
+    },
+    {
+      "id": "code_055",
+      "chapter": 11,
+      "subtopic": "11.4",
+      "title": "Imputation and internal missing-value handling",
+      "path": "notebooks/055_Chapter_11_04_Imputation_And_Native_Routes.ipynb",
+      "registry_anchor": "code_055",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_055",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1155,
+      "runtime_seconds": 1.574,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "simple and conditional imputation",
+        "posterior-draw predictive averaging",
+        "native tree missing-value routes",
+        "same-cohort missingness-shift assessment"
+      ],
+      "execution_report": "CHAPTER_11_EXECUTION.md"
+    },
+    {
+      "id": "code_056",
+      "chapter": 11,
+      "subtopic": "11.5",
+      "title": "Transformations and model input contracts",
+      "path": "notebooks/056_Chapter_11_05_Target_Transforms_And_Input_Contracts.ipynb",
+      "registry_anchor": "code_056",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_056",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1156,
+      "runtime_seconds": 1.46,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "log-target estimands and inverse-transform bias",
+        "training-residual smearing and original-unit scoring",
+        "clipping and power-transform state",
+        "release-pinned documentary input contract"
+      ],
+      "execution_report": "CHAPTER_11_EXECUTION.md"
     }
   ]
 }

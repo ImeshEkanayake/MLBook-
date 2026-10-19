@@ -589,3 +589,59 @@ Use the [concept guide](CHAPTER_10_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** provenance-led investigation of extreme strain, known loading event versus isolated source-unit fault, blind outlier deletion erases valid rare cases, fixed-threshold Huber response robustness, verified repair and independent final assessment.
 - **Verification:** 5 code cells, 2 figures; 1.442 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_10_EXECUTION.md).
+
+<!-- CHAPTER_11_ENTRIES -->
+
+## Chapter 11: Choosing preprocessing steps
+
+Use the [concept guide](CHAPTER_11_GUIDE.md) and [actual execution evidence](CHAPTER_11_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_052"></a>
+### code_052 — Preprocessing as a learned pipeline
+
+- **Book home:** section 11.1.
+- **Notebook:** [052_Chapter_11_01_Fold_Fitting_And_Stored_State.ipynb](notebooks/052_Chapter_11_01_Fold_Fitting_And_Stored_State.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** deterministic validation versus learned transforms, fold-only imputation and scaling, paired leakage audit, stored state and batch-invariant inference.
+- **Verification:** 5 code cells, 2 figures; 1.487 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+
+<a id="code_053"></a>
+### code_053 — Scaling and numerical conditioning
+
+- **Book home:** section 11.2.
+- **Notebook:** [053_Chapter_11_02_Scaling_Distance_And_Penalties.ipynb](notebooks/053_Chapter_11_02_Scaling_Distance_And_Penalties.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** unit conversion versus learned scaling, distance and ridge penalty geometry, standard robust and row normalization, model-dependent sensitivity and conditioning.
+- **Verification:** 4 code cells, 2 figures; 1.678 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+
+<a id="code_054"></a>
+### code_054 — Encoding categories and unknown values
+
+- **Book home:** section 11.3.
+- **Notebook:** [054_Chapter_11_03_Categories_And_Cross_Fitted_Targets.ipynb](notebooks/054_Chapter_11_03_Categories_And_Cross_Fitted_Targets.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** one-hot unknown handling and ordinal assumptions, group-aware target cross-fitting, high-cardinality identifiers and leakage, encoding compatibility and learned embeddings.
+- **Verification:** 5 code cells, 2 figures; 1.317 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+
+<a id="code_055"></a>
+### code_055 — Imputation and internal missing-value handling
+
+- **Book home:** section 11.4.
+- **Notebook:** [055_Chapter_11_04_Imputation_And_Native_Routes.ipynb](notebooks/055_Chapter_11_04_Imputation_And_Native_Routes.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** simple and conditional imputation, posterior-draw predictive averaging, native tree missing-value routes, same-cohort missingness-shift assessment.
+- **Verification:** 4 code cells, 2 figures; 1.574 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+
+<a id="code_056"></a>
+### code_056 — Transformations and model input contracts
+
+- **Book home:** section 11.5.
+- **Notebook:** [056_Chapter_11_05_Target_Transforms_And_Input_Contracts.ipynb](notebooks/056_Chapter_11_05_Target_Transforms_And_Input_Contracts.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** log-target estimands and inverse-transform bias, training-residual smearing and original-unit scoring, clipping and power-transform state, release-pinned documentary input contract.
+- **Verification:** 5 code cells, 2 figures; 1.460 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
