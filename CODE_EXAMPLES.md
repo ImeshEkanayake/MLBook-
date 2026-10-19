@@ -701,3 +701,59 @@ Use the [concept guide](CHAPTER_12_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** feature acquisition cost and latency, future target proxies and apparent error, development-only package choice, train-serving column contract.
 - **Verification:** 4 code cells, 2 figures; 1.438 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+
+<!-- CHAPTER_13_ENTRIES -->
+
+## Chapter 13: Preparing graphs, sequences, and physical systems
+
+Use the [concept guide](CHAPTER_13_GUIDE.md) and [actual execution evidence](CHAPTER_13_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_062"></a>
+### code_062 — Graph construction and relational meaning
+
+- **Book home:** section 13.1.
+- **Notebook:** [062_Chapter_13_01_Typed_Graphs_And_Construction_Boundaries.ipynb](notebooks/062_Chapter_13_01_Typed_Graphs_And_Construction_Boundaries.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** physical member and sensor node types, directed typed relations and self-loops, training-only correlation graph, stable identifiers and permutation equivariance.
+- **Verification:** 4 code cells, 2 figures; 1.315 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_13_EXECUTION.md).
+
+<a id="code_063"></a>
+### code_063 — Sequence windows and irregular observations
+
+- **Book home:** section 13.2.
+- **Notebook:** [063_Chapter_13_02_Irregular_Windows_And_Overlap.ipynb](notebooks/063_Chapter_13_02_Irregular_Windows_And_Overlap.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** context forecast stride and raw-record overlap, event and arrival aligned windows, bounded forward hold and masks, future-invariant construction and label maturity.
+- **Verification:** 4 code cells, 2 figures; 1.366 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_13_EXECUTION.md).
+
+<a id="code_064"></a>
+### code_064 — Spatial coordinates, geometry and meshes
+
+- **Book home:** section 13.3.
+- **Notebook:** [064_Chapter_13_03_Mesh_Fields_And_Boundary_Tags.ipynb](notebooks/064_Chapter_13_03_Mesh_Fields_And_Boundary_Tags.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** points cells edges and material fields, boundary tags and scalar vector units, consistent mesh renumbering, coordinate frames and field transformations.
+- **Verification:** 4 code cells, 2 figures; 1.396 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_13_EXECUTION.md).
+
+<a id="code_065"></a>
+### code_065 — Physical constraints and conditions
+
+- **Book home:** section 13.4.
+- **Notebook:** [065_Chapter_13_04_Forward_Conditions_And_Inverse_Ambiguity.ipynb](notebooks/065_Chapter_13_04_Forward_Conditions_And_Inverse_Ambiguity.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** constitutive assumptions and conservation balance, supports boundary loads and initial-state schema, forward input completeness, inverse load-stiffness non-identifiability.
+- **Verification:** 4 code cells, 2 figures; 1.350 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_13_EXECUTION.md).
+
+<a id="code_066"></a>
+### code_066 — Batching and structure-preserving transformations
+
+- **Book home:** section 13.5.
+- **Notebook:** [066_Chapter_13_05_Disconnected_Batches_And_Equivariance.ipynb](notebooks/066_Chapter_13_05_Disconnected_Batches_And_Equivariance.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** disconnected graph batching and offsets, mask-safe sequence aggregation, neighbor-sampling variability, covariant geometry loads stiffness and targets.
+- **Verification:** 5 code cells, 2 figures; 1.370 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_13_EXECUTION.md).

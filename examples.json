@@ -2654,6 +2654,216 @@
         "train-serving column contract"
       ],
       "execution_report": "CHAPTER_12_EXECUTION.md"
+    },
+    {
+      "id": "code_062",
+      "chapter": 13,
+      "subtopic": "13.1",
+      "title": "Graph construction and relational meaning",
+      "path": "notebooks/062_Chapter_13_01_Typed_Graphs_And_Construction_Boundaries.ipynb",
+      "registry_anchor": "code_062",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_062",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1362,
+      "runtime_seconds": 1.315,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "physical member and sensor node types",
+        "directed typed relations and self-loops",
+        "training-only correlation graph",
+        "stable identifiers and permutation equivariance"
+      ],
+      "execution_report": "CHAPTER_13_EXECUTION.md"
+    },
+    {
+      "id": "code_063",
+      "chapter": 13,
+      "subtopic": "13.2",
+      "title": "Sequence windows and irregular observations",
+      "path": "notebooks/063_Chapter_13_02_Irregular_Windows_And_Overlap.ipynb",
+      "registry_anchor": "code_063",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_063",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1363,
+      "runtime_seconds": 1.366,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "context forecast stride and raw-record overlap",
+        "event and arrival aligned windows",
+        "bounded forward hold and masks",
+        "future-invariant construction and label maturity"
+      ],
+      "execution_report": "CHAPTER_13_EXECUTION.md"
+    },
+    {
+      "id": "code_064",
+      "chapter": 13,
+      "subtopic": "13.3",
+      "title": "Spatial coordinates, geometry and meshes",
+      "path": "notebooks/064_Chapter_13_03_Mesh_Fields_And_Boundary_Tags.ipynb",
+      "registry_anchor": "code_064",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_064",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1364,
+      "runtime_seconds": 1.396,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "points cells edges and material fields",
+        "boundary tags and scalar vector units",
+        "consistent mesh renumbering",
+        "coordinate frames and field transformations"
+      ],
+      "execution_report": "CHAPTER_13_EXECUTION.md"
+    },
+    {
+      "id": "code_065",
+      "chapter": 13,
+      "subtopic": "13.4",
+      "title": "Physical constraints and conditions",
+      "path": "notebooks/065_Chapter_13_04_Forward_Conditions_And_Inverse_Ambiguity.ipynb",
+      "registry_anchor": "code_065",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_065",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1365,
+      "runtime_seconds": 1.35,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "constitutive assumptions and conservation balance",
+        "supports boundary loads and initial-state schema",
+        "forward input completeness",
+        "inverse load-stiffness non-identifiability"
+      ],
+      "execution_report": "CHAPTER_13_EXECUTION.md"
+    },
+    {
+      "id": "code_066",
+      "chapter": 13,
+      "subtopic": "13.5",
+      "title": "Batching and structure-preserving transformations",
+      "path": "notebooks/066_Chapter_13_05_Disconnected_Batches_And_Equivariance.ipynb",
+      "registry_anchor": "code_066",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_066",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1366,
+      "runtime_seconds": 1.37,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "disconnected graph batching and offsets",
+        "mask-safe sequence aggregation",
+        "neighbor-sampling variability",
+        "covariant geometry loads stiffness and targets"
+      ],
+      "execution_report": "CHAPTER_13_EXECUTION.md"
     }
   ]
 }
