@@ -660,7 +660,7 @@ Use the [concept guide](CHAPTER_12_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** beam-inspired feature and domain assumptions, dimensionless group and unit invariance, interaction basis versus raw main effects, predeclared learning-size comparisons.
 - **Verification:** 4 code cells, 2 figures; 1.662 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
 
 <a id="code_058"></a>
 ### code_058 — Aggregates and history summaries
@@ -670,7 +670,7 @@ Use the [concept guide](CHAPTER_12_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** event and arrival clocks in trailing windows, RMS and spectral energy summaries, prior inspection counts and recency, relational aggregates and future-append invariance.
 - **Verification:** 4 code cells, 2 figures; 1.440 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
 
 <a id="code_059"></a>
 ### code_059 — Feature selection and stability
@@ -680,7 +680,7 @@ Use the [concept guide](CHAPTER_12_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** filter wrapper and embedded selectors, selection inside validation pipelines, correlated proxies and resample variation, frequency diagnostics without error-control claims.
 - **Verification:** 5 code cells, 2 figures; 1.701 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
 
 <a id="code_060"></a>
 ### code_060 — Compact representations and learned features
@@ -690,7 +690,7 @@ Use the [concept guide](CHAPTER_12_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** hand-built spectral and low-rank features, self-contained nonlinear autoencoder, training-only representation fitting, reconstruction versus downstream performance.
 - **Verification:** 5 code cells, 2 figures; 1.668 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
 
 <a id="code_061"></a>
 ### code_061 — Leakage, cost and feature availability
@@ -700,4 +700,4 @@ Use the [concept guide](CHAPTER_12_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** feature acquisition cost and latency, future target proxies and apparent error, development-only package choice, train-serving column contract.
 - **Verification:** 4 code cells, 2 figures; 1.438 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+- **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
