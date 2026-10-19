@@ -772,7 +772,7 @@ Use the [concept guide](CHAPTER_14_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** exchangeability and repeated member measurements, row versus building split, nested grouped model selection, locked new-building assessment.
 - **Verification:** 4 code cells, 2 figures; 1.661 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
 
 <a id="code_068"></a>
 ### code_068 — Temporal backtesting and delayed labels
@@ -782,7 +782,7 @@ Use the [concept guide](CHAPTER_14_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** expanding and rolling origins, one-day and seven-day horizons, label-arrival admission, overlap versus availability and independence.
 - **Verification:** 4 code cells, 2 figures; 1.477 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
 
 <a id="code_069"></a>
 ### code_069 — Spatial and graph-aware evaluation
@@ -792,7 +792,7 @@ Use the [concept guide](CHAPTER_14_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** random interpolation versus held spatial region, unseen nodes in known graphs, unseen graphs with request-time features, label-free neighborhood construction.
 - **Verification:** 4 code cells, 2 figures; 1.536 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
 
 <a id="code_070"></a>
 ### code_070 — Limited labels, imbalance and rare events
@@ -802,7 +802,7 @@ Use the [concept guide](CHAPTER_14_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** grouped stratification limits, training-only weights and oversampling, undefined rare-event metrics, whole-building bootstrap with missing-positive draws.
 - **Verification:** 4 code cells, 2 figures; 1.536 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
 
 <a id="code_071"></a>
 ### code_071 — Shift, stress tests and external evidence
@@ -812,4 +812,4 @@ Use the [concept guide](CHAPTER_14_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** source-only procedure selection, separate site material and support shifts, frozen sensor-bias stress tests, synthetic challenge versus external field evidence.
 - **Verification:** 4 code cells, 2 figures; 1.616 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
