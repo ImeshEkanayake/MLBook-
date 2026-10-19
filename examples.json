@@ -2444,6 +2444,216 @@
         "release-pinned documentary input contract"
       ],
       "execution_report": "CHAPTER_11_EXECUTION.md"
+    },
+    {
+      "id": "code_057",
+      "chapter": 12,
+      "subtopic": "12.1",
+      "title": "Domain features and interactions",
+      "path": "notebooks/057_Chapter_12_01_Physical_Features_And_Sample_Efficiency.ipynb",
+      "registry_anchor": "code_057",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_057",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1257,
+      "runtime_seconds": 1.662,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "beam-inspired feature and domain assumptions",
+        "dimensionless group and unit invariance",
+        "interaction basis versus raw main effects",
+        "predeclared learning-size comparisons"
+      ],
+      "execution_report": "CHAPTER_12_EXECUTION.md"
+    },
+    {
+      "id": "code_058",
+      "chapter": 12,
+      "subtopic": "12.2",
+      "title": "Aggregates and history summaries",
+      "path": "notebooks/058_Chapter_12_02_Cutoff_Safe_History_And_Relations.ipynb",
+      "registry_anchor": "code_058",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_058",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1258,
+      "runtime_seconds": 1.44,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "event and arrival clocks in trailing windows",
+        "RMS and spectral energy summaries",
+        "prior inspection counts and recency",
+        "relational aggregates and future-append invariance"
+      ],
+      "execution_report": "CHAPTER_12_EXECUTION.md"
+    },
+    {
+      "id": "code_059",
+      "chapter": 12,
+      "subtopic": "12.3",
+      "title": "Feature selection and stability",
+      "path": "notebooks/059_Chapter_12_03_Correlated_Channels_And_Selection.ipynb",
+      "registry_anchor": "code_059",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_059",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1259,
+      "runtime_seconds": 1.701,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "filter wrapper and embedded selectors",
+        "selection inside validation pipelines",
+        "correlated proxies and resample variation",
+        "frequency diagnostics without error-control claims"
+      ],
+      "execution_report": "CHAPTER_12_EXECUTION.md"
+    },
+    {
+      "id": "code_060",
+      "chapter": 12,
+      "subtopic": "12.4",
+      "title": "Compact representations and learned features",
+      "path": "notebooks/060_Chapter_12_04_Spectra_PCA_And_Autoencoder.ipynb",
+      "registry_anchor": "code_060",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_060",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1260,
+      "runtime_seconds": 1.668,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "hand-built spectral and low-rank features",
+        "self-contained nonlinear autoencoder",
+        "training-only representation fitting",
+        "reconstruction versus downstream performance"
+      ],
+      "execution_report": "CHAPTER_12_EXECUTION.md"
+    },
+    {
+      "id": "code_061",
+      "chapter": 12,
+      "subtopic": "12.5",
+      "title": "Leakage, cost and feature availability",
+      "path": "notebooks/061_Chapter_12_05_Operational_Feature_Packages.ipynb",
+      "registry_anchor": "code_061",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_061",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1261,
+      "runtime_seconds": 1.438,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "feature acquisition cost and latency",
+        "future target proxies and apparent error",
+        "development-only package choice",
+        "train-serving column contract"
+      ],
+      "execution_report": "CHAPTER_12_EXECUTION.md"
     }
   ]
 }

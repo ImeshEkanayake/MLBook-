@@ -645,3 +645,59 @@ Use the [concept guide](CHAPTER_11_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** log-target estimands and inverse-transform bias, training-residual smearing and original-unit scoring, clipping and power-transform state, release-pinned documentary input contract.
 - **Verification:** 5 code cells, 2 figures; 1.460 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote tree verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_11_EXECUTION.md).
+
+<!-- CHAPTER_12_ENTRIES -->
+
+## Chapter 12: Engineering and selecting features
+
+Use the [concept guide](CHAPTER_12_GUIDE.md) and [actual execution evidence](CHAPTER_12_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_057"></a>
+### code_057 — Domain features and interactions
+
+- **Book home:** section 12.1.
+- **Notebook:** [057_Chapter_12_01_Physical_Features_And_Sample_Efficiency.ipynb](notebooks/057_Chapter_12_01_Physical_Features_And_Sample_Efficiency.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** beam-inspired feature and domain assumptions, dimensionless group and unit invariance, interaction basis versus raw main effects, predeclared learning-size comparisons.
+- **Verification:** 4 code cells, 2 figures; 1.662 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+
+<a id="code_058"></a>
+### code_058 — Aggregates and history summaries
+
+- **Book home:** section 12.2.
+- **Notebook:** [058_Chapter_12_02_Cutoff_Safe_History_And_Relations.ipynb](notebooks/058_Chapter_12_02_Cutoff_Safe_History_And_Relations.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** event and arrival clocks in trailing windows, RMS and spectral energy summaries, prior inspection counts and recency, relational aggregates and future-append invariance.
+- **Verification:** 4 code cells, 2 figures; 1.440 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+
+<a id="code_059"></a>
+### code_059 — Feature selection and stability
+
+- **Book home:** section 12.3.
+- **Notebook:** [059_Chapter_12_03_Correlated_Channels_And_Selection.ipynb](notebooks/059_Chapter_12_03_Correlated_Channels_And_Selection.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** filter wrapper and embedded selectors, selection inside validation pipelines, correlated proxies and resample variation, frequency diagnostics without error-control claims.
+- **Verification:** 5 code cells, 2 figures; 1.701 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+
+<a id="code_060"></a>
+### code_060 — Compact representations and learned features
+
+- **Book home:** section 12.4.
+- **Notebook:** [060_Chapter_12_04_Spectra_PCA_And_Autoencoder.ipynb](notebooks/060_Chapter_12_04_Spectra_PCA_And_Autoencoder.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** hand-built spectral and low-rank features, self-contained nonlinear autoencoder, training-only representation fitting, reconstruction versus downstream performance.
+- **Verification:** 5 code cells, 2 figures; 1.668 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
+
+<a id="code_061"></a>
+### code_061 — Leakage, cost and feature availability
+
+- **Book home:** section 12.5.
+- **Notebook:** [061_Chapter_12_05_Operational_Feature_Packages.ipynb](notebooks/061_Chapter_12_05_Operational_Feature_Packages.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** feature acquisition cost and latency, future target proxies and apparent error, development-only package choice, train-serving column contract.
+- **Verification:** 4 code cells, 2 figures; 1.438 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_12_EXECUTION.md).
