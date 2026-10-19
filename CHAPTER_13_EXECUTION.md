@@ -1,6 +1,6 @@
 # Chapter 13 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verification passed.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_065 | 13.4 | 4 | 2 | 1.350 |
 | code_066 | 13.5 | 5 | 2 | 1.370 |
 
-Total: **21 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **21 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten inline figures have been visually reviewed; relation legends, node IDs, initial-state callouts and masks are clear.
 
 ## Actual mechanisms and boundaries
 
@@ -243,3 +243,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 
 
 Book-page inspection caught an oversized tightly cropped vertical graph figure. Its export now retains the full declared canvas so print scaling preserves the intended height; node/legend positions were repaired and the current code_062 source reran successfully with unchanged results. The preview integrity checker now rejects the oversized-float warning as well as overflow/reference errors. The other completed cumulative builds were checked for this warning and contain none.
+
+## Publication verification
+
+Content commit `dbf53f34b4214618f97c8325151bf91a6d0263fe` was pushed normally to main. All 113 remote file blobs match the local Git tree; remote main matches and the working tree was clean. All 61 prior manifest records remain unchanged. Final metadata verification additionally retrieves commit-addressed raw registry, manifest, guide, report and five notebooks.
