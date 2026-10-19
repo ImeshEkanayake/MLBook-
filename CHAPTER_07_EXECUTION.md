@@ -1,6 +1,6 @@
 # Chapter 7 execution evidence
 
-**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five executed; publication verification pending.
+**Date:** 19 October 2026 (Australia/Melbourne). **Status:** all five executed and published; content tree verified.
 
 Every current notebook ran all cells in order in a fresh kernel using the unchanged runner. Initial jobs ran concurrently and repaired notebooks were rerun individually; wall times include kernel lifecycle and are observations, not comparative performance guarantees. No dependency was added. All kernels printed CPython 3.14.3, NumPy 2.4.4, SciPy 1.17.1, pandas 3.0.3, Matplotlib 3.11.0 and scikit-learn 1.9.0, Darwin arm64 CPU. Every import, helper and generated input is inside its notebook. Ordinary execution needs no files, downloads, API keys or GPU.
 
@@ -324,3 +324,7 @@ The following dictionaries come from fresh-kernel summaries. The long base64 pay
   "randomized_simulator_risk_difference": -0.005832708047822266
 }
 ```
+
+## Publication verification
+
+Content commit [65643ec5279801dbc15a174a340d835deea63af4](https://github.com/ImeshEkanayake/MLBook-/commit/65643ec5279801dbc15a174a340d835deea63af4) was pushed to main. The GitHub API tree contains 65 file blobs, all matching the local commit tree; remote main resolves to this content revision. The following metadata commit marks only code_032–036 as published after that verification. Final tree and raw-file checks are retained in the local publication evidence.
