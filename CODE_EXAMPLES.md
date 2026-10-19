@@ -309,3 +309,59 @@ Five independent synthetic laboratories connect target populations, capacity, pr
 - **Scope:** assumption ledger with observable stress tests, linearity and load extrapolation, local support and stationarity failures, exchangeability as a sampling commitment, anisotropic rotation versus coordinate equivariance, physical residual versus empirical validity.
 - **Verification:** 6 code cells, 2 inline figures; 1.481 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
 - **Status:** published and executed; remote file tree verified. Checked 19 October 2026. [Run evidence](CHAPTER_05_EXECUTION.md).
+
+<!-- CHAPTER_06_ENTRIES -->
+
+## Chapter 6: the different ways machines learn
+
+Five independent laboratories separate evidence, objectives, architecture, adaptation and task. Use the [traceability guide](CHAPTER_06_GUIDE.md) and [measured execution evidence](CHAPTER_06_EXECUTION.md). Actual masked pretraining, sparse-label fitting, meta-learning, contextual prediction and action-feedback learning are distinguished from objective-only checks, known-model planning and the illustrative transformer worksheet.
+
+<a id="code_027"></a>
+### code_027 — Learning from labelled examples
+
+- **Book home:** section 6.1.
+- **Notebook:** [027_Chapter_06_01_Learning_From_Labelled_Examples.ipynb](notebooks/027_Chapter_06_01_Learning_From_Labelled_Examples.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** label and feature availability, regression classification and vector outputs, training-only fitted state, label eligibility and independent assessment, output-specific baselines and metrics.
+- **Verification:** 5 code cells, 2 inline figures; 1.726 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_06_EXECUTION.md).
+
+<a id="code_028"></a>
+### code_028 — Learning structure without target labels
+
+- **Book home:** section 6.2.
+- **Notebook:** [028_Chapter_06_02_Learning_Structure_Without_Target_Labels.ipynb](notebooks/028_Chapter_06_02_Learning_Structure_Without_Target_Labels.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** clustering density and reconstruction are different objectives, training-only standardization, actual nonlinear autoencoder training, external regime versus finding interpretation, density and reconstruction limits.
+- **Verification:** 5 code cells, 2 inline figures; 2.019 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_06_EXECUTION.md).
+
+<a id="code_029"></a>
+### code_029 — Self-supervision and partial supervision
+
+- **Book home:** section 6.3.
+- **Notebook:** [029_Chapter_06_03_Self_Supervision_And_Partial_Supervision.ipynb](notebooks/029_Chapter_06_03_Self_Supervision_And_Partial_Supervision.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** masked historical reconstruction with explicit mask, actual encoder pretraining and sparse-label fine tuning, contrastive positive-pair loss and collapse check, pseudo-label provenance and consistency, independent final assessment without final-input pretraining.
+- **Verification:** 7 code cells, 2 inline figures; 1.768 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_06_EXECUTION.md).
+
+<a id="code_030"></a>
+### code_030 — Transfer, adaptation and learning across tasks
+
+- **Book home:** section 6.4.
+- **Notebook:** [030_Chapter_06_04_Transfer_Adaptation_And_Learning_Across_Tasks.ipynb](notebooks/030_Chapter_06_04_Transfer_Adaptation_And_Learning_Across_Tasks.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** pooled pretraining frozen and updated weights, actual one-step meta-learned initialization, learned fixed context-conditioned predictor, multi-task shared slope and task heads, task-disjoint final assessment and negative-transfer stress.
+- **Verification:** 7 code cells, 2 inline figures; 1.651 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_06_EXECUTION.md).
+
+<a id="code_031"></a>
+### code_031 — Learning from actions and overlapping categories
+
+- **Book home:** section 6.5.
+- **Notebook:** [031_Chapter_06_05_Learning_From_Actions_And_Overlapping_Categories.ipynb](notebooks/031_Chapter_06_05_Learning_From_Actions_And_Overlapping_Categories.ipynb).
+- **Data/dependencies:** locally generated; no ordinary-run downloads, API keys or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual contextual bandit exploration and reward fitting, independent frozen-policy simulation assessment, offline action-support diagnostic, known-model Bellman planning versus learning, four-axis taxonomy worksheet without fake transformer training.
+- **Verification:** 6 code cells, 2 inline figures; 1.705 seconds including fresh-kernel lifecycle, CPython 3.14.3 / scikit-learn 1.9.0, macOS ARM64 CPU.
+- **Status:** executed; publication verification pending. Checked 19 October 2026. [Run evidence](CHAPTER_06_EXECUTION.md).

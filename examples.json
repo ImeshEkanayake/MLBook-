@@ -1159,6 +1159,221 @@
         "physical residual versus empirical validity"
       ],
       "execution_report": "CHAPTER_05_EXECUTION.md"
+    },
+    {
+      "id": "code_027",
+      "chapter": 6,
+      "subtopic": "6.1",
+      "title": "Learning from labelled examples",
+      "path": "notebooks/027_Chapter_06_01_Learning_From_Labelled_Examples.ipynb",
+      "registry_anchor": "code_027",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_027",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated inspection, sensor, task and action-feedback teaching experiments; no observed engineering performance",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 627,
+      "runtime_seconds": 1.726,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "label and feature availability",
+        "regression classification and vector outputs",
+        "training-only fitted state",
+        "label eligibility and independent assessment",
+        "output-specific baselines and metrics"
+      ],
+      "execution_report": "CHAPTER_06_EXECUTION.md"
+    },
+    {
+      "id": "code_028",
+      "chapter": 6,
+      "subtopic": "6.2",
+      "title": "Learning structure without target labels",
+      "path": "notebooks/028_Chapter_06_02_Learning_Structure_Without_Target_Labels.ipynb",
+      "registry_anchor": "code_028",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_028",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated inspection, sensor, task and action-feedback teaching experiments; no observed engineering performance",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 628,
+      "runtime_seconds": 2.019,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "clustering density and reconstruction are different objectives",
+        "training-only standardization",
+        "actual nonlinear autoencoder training",
+        "external regime versus finding interpretation",
+        "density and reconstruction limits"
+      ],
+      "execution_report": "CHAPTER_06_EXECUTION.md"
+    },
+    {
+      "id": "code_029",
+      "chapter": 6,
+      "subtopic": "6.3",
+      "title": "Self-supervision and partial supervision",
+      "path": "notebooks/029_Chapter_06_03_Self_Supervision_And_Partial_Supervision.ipynb",
+      "registry_anchor": "code_029",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_029",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated inspection, sensor, task and action-feedback teaching experiments; no observed engineering performance",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 629,
+      "runtime_seconds": 1.768,
+      "code_cells_executed": 7,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "masked historical reconstruction with explicit mask",
+        "actual encoder pretraining and sparse-label fine tuning",
+        "contrastive positive-pair loss and collapse check",
+        "pseudo-label provenance and consistency",
+        "independent final assessment without final-input pretraining"
+      ],
+      "execution_report": "CHAPTER_06_EXECUTION.md"
+    },
+    {
+      "id": "code_030",
+      "chapter": 6,
+      "subtopic": "6.4",
+      "title": "Transfer, adaptation and learning across tasks",
+      "path": "notebooks/030_Chapter_06_04_Transfer_Adaptation_And_Learning_Across_Tasks.ipynb",
+      "registry_anchor": "code_030",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_030",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated inspection, sensor, task and action-feedback teaching experiments; no observed engineering performance",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 630,
+      "runtime_seconds": 1.651,
+      "code_cells_executed": 7,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "pooled pretraining frozen and updated weights",
+        "actual one-step meta-learned initialization",
+        "learned fixed context-conditioned predictor",
+        "multi-task shared slope and task heads",
+        "task-disjoint final assessment and negative-transfer stress"
+      ],
+      "execution_report": "CHAPTER_06_EXECUTION.md"
+    },
+    {
+      "id": "code_031",
+      "chapter": 6,
+      "subtopic": "6.5",
+      "title": "Learning from actions and overlapping categories",
+      "path": "notebooks/031_Chapter_06_05_Learning_From_Actions_And_Overlapping_Categories.ipynb",
+      "registry_anchor": "code_031",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_031",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-19",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated inspection, sensor, task and action-feedback teaching experiments; no observed engineering performance",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 631,
+      "runtime_seconds": 1.705,
+      "code_cells_executed": 6,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual contextual bandit exploration and reward fitting",
+        "independent frozen-policy simulation assessment",
+        "offline action-support diagnostic",
+        "known-model Bellman planning versus learning",
+        "four-axis taxonomy worksheet without fake transformer training"
+      ],
+      "execution_report": "CHAPTER_06_EXECUTION.md"
     }
   ]
 }
