@@ -671,4 +671,4 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 
 ## Publication verification
 
-Content commit `13e77f47c19f53e0e97174994ef9540003df4f27` matches remote main and all154file blobs. The companion working tree was clean at that content check. Final metadata and all seven chapter notebooks are separately verified through commit-addressed raw files in local delivery evidence. Original code001notebook and manifest bytes remain unchanged.
+Content commit `13e77f47c19f53e0e97174994ef9540003df4f27` matched remote main and all154file blobs at the content check, with a clean working tree. Later metadata and the explicit-node-ID highlighting repair were committed normally; the final revision and all seven chapter notebooks are separately verified through commit-addressed raw files in local delivery evidence. Original code001notebook and manifest bytes remain unchanged.
