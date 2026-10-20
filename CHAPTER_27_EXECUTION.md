@@ -1,6 +1,6 @@
 # Chapter 27 execution evidence
 
-**Date:** 21 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 21 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content revision verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -13,7 +13,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_142 | 27.5 | 4 | 2 | 3.371 |
 | code_143 | 27.6 | 4 | 2 | 2.674 |
 
-Total: **24 executed code cells and 12 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **24 executed code cells and 12 inline figures**. Current outputs contain no errors and all assertions pass. All twelve inline figures and twelve reproduced book figures were visually inspected during the book delivery review.
 
 ## Actual mechanisms and boundaries
 
@@ -820,3 +820,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and visual evidence
+
+Content revision: `a59a1ded114584fde53f58a7c3fd0ddd0e7e629f`. Remote main and all 232 tree blobs match. All six current notebooks pass fresh-kernel execution, their 24 code cells and twelve inline figures are reviewed, and book figure generation reruns every current cell with exact RESULTS agreement. The final 454-page manuscript layout (kept local) was visually reviewed with PDF SHA-256 `b9548e8966a31ca04e041a85d1e6351cb3266535b796236f4015ead993b02f06`. Final publication metadata and commit-addressed raw files are verified separately; no manuscript is published in this repository.

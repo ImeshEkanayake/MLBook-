@@ -1560,7 +1560,7 @@ Use the [concept guide](CHAPTER_27_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual joint and conditional mixture sampling, independent-marginal reference, conditional Gaussian-mixture imputation, generated relational keys and temporal constraints, whole-building evidence boundaries.
 - **Verification:** 4 code cells, 2 figures; 2.943 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+- **Status:** published and executed; remote content revision verified. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
 
 <a id="code_139"></a>
 ### code_139 — Latent-variable models and variational learning
@@ -1570,7 +1570,7 @@ Use the [concept guide](CHAPTER_27_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual reparameterized conditional VAE, Gaussian Bernoulli and Poisson decoder heads, common development ELBO comparison, per-latent KL and decoder sensitivity, conditional tail and type-valid generation.
 - **Verification:** 4 code cells, 2 figures; 3.511 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+- **Status:** published and executed; remote content revision verified. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
 
 <a id="code_140"></a>
 ### code_140 — Adversarial models and training dynamics
@@ -1580,7 +1580,7 @@ Use the [concept guide](CHAPTER_27_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual conditional GAN and Wasserstein gradient penalty, controlled aggressive generator candidate, development selected generative checkpoints, conditional mode coverage and resampling references, actual rare-class augmentation assessment.
 - **Verification:** 4 code cells, 2 figures; 4.415 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+- **Status:** published and executed; remote content revision verified. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
 
 <a id="code_141"></a>
 ### code_141 — Autoregressive, flow and energy models
@@ -1590,7 +1590,7 @@ Use the [concept guide](CHAPTER_27_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** normalized mixed-type autoregressive factorization, native affine-coupling flow with inverse and Jacobian checks, native persistent-negative-phase energy learning, Langevin mixing and unnormalized score limits, independent reference assessment.
 - **Verification:** 4 code cells, 2 figures; 5.831 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+- **Status:** published and executed; remote content revision verified. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
 
 <a id="code_142"></a>
 ### code_142 — Diffusion and flow matching
@@ -1600,7 +1600,7 @@ Use the [concept guide](CHAPTER_27_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual conditional DDPM epsilon prediction and ancestral sampling, native straight-path conditional flow matching, separate development objectives and fixed training budgets, ODE refinement with shared initial noise, mechanism alignment and trajectory distribution assessment.
 - **Verification:** 4 code cells, 2 figures; 3.371 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+- **Status:** published and executed; remote content revision verified. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
 
 <a id="code_143"></a>
 ### code_143 — Utility, validity, leakage and privacy
@@ -1610,4 +1610,4 @@ Use the [concept guide](CHAPTER_27_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** separate fidelity utility schema and disclosure evidence, actual source-only synthetic-only and augmented classifiers, development-calibrated proximity membership attack on generated data, deliberate source canary and exact-copy audits, relational and derived-field acceptance checks without DP claims.
 - **Verification:** 4 code cells, 2 figures; 2.674 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+- **Status:** published and executed; remote content revision verified. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
