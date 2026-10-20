@@ -995,7 +995,7 @@ Use the [concept guide](CHAPTER_18_GUIDE.md) and [actual execution evidence](CHA
 - **Notebook:** [087_Chapter_18_01_Paths_Routes_And_Instability.ipynb](notebooks/087_Chapter_18_01_Paths_Routes_And_Instability.ipynb).
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** weighted impurity and actual decision paths, small label perturbation and root instability, missing routes versus unknown categories, linked original tree-control laboratory.
-- **Verification:** 4 code cells, 2 figures; 1.747 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Verification:** 4 code cells, 2 figures; 2.226 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
 
 <a id="code_088"></a>

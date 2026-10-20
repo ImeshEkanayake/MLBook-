@@ -3742,7 +3742,7 @@
       ],
       "hardware": "Darwin arm64 CPU",
       "seed": 1887,
-      "runtime_seconds": 1.747,
+      "runtime_seconds": 2.226,
       "code_cells_executed": 4,
       "inline_figures": 2,
       "concepts_demonstrated": [
