@@ -1306,7 +1306,7 @@ Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** node versus existing-edge targets, non-neural aggregated baseline, actual shared graph encoder and task heads, whole-building holdout, whole-graph mean readout.
 - **Verification:** 4 code cells, 2 figures; 3.174 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
 
 <a id="code_116"></a>
 ### code_116 — Message passing and graph convolutions
@@ -1316,7 +1316,7 @@ Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** edge-feature message trace, GCN SAGE and GIN-style learned operators, two-hop derivative support, permutation and pooling identities, disconnected mini-batch contract.
 - **Verification:** 4 code cells, 2 figures; 3.176 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
 
 <a id="code_117"></a>
 ### code_117 — Graph attention and graph transformers
@@ -1326,7 +1326,7 @@ Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual masked graph attention, global graph attention with distance bias, distant-source derivative audit, permutation of structural encodings, oversmoothing and bottleneck fixtures.
 - **Verification:** 4 code cells, 2 figures; 4.493 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
 
 <a id="code_118"></a>
 ### code_118 — Heterogeneous, temporal and knowledge graphs
@@ -1336,7 +1336,7 @@ Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual relation-specific graph update, node and edge availability clocks, historical-only typed snapshot, trained typed link decoder, future-positive negative audit.
 - **Verification:** 4 code cells, 2 figures; 2.546 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
 
 <a id="code_119"></a>
 ### code_119 — Geometric and physical graph learning
@@ -1346,7 +1346,7 @@ Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual vector-valued graph propagation, learned relaxation with a known physical operator, fixed numerical and coordinate-MLP baselines, joint rotation reflection translation audits, ground-reaction equilibrium.
 - **Verification:** 4 code cells, 2 figures; 2.511 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
 
 <a id="code_120"></a>
 ### code_120 — Scaling, failure analysis and graph explanations
@@ -1356,4 +1356,4 @@ Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual graph-size holdout, mean versus sum aggregation transfer, uniform neighbor sampling with known degree correction, heterophily counterexample, edge-attribution fidelity and stability.
 - **Verification:** 4 code cells, 2 figures; 3.091 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
