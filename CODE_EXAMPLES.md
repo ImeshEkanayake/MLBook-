@@ -1545,3 +1545,69 @@ Use the [concept guide](CHAPTER_26_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual repeated learned heat-step rollout, mass-preserving projection audit, surrogate design optimization with analytic gradients, independent refined solver verification, bootstrap disagreement and actual solve counts.
 - **Verification:** 4 code cells, 2 figures; 2.300 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+
+<!-- CHAPTER_27_ENTRIES -->
+
+## Chapter 27: Generative models for structured data
+
+Use the [concept guide](CHAPTER_27_GUIDE.md) and [actual execution evidence](CHAPTER_27_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_138"></a>
+### code_138 — Generative tasks and evaluation targets
+
+- **Book home:** section 27.1.
+- **Notebook:** [138_Chapter_27_01_generative_tasks_and_evidence_contracts.ipynb](notebooks/138_Chapter_27_01_generative_tasks_and_evidence_contracts.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual joint and conditional mixture sampling, independent-marginal reference, conditional Gaussian-mixture imputation, generated relational keys and temporal constraints, whole-building evidence boundaries.
+- **Verification:** 4 code cells, 2 figures; 2.943 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+
+<a id="code_139"></a>
+### code_139 — Latent-variable models and variational learning
+
+- **Book home:** section 27.2.
+- **Notebook:** [139_Chapter_27_02_conditional_vae_and_mixed_likelihoods.ipynb](notebooks/139_Chapter_27_02_conditional_vae_and_mixed_likelihoods.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual reparameterized conditional VAE, Gaussian Bernoulli and Poisson decoder heads, common development ELBO comparison, per-latent KL and decoder sensitivity, conditional tail and type-valid generation.
+- **Verification:** 4 code cells, 2 figures; 3.511 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+
+<a id="code_140"></a>
+### code_140 — Adversarial models and training dynamics
+
+- **Book home:** section 27.3.
+- **Notebook:** [140_Chapter_27_03_conditional_gan_and_training_dynamics.ipynb](notebooks/140_Chapter_27_03_conditional_gan_and_training_dynamics.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual conditional GAN and Wasserstein gradient penalty, controlled aggressive generator candidate, development selected generative checkpoints, conditional mode coverage and resampling references, actual rare-class augmentation assessment.
+- **Verification:** 4 code cells, 2 figures; 4.415 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+
+<a id="code_141"></a>
+### code_141 — Autoregressive, flow and energy models
+
+- **Book home:** section 27.4.
+- **Notebook:** [141_Chapter_27_04_autoregressive_flow_and_energy_models.ipynb](notebooks/141_Chapter_27_04_autoregressive_flow_and_energy_models.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** normalized mixed-type autoregressive factorization, native affine-coupling flow with inverse and Jacobian checks, native persistent-negative-phase energy learning, Langevin mixing and unnormalized score limits, independent reference assessment.
+- **Verification:** 4 code cells, 2 figures; 5.831 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+
+<a id="code_142"></a>
+### code_142 — Diffusion and flow matching
+
+- **Book home:** section 27.5.
+- **Notebook:** [142_Chapter_27_05_diffusion_and_flow_matching.ipynb](notebooks/142_Chapter_27_05_diffusion_and_flow_matching.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual conditional DDPM epsilon prediction and ancestral sampling, native straight-path conditional flow matching, separate development objectives and fixed training budgets, ODE refinement with shared initial noise, mechanism alignment and trajectory distribution assessment.
+- **Verification:** 4 code cells, 2 figures; 3.371 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).
+
+<a id="code_143"></a>
+### code_143 — Utility, validity, leakage and privacy
+
+- **Book home:** section 27.6.
+- **Notebook:** [143_Chapter_27_06_synthetic_data_acceptance_and_disclosure.ipynb](notebooks/143_Chapter_27_06_synthetic_data_acceptance_and_disclosure.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** separate fidelity utility schema and disclosure evidence, actual source-only synthetic-only and augmented classifiers, development-calibrated proximity membership attack on generated data, deliberate source canary and exact-copy audits, relational and derived-field acceptance checks without DP claims.
+- **Verification:** 4 code cells, 2 figures; 2.674 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_27_EXECUTION.md).

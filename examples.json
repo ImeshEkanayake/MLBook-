@@ -5983,6 +5983,276 @@
         "bootstrap disagreement and actual solve counts"
       ],
       "execution_report": "CHAPTER_26_EXECUTION.md"
+    },
+    {
+      "id": "code_138",
+      "chapter": 27,
+      "subtopic": "27.1",
+      "title": "Generative tasks and evaluation targets",
+      "path": "notebooks/138_Chapter_27_01_generative_tasks_and_evidence_contracts.ipynb",
+      "registry_anchor": "code_138",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_138",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3338,
+      "runtime_seconds": 2.943,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual joint and conditional mixture sampling",
+        "independent-marginal reference",
+        "conditional Gaussian-mixture imputation",
+        "generated relational keys and temporal constraints",
+        "whole-building evidence boundaries"
+      ],
+      "execution_report": "CHAPTER_27_EXECUTION.md"
+    },
+    {
+      "id": "code_139",
+      "chapter": 27,
+      "subtopic": "27.2",
+      "title": "Latent-variable models and variational learning",
+      "path": "notebooks/139_Chapter_27_02_conditional_vae_and_mixed_likelihoods.ipynb",
+      "registry_anchor": "code_139",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_139",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3339,
+      "runtime_seconds": 3.511,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual reparameterized conditional VAE",
+        "Gaussian Bernoulli and Poisson decoder heads",
+        "common development ELBO comparison",
+        "per-latent KL and decoder sensitivity",
+        "conditional tail and type-valid generation"
+      ],
+      "execution_report": "CHAPTER_27_EXECUTION.md"
+    },
+    {
+      "id": "code_140",
+      "chapter": 27,
+      "subtopic": "27.3",
+      "title": "Adversarial models and training dynamics",
+      "path": "notebooks/140_Chapter_27_03_conditional_gan_and_training_dynamics.ipynb",
+      "registry_anchor": "code_140",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_140",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3340,
+      "runtime_seconds": 4.415,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual conditional GAN and Wasserstein gradient penalty",
+        "controlled aggressive generator candidate",
+        "development selected generative checkpoints",
+        "conditional mode coverage and resampling references",
+        "actual rare-class augmentation assessment"
+      ],
+      "execution_report": "CHAPTER_27_EXECUTION.md"
+    },
+    {
+      "id": "code_141",
+      "chapter": 27,
+      "subtopic": "27.4",
+      "title": "Autoregressive, flow and energy models",
+      "path": "notebooks/141_Chapter_27_04_autoregressive_flow_and_energy_models.ipynb",
+      "registry_anchor": "code_141",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_141",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3341,
+      "runtime_seconds": 5.831,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "normalized mixed-type autoregressive factorization",
+        "native affine-coupling flow with inverse and Jacobian checks",
+        "native persistent-negative-phase energy learning",
+        "Langevin mixing and unnormalized score limits",
+        "independent reference assessment"
+      ],
+      "execution_report": "CHAPTER_27_EXECUTION.md"
+    },
+    {
+      "id": "code_142",
+      "chapter": 27,
+      "subtopic": "27.5",
+      "title": "Diffusion and flow matching",
+      "path": "notebooks/142_Chapter_27_05_diffusion_and_flow_matching.ipynb",
+      "registry_anchor": "code_142",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_142",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3342,
+      "runtime_seconds": 3.371,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual conditional DDPM epsilon prediction and ancestral sampling",
+        "native straight-path conditional flow matching",
+        "separate development objectives and fixed training budgets",
+        "ODE refinement with shared initial noise",
+        "mechanism alignment and trajectory distribution assessment"
+      ],
+      "execution_report": "CHAPTER_27_EXECUTION.md"
+    },
+    {
+      "id": "code_143",
+      "chapter": 27,
+      "subtopic": "27.6",
+      "title": "Utility, validity, leakage and privacy",
+      "path": "notebooks/143_Chapter_27_06_synthetic_data_acceptance_and_disclosure.ipynb",
+      "registry_anchor": "code_143",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_143",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3343,
+      "runtime_seconds": 2.674,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "separate fidelity utility schema and disclosure evidence",
+        "actual source-only synthetic-only and augmented classifiers",
+        "development-calibrated proximity membership attack on generated data",
+        "deliberate source canary and exact-copy audits",
+        "relational and derived-field acceptance checks without DP claims"
+      ],
+      "execution_report": "CHAPTER_27_EXECUTION.md"
     }
   ]
 }
