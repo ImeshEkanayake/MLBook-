@@ -940,7 +940,7 @@ Use the [concept guide](CHAPTER_17_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** raw units versus dimensionless reference scales, unit-consistent Mahalanobis covariance, categorical and missing shared features, distance eligibility and neighborhood geometry.
 - **Verification:** 4 code cells, 2 figures; 1.523 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
 
 <a id="code_083"></a>
 ### code_083 — Nearest-neighbour prediction and retrieval
@@ -950,7 +950,7 @@ Use the [concept guide](CHAPTER_17_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** development neighborhood and weighting selection, inside versus unusual query support, exact tree versus brute retrieval, candidate-subset approximation and zero-distance behavior.
 - **Verification:** 4 code cells, 2 figures; 1.619 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
 
 <a id="code_084"></a>
 ### code_084 — Kernels and implicit feature spaces
@@ -960,7 +960,7 @@ Use the [concept guide](CHAPTER_17_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** positive-semidefinite Gram matrices, explicit polynomial feature identity, common-objective kernel ridge, linear radial and periodic assumptions.
 - **Verification:** 4 code cells, 2 figures; 1.514 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
 
 <a id="code_085"></a>
 ### code_085 — Support vector machines and margins
@@ -970,7 +970,7 @@ Use the [concept guide](CHAPTER_17_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** soft margins and balanced penalties, kernel boundary versus schematic feature map, independent score calibration, epsilon-insensitive regression.
 - **Verification:** 4 code cells, 2 figures; 1.659 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
 
 <a id="code_086"></a>
 ### code_086 — Scalability and learned similarity
@@ -980,4 +980,4 @@ Use the [concept guide](CHAPTER_17_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** linear supervised NCA and tuned neighbors, fold-contained label-valued retrieval context, candidate-budget recall and array memory, random Fourier and Nystroem Gram approximations.
 - **Verification:** 4 code cells, 2 figures; 1.761 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
