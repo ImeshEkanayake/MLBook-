@@ -3284,6 +3284,216 @@
         "compactness fidelity and expression limits"
       ],
       "execution_report": "CHAPTER_15_EXECUTION.md"
+    },
+    {
+      "id": "code_077",
+      "chapter": 16,
+      "subtopic": "16.1",
+      "title": "Naive Bayes and generative classification",
+      "path": "notebooks/077_Chapter_16_01_Alarm_Dependence_And_Naive_Bayes.ipynb",
+      "registry_anchor": "code_077",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_077",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1677,
+      "runtime_seconds": 1.322,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "Bernoulli class prior and likelihood score",
+        "Laplace smoothing and absent indicators",
+        "duplicate conditional dependence",
+        "classification versus probability calibration"
+      ],
+      "execution_report": "CHAPTER_16_EXECUTION.md"
+    },
+    {
+      "id": "code_078",
+      "chapter": 16,
+      "subtopic": "16.2",
+      "title": "Bayesian estimation and hierarchical models",
+      "path": "notebooks/078_Chapter_16_02_Hierarchical_Building_Rates.ipynb",
+      "registry_anchor": "code_078",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_078",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "declared teaching inspection/failure counts with model-generated prior/posterior/future simulations; no field observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1678,
+      "runtime_seconds": 1.489,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "prior likelihood posterior and prediction",
+        "full hyperparameter grid integration",
+        "unequal group partial pooling",
+        "prior predictive versus future evidence"
+      ],
+      "execution_report": "CHAPTER_16_EXECUTION.md"
+    },
+    {
+      "id": "code_079",
+      "chapter": 16,
+      "subtopic": "16.3",
+      "title": "Posterior computation and model checking",
+      "path": "notebooks/079_Chapter_16_03_Grid_MCMC_Variational_And_Checks.ipynb",
+      "registry_anchor": "code_079",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_079",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "declared teaching inspection/failure counts with model-generated prior/posterior/future simulations; no field observations",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1679,
+      "runtime_seconds": 1.987,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "conjugate conditional and joint grid reference",
+        "transformed random-walk MCMC with Jacobian",
+        "classical split Rhat and simple ESS",
+        "mean-field grid approximation and predictive criticism"
+      ],
+      "execution_report": "CHAPTER_16_EXECUTION.md"
+    },
+    {
+      "id": "code_080",
+      "chapter": 16,
+      "subtopic": "16.4",
+      "title": "Gaussian processes and scalable approximations",
+      "path": "notebooks/080_Chapter_16_04_Temperature_GP_And_Low_Rank_Prior.ipynb",
+      "registry_anchor": "code_080",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_080",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1680,
+      "runtime_seconds": 1.867,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "fixed covariance and Gaussian conditioning",
+        "latent versus observation intervals",
+        "away-from-support conditional uncertainty",
+        "low-rank prior approximation and variance loss"
+      ],
+      "execution_report": "CHAPTER_16_EXECUTION.md"
+    },
+    {
+      "id": "code_081",
+      "chapter": 16,
+      "subtopic": "16.5",
+      "title": "Graphical models and latent states",
+      "path": "notebooks/081_Chapter_16_05_Regime_HMM_And_Probability_Graphs.ipynb",
+      "registry_anchor": "code_081",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_081",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1681,
+      "runtime_seconds": 1.304,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "directed probability factorization and latent regimes",
+        "forward filtering versus offline smoothing and Viterbi",
+        "exact enumeration and undirected conditional independence",
+        "continuous Gaussian state-space filtering"
+      ],
+      "execution_report": "CHAPTER_16_EXECUTION.md"
     }
   ]
 }

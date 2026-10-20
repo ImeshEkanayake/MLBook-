@@ -869,3 +869,59 @@ Use the [concept guide](CHAPTER_15_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** finite symbolic dictionary with dimensional guards, development complexity selection and locked assessment, decision list sparse score and rule ensemble, compactness fidelity and expression limits.
 - **Verification:** 4 code cells, 2 figures; 1.488 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+
+<!-- CHAPTER_16_ENTRIES -->
+
+## Chapter 16: Probabilistic and Bayesian models
+
+Use the [concept guide](CHAPTER_16_GUIDE.md) and [actual execution evidence](CHAPTER_16_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_077"></a>
+### code_077 — Naive Bayes and generative classification
+
+- **Book home:** section 16.1.
+- **Notebook:** [077_Chapter_16_01_Alarm_Dependence_And_Naive_Bayes.ipynb](notebooks/077_Chapter_16_01_Alarm_Dependence_And_Naive_Bayes.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** Bernoulli class prior and likelihood score, Laplace smoothing and absent indicators, duplicate conditional dependence, classification versus probability calibration.
+- **Verification:** 4 code cells, 2 figures; 1.322 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+
+<a id="code_078"></a>
+### code_078 — Bayesian estimation and hierarchical models
+
+- **Book home:** section 16.2.
+- **Notebook:** [078_Chapter_16_02_Hierarchical_Building_Rates.ipynb](notebooks/078_Chapter_16_02_Hierarchical_Building_Rates.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** prior likelihood posterior and prediction, full hyperparameter grid integration, unequal group partial pooling, prior predictive versus future evidence.
+- **Verification:** 4 code cells, 2 figures; 1.489 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+
+<a id="code_079"></a>
+### code_079 — Posterior computation and model checking
+
+- **Book home:** section 16.3.
+- **Notebook:** [079_Chapter_16_03_Grid_MCMC_Variational_And_Checks.ipynb](notebooks/079_Chapter_16_03_Grid_MCMC_Variational_And_Checks.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** conjugate conditional and joint grid reference, transformed random-walk MCMC with Jacobian, classical split Rhat and simple ESS, mean-field grid approximation and predictive criticism.
+- **Verification:** 4 code cells, 2 figures; 1.987 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+
+<a id="code_080"></a>
+### code_080 — Gaussian processes and scalable approximations
+
+- **Book home:** section 16.4.
+- **Notebook:** [080_Chapter_16_04_Temperature_GP_And_Low_Rank_Prior.ipynb](notebooks/080_Chapter_16_04_Temperature_GP_And_Low_Rank_Prior.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** fixed covariance and Gaussian conditioning, latent versus observation intervals, away-from-support conditional uncertainty, low-rank prior approximation and variance loss.
+- **Verification:** 4 code cells, 2 figures; 1.867 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+
+<a id="code_081"></a>
+### code_081 — Graphical models and latent states
+
+- **Book home:** section 16.5.
+- **Notebook:** [081_Chapter_16_05_Regime_HMM_And_Probability_Graphs.ipynb](notebooks/081_Chapter_16_05_Regime_HMM_And_Probability_Graphs.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** directed probability factorization and latent regimes, forward filtering versus offline smoothing and Viterbi, exact enumeration and undirected conditional independence, continuous Gaussian state-space filtering.
+- **Verification:** 4 code cells, 2 figures; 1.304 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
