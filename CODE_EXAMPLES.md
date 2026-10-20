@@ -1174,7 +1174,7 @@ Use the [concept guide](CHAPTER_21_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** continuous and categorical inputs, shared feedforward torso, Gaussian and classification heads, output-shape and unknown-category contracts.
 - **Verification:** 4 code cells, 2 figures; 2.284 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
 
 <a id="code_104"></a>
 ### code_104 — Automatic differentiation and backpropagation
@@ -1184,7 +1184,7 @@ Use the [concept guide](CHAPTER_21_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** explicit computational graph, manual reverse-mode derivatives, finite differences and gradcheck, gradient accumulation and updates.
 - **Verification:** 4 code cells, 2 figures; 2.172 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
 
 <a id="code_105"></a>
 ### code_105 — Initialization and activation behaviour
@@ -1194,7 +1194,7 @@ Use the [concept guide](CHAPTER_21_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** activation and gradient propagation, Xavier and Kaiming controls, dead ReLU units, finite-depth initialization diagnostics.
 - **Verification:** 4 code cells, 2 figures; 2.457 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
 
 <a id="code_106"></a>
 ### code_106 — Normalization, optimization and regularization
@@ -1204,7 +1204,7 @@ Use the [concept guide](CHAPTER_21_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual AdamW/SGD ablations, batch and layer normalization, dropout train/eval contracts, development early stopping, controlled instability dashboard.
 - **Verification:** 4 code cells, 2 figures; 2.332 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
 
 <a id="code_107"></a>
 ### code_107 — Debugging, batching and computational resources
@@ -1214,4 +1214,4 @@ Use the [concept guide](CHAPTER_21_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** padding shortcut and explicit masking, tiny-set overfitting, weighted microbatch gradients, checkpoint exact next step, actual process peak RSS and CPU timing.
 - **Verification:** 5 code cells, 2 figures; 9.869 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_21_EXECUTION.md).

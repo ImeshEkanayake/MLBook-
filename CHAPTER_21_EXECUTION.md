@@ -1,6 +1,6 @@
 # Chapter 21 execution evidence
 
-**Date:** 20 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 20 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_106 | 21.4 | 4 | 2 | 2.332 |
 | code_107 | 21.5 | 5 | 2 | 9.869 |
 
-Total: **21 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **21 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten inline notebook figures and ten book figure sets were visually inspected, alongside the exact compiled chapter and front/reference pages. The resource vector plot replays the original measured CPU observations; deterministic experiment results reproduce exactly.
 
 ## Actual mechanisms and boundaries
 
@@ -4440,3 +4440,7 @@ These nine actual fresh-process observations belong to the code_107 kernel. Timi
   }
 ]
 ```
+
+## Publication verification
+
+At content verification, commit `8c5f8fd6b513cf6b35078669fee6036e054c4781` matched remote main and all 178 file blobs with a clean working tree. Final metadata and all five notebooks are separately verified through commit-addressed raw files in the local delivery evidence. Only companion artifacts are published.
