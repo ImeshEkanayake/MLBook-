@@ -1489,3 +1489,59 @@ Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual low and high frequency PINN fits, matched-budget data-only references, off-collocation adversarial witness, missing-boundary nonuniqueness, native refined numerical reference.
 - **Verification:** 4 code cells, 2 figures; 4.054 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+
+<!-- CHAPTER_26_ENTRIES -->
+
+## Chapter 26: Neural operators and learned simulation
+
+Use the [concept guide](CHAPTER_26_GUIDE.md) and [actual execution evidence](CHAPTER_26_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_133"></a>
+### code_133 — From finite-dimensional maps to operators
+
+- **Book home:** section 26.1.
+- **Notebook:** [133_Chapter_26_01_operator_datasets_and_discretization.ipynb](notebooks/133_Chapter_26_01_operator_datasets_and_discretization.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual variable-coefficient solution family, whole-problem fitting and assessment, finite-grid Ridge operator reference, independent mesh refinement, input-sensor alias nonidentifiability.
+- **Verification:** 4 code cells, 2 figures; 2.261 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+
+<a id="code_134"></a>
+### code_134 — DeepONet and branch--trunk representations
+
+- **Book home:** section 26.2.
+- **Notebook:** [134_Chapter_26_02_deeponet_and_operator_objectives.ipynb](notebooks/134_Chapter_26_02_deeponet_and_operator_objectives.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual native branch-trunk inner-product network, fixed input sensors and variable output queries, supervised versus discrete physics operator objectives, whole-function development selection, higher-frequency input-support assessment.
+- **Verification:** 4 code cells, 2 figures; 3.405 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+
+<a id="code_135"></a>
+### code_135 — Fourier and spectral neural operators
+
+- **Book home:** section 26.3.
+- **Notebook:** [135_Chapter_26_03_fourier_operator_and_resolution_checks.ipynb](notebooks/135_Chapter_26_03_fourier_operator_and_resolution_checks.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual native complex spectral convolution, lifting local paths and projection, same-function grid transfer without refitting, retained-mode and FFT identity checks, nonlinear aliasing and changed spectral support.
+- **Verification:** 4 code cells, 2 figures; 8.784 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+
+<a id="code_136"></a>
+### code_136 — Graph and geometry-aware operators
+
+- **Book home:** section 26.4.
+- **Notebook:** [136_Chapter_26_04_geometry_graph_operator_and_mesh_transfer.ipynb](notebooks/136_Chapter_26_04_geometry_graph_operator_and_mesh_transfer.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native triangular finite-element problem family, actual quadrature-weighted learned graph kernel, whole-mesh geometry assessment, node-permutation identity, new mesh resolution and notched domain.
+- **Verification:** 4 code cells, 2 figures; 5.540 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+
+<a id="code_137"></a>
+### code_137 — Surrogates, rollouts and inverse design
+
+- **Book home:** section 26.5.
+- **Notebook:** [137_Chapter_26_05_surrogate_rollouts_and_inverse_design.ipynb](notebooks/137_Chapter_26_05_surrogate_rollouts_and_inverse_design.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual repeated learned heat-step rollout, mass-preserving projection audit, surrogate design optimization with analytic gradients, independent refined solver verification, bootstrap disagreement and actual solve counts.
+- **Verification:** 4 code cells, 2 figures; 2.300 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).

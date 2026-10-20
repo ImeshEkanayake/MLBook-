@@ -5758,6 +5758,231 @@
         "native refined numerical reference"
       ],
       "execution_report": "CHAPTER_25_EXECUTION.md"
+    },
+    {
+      "id": "code_133",
+      "chapter": 26,
+      "subtopic": "26.1",
+      "title": "From finite-dimensional maps to operators",
+      "path": "notebooks/133_Chapter_26_01_operator_datasets_and_discretization.ipynb",
+      "registry_anchor": "code_133",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_133",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3133,
+      "runtime_seconds": 2.261,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual variable-coefficient solution family",
+        "whole-problem fitting and assessment",
+        "finite-grid Ridge operator reference",
+        "independent mesh refinement",
+        "input-sensor alias nonidentifiability"
+      ],
+      "execution_report": "CHAPTER_26_EXECUTION.md"
+    },
+    {
+      "id": "code_134",
+      "chapter": 26,
+      "subtopic": "26.2",
+      "title": "DeepONet and branch--trunk representations",
+      "path": "notebooks/134_Chapter_26_02_deeponet_and_operator_objectives.ipynb",
+      "registry_anchor": "code_134",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_134",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3134,
+      "runtime_seconds": 3.405,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual native branch-trunk inner-product network",
+        "fixed input sensors and variable output queries",
+        "supervised versus discrete physics operator objectives",
+        "whole-function development selection",
+        "higher-frequency input-support assessment"
+      ],
+      "execution_report": "CHAPTER_26_EXECUTION.md"
+    },
+    {
+      "id": "code_135",
+      "chapter": 26,
+      "subtopic": "26.3",
+      "title": "Fourier and spectral neural operators",
+      "path": "notebooks/135_Chapter_26_03_fourier_operator_and_resolution_checks.ipynb",
+      "registry_anchor": "code_135",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_135",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3135,
+      "runtime_seconds": 8.784,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual native complex spectral convolution",
+        "lifting local paths and projection",
+        "same-function grid transfer without refitting",
+        "retained-mode and FFT identity checks",
+        "nonlinear aliasing and changed spectral support"
+      ],
+      "execution_report": "CHAPTER_26_EXECUTION.md"
+    },
+    {
+      "id": "code_136",
+      "chapter": 26,
+      "subtopic": "26.4",
+      "title": "Graph and geometry-aware operators",
+      "path": "notebooks/136_Chapter_26_04_geometry_graph_operator_and_mesh_transfer.ipynb",
+      "registry_anchor": "code_136",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_136",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3136,
+      "runtime_seconds": 5.54,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "native triangular finite-element problem family",
+        "actual quadrature-weighted learned graph kernel",
+        "whole-mesh geometry assessment",
+        "node-permutation identity",
+        "new mesh resolution and notched domain"
+      ],
+      "execution_report": "CHAPTER_26_EXECUTION.md"
+    },
+    {
+      "id": "code_137",
+      "chapter": 26,
+      "subtopic": "26.5",
+      "title": "Surrogates, rollouts and inverse design",
+      "path": "notebooks/137_Chapter_26_05_surrogate_rollouts_and_inverse_design.ipynb",
+      "registry_anchor": "code_137",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_137",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3137,
+      "runtime_seconds": 2.3,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual repeated learned heat-step rollout",
+        "mass-preserving projection audit",
+        "surrogate design optimization with analytic gradients",
+        "independent refined solver verification",
+        "bootstrap disagreement and actual solve counts"
+      ],
+      "execution_report": "CHAPTER_26_EXECUTION.md"
     }
   ]
 }
