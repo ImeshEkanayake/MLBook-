@@ -1,6 +1,6 @@
 # Chapter 19 execution evidence
 
-**Date:** 20 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 20 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_096 | 19.4 | 4 | 2 | 1.765 |
 | code_097 | 19.5 | 4 | 2 | 1.667 |
 
-Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten inline figures and ten vector book figures have been visually reviewed, including repaired clipped axis labels and separated boundary annotations. Composed pages are also reviewed.
 
 ## Actual mechanisms and boundaries
 
@@ -787,3 +787,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication verification
+
+At content verification, commit `6cc466e3f5895763e2614d3832b8b47f3e23c4ae` matched remote main and all162file blobs with a clean working tree. Final metadata and all five notebooks are separately verified through commit-addressed raw files in the local delivery evidence. Only companion artifacts are published.

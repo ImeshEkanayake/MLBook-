@@ -1062,7 +1062,7 @@ Use the [concept guide](CHAPTER_19_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** Euclidean centroid versus observed-case medoid objectives, full versus spherical mixture assumptions, unit scaling and initialization sensitivity, model responsibilities versus external regime evidence.
 - **Verification:** 4 code cells, 2 figures; 1.773 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
 
 <a id="code_094"></a>
 ### code_094 — Hierarchical, density and graph clustering
@@ -1072,7 +1072,7 @@ Use the [concept guide](CHAPTER_19_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** same-point centroid hierarchy density and spectral partitions, native HDBSCAN density hierarchy, noise labels and scale controls, boundary sensitivity without comparing arbitrary label IDs.
 - **Verification:** 4 code cells, 2 figures; 1.660 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
 
 <a id="code_095"></a>
 ### code_095 — Evaluating discovered groups
@@ -1082,7 +1082,7 @@ Use the [concept guide](CHAPTER_19_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** internal separation versus external agreement, training-only clustering in downstream prediction, sensor resampling and permutation-invariant stability, development selection without final interpretation tuning.
 - **Verification:** 4 code cells, 2 figures; 1.860 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
 
 <a id="code_096"></a>
 ### code_096 — Point anomalies, novelty and density scores
@@ -1092,7 +1092,7 @@ Use the [concept guide](CHAPTER_19_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** marginal versus joint unusualness, robust covariance isolation local density and one-class boundaries, LOF novelty-only scoring contract, calibration thresholds versus rare valid observations.
 - **Verification:** 4 code cells, 2 figures; 1.765 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
 
 <a id="code_097"></a>
 ### code_097 — Contextual and structured anomalies
@@ -1102,4 +1102,4 @@ Use the [concept guide](CHAPTER_19_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** contemporaneous graph residual versus common-mode extremes, training-only PCA reconstruction and reference contamination, calibration thresholds sequential delay and alarm burden, selective review with unreviewed cases kept unknown.
 - **Verification:** 4 code cells, 2 figures; 1.667 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
