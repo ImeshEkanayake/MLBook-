@@ -925,3 +925,59 @@ Use the [concept guide](CHAPTER_16_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** directed probability factorization and latent regimes, forward filtering versus offline smoothing and Viterbi, exact enumeration and undirected conditional independence, continuous Gaussian state-space filtering.
 - **Verification:** 4 code cells, 2 figures; 1.304 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+
+<!-- CHAPTER_17_ENTRIES -->
+
+## Chapter 17: Similarity, kernels, and margins
+
+Use the [concept guide](CHAPTER_17_GUIDE.md) and [actual execution evidence](CHAPTER_17_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_082"></a>
+### code_082 — Distances, metrics and meaningful neighbourhoods
+
+- **Book home:** section 17.1.
+- **Notebook:** [082_Chapter_17_01_Units_Missingness_And_Metric_Geometry.ipynb](notebooks/082_Chapter_17_01_Units_Missingness_And_Metric_Geometry.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** raw units versus dimensionless reference scales, unit-consistent Mahalanobis covariance, categorical and missing shared features, distance eligibility and neighborhood geometry.
+- **Verification:** 4 code cells, 2 figures; 1.523 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+
+<a id="code_083"></a>
+### code_083 — Nearest-neighbour prediction and retrieval
+
+- **Book home:** section 17.2.
+- **Notebook:** [083_Chapter_17_02_Neighbor_Support_And_Search.ipynb](notebooks/083_Chapter_17_02_Neighbor_Support_And_Search.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** development neighborhood and weighting selection, inside versus unusual query support, exact tree versus brute retrieval, candidate-subset approximation and zero-distance behavior.
+- **Verification:** 4 code cells, 2 figures; 1.619 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+
+<a id="code_084"></a>
+### code_084 — Kernels and implicit feature spaces
+
+- **Book home:** section 17.3.
+- **Notebook:** [084_Chapter_17_03_Kernel_Assumptions_And_Seasonality.ipynb](notebooks/084_Chapter_17_03_Kernel_Assumptions_And_Seasonality.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** positive-semidefinite Gram matrices, explicit polynomial feature identity, common-objective kernel ridge, linear radial and periodic assumptions.
+- **Verification:** 4 code cells, 2 figures; 1.514 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+
+<a id="code_085"></a>
+### code_085 — Support vector machines and margins
+
+- **Book home:** section 17.4.
+- **Notebook:** [085_Chapter_17_04_Margins_Calibration_And_Regression_Tubes.ipynb](notebooks/085_Chapter_17_04_Margins_Calibration_And_Regression_Tubes.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** soft margins and balanced penalties, kernel boundary versus schematic feature map, independent score calibration, epsilon-insensitive regression.
+- **Verification:** 4 code cells, 2 figures; 1.659 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).
+
+<a id="code_086"></a>
+### code_086 — Scalability and learned similarity
+
+- **Book home:** section 17.5.
+- **Notebook:** [086_Chapter_17_05_Learned_Retrieval_And_Kernel_Approximations.ipynb](notebooks/086_Chapter_17_05_Learned_Retrieval_And_Kernel_Approximations.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** linear supervised NCA and tuned neighbors, fold-contained label-valued retrieval context, candidate-budget recall and array memory, random Fourier and Nystroem Gram approximations.
+- **Verification:** 4 code cells, 2 figures; 1.761 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_17_EXECUTION.md).

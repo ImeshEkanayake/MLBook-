@@ -3494,6 +3494,221 @@
         "continuous Gaussian state-space filtering"
       ],
       "execution_report": "CHAPTER_16_EXECUTION.md"
+    },
+    {
+      "id": "code_082",
+      "chapter": 17,
+      "subtopic": "17.1",
+      "title": "Distances, metrics and meaningful neighbourhoods",
+      "path": "notebooks/082_Chapter_17_01_Units_Missingness_And_Metric_Geometry.ipynb",
+      "registry_anchor": "code_082",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_082",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1782,
+      "runtime_seconds": 1.523,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "raw units versus dimensionless reference scales",
+        "unit-consistent Mahalanobis covariance",
+        "categorical and missing shared features",
+        "distance eligibility and neighborhood geometry"
+      ],
+      "execution_report": "CHAPTER_17_EXECUTION.md"
+    },
+    {
+      "id": "code_083",
+      "chapter": 17,
+      "subtopic": "17.2",
+      "title": "Nearest-neighbour prediction and retrieval",
+      "path": "notebooks/083_Chapter_17_02_Neighbor_Support_And_Search.ipynb",
+      "registry_anchor": "code_083",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_083",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1783,
+      "runtime_seconds": 1.619,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "development neighborhood and weighting selection",
+        "inside versus unusual query support",
+        "exact tree versus brute retrieval",
+        "candidate-subset approximation and zero-distance behavior"
+      ],
+      "execution_report": "CHAPTER_17_EXECUTION.md"
+    },
+    {
+      "id": "code_084",
+      "chapter": 17,
+      "subtopic": "17.3",
+      "title": "Kernels and implicit feature spaces",
+      "path": "notebooks/084_Chapter_17_03_Kernel_Assumptions_And_Seasonality.ipynb",
+      "registry_anchor": "code_084",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_084",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1784,
+      "runtime_seconds": 1.514,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "positive-semidefinite Gram matrices",
+        "explicit polynomial feature identity",
+        "common-objective kernel ridge",
+        "linear radial and periodic assumptions"
+      ],
+      "execution_report": "CHAPTER_17_EXECUTION.md"
+    },
+    {
+      "id": "code_085",
+      "chapter": 17,
+      "subtopic": "17.4",
+      "title": "Support vector machines and margins",
+      "path": "notebooks/085_Chapter_17_04_Margins_Calibration_And_Regression_Tubes.ipynb",
+      "registry_anchor": "code_085",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_085",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1785,
+      "runtime_seconds": 1.659,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "soft margins and balanced penalties",
+        "kernel boundary versus schematic feature map",
+        "independent score calibration",
+        "epsilon-insensitive regression"
+      ],
+      "execution_report": "CHAPTER_17_EXECUTION.md"
+    },
+    {
+      "id": "code_086",
+      "chapter": 17,
+      "subtopic": "17.5",
+      "title": "Scalability and learned similarity",
+      "path": "notebooks/086_Chapter_17_05_Learned_Retrieval_And_Kernel_Approximations.ipynb",
+      "registry_anchor": "code_086",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_086",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1786,
+      "runtime_seconds": 1.761,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "linear supervised NCA and tuned neighbors",
+        "fold-contained label-valued retrieval context",
+        "candidate-budget recall and array memory",
+        "random Fourier and Nystroem Gram approximations"
+      ],
+      "execution_report": "CHAPTER_17_EXECUTION.md"
     }
   ]
 }
