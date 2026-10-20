@@ -3074,6 +3074,216 @@
         "synthetic challenge versus external field evidence"
       ],
       "execution_report": "CHAPTER_14_EXECUTION.md"
+    },
+    {
+      "id": "code_072",
+      "chapter": 15,
+      "subtopic": "15.1",
+      "title": "Linear regression and robust alternatives",
+      "path": "notebooks/072_Chapter_15_01_Losses_Residuals_And_Quantiles.ipynb",
+      "registry_anchor": "code_072",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_072",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1572,
+      "runtime_seconds": 1.545,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "least squares geometry and rank deficiency",
+        "contaminated training responses",
+        "median and conditional quantile targets",
+        "fitting versus inference assumptions"
+      ],
+      "execution_report": "CHAPTER_15_EXECUTION.md"
+    },
+    {
+      "id": "code_073",
+      "chapter": 15,
+      "subtopic": "15.2",
+      "title": "Generalized linear models",
+      "path": "notebooks/073_Chapter_15_02_Bernoulli_Counts_And_Exposure.ipynb",
+      "registry_anchor": "code_073",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_073",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1573,
+      "runtime_seconds": 1.462,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "Bernoulli logit versus count log-mean",
+        "exposure offset and weighted rates",
+        "Poisson mean versus overdispersion",
+        "count means are not event probabilities"
+      ],
+      "execution_report": "CHAPTER_15_EXECUTION.md"
+    },
+    {
+      "id": "code_074",
+      "chapter": 15,
+      "subtopic": "15.3",
+      "title": "Regularization and high-dimensional fitting",
+      "path": "notebooks/074_Chapter_15_03_Correlated_Sensors_And_Shrinkage.ipynb",
+      "registry_anchor": "code_074",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_074",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1574,
+      "runtime_seconds": 1.996,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "Ridge Lasso ElasticNet common penalty convention",
+        "training-only standardization and development selection",
+        "correlated sensor coefficient paths",
+        "bootstrap coefficient and prediction stability"
+      ],
+      "execution_report": "CHAPTER_15_EXECUTION.md"
+    },
+    {
+      "id": "code_075",
+      "chapter": 15,
+      "subtopic": "15.4",
+      "title": "Additive, spline and shape-constrained models",
+      "path": "notebooks/075_Chapter_15_04_Additive_Risk_And_Monotone_Load.ipynb",
+      "registry_anchor": "code_075",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_075",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1575,
+      "runtime_seconds": 1.551,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "linear versus additive response on a fixed cohort",
+        "training-fitted spline basis and penalty selection",
+        "nonnegative monotone load increments",
+        "independent isotonic calibration and limits"
+      ],
+      "execution_report": "CHAPTER_15_EXECUTION.md"
+    },
+    {
+      "id": "code_076",
+      "chapter": 15,
+      "subtopic": "15.5",
+      "title": "Rules, sparse scores and symbolic models",
+      "path": "notebooks/076_Chapter_15_05_Compact_Rules_And_Dimensional_Search.ipynb",
+      "registry_anchor": "code_076",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_076",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1576,
+      "runtime_seconds": 1.488,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "finite symbolic dictionary with dimensional guards",
+        "development complexity selection and locked assessment",
+        "decision list sparse score and rule ensemble",
+        "compactness fidelity and expression limits"
+      ],
+      "execution_report": "CHAPTER_15_EXECUTION.md"
     }
   ]
 }

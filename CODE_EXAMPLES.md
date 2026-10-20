@@ -813,3 +813,59 @@ Use the [concept guide](CHAPTER_14_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** source-only procedure selection, separate site material and support shifts, frozen sensor-bias stress tests, synthetic challenge versus external field evidence.
 - **Verification:** 4 code cells, 2 figures; 1.616 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verification passed. Checked 19 October 2026. [Run evidence](CHAPTER_14_EXECUTION.md).
+
+<!-- CHAPTER_15_ENTRIES -->
+
+## Chapter 15: Linear, additive, and interpretable models
+
+Use the [concept guide](CHAPTER_15_GUIDE.md) and [actual execution evidence](CHAPTER_15_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_072"></a>
+### code_072 — Linear regression and robust alternatives
+
+- **Book home:** section 15.1.
+- **Notebook:** [072_Chapter_15_01_Losses_Residuals_And_Quantiles.ipynb](notebooks/072_Chapter_15_01_Losses_Residuals_And_Quantiles.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** least squares geometry and rank deficiency, contaminated training responses, median and conditional quantile targets, fitting versus inference assumptions.
+- **Verification:** 4 code cells, 2 figures; 1.545 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+
+<a id="code_073"></a>
+### code_073 — Generalized linear models
+
+- **Book home:** section 15.2.
+- **Notebook:** [073_Chapter_15_02_Bernoulli_Counts_And_Exposure.ipynb](notebooks/073_Chapter_15_02_Bernoulli_Counts_And_Exposure.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** Bernoulli logit versus count log-mean, exposure offset and weighted rates, Poisson mean versus overdispersion, count means are not event probabilities.
+- **Verification:** 4 code cells, 2 figures; 1.462 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+
+<a id="code_074"></a>
+### code_074 — Regularization and high-dimensional fitting
+
+- **Book home:** section 15.3.
+- **Notebook:** [074_Chapter_15_03_Correlated_Sensors_And_Shrinkage.ipynb](notebooks/074_Chapter_15_03_Correlated_Sensors_And_Shrinkage.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** Ridge Lasso ElasticNet common penalty convention, training-only standardization and development selection, correlated sensor coefficient paths, bootstrap coefficient and prediction stability.
+- **Verification:** 4 code cells, 2 figures; 1.996 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+
+<a id="code_075"></a>
+### code_075 — Additive, spline and shape-constrained models
+
+- **Book home:** section 15.4.
+- **Notebook:** [075_Chapter_15_04_Additive_Risk_And_Monotone_Load.ipynb](notebooks/075_Chapter_15_04_Additive_Risk_And_Monotone_Load.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** linear versus additive response on a fixed cohort, training-fitted spline basis and penalty selection, nonnegative monotone load increments, independent isotonic calibration and limits.
+- **Verification:** 4 code cells, 2 figures; 1.551 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+
+<a id="code_076"></a>
+### code_076 — Rules, sparse scores and symbolic models
+
+- **Book home:** section 15.5.
+- **Notebook:** [076_Chapter_15_05_Compact_Rules_And_Dimensional_Search.ipynb](notebooks/076_Chapter_15_05_Compact_Rules_And_Dimensional_Search.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** finite symbolic dictionary with dimensional guards, development complexity selection and locked assessment, decision list sparse score and rule ensemble, compactness fidelity and expression limits.
+- **Verification:** 4 code cells, 2 figures; 1.488 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
