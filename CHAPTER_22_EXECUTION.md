@@ -1,6 +1,6 @@
 # Chapter 22 execution evidence
 
-**Date:** 20 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 20 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -1755,3 +1755,7 @@ These measured observations are outside deterministic RESULTS; the vector resour
   }
 ]
 ```
+
+## Publication verification
+
+At content verification, commit `9e54c89c6718bed04da3d382b07558b9154ae54f` matched remote main and all 188 file blobs with a clean working tree. Final metadata and all seven notebooks are separately verified through commit-addressed raw files in the local delivery evidence. Only companion artifacts are published.

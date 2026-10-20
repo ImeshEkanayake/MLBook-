@@ -1230,7 +1230,7 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** whole-building tabular comparison, residual computation, actual rank-one fast-weight ensemble, numerical basis contract, named-model implementation boundaries.
 - **Verification:** 4 code cells, 2 figures; 3.985 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
 
 <a id="code_109"></a>
 ### code_109 — Convolutions for signals and structured fields
@@ -1240,7 +1240,7 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual causal Conv1d model, dilation and receptive field, spectral order invariance, whole-machine holdout, future-input perturbation audit.
 - **Verification:** 4 code cells, 2 figures; 4.404 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
 
 <a id="code_110"></a>
 ### code_110 — Recurrent and gated architectures
@@ -1250,7 +1250,7 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual RNN GRU and LSTM, irregular-time input contract, masked losses, truncated derivative history, streaming state and entity resets.
 - **Verification:** 4 code cells, 2 figures; 2.856 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
 
 <a id="code_111"></a>
 ### code_111 — Attention and transformers
@@ -1260,7 +1260,7 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** scaled dot-product attention identity, actual multihead transformer blocks, feature versus time tokens, position and padding contracts, causal future-perturbation test.
 - **Verification:** 4 code cells, 2 figures; 3.231 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
 
 <a id="code_112"></a>
 ### code_112 — State-space and recurrent-attention hybrids
@@ -1270,7 +1270,7 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual input-dependent diagonal state model, exact diagonal discretization, paired context-length assessment, reference attention comparison, untrained summary-attention hybrid contract, measured CPU inference resources.
 - **Verification:** 5 code cells, 2 figures; 21.375 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
 
 <a id="code_113"></a>
 ### code_113 — Mixture-of-experts and conditional computation
@@ -1280,7 +1280,7 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual selected-row expert execution, learned top-one routing, load-balance ablation, declared linear-MAC budget, capacity fallback and queue order.
 - **Verification:** 4 code cells, 2 figures; 2.442 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
 
 <a id="code_114"></a>
 ### code_114 — Emerging function and geometry-aware designs
@@ -1290,4 +1290,4 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual differentiable cubic edge splines, SciPy basis and gradient checks, additive spline versus composed functions, locked extrapolation test, separate rotation-invariant task.
 - **Verification:** 4 code cells, 2 figures; 3.789 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
