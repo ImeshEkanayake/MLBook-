@@ -1118,7 +1118,7 @@ Use the [concept guide](CHAPTER_20_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** centered PCA/SVD identity, nonnegative factorization, independent components, small-signal attenuation.
 - **Verification:** 4 code cells, 2 figures; 1.561 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
 
 <a id="code_099"></a>
 ### code_099 — Manifolds and nonlinear visualization
@@ -1128,7 +1128,7 @@ Use the [concept guide](CHAPTER_20_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual t-SNE and UMAP, neighborhood diagnostics, transductive visualization, new-query transforms.
 - **Verification:** 4 code cells, 2 figures; 8.489 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
 
 <a id="code_100"></a>
 ### code_100 — Embeddings for entities and relationships
@@ -1138,7 +1138,7 @@ Use the [concept guide](CHAPTER_20_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** masked matrix factorization, whole-entity holdout, inductive descriptor mapping, transductive graph coordinates.
 - **Verification:** 4 code cells, 2 figures; 1.435 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
 
 <a id="code_101"></a>
 ### code_101 — Autoencoders and reconstruction learning
@@ -1148,7 +1148,7 @@ Use the [concept guide](CHAPTER_20_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual CPU autoencoder training, denoising measurement targets, bottleneck versus identity, analytic Gaussian KL connection.
 - **Verification:** 4 code cells, 2 figures; 2.773 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
 
 <a id="code_102"></a>
 ### code_102 — Evaluating and transferring representations
@@ -1158,4 +1158,4 @@ Use the [concept guide](CHAPTER_20_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** whole-building representation assessment, frozen linear probes, actual encoder fine-tuning, invariance can remove task information.
 - **Verification:** 4 code cells, 2 figures; 3.256 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).

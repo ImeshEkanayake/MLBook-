@@ -1,6 +1,6 @@
 # Chapter 20 execution evidence
 
-**Date:** 20 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 20 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. Added pinned umap-learn 0.5.12, PyTorch 2.14.1 and ipywidgets 8.1.9 with recorded transitive dependencies, while retaining all prior numerical core versions. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_101 | 20.4 | 4 | 2 | 2.773 |
 | code_102 | 20.5 | 4 | 2 | 3.256 |
 
-Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten inline notebook figures and ten vector book figure sets were visually inspected, with current-chapter and front/reference page review completed for the accepted PDF revision.
 
 ## Actual mechanisms and boundaries
 
@@ -862,3 +862,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication verification
+
+At content verification, commit `b2e224191f8adf279971b5a856a01d24c149afb8` matched remote main and all 170 file blobs with a clean working tree. Final metadata and all five notebooks are separately verified through commit-addressed raw files in the local delivery evidence. Only companion artifacts are published.
