@@ -1438,7 +1438,7 @@ Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** native beam boundary-value solver, sparse observation operator, known-load stiffness recovery, joint load-stiffness nonidentifiability, reference refinement and sensitivity rank.
 - **Verification:** 4 code cells, 2 figures; 2.199 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
 
 <a id="code_128"></a>
 ### code_128 — Physics-informed neural network objectives
@@ -1448,7 +1448,7 @@ Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual fourth-order autograd beam residual, separate data equation and boundary terms, dimensionless residual scaling, fixed weight candidates and independent development grid, dense off-collocation validation.
 - **Verification:** 4 code cells, 2 figures; 5.655 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
 
 <a id="code_129"></a>
 ### code_129 — Constraints, conservation and architecture
@@ -1458,7 +1458,7 @@ Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual soft versus hard displacement boundary fits, independent differential residual checks, learned positive edge conductances, differentiable conservative finite-volume solve, boundary flux and interior balance identities.
 - **Verification:** 4 code cells, 2 figures; 2.996 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
 
 <a id="code_130"></a>
 ### code_130 — Neural differential equations and structured dynamics
@@ -1468,7 +1468,7 @@ Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual learned neural ODE vector field, positive mechanical stiffness and damping, differentiable RK4 and finite-difference gradient, controlled input-path integration, neural drift SDE with shared Brownian refinement.
 - **Verification:** 4 code cells, 2 figures; 2.560 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
 
 <a id="code_131"></a>
 ### code_131 — Mechanistic hybrids and multifidelity learning
@@ -1478,7 +1478,7 @@ Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** native coarse and fine mechanical solves, actual residual-correction Ridge, data-only comparison with matched case selection, differentiable positive-conductance closure, whole-case and changed-support assessment.
 - **Verification:** 4 code cells, 2 figures; 3.286 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
 
 <a id="code_132"></a>
 ### code_132 — PINN failures, validation and model choice
@@ -1488,4 +1488,4 @@ Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual low and high frequency PINN fits, matched-budget data-only references, off-collocation adversarial witness, missing-boundary nonuniqueness, native refined numerical reference.
 - **Verification:** 4 code cells, 2 figures; 4.054 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).

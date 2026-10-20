@@ -1,6 +1,6 @@
 # Chapter 25 execution evidence
 
-**Date:** 20 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 20 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -13,7 +13,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_131 | 25.5 | 4 | 2 | 3.286 |
 | code_132 | 25.6 | 4 | 2 | 4.054 |
 
-Total: **24 executed code cells and 12 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **24 executed code cells and 12 inline figures**. Current outputs contain no errors and all assertions pass. All twelve inline images and twelve original grayscale vector figures have been visually reviewed, including repaired forward/inverse and loss-assembly diagrams.
 
 ## Actual mechanisms and boundaries
 
@@ -503,3 +503,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication verification
+
+At content verification, commit `22b1f5370151283a7f3a682133dd259d992ba761` matched remote main and all 215 file blobs with a clean working tree. Final metadata and all six notebooks are separately verified through commit-addressed raw files in local delivery evidence. Only companion artifacts are published.
