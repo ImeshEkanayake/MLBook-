@@ -1291,3 +1291,69 @@ Use the [concept guide](CHAPTER_22_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual differentiable cubic edge splines, SciPy basis and gradient checks, additive spline versus composed functions, locked extrapolation test, separate rotation-invariant task.
 - **Verification:** 4 code cells, 2 figures; 3.789 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_22_EXECUTION.md).
+
+<!-- CHAPTER_23_ENTRIES -->
+
+## Chapter 23: Graph neural networks and relational learning
+
+Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHAPTER_23_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_115"></a>
+### code_115 — Graph tasks and relational baselines
+
+- **Book home:** section 23.1.
+- **Notebook:** [115_Chapter_23_01_prediction_units_and_relational_baselines.ipynb](notebooks/115_Chapter_23_01_prediction_units_and_relational_baselines.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** node versus existing-edge targets, non-neural aggregated baseline, actual shared graph encoder and task heads, whole-building holdout, whole-graph mean readout.
+- **Verification:** 4 code cells, 2 figures; 3.174 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+
+<a id="code_116"></a>
+### code_116 — Message passing and graph convolutions
+
+- **Book home:** section 23.2.
+- **Notebook:** [116_Chapter_23_02_messages_aggregation_and_graph_convolutions.ipynb](notebooks/116_Chapter_23_02_messages_aggregation_and_graph_convolutions.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** edge-feature message trace, GCN SAGE and GIN-style learned operators, two-hop derivative support, permutation and pooling identities, disconnected mini-batch contract.
+- **Verification:** 4 code cells, 2 figures; 3.176 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+
+<a id="code_117"></a>
+### code_117 — Graph attention and graph transformers
+
+- **Book home:** section 23.3.
+- **Notebook:** [117_Chapter_23_03_local_attention_and_distant_information.ipynb](notebooks/117_Chapter_23_03_local_attention_and_distant_information.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual masked graph attention, global graph attention with distance bias, distant-source derivative audit, permutation of structural encodings, oversmoothing and bottleneck fixtures.
+- **Verification:** 4 code cells, 2 figures; 4.493 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+
+<a id="code_118"></a>
+### code_118 — Heterogeneous, temporal and knowledge graphs
+
+- **Book home:** section 23.4.
+- **Notebook:** [118_Chapter_23_04_typed_relations_and_time_bounded_links.ipynb](notebooks/118_Chapter_23_04_typed_relations_and_time_bounded_links.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual relation-specific graph update, node and edge availability clocks, historical-only typed snapshot, trained typed link decoder, future-positive negative audit.
+- **Verification:** 4 code cells, 2 figures; 2.546 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+
+<a id="code_119"></a>
+### code_119 — Geometric and physical graph learning
+
+- **Book home:** section 23.5.
+- **Notebook:** [119_Chapter_23_05_coordinate_transformations_and_graph_solver.ipynb](notebooks/119_Chapter_23_05_coordinate_transformations_and_graph_solver.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual vector-valued graph propagation, learned relaxation with a known physical operator, fixed numerical and coordinate-MLP baselines, joint rotation reflection translation audits, ground-reaction equilibrium.
+- **Verification:** 4 code cells, 2 figures; 2.511 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+
+<a id="code_120"></a>
+### code_120 — Scaling, failure analysis and graph explanations
+
+- **Book home:** section 23.6.
+- **Notebook:** [120_Chapter_23_06_graph_size_sampling_and_explanation_checks.ipynb](notebooks/120_Chapter_23_06_graph_size_sampling_and_explanation_checks.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual graph-size holdout, mean versus sum aggregation transfer, uniform neighbor sampling with known degree correction, heterophily counterexample, edge-attribution fidelity and stability.
+- **Verification:** 4 code cells, 2 figures; 3.091 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).

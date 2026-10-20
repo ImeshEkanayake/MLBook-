@@ -4942,6 +4942,276 @@
         "separate rotation-invariant task"
       ],
       "execution_report": "CHAPTER_22_EXECUTION.md"
+    },
+    {
+      "id": "code_115",
+      "chapter": 23,
+      "subtopic": "23.1",
+      "title": "Graph tasks and relational baselines",
+      "path": "notebooks/115_Chapter_23_01_prediction_units_and_relational_baselines.ipynb",
+      "registry_anchor": "code_115",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_115",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2515,
+      "runtime_seconds": 3.174,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "node versus existing-edge targets",
+        "non-neural aggregated baseline",
+        "actual shared graph encoder and task heads",
+        "whole-building holdout",
+        "whole-graph mean readout"
+      ],
+      "execution_report": "CHAPTER_23_EXECUTION.md"
+    },
+    {
+      "id": "code_116",
+      "chapter": 23,
+      "subtopic": "23.2",
+      "title": "Message passing and graph convolutions",
+      "path": "notebooks/116_Chapter_23_02_messages_aggregation_and_graph_convolutions.ipynb",
+      "registry_anchor": "code_116",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_116",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2516,
+      "runtime_seconds": 3.176,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "edge-feature message trace",
+        "GCN SAGE and GIN-style learned operators",
+        "two-hop derivative support",
+        "permutation and pooling identities",
+        "disconnected mini-batch contract"
+      ],
+      "execution_report": "CHAPTER_23_EXECUTION.md"
+    },
+    {
+      "id": "code_117",
+      "chapter": 23,
+      "subtopic": "23.3",
+      "title": "Graph attention and graph transformers",
+      "path": "notebooks/117_Chapter_23_03_local_attention_and_distant_information.ipynb",
+      "registry_anchor": "code_117",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_117",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2517,
+      "runtime_seconds": 4.493,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual masked graph attention",
+        "global graph attention with distance bias",
+        "distant-source derivative audit",
+        "permutation of structural encodings",
+        "oversmoothing and bottleneck fixtures"
+      ],
+      "execution_report": "CHAPTER_23_EXECUTION.md"
+    },
+    {
+      "id": "code_118",
+      "chapter": 23,
+      "subtopic": "23.4",
+      "title": "Heterogeneous, temporal and knowledge graphs",
+      "path": "notebooks/118_Chapter_23_04_typed_relations_and_time_bounded_links.ipynb",
+      "registry_anchor": "code_118",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_118",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2518,
+      "runtime_seconds": 2.546,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual relation-specific graph update",
+        "node and edge availability clocks",
+        "historical-only typed snapshot",
+        "trained typed link decoder",
+        "future-positive negative audit"
+      ],
+      "execution_report": "CHAPTER_23_EXECUTION.md"
+    },
+    {
+      "id": "code_119",
+      "chapter": 23,
+      "subtopic": "23.5",
+      "title": "Geometric and physical graph learning",
+      "path": "notebooks/119_Chapter_23_05_coordinate_transformations_and_graph_solver.ipynb",
+      "registry_anchor": "code_119",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_119",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2519,
+      "runtime_seconds": 2.511,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual vector-valued graph propagation",
+        "learned relaxation with a known physical operator",
+        "fixed numerical and coordinate-MLP baselines",
+        "joint rotation reflection translation audits",
+        "ground-reaction equilibrium"
+      ],
+      "execution_report": "CHAPTER_23_EXECUTION.md"
+    },
+    {
+      "id": "code_120",
+      "chapter": 23,
+      "subtopic": "23.6",
+      "title": "Scaling, failure analysis and graph explanations",
+      "path": "notebooks/120_Chapter_23_06_graph_size_sampling_and_explanation_checks.ipynb",
+      "registry_anchor": "code_120",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_120",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2520,
+      "runtime_seconds": 3.091,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual graph-size holdout",
+        "mean versus sum aggregation transfer",
+        "uniform neighbor sampling with known degree correction",
+        "heterophily counterexample",
+        "edge-attribution fidelity and stability"
+      ],
+      "execution_report": "CHAPTER_23_EXECUTION.md"
     }
   ]
 }
