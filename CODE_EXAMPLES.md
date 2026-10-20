@@ -884,7 +884,7 @@ Use the [concept guide](CHAPTER_16_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** Bernoulli class prior and likelihood score, Laplace smoothing and absent indicators, duplicate conditional dependence, classification versus probability calibration.
 - **Verification:** 4 code cells, 2 figures; 1.322 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
 
 <a id="code_078"></a>
 ### code_078 — Bayesian estimation and hierarchical models
@@ -894,7 +894,7 @@ Use the [concept guide](CHAPTER_16_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** prior likelihood posterior and prediction, full hyperparameter grid integration, unequal group partial pooling, prior predictive versus future evidence.
 - **Verification:** 4 code cells, 2 figures; 1.489 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
 
 <a id="code_079"></a>
 ### code_079 — Posterior computation and model checking
@@ -904,7 +904,7 @@ Use the [concept guide](CHAPTER_16_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** conjugate conditional and joint grid reference, transformed random-walk MCMC with Jacobian, classical split Rhat and simple ESS, mean-field grid approximation and predictive criticism.
 - **Verification:** 4 code cells, 2 figures; 1.987 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
 
 <a id="code_080"></a>
 ### code_080 — Gaussian processes and scalable approximations
@@ -914,7 +914,7 @@ Use the [concept guide](CHAPTER_16_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** fixed covariance and Gaussian conditioning, latent versus observation intervals, away-from-support conditional uncertainty, low-rank prior approximation and variance loss.
 - **Verification:** 4 code cells, 2 figures; 1.867 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
 
 <a id="code_081"></a>
 ### code_081 — Graphical models and latent states
@@ -924,4 +924,4 @@ Use the [concept guide](CHAPTER_16_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** directed probability factorization and latent regimes, forward filtering versus offline smoothing and Viterbi, exact enumeration and undirected conditional independence, continuous Gaussian state-space filtering.
 - **Verification:** 4 code cells, 2 figures; 1.304 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_16_EXECUTION.md).
