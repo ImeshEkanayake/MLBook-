@@ -5488,6 +5488,276 @@
         "coverage pinball width by regime horizon and level"
       ],
       "execution_report": "CHAPTER_24_EXECUTION.md"
+    },
+    {
+      "id": "code_127",
+      "chapter": 25,
+      "subtopic": "25.1",
+      "title": "Forward, inverse and hybrid scientific tasks",
+      "path": "notebooks/127_Chapter_25_01_forward_inverse_and_identifiability.ipynb",
+      "registry_anchor": "code_127",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_127",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2927,
+      "runtime_seconds": 2.199,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "native beam boundary-value solver",
+        "sparse observation operator",
+        "known-load stiffness recovery",
+        "joint load-stiffness nonidentifiability",
+        "reference refinement and sensitivity rank"
+      ],
+      "execution_report": "CHAPTER_25_EXECUTION.md"
+    },
+    {
+      "id": "code_128",
+      "chapter": 25,
+      "subtopic": "25.2",
+      "title": "Physics-informed neural network objectives",
+      "path": "notebooks/128_Chapter_25_02_pinn_objectives_and_derivatives.ipynb",
+      "registry_anchor": "code_128",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_128",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2928,
+      "runtime_seconds": 5.655,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual fourth-order autograd beam residual",
+        "separate data equation and boundary terms",
+        "dimensionless residual scaling",
+        "fixed weight candidates and independent development grid",
+        "dense off-collocation validation"
+      ],
+      "execution_report": "CHAPTER_25_EXECUTION.md"
+    },
+    {
+      "id": "code_129",
+      "chapter": 25,
+      "subtopic": "25.3",
+      "title": "Constraints, conservation and architecture",
+      "path": "notebooks/129_Chapter_25_03_hard_constraints_and_conservation.ipynb",
+      "registry_anchor": "code_129",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_129",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2929,
+      "runtime_seconds": 2.996,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual soft versus hard displacement boundary fits",
+        "independent differential residual checks",
+        "learned positive edge conductances",
+        "differentiable conservative finite-volume solve",
+        "boundary flux and interior balance identities"
+      ],
+      "execution_report": "CHAPTER_25_EXECUTION.md"
+    },
+    {
+      "id": "code_130",
+      "chapter": 25,
+      "subtopic": "25.4",
+      "title": "Neural differential equations and structured dynamics",
+      "path": "notebooks/130_Chapter_25_04_neural_dynamics_and_solver_contracts.ipynb",
+      "registry_anchor": "code_130",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_130",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2930,
+      "runtime_seconds": 2.56,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual learned neural ODE vector field",
+        "positive mechanical stiffness and damping",
+        "differentiable RK4 and finite-difference gradient",
+        "controlled input-path integration",
+        "neural drift SDE with shared Brownian refinement"
+      ],
+      "execution_report": "CHAPTER_25_EXECUTION.md"
+    },
+    {
+      "id": "code_131",
+      "chapter": 25,
+      "subtopic": "25.5",
+      "title": "Mechanistic hybrids and multifidelity learning",
+      "path": "notebooks/131_Chapter_25_05_hybrid_and_multifidelity_learning.ipynb",
+      "registry_anchor": "code_131",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_131",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2931,
+      "runtime_seconds": 3.286,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "native coarse and fine mechanical solves",
+        "actual residual-correction Ridge",
+        "data-only comparison with matched case selection",
+        "differentiable positive-conductance closure",
+        "whole-case and changed-support assessment"
+      ],
+      "execution_report": "CHAPTER_25_EXECUTION.md"
+    },
+    {
+      "id": "code_132",
+      "chapter": 25,
+      "subtopic": "25.6",
+      "title": "PINN failures, validation and model choice",
+      "path": "notebooks/132_Chapter_25_06_pinn_failure_and_validation_audits.ipynb",
+      "registry_anchor": "code_132",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_132",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2932,
+      "runtime_seconds": 4.054,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual low and high frequency PINN fits",
+        "matched-budget data-only references",
+        "off-collocation adversarial witness",
+        "missing-boundary nonuniqueness",
+        "native refined numerical reference"
+      ],
+      "execution_report": "CHAPTER_25_EXECUTION.md"
     }
   ]
 }

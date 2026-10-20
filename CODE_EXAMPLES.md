@@ -1423,3 +1423,69 @@ Use the [concept guide](CHAPTER_24_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual all-level forecast reconciliation, calibration-only shrinkage covariance, whole-origin multi-horizon residual scenarios, coherent draws versus nonadditive marginal quantiles, coverage pinball width by regime horizon and level.
 - **Verification:** 4 code cells, 2 figures; 2.137 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_24_EXECUTION.md).
+
+<!-- CHAPTER_25_ENTRIES -->
+
+## Chapter 25: Physics-informed and hybrid learning
+
+Use the [concept guide](CHAPTER_25_GUIDE.md) and [actual execution evidence](CHAPTER_25_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_127"></a>
+### code_127 — Forward, inverse and hybrid scientific tasks
+
+- **Book home:** section 25.1.
+- **Notebook:** [127_Chapter_25_01_forward_inverse_and_identifiability.ipynb](notebooks/127_Chapter_25_01_forward_inverse_and_identifiability.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native beam boundary-value solver, sparse observation operator, known-load stiffness recovery, joint load-stiffness nonidentifiability, reference refinement and sensitivity rank.
+- **Verification:** 4 code cells, 2 figures; 2.199 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+
+<a id="code_128"></a>
+### code_128 — Physics-informed neural network objectives
+
+- **Book home:** section 25.2.
+- **Notebook:** [128_Chapter_25_02_pinn_objectives_and_derivatives.ipynb](notebooks/128_Chapter_25_02_pinn_objectives_and_derivatives.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual fourth-order autograd beam residual, separate data equation and boundary terms, dimensionless residual scaling, fixed weight candidates and independent development grid, dense off-collocation validation.
+- **Verification:** 4 code cells, 2 figures; 5.655 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+
+<a id="code_129"></a>
+### code_129 — Constraints, conservation and architecture
+
+- **Book home:** section 25.3.
+- **Notebook:** [129_Chapter_25_03_hard_constraints_and_conservation.ipynb](notebooks/129_Chapter_25_03_hard_constraints_and_conservation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual soft versus hard displacement boundary fits, independent differential residual checks, learned positive edge conductances, differentiable conservative finite-volume solve, boundary flux and interior balance identities.
+- **Verification:** 4 code cells, 2 figures; 2.996 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+
+<a id="code_130"></a>
+### code_130 — Neural differential equations and structured dynamics
+
+- **Book home:** section 25.4.
+- **Notebook:** [130_Chapter_25_04_neural_dynamics_and_solver_contracts.ipynb](notebooks/130_Chapter_25_04_neural_dynamics_and_solver_contracts.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual learned neural ODE vector field, positive mechanical stiffness and damping, differentiable RK4 and finite-difference gradient, controlled input-path integration, neural drift SDE with shared Brownian refinement.
+- **Verification:** 4 code cells, 2 figures; 2.560 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+
+<a id="code_131"></a>
+### code_131 — Mechanistic hybrids and multifidelity learning
+
+- **Book home:** section 25.5.
+- **Notebook:** [131_Chapter_25_05_hybrid_and_multifidelity_learning.ipynb](notebooks/131_Chapter_25_05_hybrid_and_multifidelity_learning.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native coarse and fine mechanical solves, actual residual-correction Ridge, data-only comparison with matched case selection, differentiable positive-conductance closure, whole-case and changed-support assessment.
+- **Verification:** 4 code cells, 2 figures; 3.286 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
+
+<a id="code_132"></a>
+### code_132 — PINN failures, validation and model choice
+
+- **Book home:** section 25.6.
+- **Notebook:** [132_Chapter_25_06_pinn_failure_and_validation_audits.ipynb](notebooks/132_Chapter_25_06_pinn_failure_and_validation_audits.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual low and high frequency PINN fits, matched-budget data-only references, off-collocation adversarial witness, missing-boundary nonuniqueness, native refined numerical reference.
+- **Verification:** 4 code cells, 2 figures; 4.054 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_25_EXECUTION.md).
