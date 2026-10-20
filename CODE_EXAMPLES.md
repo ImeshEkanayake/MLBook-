@@ -828,7 +828,7 @@ Use the [concept guide](CHAPTER_15_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** least squares geometry and rank deficiency, contaminated training responses, median and conditional quantile targets, fitting versus inference assumptions.
 - **Verification:** 4 code cells, 2 figures; 1.545 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
 
 <a id="code_073"></a>
 ### code_073 — Generalized linear models
@@ -838,7 +838,7 @@ Use the [concept guide](CHAPTER_15_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** Bernoulli logit versus count log-mean, exposure offset and weighted rates, Poisson mean versus overdispersion, count means are not event probabilities.
 - **Verification:** 4 code cells, 2 figures; 1.462 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
 
 <a id="code_074"></a>
 ### code_074 — Regularization and high-dimensional fitting
@@ -848,7 +848,7 @@ Use the [concept guide](CHAPTER_15_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** Ridge Lasso ElasticNet common penalty convention, training-only standardization and development selection, correlated sensor coefficient paths, bootstrap coefficient and prediction stability.
 - **Verification:** 4 code cells, 2 figures; 1.996 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
 
 <a id="code_075"></a>
 ### code_075 — Additive, spline and shape-constrained models
@@ -858,7 +858,7 @@ Use the [concept guide](CHAPTER_15_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** linear versus additive response on a fixed cohort, training-fitted spline basis and penalty selection, nonnegative monotone load increments, independent isotonic calibration and limits.
 - **Verification:** 4 code cells, 2 figures; 1.551 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
 
 <a id="code_076"></a>
 ### code_076 — Rules, sparse scores and symbolic models
@@ -868,4 +868,4 @@ Use the [concept guide](CHAPTER_15_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** finite symbolic dictionary with dimensional guards, development complexity selection and locked assessment, decision list sparse score and rule ensemble, compactness fidelity and expression limits.
 - **Verification:** 4 code cells, 2 figures; 1.488 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).
+- **Status:** published and executed; remote content verification passed. Checked 20 October 2026. [Run evidence](CHAPTER_15_EXECUTION.md).

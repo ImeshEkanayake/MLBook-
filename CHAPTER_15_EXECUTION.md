@@ -1,6 +1,6 @@
 # Chapter 15 execution evidence
 
-**Date:** 20 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 20 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verification passed.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_075 | 15.4 | 4 | 2 | 1.551 |
 | code_076 | 15.5 | 4 | 2 | 1.488 |
 
-Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten inline figures have been visually reviewed. Shorter panel titles repair the identified collisions; labels, shared axes and distinct line styles are clear.
 
 ## Actual mechanisms and boundaries
 
@@ -458,3 +458,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Remote content verification
+
+Content commit [8e7e6c085ba4e287dbc3921de1363c6e5ff225d3](https://github.com/ImeshEkanayake/MLBook-/commit/8e7e6c085ba4e287dbc3921de1363c6e5ff225d3) is published on main. All 129 remote blobs match the local commit and the earlier 71 manifest records are unchanged. The final metadata revision is independently verified in the local book delivery evidence, including commit-addressed raw-file bytes.
