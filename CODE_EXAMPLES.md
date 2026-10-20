@@ -1504,7 +1504,7 @@ Use the [concept guide](CHAPTER_26_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual variable-coefficient solution family, whole-problem fitting and assessment, finite-grid Ridge operator reference, independent mesh refinement, input-sensor alias nonidentifiability.
 - **Verification:** 4 code cells, 2 figures; 2.261 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
 
 <a id="code_134"></a>
 ### code_134 — DeepONet and branch--trunk representations
@@ -1514,7 +1514,7 @@ Use the [concept guide](CHAPTER_26_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual native branch-trunk inner-product network, fixed input sensors and variable output queries, supervised versus discrete physics operator objectives, whole-function development selection, higher-frequency input-support assessment.
 - **Verification:** 4 code cells, 2 figures; 3.405 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
 
 <a id="code_135"></a>
 ### code_135 — Fourier and spectral neural operators
@@ -1524,7 +1524,7 @@ Use the [concept guide](CHAPTER_26_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual native complex spectral convolution, lifting local paths and projection, same-function grid transfer without refitting, retained-mode and FFT identity checks, nonlinear aliasing and changed spectral support.
 - **Verification:** 4 code cells, 2 figures; 8.784 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
 
 <a id="code_136"></a>
 ### code_136 — Graph and geometry-aware operators
@@ -1534,7 +1534,7 @@ Use the [concept guide](CHAPTER_26_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** native triangular finite-element problem family, actual quadrature-weighted learned graph kernel, whole-mesh geometry assessment, node-permutation identity, new mesh resolution and notched domain.
 - **Verification:** 4 code cells, 2 figures; 5.540 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
 
 <a id="code_137"></a>
 ### code_137 — Surrogates, rollouts and inverse design
@@ -1544,4 +1544,4 @@ Use the [concept guide](CHAPTER_26_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual repeated learned heat-step rollout, mass-preserving projection audit, surrogate design optimization with analytic gradients, independent refined solver verification, bootstrap disagreement and actual solve counts.
 - **Verification:** 4 code cells, 2 figures; 2.300 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_26_EXECUTION.md).
