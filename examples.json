@@ -4626,6 +4626,322 @@
         "actual process peak RSS and CPU timing"
       ],
       "execution_report": "CHAPTER_21_EXECUTION.md"
+    },
+    {
+      "id": "code_108",
+      "chapter": 22,
+      "subtopic": "22.1",
+      "title": "MLPs, residual networks and tabular architectures",
+      "path": "notebooks/108_Chapter_22_01_residual_and_efficient_tabular_models.ipynb",
+      "registry_anchor": "code_108",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_108",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2308,
+      "runtime_seconds": 3.985,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "whole-building tabular comparison",
+        "residual computation",
+        "actual rank-one fast-weight ensemble",
+        "numerical basis contract",
+        "named-model implementation boundaries"
+      ],
+      "execution_report": "CHAPTER_22_EXECUTION.md"
+    },
+    {
+      "id": "code_109",
+      "chapter": 22,
+      "subtopic": "22.2",
+      "title": "Convolutions for signals and structured fields",
+      "path": "notebooks/109_Chapter_22_02_causal_convolutions_and_spectral_features.ipynb",
+      "registry_anchor": "code_109",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_109",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2309,
+      "runtime_seconds": 4.404,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual causal Conv1d model",
+        "dilation and receptive field",
+        "spectral order invariance",
+        "whole-machine holdout",
+        "future-input perturbation audit"
+      ],
+      "execution_report": "CHAPTER_22_EXECUTION.md"
+    },
+    {
+      "id": "code_110",
+      "chapter": 22,
+      "subtopic": "22.3",
+      "title": "Recurrent and gated architectures",
+      "path": "notebooks/110_Chapter_22_03_recurrent_state_and_truncated_training.ipynb",
+      "registry_anchor": "code_110",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_110",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2310,
+      "runtime_seconds": 2.856,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual RNN GRU and LSTM",
+        "irregular-time input contract",
+        "masked losses",
+        "truncated derivative history",
+        "streaming state and entity resets"
+      ],
+      "execution_report": "CHAPTER_22_EXECUTION.md"
+    },
+    {
+      "id": "code_111",
+      "chapter": 22,
+      "subtopic": "22.4",
+      "title": "Attention and transformers",
+      "path": "notebooks/111_Chapter_22_04_attention_tokens_and_access.ipynb",
+      "registry_anchor": "code_111",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_111",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2311,
+      "runtime_seconds": 3.231,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "scaled dot-product attention identity",
+        "actual multihead transformer blocks",
+        "feature versus time tokens",
+        "position and padding contracts",
+        "causal future-perturbation test"
+      ],
+      "execution_report": "CHAPTER_22_EXECUTION.md"
+    },
+    {
+      "id": "code_112",
+      "chapter": 22,
+      "subtopic": "22.5",
+      "title": "State-space and recurrent-attention hybrids",
+      "path": "notebooks/112_Chapter_22_05_selective_state_and_reference_attention.ipynb",
+      "registry_anchor": "code_112",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_112",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2312,
+      "runtime_seconds": 21.375,
+      "code_cells_executed": 5,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual input-dependent diagonal state model",
+        "exact diagonal discretization",
+        "paired context-length assessment",
+        "reference attention comparison",
+        "untrained summary-attention hybrid contract",
+        "measured CPU inference resources"
+      ],
+      "execution_report": "CHAPTER_22_EXECUTION.md"
+    },
+    {
+      "id": "code_113",
+      "chapter": 22,
+      "subtopic": "22.6",
+      "title": "Mixture-of-experts and conditional computation",
+      "path": "notebooks/113_Chapter_22_06_conditional_experts_and_capacity.ipynb",
+      "registry_anchor": "code_113",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_113",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2313,
+      "runtime_seconds": 2.442,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual selected-row expert execution",
+        "learned top-one routing",
+        "load-balance ablation",
+        "declared linear-MAC budget",
+        "capacity fallback and queue order"
+      ],
+      "execution_report": "CHAPTER_22_EXECUTION.md"
+    },
+    {
+      "id": "code_114",
+      "chapter": 22,
+      "subtopic": "22.7",
+      "title": "Emerging function and geometry-aware designs",
+      "path": "notebooks/114_Chapter_22_07_spline_edge_functions_and_geometry.ipynb",
+      "registry_anchor": "code_114",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_114",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2314,
+      "runtime_seconds": 3.789,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual differentiable cubic edge splines",
+        "SciPy basis and gradient checks",
+        "additive spline versus composed functions",
+        "locked extrapolation test",
+        "separate rotation-invariant task"
+      ],
+      "execution_report": "CHAPTER_22_EXECUTION.md"
     }
   ]
 }
