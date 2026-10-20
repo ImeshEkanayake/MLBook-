@@ -1103,3 +1103,59 @@ Use the [concept guide](CHAPTER_19_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** contemporaneous graph residual versus common-mode extremes, training-only PCA reconstruction and reference contamination, calibration thresholds sequential delay and alarm burden, selective review with unreviewed cases kept unknown.
 - **Verification:** 4 code cells, 2 figures; 1.667 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_19_EXECUTION.md).
+
+<!-- CHAPTER_20_ENTRIES -->
+
+## Chapter 20: Representation learning and dimensionality reduction
+
+Use the [concept guide](CHAPTER_20_GUIDE.md) and [actual execution evidence](CHAPTER_20_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_098"></a>
+### code_098 — Linear factorization and latent components
+
+- **Book home:** section 20.1.
+- **Notebook:** [098_Chapter_20_01_factorization_and_lost_signal.ipynb](notebooks/098_Chapter_20_01_factorization_and_lost_signal.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** centered PCA/SVD identity, nonnegative factorization, independent components, small-signal attenuation.
+- **Verification:** 4 code cells, 2 figures; 1.561 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+
+<a id="code_099"></a>
+### code_099 — Manifolds and nonlinear visualization
+
+- **Book home:** section 20.2.
+- **Notebook:** [099_Chapter_20_02_manifold_displays.ipynb](notebooks/099_Chapter_20_02_manifold_displays.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual t-SNE and UMAP, neighborhood diagnostics, transductive visualization, new-query transforms.
+- **Verification:** 4 code cells, 2 figures; 8.489 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+
+<a id="code_100"></a>
+### code_100 — Embeddings for entities and relationships
+
+- **Book home:** section 20.3.
+- **Notebook:** [100_Chapter_20_03_entity_and_graph_embeddings.ipynb](notebooks/100_Chapter_20_03_entity_and_graph_embeddings.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** masked matrix factorization, whole-entity holdout, inductive descriptor mapping, transductive graph coordinates.
+- **Verification:** 4 code cells, 2 figures; 1.435 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+
+<a id="code_101"></a>
+### code_101 — Autoencoders and reconstruction learning
+
+- **Book home:** section 20.4.
+- **Notebook:** [101_Chapter_20_04_autoencoders_and_reconstruction.ipynb](notebooks/101_Chapter_20_04_autoencoders_and_reconstruction.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual CPU autoencoder training, denoising measurement targets, bottleneck versus identity, analytic Gaussian KL connection.
+- **Verification:** 4 code cells, 2 figures; 2.773 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).
+
+<a id="code_102"></a>
+### code_102 — Evaluating and transferring representations
+
+- **Book home:** section 20.5.
+- **Notebook:** [102_Chapter_20_05_representation_transfer.ipynb](notebooks/102_Chapter_20_05_representation_transfer.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** whole-building representation assessment, frozen linear probes, actual encoder fine-tuning, invariance can remove task information.
+- **Verification:** 4 code cells, 2 figures; 3.256 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_20_EXECUTION.md).

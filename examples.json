@@ -4185,6 +4185,225 @@
         "selective review with unreviewed cases kept unknown"
       ],
       "execution_report": "CHAPTER_19_EXECUTION.md"
+    },
+    {
+      "id": "code_098",
+      "chapter": 20,
+      "subtopic": "20.1",
+      "title": "Linear factorization and latent components",
+      "path": "notebooks/098_Chapter_20_01_factorization_and_lost_signal.ipynb",
+      "registry_anchor": "code_098",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_098",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2098,
+      "runtime_seconds": 1.561,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "centered PCA/SVD identity",
+        "nonnegative factorization",
+        "independent components",
+        "small-signal attenuation"
+      ],
+      "execution_report": "CHAPTER_20_EXECUTION.md"
+    },
+    {
+      "id": "code_099",
+      "chapter": 20,
+      "subtopic": "20.2",
+      "title": "Manifolds and nonlinear visualization",
+      "path": "notebooks/099_Chapter_20_02_manifold_displays.ipynb",
+      "registry_anchor": "code_099",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_099",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numba": "0.68.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "umap": "0.5.12"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2099,
+      "runtime_seconds": 8.489,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual t-SNE and UMAP",
+        "neighborhood diagnostics",
+        "transductive visualization",
+        "new-query transforms"
+      ],
+      "execution_report": "CHAPTER_20_EXECUTION.md"
+    },
+    {
+      "id": "code_100",
+      "chapter": 20,
+      "subtopic": "20.3",
+      "title": "Embeddings for entities and relationships",
+      "path": "notebooks/100_Chapter_20_03_entity_and_graph_embeddings.ipynb",
+      "registry_anchor": "code_100",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_100",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2100,
+      "runtime_seconds": 1.435,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "masked matrix factorization",
+        "whole-entity holdout",
+        "inductive descriptor mapping",
+        "transductive graph coordinates"
+      ],
+      "execution_report": "CHAPTER_20_EXECUTION.md"
+    },
+    {
+      "id": "code_101",
+      "chapter": 20,
+      "subtopic": "20.4",
+      "title": "Autoencoders and reconstruction learning",
+      "path": "notebooks/101_Chapter_20_04_autoencoders_and_reconstruction.ipynb",
+      "registry_anchor": "code_101",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_101",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2101,
+      "runtime_seconds": 2.773,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual CPU autoencoder training",
+        "denoising measurement targets",
+        "bottleneck versus identity",
+        "analytic Gaussian KL connection"
+      ],
+      "execution_report": "CHAPTER_20_EXECUTION.md"
+    },
+    {
+      "id": "code_102",
+      "chapter": 20,
+      "subtopic": "20.5",
+      "title": "Evaluating and transferring representations",
+      "path": "notebooks/102_Chapter_20_05_representation_transfer.ipynb",
+      "registry_anchor": "code_102",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_102",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2102,
+      "runtime_seconds": 3.256,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "whole-building representation assessment",
+        "frozen linear probes",
+        "actual encoder fine-tuning",
+        "invariance can remove task information"
+      ],
+      "execution_report": "CHAPTER_20_EXECUTION.md"
     }
   ]
 }
