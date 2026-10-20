@@ -996,7 +996,7 @@ Use the [concept guide](CHAPTER_18_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** weighted impurity and actual decision paths, small label perturbation and root instability, missing routes versus unknown categories, linked original tree-control laboratory.
 - **Verification:** 4 code cells, 2 figures; 1.747 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
 
 <a id="code_088"></a>
 ### code_088 — Bagging, random forests and extra trees
@@ -1006,7 +1006,7 @@ Use the [concept guide](CHAPTER_18_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** bootstrap and randomized threshold ensembles, prediction instability and covariance, out-of-bag rows versus new entities, correlated measurements and fixed held-out comparison.
 - **Verification:** 4 code cells, 2 figures; 2.317 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
 
 <a id="code_089"></a>
 ### code_089 — Boosting and additive correction
@@ -1016,7 +1016,7 @@ Use the [concept guide](CHAPTER_18_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** manual squared-error residual correction, loss gradients versus ordinary residuals, AdaBoost weight updates, development-selected stage count.
 - **Verification:** 4 code cells, 2 figures; 1.871 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
 
 <a id="code_090"></a>
 ### code_090 — Modern boosted-tree implementations
@@ -1026,7 +1026,7 @@ Use the [concept guide](CHAPTER_18_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual XGBoost LightGBM and CatBoost execution, common group splits and equal candidate count, native categorical and numeric missing contracts, growth and leaf-count resource boundaries.
 - **Verification:** 4 code cells, 2 figures; 2.007 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
 
 <a id="code_091"></a>
 ### code_091 — Stacking, blending and hybrid ensembles
@@ -1036,7 +1036,7 @@ Use the [concept guide](CHAPTER_18_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** entire-pipeline out-of-fold base predictions, boosted tree ridge and trained neural base learners, honest holdout blending versus full-memory deployment, soft-routing candidate as a scoped mechanism.
 - **Verification:** 4 code cells, 2 figures; 1.859 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
 
 <a id="code_092"></a>
 ### code_092 — Constraints, distributions and practical tradeoffs
@@ -1046,4 +1046,4 @@ Use the [concept guide](CHAPTER_18_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** monotonic and additive interaction constraints, separate mean and quantile loss targets, coverage crossings and support challenges, version-specific tree-array resource ledger.
 - **Verification:** 4 code cells, 2 figures; 1.819 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_18_EXECUTION.md).

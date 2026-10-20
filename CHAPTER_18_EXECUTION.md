@@ -1,6 +1,6 @@
 # Chapter 18 execution evidence
 
-**Date:** 20 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 20 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. Chapter18 adds pinned CPU XGBoost3.4.1,LightGBM4.7.0,CatBoost1.2.10 and their graphviz/plotly dependencies; core package versions remain unchanged. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -14,7 +14,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_091 | 18.5 | 4 | 2 | 1.859 |
 | code_092 | 18.6 | 4 | 2 | 1.819 |
 
-New laboratories: **24 executed code cells and12inline figures**. Including the preserved original code_001rerun: **45executed code cells and31inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+New laboratories: **24 executed code cells and12inline figures**. Including the preserved original code_001rerun: **45executed code cells and31inline figures**. Current outputs contain no errors and all assertions pass. All twelve new inline figures and nineteen preserved-original figures have been visually reviewed; the book review also inspects vector figures and composed pages.
 
 ## Actual mechanisms and boundaries
 
@@ -668,3 +668,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication verification
+
+Content commit `13e77f47c19f53e0e97174994ef9540003df4f27` matches remote main and all154file blobs. The companion working tree was clean at that content check. Final metadata and all seven chapter notebooks are separately verified through commit-addressed raw files in local delivery evidence. Original code001notebook and manifest bytes remain unchanged.
