@@ -5212,6 +5212,282 @@
         "edge-attribution fidelity and stability"
       ],
       "execution_report": "CHAPTER_23_EXECUTION.md"
+    },
+    {
+      "id": "code_121",
+      "chapter": 24,
+      "subtopic": "24.1",
+      "title": "Forecasting tasks, horizons and baselines",
+      "path": "notebooks/121_Chapter_24_01_forecast_origins_and_demand_baselines.ipynb",
+      "registry_anchor": "code_121",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_121",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2721,
+      "runtime_seconds": 2.271,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual temporal forecast contract",
+        "persistence and seasonal references",
+        "local versus shared direct Ridge",
+        "recursive forecast with predicted lags",
+        "weather-prefix and future-target access audits"
+      ],
+      "execution_report": "CHAPTER_24_EXECUTION.md"
+    },
+    {
+      "id": "code_122",
+      "chapter": 24,
+      "subtopic": "24.2",
+      "title": "Classical forecasting and latent dynamics",
+      "path": "notebooks/122_Chapter_24_02_classical_forecasts_and_filtered_dynamics.ipynb",
+      "registry_anchor": "code_122",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_122",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2722,
+      "runtime_seconds": 3.889,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "native seasonal exponential smoothing",
+        "native ARIMA and dynamic regression",
+        "lag regression and vector autoregression",
+        "native structural state-space filtering",
+        "future-sensitive smoothing audit"
+      ],
+      "execution_report": "CHAPTER_24_EXECUTION.md"
+    },
+    {
+      "id": "code_123",
+      "chapter": 24,
+      "subtopic": "24.3",
+      "title": "Machine learning and neural forecasting",
+      "path": "notebooks/123_Chapter_24_03_lag_boosting_and_neural_multi_horizon_forecasts.ipynb",
+      "registry_anchor": "code_123",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_123",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2723,
+      "runtime_seconds": 15.948,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "native lag-feature histogram boosting",
+        "actual GRU causal TCN and attention forecasts",
+        "actual nonoverlapping patch tokens",
+        "common multi-horizon information budget",
+        "development checkpoint and horizon-specific errors"
+      ],
+      "execution_report": "CHAPTER_24_EXECUTION.md"
+    },
+    {
+      "id": "code_124",
+      "chapter": 24,
+      "subtopic": "24.4",
+      "title": "Irregular signals and event sequences",
+      "path": "notebooks/124_Chapter_24_04_sampling_irregular_observations_and_alarm_intensity.ipynb",
+      "registry_anchor": "code_124",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_124",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2724,
+      "runtime_seconds": 2.46,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual polyphase anti-alias filtering",
+        "offline interpolation versus causal previous hold",
+        "exposure-weighted Poisson intensity fit",
+        "actual event-time likelihood with censored tail",
+        "time-rescaled event-gap diagnostics"
+      ],
+      "execution_report": "CHAPTER_24_EXECUTION.md"
+    },
+    {
+      "id": "code_125",
+      "chapter": 24,
+      "subtopic": "24.5",
+      "title": "Spatial and spatiotemporal dependencies",
+      "path": "notebooks/125_Chapter_24_05_shared_temporal_models_and_held_region.ipynb",
+      "registry_anchor": "code_125",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_125",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2725,
+      "runtime_seconds": 6.554,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "native spatial Gaussian-process reference",
+        "actual shared GRU and graph-GRU forecasts",
+        "known geometry versus unavailable regional measurements",
+        "common forecast origins and planned moving loads",
+        "source and regional horizon assessment"
+      ],
+      "execution_report": "CHAPTER_24_EXECUTION.md"
+    },
+    {
+      "id": "code_126",
+      "chapter": 24,
+      "subtopic": "24.6",
+      "title": "Probabilistic, hierarchical and regime-aware forecasts",
+      "path": "notebooks/126_Chapter_24_06_coherent_trajectories_quantiles_and_regimes.ipynb",
+      "registry_anchor": "code_126",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_126",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 2726,
+      "runtime_seconds": 2.137,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual all-level forecast reconciliation",
+        "calibration-only shrinkage covariance",
+        "whole-origin multi-horizon residual scenarios",
+        "coherent draws versus nonadditive marginal quantiles",
+        "coverage pinball width by regime horizon and level"
+      ],
+      "execution_report": "CHAPTER_24_EXECUTION.md"
     }
   ]
 }

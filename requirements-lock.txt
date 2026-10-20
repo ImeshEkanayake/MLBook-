@@ -73,3 +73,10 @@ umap-learn==0.5.12
 wcwidth==0.9.2
 widgetsnbextension==4.0.16
 xgboost==3.4.1
+
+# Chapter24 native forecasting additions; prior installed versions unchanged.
+formulaic==1.2.2
+interface-meta==2.0.1
+patsy==1.0.3
+statsmodels==0.15.0
+wrapt==2.5.1

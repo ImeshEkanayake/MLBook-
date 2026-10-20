@@ -17,3 +17,11 @@ catboost==1.2.10
 umap-learn==0.5.12
 torch==2.14.1
 ipywidgets==8.1.9
+
+# Chapter24 classical forecasting; all releases predate the book cutoff.
+statsmodels==0.15.0
+# Stable transitive pins avoid automatically selecting a prerelease.
+patsy==1.0.3
+formulaic==1.2.2
+interface-meta==2.0.1
+wrapt==2.5.1

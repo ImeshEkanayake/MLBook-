@@ -1357,3 +1357,69 @@ Use the [concept guide](CHAPTER_23_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual graph-size holdout, mean versus sum aggregation transfer, uniform neighbor sampling with known degree correction, heterophily counterexample, edge-attribution fidelity and stability.
 - **Verification:** 4 code cells, 2 figures; 3.091 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 20 October 2026. [Run evidence](CHAPTER_23_EXECUTION.md).
+
+<!-- CHAPTER_24_ENTRIES -->
+
+## Chapter 24: Time-series and spatiotemporal learning
+
+Use the [concept guide](CHAPTER_24_GUIDE.md) and [actual execution evidence](CHAPTER_24_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_121"></a>
+### code_121 — Forecasting tasks, horizons and baselines
+
+- **Book home:** section 24.1.
+- **Notebook:** [121_Chapter_24_01_forecast_origins_and_demand_baselines.ipynb](notebooks/121_Chapter_24_01_forecast_origins_and_demand_baselines.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual temporal forecast contract, persistence and seasonal references, local versus shared direct Ridge, recursive forecast with predicted lags, weather-prefix and future-target access audits.
+- **Verification:** 4 code cells, 2 figures; 2.271 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_24_EXECUTION.md).
+
+<a id="code_122"></a>
+### code_122 — Classical forecasting and latent dynamics
+
+- **Book home:** section 24.2.
+- **Notebook:** [122_Chapter_24_02_classical_forecasts_and_filtered_dynamics.ipynb](notebooks/122_Chapter_24_02_classical_forecasts_and_filtered_dynamics.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native seasonal exponential smoothing, native ARIMA and dynamic regression, lag regression and vector autoregression, native structural state-space filtering, future-sensitive smoothing audit.
+- **Verification:** 4 code cells, 2 figures; 3.889 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_24_EXECUTION.md).
+
+<a id="code_123"></a>
+### code_123 — Machine learning and neural forecasting
+
+- **Book home:** section 24.3.
+- **Notebook:** [123_Chapter_24_03_lag_boosting_and_neural_multi_horizon_forecasts.ipynb](notebooks/123_Chapter_24_03_lag_boosting_and_neural_multi_horizon_forecasts.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native lag-feature histogram boosting, actual GRU causal TCN and attention forecasts, actual nonoverlapping patch tokens, common multi-horizon information budget, development checkpoint and horizon-specific errors.
+- **Verification:** 4 code cells, 2 figures; 15.948 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_24_EXECUTION.md).
+
+<a id="code_124"></a>
+### code_124 — Irregular signals and event sequences
+
+- **Book home:** section 24.4.
+- **Notebook:** [124_Chapter_24_04_sampling_irregular_observations_and_alarm_intensity.ipynb](notebooks/124_Chapter_24_04_sampling_irregular_observations_and_alarm_intensity.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual polyphase anti-alias filtering, offline interpolation versus causal previous hold, exposure-weighted Poisson intensity fit, actual event-time likelihood with censored tail, time-rescaled event-gap diagnostics.
+- **Verification:** 4 code cells, 2 figures; 2.460 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_24_EXECUTION.md).
+
+<a id="code_125"></a>
+### code_125 — Spatial and spatiotemporal dependencies
+
+- **Book home:** section 24.5.
+- **Notebook:** [125_Chapter_24_05_shared_temporal_models_and_held_region.ipynb](notebooks/125_Chapter_24_05_shared_temporal_models_and_held_region.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native spatial Gaussian-process reference, actual shared GRU and graph-GRU forecasts, known geometry versus unavailable regional measurements, common forecast origins and planned moving loads, source and regional horizon assessment.
+- **Verification:** 4 code cells, 2 figures; 6.554 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_24_EXECUTION.md).
+
+<a id="code_126"></a>
+### code_126 — Probabilistic, hierarchical and regime-aware forecasts
+
+- **Book home:** section 24.6.
+- **Notebook:** [126_Chapter_24_06_coherent_trajectories_quantiles_and_regimes.ipynb](notebooks/126_Chapter_24_06_coherent_trajectories_quantiles_and_regimes.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual all-level forecast reconciliation, calibration-only shrinkage covariance, whole-origin multi-horizon residual scenarios, coherent draws versus nonadditive marginal quantiles, coverage pinball width by regime horizon and level.
+- **Verification:** 4 code cells, 2 figures; 2.137 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 20 October 2026. [Run evidence](CHAPTER_24_EXECUTION.md).
