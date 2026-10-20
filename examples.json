@@ -3970,6 +3970,221 @@
         "version-specific tree-array resource ledger"
       ],
       "execution_report": "CHAPTER_18_EXECUTION.md"
+    },
+    {
+      "id": "code_093",
+      "chapter": 19,
+      "subtopic": "19.1",
+      "title": "Centroid and mixture-based clustering",
+      "path": "notebooks/093_Chapter_19_01_Centroids_Medoids_And_Mixture_Responsibilities.ipynb",
+      "registry_anchor": "code_093",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_093",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1993,
+      "runtime_seconds": 1.773,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "Euclidean centroid versus observed-case medoid objectives",
+        "full versus spherical mixture assumptions",
+        "unit scaling and initialization sensitivity",
+        "model responsibilities versus external regime evidence"
+      ],
+      "execution_report": "CHAPTER_19_EXECUTION.md"
+    },
+    {
+      "id": "code_094",
+      "chapter": 19,
+      "subtopic": "19.2",
+      "title": "Hierarchical, density and graph clustering",
+      "path": "notebooks/094_Chapter_19_02_Shapes_Densities_And_Connectivity.ipynb",
+      "registry_anchor": "code_094",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_094",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1994,
+      "runtime_seconds": 1.66,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "same-point centroid hierarchy density and spectral partitions",
+        "native HDBSCAN density hierarchy",
+        "noise labels and scale controls",
+        "boundary sensitivity without comparing arbitrary label IDs"
+      ],
+      "execution_report": "CHAPTER_19_EXECUTION.md"
+    },
+    {
+      "id": "code_095",
+      "chapter": 19,
+      "subtopic": "19.3",
+      "title": "Evaluating discovered groups",
+      "path": "notebooks/095_Chapter_19_03_Stability_Separation_And_Downstream_Utility.ipynb",
+      "registry_anchor": "code_095",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_095",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1995,
+      "runtime_seconds": 1.86,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "internal separation versus external agreement",
+        "training-only clustering in downstream prediction",
+        "sensor resampling and permutation-invariant stability",
+        "development selection without final interpretation tuning"
+      ],
+      "execution_report": "CHAPTER_19_EXECUTION.md"
+    },
+    {
+      "id": "code_096",
+      "chapter": 19,
+      "subtopic": "19.4",
+      "title": "Point anomalies, novelty and density scores",
+      "path": "notebooks/096_Chapter_19_04_Reference_Scores_And_Valid_Rarity.ipynb",
+      "registry_anchor": "code_096",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_096",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1996,
+      "runtime_seconds": 1.765,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "marginal versus joint unusualness",
+        "robust covariance isolation local density and one-class boundaries",
+        "LOF novelty-only scoring contract",
+        "calibration thresholds versus rare valid observations"
+      ],
+      "execution_report": "CHAPTER_19_EXECUTION.md"
+    },
+    {
+      "id": "code_097",
+      "chapter": 19,
+      "subtopic": "19.5",
+      "title": "Contextual and structured anomalies",
+      "path": "notebooks/097_Chapter_19_05_Graph_Context_Sequence_And_Alarm_Burden.ipynb",
+      "registry_anchor": "code_097",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_097",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-20",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 1997,
+      "runtime_seconds": 1.667,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "contemporaneous graph residual versus common-mode extremes",
+        "training-only PCA reconstruction and reference contamination",
+        "calibration thresholds sequential delay and alarm burden",
+        "selective review with unreviewed cases kept unknown"
+      ],
+      "execution_report": "CHAPTER_19_EXECUTION.md"
     }
   ]
 }
