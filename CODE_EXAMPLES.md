@@ -1931,3 +1931,59 @@ Use the [concept guide](CHAPTER_32_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** original five-tuple Gymnasium-style environment with explicit observed clock, actual feasible-action shields using trusted independent storage measurement, normal dropout demand-shift and efficiency-mismatch stress scenarios, nominal versus bounded-uncertainty robust projection and fallback, termination versus external truncation bootstrap tests and early-failure accounting.
 - **Verification:** 4 code cells, 2 figures; 2.177 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_32_EXECUTION.md).
+
+<!-- CHAPTER_33_ENTRIES -->
+
+## Chapter 33: Causal learning and intervention
+
+Use the [concept guide](CHAPTER_33_GUIDE.md) and [actual execution evidence](CHAPTER_33_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_173"></a>
+### code_173 — Causal questions and estimands
+
+- **Book home:** section 33.1.
+- **Notebook:** [173_Chapter_33_01_causal_questions_estimands_and_selection.ipynb](notebooks/173_Chapter_33_01_causal_questions_estimands_and_selection.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** explicit potential outcomes for a defined inspection plus repair policy, observational assignment randomized assignment and simulator-only audit truth, ATE ATT target-population and time-window distinctions, selection changes the target estimand, intervention graph cuts assignment rather than predicting a group risk.
+- **Verification:** 4 code cells, 2 figures; 2.047 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_33_EXECUTION.md).
+
+<a id="code_174"></a>
+### code_174 — Identification and study design
+
+- **Book home:** section 33.2.
+- **Notebook:** [174_Chapter_33_02_identification_design_and_bad_controls.ipynb](notebooks/174_Chapter_33_02_identification_design_and_bad_controls.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual repeated confounder mediator and collider structural simulations, randomized treatment control and declared total versus direct effects, observed regression adjustment can remove or introduce bias, structural positivity failure diagnosed by load regions, three defined DAGs with proposed adjustment sets.
+- **Verification:** 4 code cells, 2 figures; 2.071 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_33_EXECUTION.md).
+
+<a id="code_175"></a>
+### code_175 — Effect estimation with machine learning
+
+- **Book home:** section 33.3.
+- **Notebook:** [175_Chapter_33_03_cross_fitting_matching_weighting_and_heterogeneity.ipynb](notebooks/175_Chapter_33_03_cross_fitting_matching_weighting_and_heterogeneity.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual regression adjustment propensity matching IPW and cross-fitted AIPW, five held-out nuisance folds with explicit misspecification contrasts, overlap clipping balance arm-specific effective sample sizes and matching retention, distinct ATE and retained-treated ATT targets, original pseudo-outcome effect learner with independent assessment and minimum support.
+- **Verification:** 4 code cells, 2 figures; 2.627 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_33_EXECUTION.md).
+
+<a id="code_176"></a>
+### code_176 — Causal discovery and dynamical relationships
+
+- **Book home:** section 33.4.
+- **Notebook:** [176_Chapter_33_04_causal_discovery_equivalence_and_temporal_prediction.ipynb](notebooks/176_Chapter_33_04_causal_discovery_equivalence_and_temporal_prediction.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual Gaussian conditional-correlation skeleton tests, all 25 three-node DAGs scored with free-variance Gaussian BIC, Markov-equivalent orientations retained, held-out nonlinear additive-noise regression and kernel residual-dependence permutation tests, temporal predictive gain under a hidden common cause separated from intervention effect.
+- **Verification:** 4 code cells, 2 figures; 2.139 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_33_EXECUTION.md).
+
+<a id="code_177"></a>
+### code_177 — Counterfactuals, interventions and sensitivity
+
+- **Book home:** section 33.5.
+- **Notebook:** [177_Chapter_33_05_counterfactual_interventions_and_transport_sensitivity.ipynb](notebooks/177_Chapter_33_05_counterfactual_interventions_and_transport_sensitivity.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** explicit structural abduction action prediction with fixed exogenous residual, observational recourse contrasted with true structural load effect and feasibility, known-equation beam inverse scenario with units, hidden-confounding sensitivity can change an effect sign, covariate-shift transport versus changed response mechanism on independent targets.
+- **Verification:** 4 code cells, 2 figures; 1.977 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_33_EXECUTION.md).

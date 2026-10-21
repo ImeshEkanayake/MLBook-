@@ -8226,6 +8226,231 @@
         "termination versus external truncation bootstrap tests and early-failure accounting"
       ],
       "execution_report": "CHAPTER_32_EXECUTION.md"
+    },
+    {
+      "id": "code_173",
+      "chapter": 33,
+      "subtopic": "33.1",
+      "title": "Causal questions and estimands",
+      "path": "notebooks/173_Chapter_33_01_causal_questions_estimands_and_selection.ipynb",
+      "registry_anchor": "code_173",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_173",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 6473,
+      "runtime_seconds": 2.047,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "explicit potential outcomes for a defined inspection plus repair policy",
+        "observational assignment randomized assignment and simulator-only audit truth",
+        "ATE ATT target-population and time-window distinctions",
+        "selection changes the target estimand",
+        "intervention graph cuts assignment rather than predicting a group risk"
+      ],
+      "execution_report": "CHAPTER_33_EXECUTION.md"
+    },
+    {
+      "id": "code_174",
+      "chapter": 33,
+      "subtopic": "33.2",
+      "title": "Identification and study design",
+      "path": "notebooks/174_Chapter_33_02_identification_design_and_bad_controls.ipynb",
+      "registry_anchor": "code_174",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_174",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 6474,
+      "runtime_seconds": 2.071,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual repeated confounder mediator and collider structural simulations",
+        "randomized treatment control and declared total versus direct effects",
+        "observed regression adjustment can remove or introduce bias",
+        "structural positivity failure diagnosed by load regions",
+        "three defined DAGs with proposed adjustment sets"
+      ],
+      "execution_report": "CHAPTER_33_EXECUTION.md"
+    },
+    {
+      "id": "code_175",
+      "chapter": 33,
+      "subtopic": "33.3",
+      "title": "Effect estimation with machine learning",
+      "path": "notebooks/175_Chapter_33_03_cross_fitting_matching_weighting_and_heterogeneity.ipynb",
+      "registry_anchor": "code_175",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_175",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 6475,
+      "runtime_seconds": 2.627,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual regression adjustment propensity matching IPW and cross-fitted AIPW",
+        "five held-out nuisance folds with explicit misspecification contrasts",
+        "overlap clipping balance arm-specific effective sample sizes and matching retention",
+        "distinct ATE and retained-treated ATT targets",
+        "original pseudo-outcome effect learner with independent assessment and minimum support"
+      ],
+      "execution_report": "CHAPTER_33_EXECUTION.md"
+    },
+    {
+      "id": "code_176",
+      "chapter": 33,
+      "subtopic": "33.4",
+      "title": "Causal discovery and dynamical relationships",
+      "path": "notebooks/176_Chapter_33_04_causal_discovery_equivalence_and_temporal_prediction.ipynb",
+      "registry_anchor": "code_176",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_176",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 6476,
+      "runtime_seconds": 2.139,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual Gaussian conditional-correlation skeleton tests",
+        "all 25 three-node DAGs scored with free-variance Gaussian BIC",
+        "Markov-equivalent orientations retained",
+        "held-out nonlinear additive-noise regression and kernel residual-dependence permutation tests",
+        "temporal predictive gain under a hidden common cause separated from intervention effect"
+      ],
+      "execution_report": "CHAPTER_33_EXECUTION.md"
+    },
+    {
+      "id": "code_177",
+      "chapter": 33,
+      "subtopic": "33.5",
+      "title": "Counterfactuals, interventions and sensitivity",
+      "path": "notebooks/177_Chapter_33_05_counterfactual_interventions_and_transport_sensitivity.ipynb",
+      "registry_anchor": "code_177",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_177",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 6477,
+      "runtime_seconds": 1.977,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "explicit structural abduction action prediction with fixed exogenous residual",
+        "observational recourse contrasted with true structural load effect and feasibility",
+        "known-equation beam inverse scenario with units",
+        "hidden-confounding sensitivity can change an effect sign",
+        "covariate-shift transport versus changed response mechanism on independent targets"
+      ],
+      "execution_report": "CHAPTER_33_EXECUTION.md"
     }
   ]
 }
