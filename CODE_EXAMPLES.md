@@ -2043,3 +2043,59 @@ Use the [concept guide](CHAPTER_34_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** native proportional-odds ordered likelihood versus nominal and rounded controls, actual Poisson negative-binomial and zero-inflated negative-binomial fitting, separate source calibration threshold selection and final rare-event roles, native conditional quantile fitting with crossing coverage and pinball checks, distributional zero and tail assessment without latent-class certainty.
 - **Verification:** 5 code cells, 3 figures; 2.551 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified 22 October 2026. Kernel runs checked 21 October 2026. [Run evidence](CHAPTER_34_EXECUTION.md).
+
+<!-- CHAPTER_35_ENTRIES -->
+
+## Chapter 35: Training strategies, tuning, and AutoML
+
+Use the [concept guide](CHAPTER_35_GUIDE.md) and [actual execution evidence](CHAPTER_35_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_183"></a>
+### code_183 — Hyperparameters and search spaces
+
+- **Book home:** section 35.1.
+- **Notebook:** [183_Chapter_35_01_conditional_search_spaces_and_fitted_parameters.ipynb](notebooks/183_Chapter_35_01_conditional_search_spaces_and_fitted_parameters.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual conditional boosting and neural search configurations, family-specific logarithmic learning-rate and regularization ranges, source-only missing-value and scaling fits, development-only model selection with one final locked assessment, explicit different tree and neural update allocations.
+- **Verification:** 4 code cells, 2 figures; 2.833 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+
+<a id="code_184"></a>
+### code_184 — Search, early stopping and resource allocation
+
+- **Book home:** section 35.2.
+- **Notebook:** [184_Chapter_35_02_bayesian_halving_hyperband_and_population_search.ipynb](notebooks/184_Chapter_35_02_bayesian_halving_hyperband_and_population_search.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual random and Gaussian-process expected-improvement search, actual successive halving and Hyperband bracket allocation, explicit restart cost with a common 432-update ceiling, actual synchronous population weight and optimizer transfer with rate mutation, locked final assessment and actual elimination visual.
+- **Verification:** 4 code cells, 2 figures; 3.287 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+
+<a id="code_185"></a>
+### code_185 — Model and architecture selection
+
+- **Book home:** section 35.3.
+- **Notebook:** [185_Chapter_35_03_staged_family_architecture_and_foundation_selection.ipynb](notebooks/185_Chapter_35_03_staged_family_architecture_and_foundation_selection.ipynb).
+- **Data/dependencies:** generated cohort plus the explicit frozen TabPFN v2 checkpoint; acquire and verify once using the [asset guide](CHAPTER_35_ASSETS.md), then run offline on CPU; [main pins](requirements-lock.txt).
+- **Scope:** actual linear tree neural and pinned TabPFN v2 family screening, conditional shortlist tuning of representations and architectures, source-only learned preprocessing and frozen pretrained weights, actual development-fitted convex ensemble with locked final assessment, explicit immutable external checkpoint verification and offline inference.
+- **Verification:** 4 code cells, 2 figures; 3.950 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+
+<a id="code_186"></a>
+### code_186 — AutoML and automated workflows
+
+- **Book home:** section 35.4.
+- **Notebook:** [186_Chapter_35_04_native_automl_budget_and_auditable_workflow.ipynb](notebooks/186_Chapter_35_04_native_automl_budget_and_auditable_workflow.ipynb).
+- **Data/dependencies:** generated locally, offline CPU; use the dedicated Python 3.12 [runtime guide](CHAPTER_35_RUNTIME.md) and [81-package pins](requirements-chapter35-lock.txt).
+- **Scope:** actual native AutoGluon LightGBM random forest neural and weighted ensemble fitting, source-prefitted native feature generator with fit-call audit, same grouped data roles and fifteen-second ceilings for manual and AutoML, freshly measured resource observations outside deterministic scientific results, explicit proposal validator distinguished from an executed language-model agent.
+- **Verification:** 4 code cells, 2 figures; 2.825 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+
+<a id="code_187"></a>
+### code_187 — Selection bias, reporting and final refitting
+
+- **Book home:** section 35.5.
+- **Notebook:** [187_Chapter_35_05_nested_selection_refitting_and_reused_test_bias.ipynb](notebooks/187_Chapter_35_05_nested_selection_refitting_and_reused_test_bias.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual grouped inner selection of depth rate and stopping checkpoint, outer evaluation with source-only preprocessing and executed fixed-budget refits, whole-source inner selection followed by locked independent final assessment, repeated equal-risk predictor selection showing reused-score optimism, nested information-boundary diagram with actual building counts.
+- **Verification:** 4 code cells, 3 figures; 2.584 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).

@@ -8678,6 +8678,254 @@
         "distributional zero and tail assessment without latent-class certainty"
       ],
       "execution_report": "CHAPTER_34_EXECUTION.md"
+    },
+    {
+      "id": "code_183",
+      "chapter": 35,
+      "subtopic": "35.1",
+      "title": "Hyperparameters and search spaces",
+      "path": "notebooks/183_Chapter_35_01_conditional_search_spaces_and_fitted_parameters.ipynb",
+      "registry_anchor": "code_183",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_183",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "runtime_downloads_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7683,
+      "runtime_seconds": 2.833,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual conditional boosting and neural search configurations",
+        "family-specific logarithmic learning-rate and regularization ranges",
+        "source-only missing-value and scaling fits",
+        "development-only model selection with one final locked assessment",
+        "explicit different tree and neural update allocations"
+      ],
+      "execution_report": "CHAPTER_35_EXECUTION.md"
+    },
+    {
+      "id": "code_184",
+      "chapter": 35,
+      "subtopic": "35.2",
+      "title": "Search, early stopping and resource allocation",
+      "path": "notebooks/184_Chapter_35_02_bayesian_halving_hyperband_and_population_search.ipynb",
+      "registry_anchor": "code_184",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_184",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "runtime_downloads_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7684,
+      "runtime_seconds": 3.287,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual random and Gaussian-process expected-improvement search",
+        "actual successive halving and Hyperband bracket allocation",
+        "explicit restart cost with a common 432-update ceiling",
+        "actual synchronous population weight and optimizer transfer with rate mutation",
+        "locked final assessment and actual elimination visual"
+      ],
+      "execution_report": "CHAPTER_35_EXECUTION.md"
+    },
+    {
+      "id": "code_185",
+      "chapter": 35,
+      "subtopic": "35.3",
+      "title": "Model and architecture selection",
+      "path": "notebooks/185_Chapter_35_03_staged_family_architecture_and_foundation_selection.ipynb",
+      "registry_anchor": "code_185",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_185",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching cohort plus explicit frozen TabPFN v2 pretrained weights; source-context labels only",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "asset_manifest": "CHAPTER_35_ASSET_MANIFEST.json",
+        "acquisition_guide": "CHAPTER_35_ASSETS.md",
+        "checkpoint_assets": [
+          {
+            "repository": "Prior-Labs/TabPFN-v2-clf",
+            "revision": "f851f2a3c941544733b712d8c0f96dfae9b28862",
+            "filename": "tabpfn-v2-classifier-v2_default.ckpt",
+            "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+            "bytes": 29009539,
+            "cache_relative_path": "build/model-cache/models--Prior-Labs--TabPFN-v2-clf/snapshots/f851f2a3c941544733b712d8c0f96dfae9b28862/tabpfn-v2-classifier-v2_default.ckpt",
+            "licence_notice": "notices/TABPFN_V2_LICENSE.txt"
+          }
+        ]
+      },
+      "tested_versions": {
+        "huggingface-hub": "1.33.0",
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "tabpfn": "9.2.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7685,
+      "runtime_seconds": 3.95,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual linear tree neural and pinned TabPFN v2 family screening",
+        "conditional shortlist tuning of representations and architectures",
+        "source-only learned preprocessing and frozen pretrained weights",
+        "actual development-fitted convex ensemble with locked final assessment",
+        "explicit immutable external checkpoint verification and offline inference"
+      ],
+      "execution_report": "CHAPTER_35_EXECUTION.md"
+    },
+    {
+      "id": "code_186",
+      "chapter": 35,
+      "subtopic": "35.4",
+      "title": "AutoML and automated workflows",
+      "path": "notebooks/186_Chapter_35_04_native_automl_budget_and_auditable_workflow.ipynb",
+      "registry_anchor": "code_186",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_186",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "runtime_downloads_required": false
+      },
+      "tested_versions": {
+        "autogluon.tabular": "1.6.3",
+        "lightgbm": "4.7.0",
+        "matplotlib": "3.11.2",
+        "numpy": "2.5.4",
+        "pandas": "2.3.3",
+        "python": "3.12.13",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements-chapter35.txt",
+        "requirements-chapter35-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7686,
+      "runtime_seconds": 2.825,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual native AutoGluon LightGBM random forest neural and weighted ensemble fitting",
+        "source-prefitted native feature generator with fit-call audit",
+        "same grouped data roles and fifteen-second ceilings for manual and AutoML",
+        "freshly measured resource observations outside deterministic scientific results",
+        "explicit proposal validator distinguished from an executed language-model agent"
+      ],
+      "execution_report": "CHAPTER_35_EXECUTION.md",
+      "runtime_guide": "CHAPTER_35_RUNTIME.md"
+    },
+    {
+      "id": "code_187",
+      "chapter": 35,
+      "subtopic": "35.5",
+      "title": "Selection bias, reporting and final refitting",
+      "path": "notebooks/187_Chapter_35_05_nested_selection_refitting_and_reused_test_bias.ipynb",
+      "registry_anchor": "code_187",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_187",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "runtime_downloads_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7687,
+      "runtime_seconds": 2.584,
+      "code_cells_executed": 4,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "actual grouped inner selection of depth rate and stopping checkpoint",
+        "outer evaluation with source-only preprocessing and executed fixed-budget refits",
+        "whole-source inner selection followed by locked independent final assessment",
+        "repeated equal-risk predictor selection showing reused-score optimism",
+        "nested information-boundary diagram with actual building counts"
+      ],
+      "execution_report": "CHAPTER_35_EXECUTION.md"
     }
   ]
 }

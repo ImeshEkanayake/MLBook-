@@ -1,0 +1,13 @@
+# Chapter35.4 native AutoGluon CPU teaching environment; CPython3.12.13.
+# Separate from main requirements and Chapter30. All releases predate19October2026UTC.
+autogluon.tabular[lightgbm]==1.6.3
+numpy==2.5.4
+scipy==1.18.1
+pandas==2.3.3
+matplotlib==3.11.2
+scikit-learn==1.9.1
+torch==2.14.1
+lightgbm==4.7.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
