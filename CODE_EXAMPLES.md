@@ -1748,7 +1748,7 @@ Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
 - **Scope:** actual pinned instruction-LLM prediction from bounded generated states, units and explicit choice-rule serialization, free generation versus conditional allowed-label projection, syntax correctness and probability mass measured separately, frozen weights and evidence-only field handling.
 - **Verification:** 4 code cells, 2 figures; 7.621 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
 
 <a id="code_156"></a>
 ### code_156 — Prompting, context and adaptation
@@ -1758,7 +1758,7 @@ Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
 - **Scope:** actual fixed-checkpoint prompt comparison on unseen building groups, equivalent JSON and prose measurement representations, zero-example random-example and source-only nearest-example policies, source-fitted retrieval scale and explicit label-access audit, weight invariance and prompt-token budgets without native fine-tuning claims.
 - **Verification:** 4 code cells, 2 figures; 18.891 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
 
 <a id="code_157"></a>
 ### code_157 — Typed decisions and System One terminology
@@ -1768,7 +1768,7 @@ Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
 - **Scope:** actual own multihead neural prediction from structured generated states, separate choice ordinal-score and yes-no output contracts, whole-building training and development selection, schema-valid yet incorrect counterexample and rejected invalid fixtures, deterministic software policy separated from model judgment.
 - **Verification:** 4 code cells, 2 figures; 2.328 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
 
 <a id="code_158"></a>
 ### code_158 — Jev, Laya and Kev as concrete families
@@ -1778,7 +1778,7 @@ Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
 - **Scope:** actual pinned Laya and Kev CPU inference with required Qwen base, native choice ordinal-score and noul output contracts, same generated states and literal questions across executed families, unused dummy label metadata verified absent from predictive inputs, documented unexecuted Jev and explicitly bounded developer claims.
 - **Verification:** 4 code cells, 2 figures; 29.000 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
 
 <a id="code_159"></a>
 ### code_159 — Evaluation, calibration and deferral
@@ -1788,7 +1788,7 @@ Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
 - **Scope:** actual native Laya probabilities versus a fitted numeric tree control, whole-building source calibration development and final evidence roles, calibration-only temperature selection and development-only deferral, option-order and missing-evidence diagnostics, returned confidence separated from observed correctness and policy authority.
 - **Verification:** 4 code cells, 2 figures; 37.964 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
 
 <a id="code_160"></a>
 ### code_160 — Scientific workflows and security boundaries
@@ -1798,4 +1798,4 @@ Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
 - **Scope:** actual small language model proposes bounded mechanical tool choices, typed whitelist and evidence consistency gate separate from model text, independent Euler-Bernoulli finite-element verification of exact formulas, generated adversarial note diagnostic and private-field minimization, auditable numeric inputs without arbitrary code or external actions.
 - **Verification:** 4 code cells, 2 figures; 6.354 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
