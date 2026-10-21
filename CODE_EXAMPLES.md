@@ -1799,3 +1799,69 @@ Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual small language model proposes bounded mechanical tool choices, typed whitelist and evidence consistency gate separate from model text, independent Euler-Bernoulli finite-element verification of exact formulas, generated adversarial note diagnostic and private-field minimization, auditable numeric inputs without arbitrary code or external actions.
 - **Verification:** 4 code cells, 2 figures; 6.354 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+
+<!-- CHAPTER_31_ENTRIES -->
+
+## Chapter 31: Learning with limited labels and changing tasks
+
+Use the [concept guide](CHAPTER_31_GUIDE.md) and [actual execution evidence](CHAPTER_31_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_161"></a>
+### code_161 — Semi-supervised learning
+
+- **Book home:** section 31.1.
+- **Notebook:** [161_Chapter_31_01_semi_supervision_and_unlabelled_regime_assumptions.ipynb](notebooks/161_Chapter_31_01_semi_supervision_and_unlabelled_regime_assumptions.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual supervised pseudo-label graph and mean-teacher consistency fitting, same scarce source labels and source-only scaling, whole-building labelled unlabelled development and final roles, matched versus changed unlabelled operating regimes, pseudo-label mistakes and regime-specific final assessment retained.
+- **Verification:** 4 code cells, 2 figures; 2.319 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_31_EXECUTION.md).
+
+<a id="code_162"></a>
+### code_162 — Self-supervised objectives for structured data
+
+- **Book home:** section 31.2.
+- **Notebook:** [162_Chapter_31_02_self_supervised_objectives_and_augmentation_validity.ipynb](notebooks/162_Chapter_31_02_self_supervised_objectives_and_augmentation_validity.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual masked denoising contrastive and temporal pretraining, frozen representation evaluation at two downstream label budgets, random encoder and raw numeric controls with development-only ridge selection, source-only feature transforms and whole-building final isolation, destructive amplitude invariance tested with an exact target collision.
+- **Verification:** 4 code cells, 2 figures; 2.826 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_31_EXECUTION.md).
+
+<a id="code_163"></a>
+### code_163 — Active learning and experimental design
+
+- **Book home:** section 31.3.
+- **Notebook:** [163_Chapter_31_03_active_learning_costs_and_independent_evaluation.ipynb](notebooks/163_Chapter_31_03_active_learning_costs_and_independent_evaluation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual sequential random uncertainty diversity and committee acquisition, whole-building oracle admission and explicit cost budget, same initial labels and independent final population across policies, four generated cohort seeds and descriptive policy variability, query sample separated from deployment evaluation.
+- **Verification:** 4 code cells, 2 figures; 7.202 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_31_EXECUTION.md).
+
+<a id="code_164"></a>
+### code_164 — Transfer and multitask learning
+
+- **Book home:** section 31.4.
+- **Notebook:** [164_Chapter_31_04_multitask_scales_negative_transfer_and_adaptation.ipynb](notebooks/164_Chapter_31_04_multitask_scales_negative_transfer_and_adaptation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual shared-trunk and separate-model training on two mechanical teaching targets, raw versus source-scaled joint losses and task-specific assessment, source-family and changed-material whole-building evaluation, actual head-only and rank-one feature adaptation with frozen-backbone hashes, target fitting labels and target development outcomes counted separately.
+- **Verification:** 4 code cells, 2 figures; 2.932 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_31_EXECUTION.md).
+
+<a id="code_165"></a>
+### code_165 — Meta-learning, few-shot and in-context adaptation
+
+- **Book home:** section 31.5.
+- **Notebook:** [165_Chapter_31_05_meta_learning_few_shot_and_fixed_weight_context.ipynb](notebooks/165_Chapter_31_05_meta_learning_few_shot_and_fixed_weight_context.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual second-order gradient-based meta-training across task episodes, pooled source fitting scratch adaptation and support-only least-squares controls, actual frozen context network maps support statistics into task predictions, new task identities and changed task-parameter prior evaluated separately, development-only adaptation-step selection and audited source label access.
+- **Verification:** 4 code cells, 2 figures; 4.373 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_31_EXECUTION.md).
+
+<a id="code_166"></a>
+### code_166 — Continual learning and changing environments
+
+- **Book home:** section 31.6.
+- **Notebook:** [166_Chapter_31_06_continual_replay_regularization_and_delayed_feedback.ipynb](notebooks/166_Chapter_31_06_continual_replay_regularization_and_delayed_feedback.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual prequential predictions before five-event-delayed feedback, naive online bounded reservoir replay EWC-style regularization and periodic full refit, three ordered sensor generations with a newly observed third class, retention matrices restricted to already arrived generations, raw-record storage gradient updates and processed-example budgets measured.
+- **Verification:** 4 code cells, 2 figures; 2.908 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_31_EXECUTION.md).

@@ -7686,6 +7686,276 @@
           "message": "IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html"
         }
       ]
+    },
+    {
+      "id": "code_161",
+      "chapter": 31,
+      "subtopic": "31.1",
+      "title": "Semi-supervised learning",
+      "path": "notebooks/161_Chapter_31_01_semi_supervision_and_unlabelled_regime_assumptions.ipynb",
+      "registry_anchor": "code_161",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_161",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 4261,
+      "runtime_seconds": 2.319,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual supervised pseudo-label graph and mean-teacher consistency fitting",
+        "same scarce source labels and source-only scaling",
+        "whole-building labelled unlabelled development and final roles",
+        "matched versus changed unlabelled operating regimes",
+        "pseudo-label mistakes and regime-specific final assessment retained"
+      ],
+      "execution_report": "CHAPTER_31_EXECUTION.md"
+    },
+    {
+      "id": "code_162",
+      "chapter": 31,
+      "subtopic": "31.2",
+      "title": "Self-supervised objectives for structured data",
+      "path": "notebooks/162_Chapter_31_02_self_supervised_objectives_and_augmentation_validity.ipynb",
+      "registry_anchor": "code_162",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_162",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 4262,
+      "runtime_seconds": 2.826,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual masked denoising contrastive and temporal pretraining",
+        "frozen representation evaluation at two downstream label budgets",
+        "random encoder and raw numeric controls with development-only ridge selection",
+        "source-only feature transforms and whole-building final isolation",
+        "destructive amplitude invariance tested with an exact target collision"
+      ],
+      "execution_report": "CHAPTER_31_EXECUTION.md"
+    },
+    {
+      "id": "code_163",
+      "chapter": 31,
+      "subtopic": "31.3",
+      "title": "Active learning and experimental design",
+      "path": "notebooks/163_Chapter_31_03_active_learning_costs_and_independent_evaluation.ipynb",
+      "registry_anchor": "code_163",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_163",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 4263,
+      "runtime_seconds": 7.202,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual sequential random uncertainty diversity and committee acquisition",
+        "whole-building oracle admission and explicit cost budget",
+        "same initial labels and independent final population across policies",
+        "four generated cohort seeds and descriptive policy variability",
+        "query sample separated from deployment evaluation"
+      ],
+      "execution_report": "CHAPTER_31_EXECUTION.md"
+    },
+    {
+      "id": "code_164",
+      "chapter": 31,
+      "subtopic": "31.4",
+      "title": "Transfer and multitask learning",
+      "path": "notebooks/164_Chapter_31_04_multitask_scales_negative_transfer_and_adaptation.ipynb",
+      "registry_anchor": "code_164",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_164",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 4264,
+      "runtime_seconds": 2.932,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual shared-trunk and separate-model training on two mechanical teaching targets",
+        "raw versus source-scaled joint losses and task-specific assessment",
+        "source-family and changed-material whole-building evaluation",
+        "actual head-only and rank-one feature adaptation with frozen-backbone hashes",
+        "target fitting labels and target development outcomes counted separately"
+      ],
+      "execution_report": "CHAPTER_31_EXECUTION.md"
+    },
+    {
+      "id": "code_165",
+      "chapter": 31,
+      "subtopic": "31.5",
+      "title": "Meta-learning, few-shot and in-context adaptation",
+      "path": "notebooks/165_Chapter_31_05_meta_learning_few_shot_and_fixed_weight_context.ipynb",
+      "registry_anchor": "code_165",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_165",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 4265,
+      "runtime_seconds": 4.373,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual second-order gradient-based meta-training across task episodes",
+        "pooled source fitting scratch adaptation and support-only least-squares controls",
+        "actual frozen context network maps support statistics into task predictions",
+        "new task identities and changed task-parameter prior evaluated separately",
+        "development-only adaptation-step selection and audited source label access"
+      ],
+      "execution_report": "CHAPTER_31_EXECUTION.md"
+    },
+    {
+      "id": "code_166",
+      "chapter": 31,
+      "subtopic": "31.6",
+      "title": "Continual learning and changing environments",
+      "path": "notebooks/166_Chapter_31_06_continual_replay_regularization_and_delayed_feedback.ipynb",
+      "registry_anchor": "code_166",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_166",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 4266,
+      "runtime_seconds": 2.908,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual prequential predictions before five-event-delayed feedback",
+        "naive online bounded reservoir replay EWC-style regularization and periodic full refit",
+        "three ordered sensor generations with a newly observed third class",
+        "retention matrices restricted to already arrived generations",
+        "raw-record storage gradient updates and processed-example budgets measured"
+      ],
+      "execution_report": "CHAPTER_31_EXECUTION.md"
     }
   ]
 }
