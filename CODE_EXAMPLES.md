@@ -1865,3 +1865,69 @@ Use the [concept guide](CHAPTER_31_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual prequential predictions before five-event-delayed feedback, naive online bounded reservoir replay EWC-style regularization and periodic full refit, three ordered sensor generations with a newly observed third class, retention matrices restricted to already arrived generations, raw-record storage gradient updates and processed-example budgets measured.
 - **Verification:** 4 code cells, 2 figures; 2.908 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_31_EXECUTION.md).
+
+<!-- CHAPTER_32_ENTRIES -->
+
+## Chapter 32: Reinforcement learning and control
+
+Use the [concept guide](CHAPTER_32_GUIDE.md) and [actual execution evidence](CHAPTER_32_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_167"></a>
+### code_167 — Bandits, states, actions and rewards
+
+- **Book home:** section 32.1.
+- **Notebook:** [167_Chapter_32_01_bandits_states_actions_and_rewards.ipynb](notebooks/167_Chapter_32_01_bandits_states_actions_and_rewards.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual contextual linear upper-confidence acquisition with chosen-action feedback, independent fixed-policy evaluation against contextual expected-reward oracle, exact two-step battery dynamic program versus myopic reward, aliased observations under partial observability, agent environment feedback with policy and model distinguished.
+- **Verification:** 4 code cells, 2 figures; 2.059 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_32_EXECUTION.md).
+
+<a id="code_168"></a>
+### code_168 — Value functions and temporal-difference learning
+
+- **Book home:** section 32.2.
+- **Notebook:** [168_Chapter_32_02_bellman_td_q_learning_and_function_approximation.ipynb](notebooks/168_Chapter_32_02_bellman_td_q_learning_and_function_approximation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** exact continuing maintenance MDP Bellman solution, actual tabular Q-learning from exploratory trajectories, actual target-network neural fitted Q iteration from off-policy samples, Bellman residual and greedy policy checked against known model, explicit unsupported-feature bootstrapping instability.
+- **Verification:** 4 code cells, 2 figures; 2.832 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_32_EXECUTION.md).
+
+<a id="code_169"></a>
+### code_169 — Policy gradients and actor–critic methods
+
+- **Book home:** section 32.3.
+- **Notebook:** [169_Chapter_32_03_ppo_and_soft_actor_critic_mechanisms.ipynb](notebooks/169_Chapter_32_03_ppo_and_soft_actor_critic_mechanisms.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual stochastic on-policy PPO with frozen behavior probabilities and clipped surrogate, finite-horizon observed clock and Monte Carlo advantage critic, actual continuous tanh-Gaussian SAC with corrected log density twin critics replay and target updates, separate independent simulator evaluation and simple controls, training budgets and distinct-task interpretation limits.
+- **Verification:** 4 code cells, 2 figures; 4.091 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_32_EXECUTION.md).
+
+<a id="code_170"></a>
+### code_170 — Model-based learning, planning and MPC
+
+- **Book home:** section 32.4.
+- **Notebook:** [170_Chapter_32_04_learned_dynamics_planning_and_mpc.ipynb](notebooks/170_Chapter_32_04_learned_dynamics_planning_and_mpc.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** source-only fitted autoregressive demand residual model, known battery dynamics with efficiency and feasible-action projection, actual exhaustive finite action-sequence MPC and reactive control, independent multi-step forecast and closed-loop cost assessment, changed-demand regime and terminal-value assumptions retained.
+- **Verification:** 4 code cells, 2 figures; 2.188 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_32_EXECUTION.md).
+
+<a id="code_171"></a>
+### code_171 — Offline learning and policy evaluation
+
+- **Book home:** section 32.5.
+- **Notebook:** [171_Chapter_32_05_offline_learning_and_doubly_robust_evaluation.ipynb](notebooks/171_Chapter_32_05_offline_learning_and_doubly_robust_evaluation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** real fixed logged behavior trajectories with structural action noncoverage, unrestricted versus support-constrained fitted Q iteration, independent ordinary trajectory importance sampling and sequential doubly robust evaluation, whole-episode bootstrap and trajectory effective sample size, two observationally compatible worlds proving unsupported value nonidentification.
+- **Verification:** 4 code cells, 2 figures; 2.070 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_32_EXECUTION.md).
+
+<a id="code_172"></a>
+### code_172 — Constrained control and deployment tests
+
+- **Book home:** section 32.6.
+- **Notebook:** [172_Chapter_32_06_constrained_control_stress_and_termination.ipynb](notebooks/172_Chapter_32_06_constrained_control_stress_and_termination.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** original five-tuple Gymnasium-style environment with explicit observed clock, actual feasible-action shields using trusted independent storage measurement, normal dropout demand-shift and efficiency-mismatch stress scenarios, nominal versus bounded-uncertainty robust projection and fallback, termination versus external truncation bootstrap tests and early-failure accounting.
+- **Verification:** 4 code cells, 2 figures; 2.177 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_32_EXECUTION.md).

@@ -7956,6 +7956,276 @@
         "raw-record storage gradient updates and processed-example budgets measured"
       ],
       "execution_report": "CHAPTER_31_EXECUTION.md"
+    },
+    {
+      "id": "code_167",
+      "chapter": 32,
+      "subtopic": "32.1",
+      "title": "Bandits, states, actions and rewards",
+      "path": "notebooks/167_Chapter_32_01_bandits_states_actions_and_rewards.ipynb",
+      "registry_anchor": "code_167",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_167",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 5367,
+      "runtime_seconds": 2.059,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual contextual linear upper-confidence acquisition with chosen-action feedback",
+        "independent fixed-policy evaluation against contextual expected-reward oracle",
+        "exact two-step battery dynamic program versus myopic reward",
+        "aliased observations under partial observability",
+        "agent environment feedback with policy and model distinguished"
+      ],
+      "execution_report": "CHAPTER_32_EXECUTION.md"
+    },
+    {
+      "id": "code_168",
+      "chapter": 32,
+      "subtopic": "32.2",
+      "title": "Value functions and temporal-difference learning",
+      "path": "notebooks/168_Chapter_32_02_bellman_td_q_learning_and_function_approximation.ipynb",
+      "registry_anchor": "code_168",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_168",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 5368,
+      "runtime_seconds": 2.832,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "exact continuing maintenance MDP Bellman solution",
+        "actual tabular Q-learning from exploratory trajectories",
+        "actual target-network neural fitted Q iteration from off-policy samples",
+        "Bellman residual and greedy policy checked against known model",
+        "explicit unsupported-feature bootstrapping instability"
+      ],
+      "execution_report": "CHAPTER_32_EXECUTION.md"
+    },
+    {
+      "id": "code_169",
+      "chapter": 32,
+      "subtopic": "32.3",
+      "title": "Policy gradients and actor\u2013critic methods",
+      "path": "notebooks/169_Chapter_32_03_ppo_and_soft_actor_critic_mechanisms.ipynb",
+      "registry_anchor": "code_169",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_169",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 5369,
+      "runtime_seconds": 4.091,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual stochastic on-policy PPO with frozen behavior probabilities and clipped surrogate",
+        "finite-horizon observed clock and Monte Carlo advantage critic",
+        "actual continuous tanh-Gaussian SAC with corrected log density twin critics replay and target updates",
+        "separate independent simulator evaluation and simple controls",
+        "training budgets and distinct-task interpretation limits"
+      ],
+      "execution_report": "CHAPTER_32_EXECUTION.md"
+    },
+    {
+      "id": "code_170",
+      "chapter": 32,
+      "subtopic": "32.4",
+      "title": "Model-based learning, planning and MPC",
+      "path": "notebooks/170_Chapter_32_04_learned_dynamics_planning_and_mpc.ipynb",
+      "registry_anchor": "code_170",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_170",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 5370,
+      "runtime_seconds": 2.188,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "source-only fitted autoregressive demand residual model",
+        "known battery dynamics with efficiency and feasible-action projection",
+        "actual exhaustive finite action-sequence MPC and reactive control",
+        "independent multi-step forecast and closed-loop cost assessment",
+        "changed-demand regime and terminal-value assumptions retained"
+      ],
+      "execution_report": "CHAPTER_32_EXECUTION.md"
+    },
+    {
+      "id": "code_171",
+      "chapter": 32,
+      "subtopic": "32.5",
+      "title": "Offline learning and policy evaluation",
+      "path": "notebooks/171_Chapter_32_05_offline_learning_and_doubly_robust_evaluation.ipynb",
+      "registry_anchor": "code_171",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_171",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 5371,
+      "runtime_seconds": 2.07,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "real fixed logged behavior trajectories with structural action noncoverage",
+        "unrestricted versus support-constrained fitted Q iteration",
+        "independent ordinary trajectory importance sampling and sequential doubly robust evaluation",
+        "whole-episode bootstrap and trajectory effective sample size",
+        "two observationally compatible worlds proving unsupported value nonidentification"
+      ],
+      "execution_report": "CHAPTER_32_EXECUTION.md"
+    },
+    {
+      "id": "code_172",
+      "chapter": 32,
+      "subtopic": "32.6",
+      "title": "Constrained control and deployment tests",
+      "path": "notebooks/172_Chapter_32_06_constrained_control_stress_and_termination.ipynb",
+      "registry_anchor": "code_172",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_172",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 5372,
+      "runtime_seconds": 2.177,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "original five-tuple Gymnasium-style environment with explicit observed clock",
+        "actual feasible-action shields using trusted independent storage measurement",
+        "normal dropout demand-shift and efficiency-mismatch stress scenarios",
+        "nominal versus bounded-uncertainty robust projection and fallback",
+        "termination versus external truncation bootstrap tests and early-failure accounting"
+      ],
+      "execution_report": "CHAPTER_32_EXECUTION.md"
     }
   ]
 }
