@@ -2200,7 +2200,7 @@ Use the [concept guide](CHAPTER_37_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual boosted classifier and original neural typed probability interface, independent positive-temperature calibration with unchanged ranking, fixed-bin reliability Wilson intervals Brier log loss and sharpness, class-conditional score checks separated from calibration definitions.
 - **Verification:** 4 code cells, 2 figures; 2.421 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
 
 <a id="code_197"></a>
 ### code_197 — Predictive intervals and uncertainty models
@@ -2210,7 +2210,7 @@ Use the [concept guide](CHAPTER_37_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual quantile regression and bootstrap predictive residual mixture, conjugate Normal inverse gamma Bayesian parameter and predictive Student t intervals, actual heteroscedastic Gaussian likelihood optimization, familiar versus shifted-load coverage and width without final recalibration.
 - **Verification:** 4 code cells, 2 figures; 1.651 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
 
 <a id="code_198"></a>
 ### code_198 — Conformal prediction and assumptions
@@ -2220,7 +2220,7 @@ Use the [concept guide](CHAPTER_37_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual held-out classification nonconformity and building-maximum calibration, finite-sample rank with new-building simultaneous versus row-marginal claims, actual conformalized quantile intervals and material-shift assessment, delayed rolling calibration under drift explicitly without exchangeability guarantee.
 - **Verification:** 5 code cells, 3 figures; 1.849 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
 
 <a id="code_199"></a>
 ### code_199 — Thresholds, costs and expected utility
@@ -2230,7 +2230,7 @@ Use the [concept guide](CHAPTER_37_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** source logistic model with separate probability calibration and policy selection, heterogeneous avoided-loss utility and daily capacity ten allocation, actual decision-curve net benefit with declared threshold exchange rates, realized final utility versus simulator expected utility audit.
 - **Verification:** 4 code cells, 2 figures; 1.545 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
 
 <a id="code_200"></a>
 ### code_200 — Deferral, selective prediction and sequential use
@@ -2240,4 +2240,4 @@ Use the [concept guide](CHAPTER_37_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual independent temperature calibration and empirical deferral selection, confidence-only versus explicit unsupported-domain gate, accepted-risk automation-coverage and repeated-day error diagnostics, executed finite-capacity review queue with delayed outcomes and combined service cost.
 - **Verification:** 4 code cells, 2 figures; 1.582 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).

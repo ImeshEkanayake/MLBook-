@@ -1,6 +1,6 @@
 # Chapter 37 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -1550,3 +1550,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and visual evidence
+
+Content revision `9b1d45a5c330fb5e3e42e36f070f709c8cf4bfbb` matches remote main and all 341 remote file blobs. Five independent fresh-kernel notebooks execute21 code cells/11 reviewed inline figures. Every current cell reruns in an isolated exporter with exact scientific RESULTS equality; independent Bayesian posterior Monte Carlo quantile error0.003399 mm. All16 Chapter37 pages,11 book figures,5 equations,5-row map and20 exercises are reviewed, plus4 front-matter/7 references pages. Main2 has158 pages, SHA256 `491651faf6a0cc477dfb5b5942d9690e903038277fd1191ebae9466530db0f2a`; Chapter37 printed615–630/PDF136–151. The one-page preview guide was repaired after an observed spill and reviewed in the final build. All131 earliersecondbodypages are pixel-identical; firstPDFbyte-identical.231 prior source/notebook files and195 prior manifest rows preserved. No dependency or asset added. Final metadata/raw-byte checks follow separately. Only companion artifacts are published.
