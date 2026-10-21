@@ -1677,3 +1677,59 @@ Use the [concept guide](CHAPTER_28_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual pinned native model and tree comparisons across public and generated tables, separate random-row versus whole-entity assessment, equal explicit candidate counts without lifetime-compute claims, table-level paired uncertainty with named task families, actual final-label context leakage fixture and overlap hashes.
 - **Verification:** 4 code cells, 2 figures; 15.564 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
+
+<!-- CHAPTER_29_ENTRIES -->
+
+## Chapter 29: Temporal and scientific foundation models
+
+Use the [concept guide](CHAPTER_29_GUIDE.md) and [actual execution evidence](CHAPTER_29_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_150"></a>
+### code_150 — Pretraining for time series
+
+- **Book home:** section 29.1.
+- **Notebook:** [150_Chapter_29_01_cross_series_pretraining_and_context.ipynb](notebooks/150_Chapter_29_01_cross_series_pretraining_and_context.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual shared forecasting pretraining across independent generated series, context-only normalization and patch representation, whole-series model selection and final assessment, frozen checkpoint versus local autoregression and seasonal controls, scale quantization and causal context interventions.
+- **Verification:** 4 code cells, 2 figures; 2.533 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+
+<a id="code_151"></a>
+### code_151 — Representative forecasting model families
+
+- **Book home:** section 29.2.
+- **Notebook:** [151_Chapter_29_02_native_forecasting_families_and_backtests.ipynb](notebooks/151_Chapter_29_02_native_forecasting_families_and_backtests.ipynb).
+- **Data/dependencies:** task inputs generated locally; explicit one-time public checkpoint acquisition then offline CPU inference; [assets and notices](CHAPTER_29_ASSETS.md); [pinned environment](requirements-lock.txt).
+- **Scope:** actual pinned TimesFM2.5 and ChronosBoltTiny CPU inference, explicit model/config byte hashes and offline loading, multiple origins kept within independent generated series, seasonal local autoregression and lagged-tree controls, native quantile shape coverage and immutable checkpoint parameters.
+- **Verification:** 4 code cells, 2 figures; 7.059 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+
+<a id="code_152"></a>
+### code_152 — Adaptation and evaluation across domains
+
+- **Book home:** section 29.3.
+- **Notebook:** [152_Chapter_29_03_forecast_adaptation_and_target_budgets.ipynb](notebooks/152_Chapter_29_03_forecast_adaptation_and_target_budgets.ipynb).
+- **Data/dependencies:** task inputs generated locally; explicit one-time public checkpoint acquisition then offline CPU inference; [assets and notices](CHAPTER_29_ASSETS.md); [pinned environment](requirements-lock.txt).
+- **Scope:** actual frozen ChronosBolt forecast across cadence regimes, causal historical imputation and input contracts, target-label residual adaptation with separate selection and assessment, independent-series uncertainty for label-budget comparisons, temporal overlap and future-covariate availability interventions.
+- **Verification:** 4 code cells, 2 figures; 3.137 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+
+<a id="code_153"></a>
+### code_153 — Scientific and physical foundation models
+
+- **Book home:** section 29.4.
+- **Notebook:** [153_Chapter_29_04_scientific_pretraining_and_operator_adaptation.ipynb](notebooks/153_Chapter_29_04_scientific_pretraining_and_operator_adaptation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual original spectral solution-operator pretraining across equation parameters, analytic periodic advection diffusion reaction references, whole-case development and downstream parameter updates, warm-start versus scratch operators with equal downstream budgets, physical support and semigroup consistency checks without named-model substitution.
+- **Verification:** 4 code cells, 2 figures; 2.604 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+
+<a id="code_154"></a>
+### code_154 — Validity, scale and responsible reuse
+
+- **Book home:** section 29.5.
+- **Notebook:** [154_Chapter_29_05_physical_validity_mesh_and_boundary_tests.ipynb](notebooks/154_Chapter_29_05_physical_validity_mesh_and_boundary_tests.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual shared learned diffusion stencil with disclosed observation bias, new-mesh physical scaling and deliberate wrong-grid fixture, independent converged sparse numerical references and analytic checks, periodic conservation projection versus invalid Dirichlet mass constraint, boundary values rollout stability and field errors checked separately.
+- **Verification:** 4 code cells, 2 figures; 2.492 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
