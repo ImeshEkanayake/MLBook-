@@ -2256,7 +2256,7 @@ Use the [concept guide](CHAPTER_38_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual raw linear log Lasso small tree and boosted physical response models, source-only transformed coefficient interpretation with nuisance variables, actual local additive log prediction and native tree decision path, independent accuracy and negative physical output diagnostics.
 - **Verification:** 4 code cells, 2 figures; 1.601 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
 
 <a id="code_202"></a>
 ### code_202 — Effects, importance and dependent features
@@ -2266,7 +2266,7 @@ Use the [concept guide](CHAPTER_38_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual source fitted models with and without a correlated sensor, marginal joint and within-sensor-bin permutation loss changes, actual individual conditional expectation partial dependence and finite-bin ALE, support diagnostics for feature combinations and noncausal interpretation.
 - **Verification:** 4 code cells, 2 figures; 1.810 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
 
 <a id="code_203"></a>
 ### code_203 — Local attributions and SHAP
@@ -2276,7 +2276,7 @@ Use the [concept guide](CHAPTER_38_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual exact three-feature Shapley coalition enumeration for a fitted classifier, two valid empirical background populations with different baselines, conditional background-resample variability separated from model uncertainty, correlated-feature masking support diagnostic and exact efficiency checks.
 - **Verification:** 4 code cells, 2 figures; 1.854 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
 
 <a id="code_204"></a>
 ### code_204 — Counterfactual explanations and recourse
@@ -2286,7 +2286,7 @@ Use the [concept guide](CHAPTER_38_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual source-scaled logistic alarm model on normalized load strain stiffness, analytic closest standardized model-changing edit versus immutable physical constraints, explicit load-action search propagating strain through a declared elastic relation, same-prediction local attribution global effect and feasible-action Visual A.
 - **Verification:** 4 code cells, 2 figures; 1.576 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
 
 <a id="code_205"></a>
 ### code_205 — Graph, temporal and scientific explanations
@@ -2296,4 +2296,4 @@ Use the [concept guide](CHAPTER_38_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual graph neural regression and learned sparse edge mask with hard-mask fidelity checks, single-edge model perturbations compared with an independent elastic solver, nodewise displacement error and equilibrium residual maps, actual learned temporal attention and integrated gradients with occlusion and parameter randomization controls.
 - **Verification:** 5 code cells, 3 figures; 3.861 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).

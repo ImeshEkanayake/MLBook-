@@ -1,6 +1,6 @@
 # Chapter 38 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_204 | 38.4 | 4 | 2 | 1.576 |
 | code_205 | 38.5 | 5 | 3 | 3.861 |
 
-Total: **21 executed code cells and 11 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **21 executed code cells and 11 inline figures**. Current outputs contain no errors and all assertions pass. All 11 book and 11 inline figures have been visually reviewed against the actual outputs.
 
 ## Actual mechanisms and boundaries
 
@@ -680,3 +680,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and manuscript review
+
+Content revision `7f23d0224f50912aed3376e4bf85b1605854986f` passed remote-main and all-tree-blob verification. The reviewed separate second preview has 176 pages; Chapter 38 occupies printed 631–647. PDF SHA-256 `8e5ddb13ffab410921e5f906a1811d11decec8341758a6cc95eb995887442b68`. All 17 new chapter pages, front matter, eight reference pages, five equations, five-row map, 20 exercises and all figures were inspected. Earlier 147 second-preview body pages are pixel-identical, and the fixed first-preview PDF is byte-identical. Final metadata raw-file verification is retained in the local delivery evidence.
