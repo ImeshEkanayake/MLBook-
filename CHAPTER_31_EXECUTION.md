@@ -1,6 +1,6 @@
 # Chapter 31 execution evidence
 
-**Date:** 21 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 21 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content tree verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency added; unchanged CPython 3.14.3/Torch 2.14.1 CPU environment. Second PDF starts at Chapter 31 while the first preview remains unchanged. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -2070,3 +2070,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and visual evidence
+
+Content revision: `b615d2eb88fd9032cc18b000c0c00cf92457e3fa`. Remote main and all 283 file blobs match. All six current notebooks pass fresh-kernel execution; 24 code cells and twelve inline figures are reviewed. The book figure producer executes every current code cell with exact numeric RESULTS agreement. The separate second manuscript preview contains Chapter 31 and its own How to use this preview, contents and references: all 26 pages are visually reviewed, with SHA-256 `3cdd54d7fa23c55604296637fd8cda70888f5eaac33ef80498fd1866a2c6a6a4`. Its Chapter 31 body continues printed pages 484–504. The first preview remains byte-identical through Chapter 30, preserving its 483 body pages; there are no earlier second-preview body pages to compare. All 190 prior source/notebook files and 160 prior manifest records are unchanged. Final metadata and commit-addressed raw files are verified separately. Only companion artifacts are published here; manuscript pages and book figures remain local.
