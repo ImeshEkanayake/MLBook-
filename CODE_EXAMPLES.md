@@ -2058,7 +2058,7 @@ Use the [concept guide](CHAPTER_35_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual conditional boosting and neural search configurations, family-specific logarithmic learning-rate and regularization ranges, source-only missing-value and scaling fits, development-only model selection with one final locked assessment, explicit different tree and neural update allocations.
 - **Verification:** 4 code cells, 2 figures; 2.833 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
 
 <a id="code_184"></a>
 ### code_184 — Search, early stopping and resource allocation
@@ -2068,7 +2068,7 @@ Use the [concept guide](CHAPTER_35_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual random and Gaussian-process expected-improvement search, actual successive halving and Hyperband bracket allocation, explicit restart cost with a common 432-update ceiling, actual synchronous population weight and optimizer transfer with rate mutation, locked final assessment and actual elimination visual.
 - **Verification:** 4 code cells, 2 figures; 3.287 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
 
 <a id="code_185"></a>
 ### code_185 — Model and architecture selection
@@ -2078,7 +2078,7 @@ Use the [concept guide](CHAPTER_35_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated cohort plus the explicit frozen TabPFN v2 checkpoint; acquire and verify once using the [asset guide](CHAPTER_35_ASSETS.md), then run offline on CPU; [main pins](requirements-lock.txt).
 - **Scope:** actual linear tree neural and pinned TabPFN v2 family screening, conditional shortlist tuning of representations and architectures, source-only learned preprocessing and frozen pretrained weights, actual development-fitted convex ensemble with locked final assessment, explicit immutable external checkpoint verification and offline inference.
 - **Verification:** 4 code cells, 2 figures; 3.950 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
 
 <a id="code_186"></a>
 ### code_186 — AutoML and automated workflows
@@ -2088,7 +2088,7 @@ Use the [concept guide](CHAPTER_35_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally, offline CPU; use the dedicated Python 3.12 [runtime guide](CHAPTER_35_RUNTIME.md) and [81-package pins](requirements-chapter35-lock.txt).
 - **Scope:** actual native AutoGluon LightGBM random forest neural and weighted ensemble fitting, source-prefitted native feature generator with fit-call audit, same grouped data roles and fifteen-second ceilings for manual and AutoML, freshly measured resource observations outside deterministic scientific results, explicit proposal validator distinguished from an executed language-model agent.
 - **Verification:** 4 code cells, 2 figures; 2.825 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
 
 <a id="code_187"></a>
 ### code_187 — Selection bias, reporting and final refitting
@@ -2098,4 +2098,4 @@ Use the [concept guide](CHAPTER_35_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual grouped inner selection of depth rate and stopping checkpoint, outer evaluation with source-only preprocessing and executed fixed-budget refits, whole-source inner selection followed by locked independent final assessment, repeated equal-risk predictor selection showing reused-score optimism, nested information-boundary diagram with actual building counts.
 - **Verification:** 4 code cells, 3 figures; 2.584 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).

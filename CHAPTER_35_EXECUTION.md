@@ -1,6 +1,6 @@
 # Chapter 35 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and generated cohort is internal. Ordinary execution is offline and CPU-only after the explicit [checkpoint acquisition](CHAPTER_35_ASSETS.md) for 185 and [separate runtime setup](CHAPTER_35_RUNTIME.md) for 186. Actual versions and hardware are printed by every kernel and retained below. A separate CPython 3.12 environment with 81 pinned packages supports native AutoGluon in code_186; code_185 reuses a verified 29 MB TabPFN asset. See the runtime and asset guides. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -6090,3 +6090,7 @@ These are actual fresh-kernel measurements; vector export measures anew. They ar
   "seconds_ceiling_each": 15.0
 }
 ```
+
+## Publication and visual evidence
+
+Content revision `06b97fb9ef141086cc6336112b341a778bbadf2a` matches remote main and all 322 remote file blobs. All five notebooks execute 20 code cells and produce 11 reviewed inline figures. All 20 Chapter 35 pages, 11 book figures, four equations, five-row map and 20 exercises are reviewed, together with four front-matter and six reference pages. The separate second preview has 116 pages, SHA256 `aab9b6dba47ddc986242748c292d74d803803c5102c92c05f52f2893ef1c71a8`; Chapter 35 occupies printed 570–589/PDF 91–110. All 86 earlier second-preview body pages are pixel-identical; the first preview remains byte-identical. All 216 previous source/notebook hashes and 182 manifest records are preserved. Exact deterministic RESULTS match fresh vector exports; native AutoML resources are newly measured separately. Final metadata and commit-addressed raw files are verified separately. Only companion artifacts are published here.
