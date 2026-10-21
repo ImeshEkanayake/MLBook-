@@ -1733,3 +1733,69 @@ Use the [concept guide](CHAPTER_29_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual shared learned diffusion stencil with disclosed observation bias, new-mesh physical scaling and deliberate wrong-grid fixture, independent converged sparse numerical references and analytic checks, periodic conservation projection versus invalid Dirichlet mass constraint, boundary values rollout stability and field errors checked separately.
 - **Verification:** 4 code cells, 2 figures; 2.492 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+
+<!-- CHAPTER_30_ENTRIES -->
+
+## Chapter 30: LLMs and typed decision models
+
+Use the [concept guide](CHAPTER_30_GUIDE.md) and [actual execution evidence](CHAPTER_30_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_155"></a>
+### code_155 — LLMs for structured and scientific tasks
+
+- **Book home:** section 30.1.
+- **Notebook:** [155_Chapter_30_01_structured_records_and_native_language_prediction.ipynb](notebooks/155_Chapter_30_01_structured_records_and_native_language_prediction.ipynb).
+- **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
+- **Scope:** actual pinned instruction-LLM prediction from bounded generated states, units and explicit choice-rule serialization, free generation versus conditional allowed-label projection, syntax correctness and probability mass measured separately, frozen weights and evidence-only field handling.
+- **Verification:** 4 code cells, 2 figures; 7.621 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+
+<a id="code_156"></a>
+### code_156 — Prompting, context and adaptation
+
+- **Book home:** section 30.2.
+- **Notebook:** [156_Chapter_30_02_prompt_context_and_source_example_policies.ipynb](notebooks/156_Chapter_30_02_prompt_context_and_source_example_policies.ipynb).
+- **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
+- **Scope:** actual fixed-checkpoint prompt comparison on unseen building groups, equivalent JSON and prose measurement representations, zero-example random-example and source-only nearest-example policies, source-fitted retrieval scale and explicit label-access audit, weight invariance and prompt-token budgets without native fine-tuning claims.
+- **Verification:** 4 code cells, 2 figures; 18.891 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+
+<a id="code_157"></a>
+### code_157 — Typed decisions and System One terminology
+
+- **Book home:** section 30.3.
+- **Notebook:** [157_Chapter_30_03_typed_heads_schema_and_action_policy.ipynb](notebooks/157_Chapter_30_03_typed_heads_schema_and_action_policy.ipynb).
+- **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
+- **Scope:** actual own multihead neural prediction from structured generated states, separate choice ordinal-score and yes-no output contracts, whole-building training and development selection, schema-valid yet incorrect counterexample and rejected invalid fixtures, deterministic software policy separated from model judgment.
+- **Verification:** 4 code cells, 2 figures; 2.328 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+
+<a id="code_158"></a>
+### code_158 — Jev, Laya and Kev as concrete families
+
+- **Book home:** section 30.4.
+- **Notebook:** [158_Chapter_30_04_native_laya_kev_and_documented_jev.ipynb](notebooks/158_Chapter_30_04_native_laya_kev_and_documented_jev.ipynb).
+- **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
+- **Scope:** actual pinned Laya and Kev CPU inference with required Qwen base, native choice ordinal-score and noul output contracts, same generated states and literal questions across executed families, unused dummy label metadata verified absent from predictive inputs, documented unexecuted Jev and explicitly bounded developer claims.
+- **Verification:** 4 code cells, 2 figures; 29.000 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+
+<a id="code_159"></a>
+### code_159 — Evaluation, calibration and deferral
+
+- **Book home:** section 30.5.
+- **Notebook:** [159_Chapter_30_05_calibration_and_validation_chosen_deferral.ipynb](notebooks/159_Chapter_30_05_calibration_and_validation_chosen_deferral.ipynb).
+- **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
+- **Scope:** actual native Laya probabilities versus a fitted numeric tree control, whole-building source calibration development and final evidence roles, calibration-only temperature selection and development-only deferral, option-order and missing-evidence diagnostics, returned confidence separated from observed correctness and policy authority.
+- **Verification:** 4 code cells, 2 figures; 37.964 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).
+
+<a id="code_160"></a>
+### code_160 — Scientific workflows and security boundaries
+
+- **Book home:** section 30.6.
+- **Notebook:** [160_Chapter_30_06_verified_scientific_tools_and_security_boundaries.ipynb](notebooks/160_Chapter_30_06_verified_scientific_tools_and_security_boundaries.ipynb).
+- **Data/dependencies:** task inputs generated locally; [dedicated Python3.12 runtime](CHAPTER_30_RUNTIME.md); explicit [checkpoint acquisition](CHAPTER_30_ASSETS.md) where declared, then offline CPU inference.
+- **Scope:** actual small language model proposes bounded mechanical tool choices, typed whitelist and evidence consistency gate separate from model text, independent Euler-Bernoulli finite-element verification of exact formulas, generated adversarial note diagnostic and private-field minimization, auditable numeric inputs without arbitrary code or external actions.
+- **Verification:** 4 code cells, 2 figures; 6.354 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_30_EXECUTION.md).

@@ -1,0 +1,17 @@
+# Isolated Chapter30 native runtime; CPython3.12, CPU. Earlier .venv is unchanged.
+# These pins satisfy the author's explicit Kev Python/Torch/numerical requirements.
+numpy==2.5.3
+scipy==1.17.1
+pandas==3.0.3
+matplotlib==3.11.0
+scikit-learn==1.9.1
+torch==2.8.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+laya==0.4.11
+transformers==5.20.1
+peft==0.21.2
+huggingface-hub==1.33.0
+accelerate==1.15.0
+kev @ git+https://github.com/jaredpalmer/kev.git@1f04cfa28e6a708485b28a9585010b9e436b776e

@@ -6932,6 +6932,760 @@
         "boundary values rollout stability and field errors checked separately"
       ],
       "execution_report": "CHAPTER_29_EXECUTION.md"
+    },
+    {
+      "id": "code_155",
+      "chapter": 30,
+      "subtopic": "30.1",
+      "title": "LLMs for structured and scientific tasks",
+      "path": "notebooks/155_Chapter_30_01_structured_records_and_native_language_prediction.ipynb",
+      "registry_anchor": "code_155",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_155",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "HuggingFaceTB/SmolLM2-135M-Instruct",
+            "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+            "files": [
+              {
+                "filename": "README.md",
+                "bytes": 6772,
+                "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md"
+              },
+              {
+                "filename": "config.json",
+                "bytes": 861,
+                "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json"
+              },
+              {
+                "filename": "generation_config.json",
+                "bytes": 132,
+                "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json"
+              },
+              {
+                "filename": "merges.txt",
+                "bytes": 466391,
+                "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt"
+              },
+              {
+                "filename": "model.safetensors",
+                "bytes": 269060552,
+                "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors"
+              },
+              {
+                "filename": "special_tokens_map.json",
+                "bytes": 655,
+                "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json"
+              },
+              {
+                "filename": "tokenizer.json",
+                "bytes": 2104556,
+                "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json"
+              },
+              {
+                "filename": "tokenizer_config.json",
+                "bytes": 3764,
+                "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json"
+              },
+              {
+                "filename": "vocab.json",
+                "bytes": 800662,
+                "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json"
+              }
+            ],
+            "licence": "Apache-2.0"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_30_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter30_models.py"
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.5.3",
+        "pandas": "3.0.3",
+        "python": "3.12.13",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.8.0",
+        "transformers": "5.20.1"
+      },
+      "dependency_files": [
+        "requirements-chapter30.txt",
+        "requirements-chapter30-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3955,
+      "runtime_seconds": 7.621,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pinned instruction-LLM prediction from bounded generated states",
+        "units and explicit choice-rule serialization",
+        "free generation versus conditional allowed-label projection",
+        "syntax correctness and probability mass measured separately",
+        "frozen weights and evidence-only field handling"
+      ],
+      "execution_report": "CHAPTER_30_EXECUTION.md",
+      "python_runtime": "build/chapter30-runtime/bin/python",
+      "runtime_guide": "CHAPTER_30_RUNTIME.md",
+      "disclosed_warnings": [
+        {
+          "category": "TqdmWarning",
+          "message": "IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html"
+        }
+      ]
+    },
+    {
+      "id": "code_156",
+      "chapter": 30,
+      "subtopic": "30.2",
+      "title": "Prompting, context and adaptation",
+      "path": "notebooks/156_Chapter_30_02_prompt_context_and_source_example_policies.ipynb",
+      "registry_anchor": "code_156",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_156",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "HuggingFaceTB/SmolLM2-135M-Instruct",
+            "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+            "files": [
+              {
+                "filename": "README.md",
+                "bytes": 6772,
+                "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md"
+              },
+              {
+                "filename": "config.json",
+                "bytes": 861,
+                "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json"
+              },
+              {
+                "filename": "generation_config.json",
+                "bytes": 132,
+                "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json"
+              },
+              {
+                "filename": "merges.txt",
+                "bytes": 466391,
+                "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt"
+              },
+              {
+                "filename": "model.safetensors",
+                "bytes": 269060552,
+                "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors"
+              },
+              {
+                "filename": "special_tokens_map.json",
+                "bytes": 655,
+                "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json"
+              },
+              {
+                "filename": "tokenizer.json",
+                "bytes": 2104556,
+                "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json"
+              },
+              {
+                "filename": "tokenizer_config.json",
+                "bytes": 3764,
+                "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json"
+              },
+              {
+                "filename": "vocab.json",
+                "bytes": 800662,
+                "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json"
+              }
+            ],
+            "licence": "Apache-2.0"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_30_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter30_models.py"
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.5.3",
+        "pandas": "3.0.3",
+        "python": "3.12.13",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.8.0",
+        "transformers": "5.20.1"
+      },
+      "dependency_files": [
+        "requirements-chapter30.txt",
+        "requirements-chapter30-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3956,
+      "runtime_seconds": 18.891,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual fixed-checkpoint prompt comparison on unseen building groups",
+        "equivalent JSON and prose measurement representations",
+        "zero-example random-example and source-only nearest-example policies",
+        "source-fitted retrieval scale and explicit label-access audit",
+        "weight invariance and prompt-token budgets without native fine-tuning claims"
+      ],
+      "execution_report": "CHAPTER_30_EXECUTION.md",
+      "python_runtime": "build/chapter30-runtime/bin/python",
+      "runtime_guide": "CHAPTER_30_RUNTIME.md",
+      "disclosed_warnings": [
+        {
+          "category": "TqdmWarning",
+          "message": "IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html"
+        }
+      ]
+    },
+    {
+      "id": "code_157",
+      "chapter": 30,
+      "subtopic": "30.3",
+      "title": "Typed decisions and System One terminology",
+      "path": "notebooks/157_Chapter_30_03_typed_heads_schema_and_action_policy.ipynb",
+      "registry_anchor": "code_157",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_157",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": []
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.5.3",
+        "pandas": "3.0.3",
+        "pydantic": "2.14.1",
+        "python": "3.12.13",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.8.0"
+      },
+      "dependency_files": [
+        "requirements-chapter30.txt",
+        "requirements-chapter30-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3957,
+      "runtime_seconds": 2.328,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual own multihead neural prediction from structured generated states",
+        "separate choice ordinal-score and yes-no output contracts",
+        "whole-building training and development selection",
+        "schema-valid yet incorrect counterexample and rejected invalid fixtures",
+        "deterministic software policy separated from model judgment"
+      ],
+      "execution_report": "CHAPTER_30_EXECUTION.md",
+      "python_runtime": "build/chapter30-runtime/bin/python",
+      "runtime_guide": "CHAPTER_30_RUNTIME.md",
+      "disclosed_warnings": []
+    },
+    {
+      "id": "code_158",
+      "chapter": 30,
+      "subtopic": "30.4",
+      "title": "Jev, Laya and Kev as concrete families",
+      "path": "notebooks/158_Chapter_30_04_native_laya_kev_and_documented_jev.ipynb",
+      "registry_anchor": "code_158",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_158",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "convaiinnovations/laya",
+            "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+            "files": [
+              {
+                "filename": "README.md",
+                "bytes": 23187,
+                "sha256": "00355613796b3f5860b0d5b20392381d26580ec242e04a1fd150c7f116858602",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/README.md"
+              },
+              {
+                "filename": "config.json",
+                "bytes": 160,
+                "sha256": "7add7c041b53f7091e65908553af79ab3f077946e5f2312d510ae13b17c7c134",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/config.json"
+              },
+              {
+                "filename": "encoder/config.json",
+                "bytes": 2083,
+                "sha256": "bf3ab80598fdccf414855a2ce80f22859e4492d06ca8a62ddd1cfb63972f8979",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder/config.json"
+              },
+              {
+                "filename": "model.safetensors",
+                "bytes": 842609210,
+                "sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/model.safetensors"
+              },
+              {
+                "filename": "rl_agent_config.json",
+                "bytes": 745,
+                "sha256": "ae287b56bbcf5f8c4f4541ae9dfd00c914c4c48b940b8398c3058af37ba92bbd",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json"
+              },
+              {
+                "filename": "tokenizer/tokenizer.json",
+                "bytes": 3583228,
+                "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer.json"
+              },
+              {
+                "filename": "tokenizer/tokenizer_config.json",
+                "bytes": 308,
+                "sha256": "50044de60daaa73df97d262e15a40d4faf0160e7d742df64b377877a1320dd12",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer_config.json"
+              }
+            ],
+            "licence": "Apache-2.0"
+          },
+          {
+            "repository": "jaredpalmer/kev-0.8b",
+            "revision": "bf75a6a8848ea6960ff2ed108d9ed44c2941174f",
+            "files": [
+              {
+                "filename": "README.md",
+                "bytes": 24767,
+                "sha256": "96df0121af5e6097916920c1c3a119600cddfe0af8cd0d90b2f16de7d1f2e185",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/README.md"
+              },
+              {
+                "filename": "adapter_config.json",
+                "bytes": 1273,
+                "sha256": "748acb2cda88454cb1ba69d745ba336f3fcb5486eac349e90960c8b8d8d3e854",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/adapter_config.json"
+              },
+              {
+                "filename": "adapter_model.safetensors",
+                "bytes": 43338624,
+                "sha256": "9b908623acb162118575f4e7a94524f9c139c335be4bfb74d6cfceca01e1885a",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/adapter_model.safetensors"
+              },
+              {
+                "filename": "head.pt",
+                "bytes": 2103999,
+                "sha256": "f400bd12802b2b105ae45d6b03774a158a3db4fccff42413734ddca2e5c920b6",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/head.pt"
+              },
+              {
+                "filename": "provenance.json",
+                "bytes": 4221,
+                "sha256": "fce039fbda7de19451c9b5d3065aee2c5e063e1562a8bc18c72e297fbd15e9d8",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/provenance.json"
+              },
+              {
+                "filename": "tokenizer.json",
+                "bytes": 19989325,
+                "sha256": "06b9509352d2af50381ab2247e083b80d32d5c0aba91c272ca9ff729b6a0e523",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/tokenizer.json"
+              },
+              {
+                "filename": "tokenizer_config.json",
+                "bytes": 1128,
+                "sha256": "8671bed7c852ce9e661be94f179a7b4ffd091c2a65aea0363e5501c20318ee45",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/tokenizer_config.json"
+              },
+              {
+                "filename": "training_config.json",
+                "bytes": 1767,
+                "sha256": "3ec3d92146248265652d4387f8eb65ee8defaed4dd9173b049e7b5193045ece6",
+                "cache_relative_path": "build/model-cache/models--jaredpalmer--kev-0.8b/snapshots/bf75a6a8848ea6960ff2ed108d9ed44c2941174f/training_config.json"
+              }
+            ],
+            "licence": "Apache-2.0"
+          },
+          {
+            "repository": "Qwen/Qwen3.5-0.8B-Base",
+            "revision": "dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68",
+            "files": [
+              {
+                "filename": "LICENSE",
+                "bytes": 11343,
+                "sha256": "50cbab8a892c5f2993b8c7351a99182507472def3b1374558308605d99b86b32",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/LICENSE"
+              },
+              {
+                "filename": "README.md",
+                "bytes": 3727,
+                "sha256": "3cff39d2674e28b95e2df75cdb2d7a687ec391931065b05df83dbae12b447b11",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/README.md"
+              },
+              {
+                "filename": "config.json",
+                "bytes": 2907,
+                "sha256": "b90b86f35c8e6925ef74ee04d0e758f0a845c83a42089ad82bbaa948de9b4204",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/config.json"
+              },
+              {
+                "filename": "merges.txt",
+                "bytes": 3353259,
+                "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/merges.txt"
+              },
+              {
+                "filename": "model.safetensors-00001-of-00001.safetensors",
+                "bytes": 1746942600,
+                "sha256": "c2b1e5a17d9c1e27685d92ed9b382911ebb99955ecd89052d1721241adfbab6c",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/model.safetensors-00001-of-00001.safetensors"
+              },
+              {
+                "filename": "model.safetensors.index.json",
+                "bytes": 50900,
+                "sha256": "ce9a885efdf27d3664fdef5d512ad365216f1074051ef840c7cd8e5431495d0a",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/model.safetensors.index.json"
+              },
+              {
+                "filename": "tokenizer.json",
+                "bytes": 12807196,
+                "sha256": "fe000e3ed39ed12b8d2481d527d44f93c65d37e87645d2dcc80d1bf9d50d2927",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/tokenizer.json"
+              },
+              {
+                "filename": "tokenizer_config.json",
+                "bytes": 16712,
+                "sha256": "e611fbccc7c29ef3b1cafb1cb7ea548d189968632901d678fd62be68c47885de",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/tokenizer_config.json"
+              },
+              {
+                "filename": "vocab.json",
+                "bytes": 6722759,
+                "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+                "cache_relative_path": "build/model-cache/models--Qwen--Qwen3.5-0.8B-Base/snapshots/dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68/vocab.json"
+              }
+            ],
+            "licence": "Apache-2.0"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_30_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter30_models.py"
+      },
+      "tested_versions": {
+        "kev": "0.1.0",
+        "laya": "0.4.11",
+        "matplotlib": "3.11.0",
+        "numpy": "2.5.3",
+        "pandas": "3.0.3",
+        "python": "3.12.13",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.8.0",
+        "transformers": "5.20.1"
+      },
+      "dependency_files": [
+        "requirements-chapter30.txt",
+        "requirements-chapter30-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3958,
+      "runtime_seconds": 29.0,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pinned Laya and Kev CPU inference with required Qwen base",
+        "native choice ordinal-score and noul output contracts",
+        "same generated states and literal questions across executed families",
+        "unused dummy label metadata verified absent from predictive inputs",
+        "documented unexecuted Jev and explicitly bounded developer claims"
+      ],
+      "execution_report": "CHAPTER_30_EXECUTION.md",
+      "python_runtime": "build/chapter30-runtime/bin/python",
+      "runtime_guide": "CHAPTER_30_RUNTIME.md",
+      "disclosed_warnings": [
+        {
+          "category": "TqdmWarning",
+          "message": "IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html"
+        },
+        {
+          "category": "RuntimeWarning",
+          "message": "laya: this checkpoint ships invalid temperatures or values outside [0.5, 5]; using choice:11+=0.10058280825614929 -> 0.5. Treat confidence from the affected entries as uncalibrated."
+        }
+      ]
+    },
+    {
+      "id": "code_159",
+      "chapter": 30,
+      "subtopic": "30.5",
+      "title": "Evaluation, calibration and deferral",
+      "path": "notebooks/159_Chapter_30_05_calibration_and_validation_chosen_deferral.ipynb",
+      "registry_anchor": "code_159",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_159",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "convaiinnovations/laya",
+            "revision": "7b928d828b7b0e022f929d9bd2e44165aa270148",
+            "files": [
+              {
+                "filename": "README.md",
+                "bytes": 23187,
+                "sha256": "00355613796b3f5860b0d5b20392381d26580ec242e04a1fd150c7f116858602",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/README.md"
+              },
+              {
+                "filename": "config.json",
+                "bytes": 160,
+                "sha256": "7add7c041b53f7091e65908553af79ab3f077946e5f2312d510ae13b17c7c134",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/config.json"
+              },
+              {
+                "filename": "encoder/config.json",
+                "bytes": 2083,
+                "sha256": "bf3ab80598fdccf414855a2ce80f22859e4492d06ca8a62ddd1cfb63972f8979",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/encoder/config.json"
+              },
+              {
+                "filename": "model.safetensors",
+                "bytes": 842609210,
+                "sha256": "891102d372688fc2a094dac56a384bc537b87c63f21f9f3dac0be2b7cbc8d86c",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/model.safetensors"
+              },
+              {
+                "filename": "rl_agent_config.json",
+                "bytes": 745,
+                "sha256": "ae287b56bbcf5f8c4f4541ae9dfd00c914c4c48b940b8398c3058af37ba92bbd",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/rl_agent_config.json"
+              },
+              {
+                "filename": "tokenizer/tokenizer.json",
+                "bytes": 3583228,
+                "sha256": "6c8aaa9a542084f2457eab775d4eeb51f92a70c0fd9de28d5edb0ddec3c08d30",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer.json"
+              },
+              {
+                "filename": "tokenizer/tokenizer_config.json",
+                "bytes": 308,
+                "sha256": "50044de60daaa73df97d262e15a40d4faf0160e7d742df64b377877a1320dd12",
+                "cache_relative_path": "build/model-cache/models--convaiinnovations--laya/snapshots/7b928d828b7b0e022f929d9bd2e44165aa270148/tokenizer/tokenizer_config.json"
+              }
+            ],
+            "licence": "Apache-2.0"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_30_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter30_models.py"
+      },
+      "tested_versions": {
+        "laya": "0.4.11",
+        "matplotlib": "3.11.0",
+        "numpy": "2.5.3",
+        "pandas": "3.0.3",
+        "python": "3.12.13",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.8.0",
+        "transformers": "5.20.1"
+      },
+      "dependency_files": [
+        "requirements-chapter30.txt",
+        "requirements-chapter30-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3959,
+      "runtime_seconds": 37.964,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual native Laya probabilities versus a fitted numeric tree control",
+        "whole-building source calibration development and final evidence roles",
+        "calibration-only temperature selection and development-only deferral",
+        "option-order and missing-evidence diagnostics",
+        "returned confidence separated from observed correctness and policy authority"
+      ],
+      "execution_report": "CHAPTER_30_EXECUTION.md",
+      "python_runtime": "build/chapter30-runtime/bin/python",
+      "runtime_guide": "CHAPTER_30_RUNTIME.md",
+      "disclosed_warnings": [
+        {
+          "category": "TqdmWarning",
+          "message": "IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html"
+        },
+        {
+          "category": "RuntimeWarning",
+          "message": "laya: this checkpoint ships invalid temperatures or values outside [0.5, 5]; using choice:11+=0.10058280825614929 -> 0.5. Treat confidence from the affected entries as uncalibrated."
+        }
+      ]
+    },
+    {
+      "id": "code_160",
+      "chapter": 30,
+      "subtopic": "30.6",
+      "title": "Scientific workflows and security boundaries",
+      "path": "notebooks/160_Chapter_30_06_verified_scientific_tools_and_security_boundaries.ipynb",
+      "registry_anchor": "code_160",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_160",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "HuggingFaceTB/SmolLM2-135M-Instruct",
+            "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+            "files": [
+              {
+                "filename": "README.md",
+                "bytes": 6772,
+                "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md"
+              },
+              {
+                "filename": "config.json",
+                "bytes": 861,
+                "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json"
+              },
+              {
+                "filename": "generation_config.json",
+                "bytes": 132,
+                "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json"
+              },
+              {
+                "filename": "merges.txt",
+                "bytes": 466391,
+                "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt"
+              },
+              {
+                "filename": "model.safetensors",
+                "bytes": 269060552,
+                "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors"
+              },
+              {
+                "filename": "special_tokens_map.json",
+                "bytes": 655,
+                "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json"
+              },
+              {
+                "filename": "tokenizer.json",
+                "bytes": 2104556,
+                "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json"
+              },
+              {
+                "filename": "tokenizer_config.json",
+                "bytes": 3764,
+                "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json"
+              },
+              {
+                "filename": "vocab.json",
+                "bytes": 800662,
+                "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+                "cache_relative_path": "build/model-cache/models--HuggingFaceTB--SmolLM2-135M-Instruct/snapshots/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json"
+              }
+            ],
+            "licence": "Apache-2.0"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_30_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter30_models.py"
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.5.3",
+        "pandas": "3.0.3",
+        "python": "3.12.13",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.8.0",
+        "transformers": "5.20.1"
+      },
+      "dependency_files": [
+        "requirements-chapter30.txt",
+        "requirements-chapter30-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3960,
+      "runtime_seconds": 6.354,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual small language model proposes bounded mechanical tool choices",
+        "typed whitelist and evidence consistency gate separate from model text",
+        "independent Euler-Bernoulli finite-element verification of exact formulas",
+        "generated adversarial note diagnostic and private-field minimization",
+        "auditable numeric inputs without arbitrary code or external actions"
+      ],
+      "execution_report": "CHAPTER_30_EXECUTION.md",
+      "python_runtime": "build/chapter30-runtime/bin/python",
+      "runtime_guide": "CHAPTER_30_RUNTIME.md",
+      "disclosed_warnings": [
+        {
+          "category": "TqdmWarning",
+          "message": "IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html"
+        }
+      ]
     }
   ]
 }
