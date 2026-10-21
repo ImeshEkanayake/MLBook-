@@ -2114,7 +2114,7 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual ridge and histogram point predictors with unit-aware weighted metrics, actual source-fitted conditional quantiles and pinball loss, Gaussian log score CRPS coverage and interval width, independent final scores with declared asymmetric underprediction cost.
 - **Verification:** 4 code cells, 2 figures; 1.720 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
 
 <a id="code_189"></a>
 ### code_189 — Classification, ranking and recommendation
@@ -2124,7 +2124,7 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** source-fitted classifier and development-only cost threshold, ROC precision recall Brier log loss and query-macro top capacity metrics, observed exposure distinguished from complete generated relevance, one workflow confusion ranking and physical residual Visual A.
 - **Verification:** 4 code cells, 2 figures; 1.576 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
 
 <a id="code_190"></a>
 ### code_190 — Survival, clustering and anomaly detection
@@ -2134,7 +2134,7 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual source Cox likelihood and censor-aware discrimination and Brier scores, bootstrap-fitted KMeans stability separated from external agreement, pointwise eventwise warning time and false alarm episode denominators, explicit demonstration of point adjustment inflation.
 - **Verification:** 5 code cells, 3 figures; 2.051 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
 
 <a id="code_191"></a>
 ### code_191 — Graph, temporal and physical prediction
@@ -2144,7 +2144,7 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual unconstrained and boundary-conforming field surrogates, node edge graph L2 gradient boundary and equation residual assessment, discrete sine residual spectrum and whole-graph aggregation, actual source-fitted recursive forecasts assessed by horizon and trajectory.
 - **Verification:** 4 code cells, 2 figures; 1.733 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
 
 <a id="code_192"></a>
 ### code_192 — Generative and representation quality
@@ -2154,7 +2154,7 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual conditional Gaussian sensor generator versus mode dropping and copying, rare regime coverage conditional means correlations and exact-copy diagnostics, actual train-on-synthetic test-on-independent-real regression, source-fitted PCA reconstruction and predictive probes with rare-slice scores.
 - **Verification:** 4 code cells, 2 figures; 1.597 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
 
 <a id="code_193"></a>
 ### code_193 — Policies, causal estimators and decisions
@@ -2164,7 +2164,7 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** independent logged bandit IPS and doubly robust values with simulator audit, actual source-fitted nuisance outcomes and supported ATE score, unsupported deterministic logging explicitly refuses full policy value, executed sequential controllers report return regret and constraint violations.
 - **Verification:** 4 code cells, 2 figures; 1.541 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
 
 <a id="code_194"></a>
 ### code_194 — Statistical uncertainty and fair comparisons
@@ -2174,7 +2174,7 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual fixed ridge and eight seeded random forest fits, paired equal-building loss comparison with building versus row bootstrap, source fixed training seed variation separated from cohort uncertainty, building-level paired differences and counted load slices Visual B.
 - **Verification:** 4 code cells, 2 figures; 2.120 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
 
 <a id="code_195"></a>
 ### code_195 — Error analysis and actionable diagnosis
@@ -2184,4 +2184,4 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** audited source unit conversion and removal of post-outcome shortcut, diagnostic residual slices with support and sample counts, actual new source acquisition in unsupported material-load regime, fixed-recipe augmentation assessed on independent locked buildings.
 - **Verification:** 4 code cells, 2 figures; 1.613 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
