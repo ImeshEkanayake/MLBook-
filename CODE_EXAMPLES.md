@@ -1626,7 +1626,7 @@ Use the [concept guide](CHAPTER_28_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** locally generated task inputs; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual cross-task synthetic pretraining, separate frozen labelled-context inference, heterogeneous feature-count masks, task-level development and assessment, parameter invariance and context permutation checks.
 - **Verification:** 4 code cells, 2 figures; 4.601 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
 
 <a id="code_145"></a>
 ### code_145 — The TabPFN family and prior-data learning
@@ -1636,7 +1636,7 @@ Use the [concept guide](CHAPTER_28_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** locally generated task inputs; explicit one-time public checkpoint acquisition, then offline CPU inference; [assets and licences](CHAPTER_28_ASSETS.md); [pinned environment](requirements-lock.txt).
 - **Scope:** actual pinned TabPFN v2 CPU inference, explicit offline checkpoint hash verification, whole-building development selection versus final assessment, native missing-value handling and fixed tree controls, unchanged pretrained weights with labelled context.
 - **Verification:** 4 code cells, 2 figures; 5.132 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
 
 <a id="code_146"></a>
 ### code_146 — TabICL, TabFM and cross-table approaches
@@ -1646,7 +1646,7 @@ Use the [concept guide](CHAPTER_28_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** locally generated task inputs; explicit one-time public checkpoint acquisition, then offline CPU inference; [assets and licences](CHAPTER_28_ASSETS.md); [pinned environment](requirements-lock.txt).
 - **Scope:** actual pinned TabICLv2 classifier and regressor, separate labelled-context task heads, checkpoint and source-package identity audit, development-selected native ensemble and tree controls, regression quantile assessment without calibration guarantee.
 - **Verification:** 4 code cells, 2 figures; 5.138 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
 
 <a id="code_147"></a>
 ### code_147 — Relational foundation models
@@ -1656,7 +1656,7 @@ Use the [concept guide](CHAPTER_28_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** locally generated task inputs; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual own cross-database relational pretraining, historical event messages and parent-key gathers, frozen labelled-context prediction on new databases, per-database neural and flat-feature controls, future-row intervention with invariant admitted predictions.
 - **Verification:** 4 code cells, 2 figures; 4.142 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
 
 <a id="code_148"></a>
 ### code_148 — Adaptation, input handling and resource limits
@@ -1666,7 +1666,7 @@ Use the [concept guide](CHAPTER_28_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** locally generated task inputs; explicit one-time public checkpoint acquisition, then offline CPU inference; [assets and licences](CHAPTER_28_ASSETS.md); [pinned environment](requirements-lock.txt).
 - **Scope:** actual native mixed-type and missing-value handling, labelled-context size selection, native KV-cache numerical and storage audit, measured CPU fit and repeat-prediction observations, actual teacher-probability distillation with held-out evaluation.
 - **Verification:** 4 code cells, 2 figures; 5.376 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
 
 <a id="code_149"></a>
 ### code_149 — Benchmark evidence and applicability limits
@@ -1676,4 +1676,4 @@ Use the [concept guide](CHAPTER_28_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** bundled public reference tables and locally generated tasks; explicit one-time public checkpoint acquisition, then offline CPU inference; [assets and licences](CHAPTER_28_ASSETS.md); [pinned environment](requirements-lock.txt).
 - **Scope:** actual pinned native model and tree comparisons across public and generated tables, separate random-row versus whole-entity assessment, equal explicit candidate counts without lifetime-compute claims, table-level paired uncertainty with named task families, actual final-label context leakage fixture and overlap hashes.
 - **Verification:** 4 code cells, 2 figures; 15.564 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_28_EXECUTION.md).

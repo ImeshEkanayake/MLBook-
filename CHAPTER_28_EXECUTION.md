@@ -1,6 +1,6 @@
 # Chapter 28 execution evidence
 
-**Date:** 21 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 21 October 2026 (Australia/Melbourne). **Status:** published and executed; content tree verified.
 
 All current sources ran in fresh kernels using the unchanged runner. All task-generating helpers are internal. Four notebooks require explicitly acquired, hash-verified public checkpoints; inference is offline and CPU-only. Example149 also reads three public reference tables bundled with scikit-learn. The [asset guide](CHAPTER_28_ASSETS.md) records immutable revisions, byte hashes, licences and acquisition. Actual versions and hardware are printed by every kernel and retained below. Native TabPFN 9.2.0 and TabICL 2.2.0 plus 25 pre-cutoff dependencies were added; all 80 earlier package versions are unchanged. Explicit checkpoint acquisition precedes offline inference. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -1483,3 +1483,8 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+
+## Publication and visual evidence
+
+Content revision: `0ab9069a575503bc62a49c68a651a1e34faf7900`. Remote main and all 246 tree blobs match. All six current notebooks pass fresh-kernel execution, with 24 code cells and twelve reviewed inline figures. Book figure generation reruns every cell and checks exact numeric RESULTS; only148 reuses captured resource observations for the timing plot after rerunning all fits and measurements. The 474-page local manuscript layout is visually reviewed with PDF SHA-256 `9663c7d3ae5b09d200259e94590fcc2992373b0bc6606be055c92b8636f30860`. Final metadata and commit-addressed raw files are verified separately. No manuscript or model weights are published in this repository.
