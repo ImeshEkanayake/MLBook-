@@ -1692,7 +1692,7 @@ Use the [concept guide](CHAPTER_29_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual shared forecasting pretraining across independent generated series, context-only normalization and patch representation, whole-series model selection and final assessment, frozen checkpoint versus local autoregression and seasonal controls, scale quantization and causal context interventions.
 - **Verification:** 4 code cells, 2 figures; 2.533 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
 
 <a id="code_151"></a>
 ### code_151 — Representative forecasting model families
@@ -1702,7 +1702,7 @@ Use the [concept guide](CHAPTER_29_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; explicit one-time public checkpoint acquisition then offline CPU inference; [assets and notices](CHAPTER_29_ASSETS.md); [pinned environment](requirements-lock.txt).
 - **Scope:** actual pinned TimesFM2.5 and ChronosBoltTiny CPU inference, explicit model/config byte hashes and offline loading, multiple origins kept within independent generated series, seasonal local autoregression and lagged-tree controls, native quantile shape coverage and immutable checkpoint parameters.
 - **Verification:** 4 code cells, 2 figures; 7.059 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
 
 <a id="code_152"></a>
 ### code_152 — Adaptation and evaluation across domains
@@ -1712,7 +1712,7 @@ Use the [concept guide](CHAPTER_29_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** task inputs generated locally; explicit one-time public checkpoint acquisition then offline CPU inference; [assets and notices](CHAPTER_29_ASSETS.md); [pinned environment](requirements-lock.txt).
 - **Scope:** actual frozen ChronosBolt forecast across cadence regimes, causal historical imputation and input contracts, target-label residual adaptation with separate selection and assessment, independent-series uncertainty for label-budget comparisons, temporal overlap and future-covariate availability interventions.
 - **Verification:** 4 code cells, 2 figures; 3.137 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
 
 <a id="code_153"></a>
 ### code_153 — Scientific and physical foundation models
@@ -1722,7 +1722,7 @@ Use the [concept guide](CHAPTER_29_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual original spectral solution-operator pretraining across equation parameters, analytic periodic advection diffusion reaction references, whole-case development and downstream parameter updates, warm-start versus scratch operators with equal downstream budgets, physical support and semigroup consistency checks without named-model substitution.
 - **Verification:** 4 code cells, 2 figures; 2.604 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
 
 <a id="code_154"></a>
 ### code_154 — Validity, scale and responsible reuse
@@ -1732,4 +1732,4 @@ Use the [concept guide](CHAPTER_29_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual shared learned diffusion stencil with disclosed observation bias, new-mesh physical scaling and deliberate wrong-grid fixture, independent converged sparse numerical references and analytic checks, periodic conservation projection versus invalid Dirichlet mass constraint, boundary values rollout stability and field errors checked separately.
 - **Verification:** 4 code cells, 2 figures; 2.492 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 21 October 2026. [Run evidence](CHAPTER_29_EXECUTION.md).

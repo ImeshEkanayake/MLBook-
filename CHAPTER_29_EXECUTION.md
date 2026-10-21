@@ -1,6 +1,6 @@
 # Chapter 29 execution evidence
 
-**Date:** 21 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 21 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content tree verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Task inputs and helpers are internal. Examples151/152 require explicit one-time acquisition and hash verification of two public forecasting checkpoints; ordinary inference then runs offline on CPU. See the [asset guide](CHAPTER_29_ASSETS.md). Actual versions and hardware are printed by every kernel and retained below. Twelve verified pre-cutoff dependencies added; all107prior versions unchanged. Native TimesFM3.0.2/Chronos2.3.2 load explicitly pinned historical checkpoints; no runtime downloads. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -735,3 +735,8 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+
+## Publication and visual evidence
+
+Content revision: `5c3cb9fa2ea27dc80ed830a9620b5e27205c086d`. Remote main and all258tree blobs match. All five current notebooks pass fresh-kernel execution;20code cells and ten inline figures are reviewed. Book figure generation executes every current source cell with exact numeric RESULTS agreement and no resource replay. Final494-page local manuscript layout reviewed with PDF SHA-256 `10f36ca91eb94b81c62f327bdebc060e05bf6b7c74bb7067b707db8fae972393`. All445earlier body pages are pixel-identical. Final publication metadata and raw commit-addressed files are verified separately. No manuscript or model weights are published in this repository.
