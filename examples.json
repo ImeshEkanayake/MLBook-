@@ -6253,6 +6253,356 @@
         "relational and derived-field acceptance checks without DP claims"
       ],
       "execution_report": "CHAPTER_27_EXECUTION.md"
+    },
+    {
+      "id": "code_144",
+      "chapter": 28,
+      "subtopic": "28.1",
+      "title": "What makes a reusable tabular model",
+      "path": "notebooks/144_Chapter_28_01_reusable_predictor_pretraining_and_context.ipynb",
+      "registry_anchor": "code_144",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_144",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": []
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3544,
+      "runtime_seconds": 4.601,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual cross-task synthetic pretraining",
+        "separate frozen labelled-context inference",
+        "heterogeneous feature-count masks",
+        "task-level development and assessment",
+        "parameter invariance and context permutation checks"
+      ],
+      "execution_report": "CHAPTER_28_EXECUTION.md"
+    },
+    {
+      "id": "code_145",
+      "chapter": 28,
+      "subtopic": "28.2",
+      "title": "The TabPFN family and prior-data learning",
+      "path": "notebooks/145_Chapter_28_02_pinned_tabpfn_and_grouped_comparison.ipynb",
+      "registry_anchor": "code_145",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_145",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "Prior-Labs/TabPFN-v2-clf",
+            "revision": "f851f2a3c941544733b712d8c0f96dfae9b28862",
+            "filename": "tabpfn-v2-classifier-v2_default.ckpt",
+            "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+            "bytes": 29009539,
+            "cache_relative_path": "build/model-cache/models--Prior-Labs--TabPFN-v2-clf/snapshots/f851f2a3c941544733b712d8c0f96dfae9b28862/tabpfn-v2-classifier-v2_default.ckpt",
+            "licence_notice": "notices/TABPFN_V2_LICENSE.txt"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_28_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter28_models.py"
+      },
+      "tested_versions": {
+        "huggingface-hub": "1.33.0",
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "tabpfn": "9.2.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3545,
+      "runtime_seconds": 5.132,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pinned TabPFN v2 CPU inference",
+        "explicit offline checkpoint hash verification",
+        "whole-building development selection versus final assessment",
+        "native missing-value handling and fixed tree controls",
+        "unchanged pretrained weights with labelled context"
+      ],
+      "execution_report": "CHAPTER_28_EXECUTION.md",
+      "disclosed_warnings": [
+        "Native TabPFN CPU advisory above 200 context records, twice; messages preserved with package-relative source locations."
+      ]
+    },
+    {
+      "id": "code_146",
+      "chapter": 28,
+      "subtopic": "28.3",
+      "title": "TabICL, TabFM and cross-table approaches",
+      "path": "notebooks/146_Chapter_28_03_tabicl_tasks_and_checkpoint_contracts.ipynb",
+      "registry_anchor": "code_146",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_146",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "jingang/TabICL",
+            "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+            "filename": "tabicl-classifier-v2-20260212.ckpt",
+            "sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+            "bytes": 110368038,
+            "cache_relative_path": "build/model-cache/models--jingang--TabICL/snapshots/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-classifier-v2-20260212.ckpt",
+            "licence_notice": "notices/TABICL_LICENSE.txt"
+          },
+          {
+            "repository": "jingang/TabICL",
+            "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+            "filename": "tabicl-regressor-v2-20260212.ckpt",
+            "sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+            "bytes": 114324594,
+            "cache_relative_path": "build/model-cache/models--jingang--TabICL/snapshots/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-regressor-v2-20260212.ckpt",
+            "licence_notice": "notices/TABICL_LICENSE.txt"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_28_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter28_models.py"
+      },
+      "tested_versions": {
+        "huggingface-hub": "1.33.0",
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "tabicl": "2.2.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3546,
+      "runtime_seconds": 5.138,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pinned TabICLv2 classifier and regressor",
+        "separate labelled-context task heads",
+        "checkpoint and source-package identity audit",
+        "development-selected native ensemble and tree controls",
+        "regression quantile assessment without calibration guarantee"
+      ],
+      "execution_report": "CHAPTER_28_EXECUTION.md"
+    },
+    {
+      "id": "code_147",
+      "chapter": 28,
+      "subtopic": "28.4",
+      "title": "Relational foundation models",
+      "path": "notebooks/147_Chapter_28_04_relational_pretraining_and_historical_queries.ipynb",
+      "registry_anchor": "code_147",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_147",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": []
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3547,
+      "runtime_seconds": 4.142,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual own cross-database relational pretraining",
+        "historical event messages and parent-key gathers",
+        "frozen labelled-context prediction on new databases",
+        "per-database neural and flat-feature controls",
+        "future-row intervention with invariant admitted predictions"
+      ],
+      "execution_report": "CHAPTER_28_EXECUTION.md"
+    },
+    {
+      "id": "code_148",
+      "chapter": 28,
+      "subtopic": "28.5",
+      "title": "Adaptation, input handling and resource limits",
+      "path": "notebooks/148_Chapter_28_05_context_caches_inputs_and_distillation.ipynb",
+      "registry_anchor": "code_148",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_148",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "jingang/TabICL",
+            "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+            "filename": "tabicl-classifier-v2-20260212.ckpt",
+            "sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+            "bytes": 110368038,
+            "cache_relative_path": "build/model-cache/models--jingang--TabICL/snapshots/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-classifier-v2-20260212.ckpt",
+            "licence_notice": "notices/TABICL_LICENSE.txt"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_28_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter28_models.py"
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "psutil": "7.2.2",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "tabicl": "2.2.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3548,
+      "runtime_seconds": 5.376,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual native mixed-type and missing-value handling",
+        "labelled-context size selection",
+        "native KV-cache numerical and storage audit",
+        "measured CPU fit and repeat-prediction observations",
+        "actual teacher-probability distillation with held-out evaluation"
+      ],
+      "execution_report": "CHAPTER_28_EXECUTION.md",
+      "resource_observations": "Actual one-process CPU timings/RSS are outside numeric RESULTS; book figure reuses captured observations after rerunning all fits and numerical checks."
+    },
+    {
+      "id": "code_149",
+      "chapter": 28,
+      "subtopic": "28.6",
+      "title": "Benchmark evidence and applicability limits",
+      "path": "notebooks/149_Chapter_28_06_benchmark_provenance_and_applicability.ipynb",
+      "registry_anchor": "code_149",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_149",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "Three scikit-learn-bundled public reference tables (Iris/Wine/Wisconsin diagnostic) plus twelve locally generated whole-building tasks; public upstream model-development overlap is unverified.",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "runtime_downloads_required": false,
+        "checkpoint_assets": [
+          {
+            "repository": "jingang/TabICL",
+            "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+            "filename": "tabicl-classifier-v2-20260212.ckpt",
+            "sha256": "bdc7dbd5e4ff21f8f0456fcf90c6b7cdf72dbea960f2d05b19bec19f9b3d4ed0",
+            "bytes": 110368038,
+            "cache_relative_path": "build/model-cache/models--jingang--TabICL/snapshots/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-classifier-v2-20260212.ckpt",
+            "licence_notice": "notices/TABICL_LICENSE.txt"
+          }
+        ],
+        "acquisition_guide": "CHAPTER_28_ASSETS.md",
+        "acquisition_script": "scripts/acquire_chapter28_models.py"
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "tabicl": "2.2.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 3549,
+      "runtime_seconds": 15.564,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pinned native model and tree comparisons across public and generated tables",
+        "separate random-row versus whole-entity assessment",
+        "equal explicit candidate counts without lifetime-compute claims",
+        "table-level paired uncertainty with named task families",
+        "actual final-label context leakage fixture and overlap hashes"
+      ],
+      "execution_report": "CHAPTER_28_EXECUTION.md"
     }
   ]
 }

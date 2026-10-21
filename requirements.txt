@@ -25,3 +25,12 @@ patsy==1.0.3
 formulaic==1.2.2
 interface-meta==2.0.1
 wrapt==2.5.1
+
+# Chapter28 native reusable tabular checkpoints; explicit acquisition, offline inference.
+tabpfn==9.2.0
+tabicl==2.2.0
+# Author-compatible Hub major and pre-cutoff stable transitive controls.
+huggingface-hub==1.33.0
+skrub==0.10.1
+pydantic-settings==2.16.0
+certifi==2026.10.18
