@@ -1,6 +1,6 @@
 # Chapter 34 execution evidence
 
-**Date:** 21 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 21 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified 22 October 2026.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -960,3 +960,8 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+
+## Publication and visual evidence
+
+Content revision `9d1ff5f68e8e19f71ddbeabab2e23e5b6aa7895e` matches remote main and all 308 remote file blobs. Five independent fresh-kernel notebooks execute24code cells and produce14reviewed inline figures. Every current source cell reruns for vector-book exports in its own isolated process, with exact deterministic numeric RESULTS equality. All26Chapter34pages,14book figures,8equations, five-row companion map and20exercises are visually reviewed, together with title, one-page How to use this preview, one-page contents and all five reference pages. The separate second preview has94pages, SHA-256 `3aa298e49fc22f568fce13f64a8384fdca38f4ec81267c8f1ac711ca972458b1`; Chapter34occupies printed544–569/PDF64–89. Timeline annotation and ranking-label repairs were checked in final exports, inline plots and compiled pages. All60earlier second-preview body pages are pixel-identical. The first preview through30remains byte-identical. All210prior chapter/notebook files and177prior manifest records are preserved. Final publication metadata and commit-addressed raw files are verified separately. Only companion artifacts are published here; manuscript pages and book figures remain local.
