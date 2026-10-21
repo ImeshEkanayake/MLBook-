@@ -9486,6 +9486,222 @@
         "executed finite-capacity review queue with delayed outcomes and combined service cost"
       ],
       "execution_report": "CHAPTER_37_EXECUTION.md"
+    },
+    {
+      "id": "code_201",
+      "chapter": 38,
+      "subtopic": "38.1",
+      "title": "Interpretability goals and transparent models",
+      "path": "notebooks/201_Chapter_38_01_transparent_physical_baselines_and_decision_paths.ipynb",
+      "registry_anchor": "code_201",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_201",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8001,
+      "runtime_seconds": 1.601,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual raw linear log Lasso small tree and boosted physical response models",
+        "source-only transformed coefficient interpretation with nuisance variables",
+        "actual local additive log prediction and native tree decision path",
+        "independent accuracy and negative physical output diagnostics"
+      ],
+      "execution_report": "CHAPTER_38_EXECUTION.md"
+    },
+    {
+      "id": "code_202",
+      "chapter": 38,
+      "subtopic": "38.2",
+      "title": "Effects, importance and dependent features",
+      "path": "notebooks/202_Chapter_38_02_permutation_ICE_partial_dependence_and_ALE.ipynb",
+      "registry_anchor": "code_202",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_202",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8002,
+      "runtime_seconds": 1.81,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual source fitted models with and without a correlated sensor",
+        "marginal joint and within-sensor-bin permutation loss changes",
+        "actual individual conditional expectation partial dependence and finite-bin ALE",
+        "support diagnostics for feature combinations and noncausal interpretation"
+      ],
+      "execution_report": "CHAPTER_38_EXECUTION.md"
+    },
+    {
+      "id": "code_203",
+      "chapter": 38,
+      "subtopic": "38.3",
+      "title": "Local attributions and SHAP",
+      "path": "notebooks/203_Chapter_38_03_exact_SHAP_coalitions_and_background_sensitivity.ipynb",
+      "registry_anchor": "code_203",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_203",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8003,
+      "runtime_seconds": 1.854,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual exact three-feature Shapley coalition enumeration for a fitted classifier",
+        "two valid empirical background populations with different baselines",
+        "conditional background-resample variability separated from model uncertainty",
+        "correlated-feature masking support diagnostic and exact efficiency checks"
+      ],
+      "execution_report": "CHAPTER_38_EXECUTION.md"
+    },
+    {
+      "id": "code_204",
+      "chapter": 38,
+      "subtopic": "38.4",
+      "title": "Counterfactual explanations and recourse",
+      "path": "notebooks/204_Chapter_38_04_counterfactual_edits_physical_recourse_and_explanation_questions.ipynb",
+      "registry_anchor": "code_204",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_204",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8004,
+      "runtime_seconds": 1.576,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual source-scaled logistic alarm model on normalized load strain stiffness",
+        "analytic closest standardized model-changing edit versus immutable physical constraints",
+        "explicit load-action search propagating strain through a declared elastic relation",
+        "same-prediction local attribution global effect and feasible-action Visual A"
+      ],
+      "execution_report": "CHAPTER_38_EXECUTION.md"
+    },
+    {
+      "id": "code_205",
+      "chapter": 38,
+      "subtopic": "38.5",
+      "title": "Graph, temporal and scientific explanations",
+      "path": "notebooks/205_Chapter_38_05_graph_masks_physical_residuals_and_temporal_attribution.ipynb",
+      "registry_anchor": "code_205",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_205",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8005,
+      "runtime_seconds": 3.861,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "actual graph neural regression and learned sparse edge mask with hard-mask fidelity checks",
+        "single-edge model perturbations compared with an independent elastic solver",
+        "nodewise displacement error and equilibrium residual maps",
+        "actual learned temporal attention and integrated gradients with occlusion and parameter randomization controls"
+      ],
+      "execution_report": "CHAPTER_38_EXECUTION.md"
     }
   ]
 }
