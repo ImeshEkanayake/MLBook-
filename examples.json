@@ -8926,6 +8926,350 @@
         "nested information-boundary diagram with actual building counts"
       ],
       "execution_report": "CHAPTER_35_EXECUTION.md"
+    },
+    {
+      "id": "code_188",
+      "chapter": 36,
+      "subtopic": "36.1",
+      "title": "Regression and predictive distributions",
+      "path": "notebooks/188_Chapter_36_01_point_quantile_and_proper_distribution_scores.ipynb",
+      "registry_anchor": "code_188",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_188",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7788,
+      "runtime_seconds": 1.72,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual ridge and histogram point predictors with unit-aware weighted metrics",
+        "actual source-fitted conditional quantiles and pinball loss",
+        "Gaussian log score CRPS coverage and interval width",
+        "independent final scores with declared asymmetric underprediction cost"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_189",
+      "chapter": 36,
+      "subtopic": "36.2",
+      "title": "Classification, ranking and recommendation",
+      "path": "notebooks/189_Chapter_36_02_classification_query_ranking_and_physical_diagnosis.ipynb",
+      "registry_anchor": "code_189",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_189",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7789,
+      "runtime_seconds": 1.576,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "source-fitted classifier and development-only cost threshold",
+        "ROC precision recall Brier log loss and query-macro top capacity metrics",
+        "observed exposure distinguished from complete generated relevance",
+        "one workflow confusion ranking and physical residual Visual A"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_190",
+      "chapter": 36,
+      "subtopic": "36.3",
+      "title": "Survival, clustering and anomaly detection",
+      "path": "notebooks/190_Chapter_36_03_censoring_cluster_stability_and_alarm_episodes.ipynb",
+      "registry_anchor": "code_190",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_190",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7790,
+      "runtime_seconds": 2.051,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "actual source Cox likelihood and censor-aware discrimination and Brier scores",
+        "bootstrap-fitted KMeans stability separated from external agreement",
+        "pointwise eventwise warning time and false alarm episode denominators",
+        "explicit demonstration of point adjustment inflation"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_191",
+      "chapter": 36,
+      "subtopic": "36.4",
+      "title": "Graph, temporal and physical prediction",
+      "path": "notebooks/191_Chapter_36_04_graph_field_constraints_spectra_and_forecast_horizons.ipynb",
+      "registry_anchor": "code_191",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_191",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7791,
+      "runtime_seconds": 1.733,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual unconstrained and boundary-conforming field surrogates",
+        "node edge graph L2 gradient boundary and equation residual assessment",
+        "discrete sine residual spectrum and whole-graph aggregation",
+        "actual source-fitted recursive forecasts assessed by horizon and trajectory"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_192",
+      "chapter": 36,
+      "subtopic": "36.5",
+      "title": "Generative and representation quality",
+      "path": "notebooks/192_Chapter_36_05_synthetic_fidelity_coverage_utility_and_memorization.ipynb",
+      "registry_anchor": "code_192",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_192",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7792,
+      "runtime_seconds": 1.597,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual conditional Gaussian sensor generator versus mode dropping and copying",
+        "rare regime coverage conditional means correlations and exact-copy diagnostics",
+        "actual train-on-synthetic test-on-independent-real regression",
+        "source-fitted PCA reconstruction and predictive probes with rare-slice scores"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_193",
+      "chapter": 36,
+      "subtopic": "36.6",
+      "title": "Policies, causal estimators and decisions",
+      "path": "notebooks/193_Chapter_36_06_policy_values_causal_effects_and_control_constraints.ipynb",
+      "registry_anchor": "code_193",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_193",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7793,
+      "runtime_seconds": 1.541,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "independent logged bandit IPS and doubly robust values with simulator audit",
+        "actual source-fitted nuisance outcomes and supported ATE score",
+        "unsupported deterministic logging explicitly refuses full policy value",
+        "executed sequential controllers report return regret and constraint violations"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_194",
+      "chapter": 36,
+      "subtopic": "36.7",
+      "title": "Statistical uncertainty and fair comparisons",
+      "path": "notebooks/194_Chapter_36_07_paired_building_bootstrap_seeds_and_error_slices.ipynb",
+      "registry_anchor": "code_194",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_194",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7794,
+      "runtime_seconds": 2.12,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual fixed ridge and eight seeded random forest fits",
+        "paired equal-building loss comparison with building versus row bootstrap",
+        "source fixed training seed variation separated from cohort uncertainty",
+        "building-level paired differences and counted load slices Visual B"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_195",
+      "chapter": 36,
+      "subtopic": "36.8",
+      "title": "Error analysis and actionable diagnosis",
+      "path": "notebooks/195_Chapter_36_08_units_shortcuts_support_and_targeted_data_acquisition.ipynb",
+      "registry_anchor": "code_195",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_195",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7795,
+      "runtime_seconds": 1.613,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "audited source unit conversion and removal of post-outcome shortcut",
+        "diagnostic residual slices with support and sample counts",
+        "actual new source acquisition in unsupported material-load regime",
+        "fixed-recipe augmentation assessed on independent locked buildings"
+      ],
+      "execution_report": "CHAPTER_36_EXECUTION.md"
     }
   ]
 }

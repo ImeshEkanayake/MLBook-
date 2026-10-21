@@ -2099,3 +2099,89 @@ Use the [concept guide](CHAPTER_35_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual grouped inner selection of depth rate and stopping checkpoint, outer evaluation with source-only preprocessing and executed fixed-budget refits, whole-source inner selection followed by locked independent final assessment, repeated equal-risk predictor selection showing reused-score optimism, nested information-boundary diagram with actual building counts.
 - **Verification:** 4 code cells, 3 figures; 2.584 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_35_EXECUTION.md).
+
+<!-- CHAPTER_36_ENTRIES -->
+
+## Chapter 36: Evaluation and error diagnosis
+
+Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHAPTER_36_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_188"></a>
+### code_188 — Regression and predictive distributions
+
+- **Book home:** section 36.1.
+- **Notebook:** [188_Chapter_36_01_point_quantile_and_proper_distribution_scores.ipynb](notebooks/188_Chapter_36_01_point_quantile_and_proper_distribution_scores.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual ridge and histogram point predictors with unit-aware weighted metrics, actual source-fitted conditional quantiles and pinball loss, Gaussian log score CRPS coverage and interval width, independent final scores with declared asymmetric underprediction cost.
+- **Verification:** 4 code cells, 2 figures; 1.720 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<a id="code_189"></a>
+### code_189 — Classification, ranking and recommendation
+
+- **Book home:** section 36.2.
+- **Notebook:** [189_Chapter_36_02_classification_query_ranking_and_physical_diagnosis.ipynb](notebooks/189_Chapter_36_02_classification_query_ranking_and_physical_diagnosis.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** source-fitted classifier and development-only cost threshold, ROC precision recall Brier log loss and query-macro top capacity metrics, observed exposure distinguished from complete generated relevance, one workflow confusion ranking and physical residual Visual A.
+- **Verification:** 4 code cells, 2 figures; 1.576 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<a id="code_190"></a>
+### code_190 — Survival, clustering and anomaly detection
+
+- **Book home:** section 36.3.
+- **Notebook:** [190_Chapter_36_03_censoring_cluster_stability_and_alarm_episodes.ipynb](notebooks/190_Chapter_36_03_censoring_cluster_stability_and_alarm_episodes.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual source Cox likelihood and censor-aware discrimination and Brier scores, bootstrap-fitted KMeans stability separated from external agreement, pointwise eventwise warning time and false alarm episode denominators, explicit demonstration of point adjustment inflation.
+- **Verification:** 5 code cells, 3 figures; 2.051 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<a id="code_191"></a>
+### code_191 — Graph, temporal and physical prediction
+
+- **Book home:** section 36.4.
+- **Notebook:** [191_Chapter_36_04_graph_field_constraints_spectra_and_forecast_horizons.ipynb](notebooks/191_Chapter_36_04_graph_field_constraints_spectra_and_forecast_horizons.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual unconstrained and boundary-conforming field surrogates, node edge graph L2 gradient boundary and equation residual assessment, discrete sine residual spectrum and whole-graph aggregation, actual source-fitted recursive forecasts assessed by horizon and trajectory.
+- **Verification:** 4 code cells, 2 figures; 1.733 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<a id="code_192"></a>
+### code_192 — Generative and representation quality
+
+- **Book home:** section 36.5.
+- **Notebook:** [192_Chapter_36_05_synthetic_fidelity_coverage_utility_and_memorization.ipynb](notebooks/192_Chapter_36_05_synthetic_fidelity_coverage_utility_and_memorization.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual conditional Gaussian sensor generator versus mode dropping and copying, rare regime coverage conditional means correlations and exact-copy diagnostics, actual train-on-synthetic test-on-independent-real regression, source-fitted PCA reconstruction and predictive probes with rare-slice scores.
+- **Verification:** 4 code cells, 2 figures; 1.597 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<a id="code_193"></a>
+### code_193 — Policies, causal estimators and decisions
+
+- **Book home:** section 36.6.
+- **Notebook:** [193_Chapter_36_06_policy_values_causal_effects_and_control_constraints.ipynb](notebooks/193_Chapter_36_06_policy_values_causal_effects_and_control_constraints.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** independent logged bandit IPS and doubly robust values with simulator audit, actual source-fitted nuisance outcomes and supported ATE score, unsupported deterministic logging explicitly refuses full policy value, executed sequential controllers report return regret and constraint violations.
+- **Verification:** 4 code cells, 2 figures; 1.541 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<a id="code_194"></a>
+### code_194 — Statistical uncertainty and fair comparisons
+
+- **Book home:** section 36.7.
+- **Notebook:** [194_Chapter_36_07_paired_building_bootstrap_seeds_and_error_slices.ipynb](notebooks/194_Chapter_36_07_paired_building_bootstrap_seeds_and_error_slices.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual fixed ridge and eight seeded random forest fits, paired equal-building loss comparison with building versus row bootstrap, source fixed training seed variation separated from cohort uncertainty, building-level paired differences and counted load slices Visual B.
+- **Verification:** 4 code cells, 2 figures; 2.120 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<a id="code_195"></a>
+### code_195 — Error analysis and actionable diagnosis
+
+- **Book home:** section 36.8.
+- **Notebook:** [195_Chapter_36_08_units_shortcuts_support_and_targeted_data_acquisition.ipynb](notebooks/195_Chapter_36_08_units_shortcuts_support_and_targeted_data_acquisition.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** audited source unit conversion and removal of post-outcome shortcut, diagnostic residual slices with support and sample counts, actual new source acquisition in unsupported material-load regime, fixed-recipe augmentation assessed on independent locked buildings.
+- **Verification:** 4 code cells, 2 figures; 1.613 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
