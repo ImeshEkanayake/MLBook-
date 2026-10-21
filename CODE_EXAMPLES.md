@@ -1987,3 +1987,59 @@ Use the [concept guide](CHAPTER_33_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** explicit structural abduction action prediction with fixed exogenous residual, observational recourse contrasted with true structural load effect and feasibility, known-equation beam inverse scenario with units, hidden-confounding sensitivity can change an effect sign, covariate-shift transport versus changed response mechanism on independent targets.
 - **Verification:** 4 code cells, 2 figures; 1.977 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 21 October 2026. [Run evidence](CHAPTER_33_EXECUTION.md).
+
+<!-- CHAPTER_34_ENTRIES -->
+
+## Chapter 34: Specialized prediction problems
+
+Use the [concept guide](CHAPTER_34_GUIDE.md) and [actual execution evidence](CHAPTER_34_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_178"></a>
+### code_178 — Survival, censoring and competing events
+
+- **Book home:** section 34.1.
+- **Notebook:** [178_Chapter_34_01_survival_risk_sets_and_competing_events.ipynb](notebooks/178_Chapter_34_01_survival_risk_sets_and_competing_events.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual Cox partial-likelihood optimization with Breslow baseline, original bootstrap logrank-split survival forest with Nelson Aalen leaf hazards, actual discrete neural hazard likelihood with endpoint censoring, independent IPCW Brier and cumulative dynamic AUC assessment, entry origins and risk sets plus actual competing-event cumulative incidence.
+- **Verification:** 5 code cells, 3 figures; 2.446 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_34_EXECUTION.md).
+
+<a id="code_179"></a>
+### code_179 — Ranking and learning to order
+
+- **Book home:** section 34.2.
+- **Notebook:** [179_Chapter_34_02_query_ranking_losses_and_position_feedback.ipynb](notebooks/179_Chapter_34_02_query_ranking_losses_and_position_feedback.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual pointwise pairwise and ListNet top-one training losses, native pinned XGBRanker NDCG objective with sorted query groups, whole-day fit development and final separation, NDCG at capacity and expected findings compared independently, simulated position examination with known weighting and unsupported-display warning.
+- **Verification:** 4 code cells, 2 figures; 2.503 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_34_EXECUTION.md).
+
+<a id="code_180"></a>
+### code_180 — Recommendation and relational preference
+
+- **Book home:** section 34.3.
+- **Notebook:** [180_Chapter_34_03_recommendation_retrieval_graphs_and_feedback.ipynb](notebooks/180_Chapter_34_03_recommendation_retrieval_graphs_and_feedback.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual matrix factorization and one-hop normalized graph BPR training, feature-based two-tower retrieval with observed-response likelihood, cold-entity fallback and separate candidate recall versus reranking, known-propensity independent logged policy assessment, fixed-preference exposure reinforcement simulation.
+- **Verification:** 5 code cells, 3 figures; 2.840 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_34_EXECUTION.md).
+
+<a id="code_181"></a>
+### code_181 — Multilabel, multioutput and structured prediction
+
+- **Book home:** section 34.4.
+- **Notebook:** [181_Chapter_34_04_dependent_labels_multioutput_and_joint_constraints.ipynb](notebooks/181_Chapter_34_04_dependent_labels_multioutput_and_joint_constraints.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native independent logistic labels and fivefold out-of-fold classifier chains, actual shared neural label heads and explicit valid-set projection, independent versus shared-partition forests and neural vector heads, orthogonal displacement projection under a declared fixture relation, same-entity ranked list multilabel matrix and constrained vector visualization.
+- **Verification:** 5 code cells, 3 figures; 2.882 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_34_EXECUTION.md).
+
+<a id="code_182"></a>
+### code_182 — Rare, ordinal, count and distributional targets
+
+- **Book home:** section 34.5.
+- **Notebook:** [182_Chapter_34_05_ordinal_counts_quantiles_and_asymmetric_costs.ipynb](notebooks/182_Chapter_34_05_ordinal_counts_quantiles_and_asymmetric_costs.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** native proportional-odds ordered likelihood versus nominal and rounded controls, actual Poisson negative-binomial and zero-inflated negative-binomial fitting, separate source calibration threshold selection and final rare-event roles, native conditional quantile fitting with crossing coverage and pinball checks, distributional zero and tail assessment without latent-class certainty.
+- **Verification:** 5 code cells, 3 figures; 2.551 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 21 October 2026. [Run evidence](CHAPTER_34_EXECUTION.md).

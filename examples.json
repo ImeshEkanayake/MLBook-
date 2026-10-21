@@ -8451,6 +8451,233 @@
         "covariate-shift transport versus changed response mechanism on independent targets"
       ],
       "execution_report": "CHAPTER_33_EXECUTION.md"
+    },
+    {
+      "id": "code_178",
+      "chapter": 34,
+      "subtopic": "34.1",
+      "title": "Survival, censoring and competing events",
+      "path": "notebooks/178_Chapter_34_01_survival_risk_sets_and_competing_events.ipynb",
+      "registry_anchor": "code_178",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_178",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7578,
+      "runtime_seconds": 2.446,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "actual Cox partial-likelihood optimization with Breslow baseline",
+        "original bootstrap logrank-split survival forest with Nelson Aalen leaf hazards",
+        "actual discrete neural hazard likelihood with endpoint censoring",
+        "independent IPCW Brier and cumulative dynamic AUC assessment",
+        "entry origins and risk sets plus actual competing-event cumulative incidence"
+      ],
+      "execution_report": "CHAPTER_34_EXECUTION.md"
+    },
+    {
+      "id": "code_179",
+      "chapter": 34,
+      "subtopic": "34.2",
+      "title": "Ranking and learning to order",
+      "path": "notebooks/179_Chapter_34_02_query_ranking_losses_and_position_feedback.ipynb",
+      "registry_anchor": "code_179",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_179",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1",
+        "xgboost": "3.4.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7579,
+      "runtime_seconds": 2.503,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pointwise pairwise and ListNet top-one training losses",
+        "native pinned XGBRanker NDCG objective with sorted query groups",
+        "whole-day fit development and final separation",
+        "NDCG at capacity and expected findings compared independently",
+        "simulated position examination with known weighting and unsupported-display warning"
+      ],
+      "execution_report": "CHAPTER_34_EXECUTION.md"
+    },
+    {
+      "id": "code_180",
+      "chapter": 34,
+      "subtopic": "34.3",
+      "title": "Recommendation and relational preference",
+      "path": "notebooks/180_Chapter_34_03_recommendation_retrieval_graphs_and_feedback.ipynb",
+      "registry_anchor": "code_180",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_180",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7580,
+      "runtime_seconds": 2.84,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "actual matrix factorization and one-hop normalized graph BPR training",
+        "feature-based two-tower retrieval with observed-response likelihood",
+        "cold-entity fallback and separate candidate recall versus reranking",
+        "known-propensity independent logged policy assessment",
+        "fixed-preference exposure reinforcement simulation"
+      ],
+      "execution_report": "CHAPTER_34_EXECUTION.md"
+    },
+    {
+      "id": "code_181",
+      "chapter": 34,
+      "subtopic": "34.4",
+      "title": "Multilabel, multioutput and structured prediction",
+      "path": "notebooks/181_Chapter_34_04_dependent_labels_multioutput_and_joint_constraints.ipynb",
+      "registry_anchor": "code_181",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_181",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7581,
+      "runtime_seconds": 2.882,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "native independent logistic labels and fivefold out-of-fold classifier chains",
+        "actual shared neural label heads and explicit valid-set projection",
+        "independent versus shared-partition forests and neural vector heads",
+        "orthogonal displacement projection under a declared fixture relation",
+        "same-entity ranked list multilabel matrix and constrained vector visualization"
+      ],
+      "execution_report": "CHAPTER_34_EXECUTION.md"
+    },
+    {
+      "id": "code_182",
+      "chapter": 34,
+      "subtopic": "34.5",
+      "title": "Rare, ordinal, count and distributional targets",
+      "path": "notebooks/182_Chapter_34_05_ordinal_counts_quantiles_and_asymmetric_costs.ipynb",
+      "registry_anchor": "code_182",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_182",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-21",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "statsmodels": "0.15.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7582,
+      "runtime_seconds": 2.551,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "native proportional-odds ordered likelihood versus nominal and rounded controls",
+        "actual Poisson negative-binomial and zero-inflated negative-binomial fitting",
+        "separate source calibration threshold selection and final rare-event roles",
+        "native conditional quantile fitting with crossing coverage and pinball checks",
+        "distributional zero and tail assessment without latent-class certainty"
+      ],
+      "execution_report": "CHAPTER_34_EXECUTION.md"
     }
   ]
 }
