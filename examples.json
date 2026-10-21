@@ -9270,6 +9270,222 @@
         "fixed-recipe augmentation assessed on independent locked buildings"
       ],
       "execution_report": "CHAPTER_36_EXECUTION.md"
+    },
+    {
+      "id": "code_196",
+      "chapter": 37,
+      "subtopic": "37.1",
+      "title": "Calibration and probability quality",
+      "path": "notebooks/196_Chapter_37_01_calibration_reliability_and_typed_probability_outputs.ipynb",
+      "registry_anchor": "code_196",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_196",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7896,
+      "runtime_seconds": 2.421,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual boosted classifier and original neural typed probability interface",
+        "independent positive-temperature calibration with unchanged ranking",
+        "fixed-bin reliability Wilson intervals Brier log loss and sharpness",
+        "class-conditional score checks separated from calibration definitions"
+      ],
+      "execution_report": "CHAPTER_37_EXECUTION.md"
+    },
+    {
+      "id": "code_197",
+      "chapter": 37,
+      "subtopic": "37.2",
+      "title": "Predictive intervals and uncertainty models",
+      "path": "notebooks/197_Chapter_37_02_quantile_ensemble_bayesian_and_distributional_intervals.ipynb",
+      "registry_anchor": "code_197",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_197",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7897,
+      "runtime_seconds": 1.651,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual quantile regression and bootstrap predictive residual mixture",
+        "conjugate Normal inverse gamma Bayesian parameter and predictive Student t intervals",
+        "actual heteroscedastic Gaussian likelihood optimization",
+        "familiar versus shifted-load coverage and width without final recalibration"
+      ],
+      "execution_report": "CHAPTER_37_EXECUTION.md"
+    },
+    {
+      "id": "code_198",
+      "chapter": 37,
+      "subtopic": "37.3",
+      "title": "Conformal prediction and assumptions",
+      "path": "notebooks/198_Chapter_37_03_grouped_conformal_sets_intervals_and_delayed_temporal_updates.ipynb",
+      "registry_anchor": "code_198",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_198",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7898,
+      "runtime_seconds": 1.849,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "actual held-out classification nonconformity and building-maximum calibration",
+        "finite-sample rank with new-building simultaneous versus row-marginal claims",
+        "actual conformalized quantile intervals and material-shift assessment",
+        "delayed rolling calibration under drift explicitly without exchangeability guarantee"
+      ],
+      "execution_report": "CHAPTER_37_EXECUTION.md"
+    },
+    {
+      "id": "code_199",
+      "chapter": 37,
+      "subtopic": "37.4",
+      "title": "Thresholds, costs and expected utility",
+      "path": "notebooks/199_Chapter_37_04_cost_thresholds_capacity_and_decision_curves.ipynb",
+      "registry_anchor": "code_199",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_199",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7899,
+      "runtime_seconds": 1.545,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "source logistic model with separate probability calibration and policy selection",
+        "heterogeneous avoided-loss utility and daily capacity ten allocation",
+        "actual decision-curve net benefit with declared threshold exchange rates",
+        "realized final utility versus simulator expected utility audit"
+      ],
+      "execution_report": "CHAPTER_37_EXECUTION.md"
+    },
+    {
+      "id": "code_200",
+      "chapter": 37,
+      "subtopic": "37.5",
+      "title": "Deferral, selective prediction and sequential use",
+      "path": "notebooks/200_Chapter_37_05_selective_risk_support_gates_and_review_queue.ipynb",
+      "registry_anchor": "code_200",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_200",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 7900,
+      "runtime_seconds": 1.582,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual independent temperature calibration and empirical deferral selection",
+        "confidence-only versus explicit unsupported-domain gate",
+        "accepted-risk automation-coverage and repeated-day error diagnostics",
+        "executed finite-capacity review queue with delayed outcomes and combined service cost"
+      ],
+      "execution_report": "CHAPTER_37_EXECUTION.md"
     }
   ]
 }

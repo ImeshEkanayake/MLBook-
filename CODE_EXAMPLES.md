@@ -2185,3 +2185,59 @@ Use the [concept guide](CHAPTER_36_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** audited source unit conversion and removal of post-outcome shortcut, diagnostic residual slices with support and sample counts, actual new source acquisition in unsupported material-load regime, fixed-recipe augmentation assessed on independent locked buildings.
 - **Verification:** 4 code cells, 2 figures; 1.613 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_36_EXECUTION.md).
+
+<!-- CHAPTER_37_ENTRIES -->
+
+## Chapter 37: Uncertainty and decision quality
+
+Use the [concept guide](CHAPTER_37_GUIDE.md) and [actual execution evidence](CHAPTER_37_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_196"></a>
+### code_196 — Calibration and probability quality
+
+- **Book home:** section 37.1.
+- **Notebook:** [196_Chapter_37_01_calibration_reliability_and_typed_probability_outputs.ipynb](notebooks/196_Chapter_37_01_calibration_reliability_and_typed_probability_outputs.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual boosted classifier and original neural typed probability interface, independent positive-temperature calibration with unchanged ranking, fixed-bin reliability Wilson intervals Brier log loss and sharpness, class-conditional score checks separated from calibration definitions.
+- **Verification:** 4 code cells, 2 figures; 2.421 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+
+<a id="code_197"></a>
+### code_197 — Predictive intervals and uncertainty models
+
+- **Book home:** section 37.2.
+- **Notebook:** [197_Chapter_37_02_quantile_ensemble_bayesian_and_distributional_intervals.ipynb](notebooks/197_Chapter_37_02_quantile_ensemble_bayesian_and_distributional_intervals.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual quantile regression and bootstrap predictive residual mixture, conjugate Normal inverse gamma Bayesian parameter and predictive Student t intervals, actual heteroscedastic Gaussian likelihood optimization, familiar versus shifted-load coverage and width without final recalibration.
+- **Verification:** 4 code cells, 2 figures; 1.651 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+
+<a id="code_198"></a>
+### code_198 — Conformal prediction and assumptions
+
+- **Book home:** section 37.3.
+- **Notebook:** [198_Chapter_37_03_grouped_conformal_sets_intervals_and_delayed_temporal_updates.ipynb](notebooks/198_Chapter_37_03_grouped_conformal_sets_intervals_and_delayed_temporal_updates.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual held-out classification nonconformity and building-maximum calibration, finite-sample rank with new-building simultaneous versus row-marginal claims, actual conformalized quantile intervals and material-shift assessment, delayed rolling calibration under drift explicitly without exchangeability guarantee.
+- **Verification:** 5 code cells, 3 figures; 1.849 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+
+<a id="code_199"></a>
+### code_199 — Thresholds, costs and expected utility
+
+- **Book home:** section 37.4.
+- **Notebook:** [199_Chapter_37_04_cost_thresholds_capacity_and_decision_curves.ipynb](notebooks/199_Chapter_37_04_cost_thresholds_capacity_and_decision_curves.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** source logistic model with separate probability calibration and policy selection, heterogeneous avoided-loss utility and daily capacity ten allocation, actual decision-curve net benefit with declared threshold exchange rates, realized final utility versus simulator expected utility audit.
+- **Verification:** 4 code cells, 2 figures; 1.545 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
+
+<a id="code_200"></a>
+### code_200 — Deferral, selective prediction and sequential use
+
+- **Book home:** section 37.5.
+- **Notebook:** [200_Chapter_37_05_selective_risk_support_gates_and_review_queue.ipynb](notebooks/200_Chapter_37_05_selective_risk_support_gates_and_review_queue.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual independent temperature calibration and empirical deferral selection, confidence-only versus explicit unsupported-domain gate, accepted-risk automation-coverage and repeated-day error diagnostics, executed finite-capacity review queue with delayed outcomes and combined service cost.
+- **Verification:** 4 code cells, 2 figures; 1.582 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_37_EXECUTION.md).
