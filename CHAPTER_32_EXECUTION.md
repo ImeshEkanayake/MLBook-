@@ -1,6 +1,6 @@
 # Chapter 32 execution evidence
 
-**Date:** 21 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 21 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content tree verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -730,3 +730,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and visual evidence
+
+Content revision `cded95a13f9c85da5374dd2b39d91e0e71db68f3` is verified against remote main and all 292 remote file blobs. Six independent fresh-kernel notebooks execute 24 code cells and produce twelve reviewed inline figures. All current source cells also execute for vector-book export with exact deterministic numeric RESULTS equality. All 21 Chapter 32 pages, twelve book figures, eight equations, six-row companion map and twenty exercises are visually reviewed, together with updated front matter and all three reference pages. The separate second preview has 48 pages, SHA-256 `c617394e191f2ecd251dc5f8001fe3180a0238321de8f78063662d1e1ce52189`; Chapter 32 occupies printed 505–525 / PDF 25–45. Final chart-label clearance repairs on PDF pages 27 and 34 were re-reviewed; all other candidate page renders are unchanged. The 21 earlier second-preview body pages are pixel-identical. The first preview through Chapter 30 remains byte-identical. All 197 prior chapter/notebook files and 166 prior manifest records are preserved. Final publication metadata and commit-addressed raw files are verified separately. No manuscript pages or book figures are published in this companion repository.
