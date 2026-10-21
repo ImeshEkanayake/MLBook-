@@ -1,6 +1,6 @@
 # Chapter 33 execution evidence
 
-**Date:** 21 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 21 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content tree verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -1065,3 +1065,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and visual evidence
+
+Content revision `e44ccc94dc2fd14ca7f3e0accd0e34eabf05a363` matches remote main and all 300 remote file blobs. Five independent fresh-kernel notebooks execute 20 code cells and produce ten reviewed inline figures. Every current source cell is rerun for vector-book export with exact deterministic numeric RESULTS equality. All 18 Chapter 33 pages, ten book figures, six equations, five-row companion map and twenty exercises are visually reviewed, together with updated front matter and all four reference pages. The separate second preview has 67 pages, SHA-256 `62794cff84b597e6ad9ba6dd61cb84ac9ecbe95d16d5b869fffbd965b6ed7b91`; Chapter 33 occupies printed 526–543 / PDF 46–63. Final explanatory additions clarify double robustness, faithfulness and population policy value; all changed pages were reviewed and other candidate renders match by hashes. The 42 earlier second-preview body pages are pixel-identical. The first preview through Chapter 30 remains byte-identical. All 204 prior chapter/notebook files and 172 prior manifest records are preserved. Final publication metadata and commit-addressed raw files are verified separately. Only companion artifacts are published here; manuscript pages and book figures remain local.
