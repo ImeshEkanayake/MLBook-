@@ -1,6 +1,6 @@
 # Chapter 41 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; content-tree verification passed.
 
 All current sources ran in fresh kernels using the unchanged runner. Imports/helpers and generated observations are internal. code_218 additionally requires the explicitly acquired cached checkpoint in the [asset guide](CHAPTER_41_ASSETS.md); ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency or new asset was added; code_218 explicitly reuses the pinned Chapter35 checkpoint. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -625,3 +625,7 @@ Durations and Python peaks vary between runs and are intentionally outside deter
 }
 ```
 
+
+## Layout and publication verification
+
+All ten inline figures and ten vector book figures were visually inspected. The separately compiled second preview includes fifteen Chapter41 pages, all reviewed with its five front-matter and nine reference pages; all194 previous body pages are pixel-identical. Content revision [b8379e47c6874d2604b205d0f5ca21caa0701adf](https://github.com/ImeshEkanayake/MLBook-/commit/b8379e47c6874d2604b205d0f5ca21caa0701adf) has375 remote blobs matching the clean local checkout. A subsequent metadata revision records publication flags and is separately checked for full-tree and commit-addressed raw-file equality. No weights or manuscript files are published.

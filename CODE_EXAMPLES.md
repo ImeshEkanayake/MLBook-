@@ -2424,7 +2424,7 @@ Use the [concept guide](CHAPTER_41_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual source imputation scaling categories and logistic fit bundled as JSON, fresh subprocess reconstruction of raw-record probabilities using only bundled state, schema unit category and format-version validation fixtures, train package serve visual with reproducibility distinct from model validity.
 - **Verification:** 4 code cells, 2 figures; 1.689 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
 
 <a id="code_217"></a>
 ### code_217 — Serving patterns across model families
@@ -2434,7 +2434,7 @@ Use the [concept guide](CHAPTER_41_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual batch online and compact edge numerical inference equivalence, per-asset causal streaming state with duplicate and stale rejection, actual daily graph construction neighbour aggregation and source-context retrieval, explicit solver-assisted response path with its own failure contract.
 - **Verification:** 4 code cells, 2 figures; 1.607 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
 
 <a id="code_218"></a>
 ### code_218 — Latency, throughput, memory and cost
@@ -2444,7 +2444,7 @@ Use the [concept guide](CHAPTER_41_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated observations plus one explicitly acquired pinned cached checkpoint; [asset guide](CHAPTER_41_ASSETS.md); ordinary inference offline/CPU, no credentials; [pinned environment](requirements-lock.txt).
 - **Scope:** actual pinned TabPFN v2 checkpoint with verified SHA and frozen-parameter context fitting, source-only retrieval and end-to-end request timing including context fit serialization and inference, warm batch-size and context-size observations against compact histogram boosting, concurrent booster-only requests with explicit storage Python-heap and compute-cost boundaries.
 - **Verification:** 4 code cells, 2 figures; 3.268 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
 
 <a id="code_219"></a>
 ### code_219 — Compression, distillation and numerical precision
@@ -2454,7 +2454,7 @@ Use the [concept guide](CHAPTER_41_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual own-model teacher and soft-target distilled student training, magnitude pruning symmetric int8 storage with floating dequantization and factored low-rank forward pass, independent overall rare-slice calibration probability and monotonicity checks, actual observed latency numeric-storage quality frontier without sparse or integer runtime claims.
 - **Verification:** 4 code cells, 2 figures; 2.845 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
 
 <a id="code_220"></a>
 ### code_220 — Release validation and controlled operation
@@ -2464,4 +2464,4 @@ Use the [concept guide](CHAPTER_41_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual old and candidate logistic model fits with independent development gate and final shadow scores, deterministic staged routing and explicit valid invalid deferred status contracts, actual injected timeout and schema unit failures with bounded fallback rules, rollback to retained old parameters and verified identical prior predictions.
 - **Verification:** 4 code cells, 2 figures; 1.587 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
