@@ -2409,3 +2409,59 @@ Use the [concept guide](CHAPTER_40_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual fitted model metrics bound to an executable evidence/use record, simulated role intended-use and lifecycle state gates, canonical hash-chain audit log with change detection and authenticity limits, incident suspension and retirement preserve evidence without autonomous structural clearance.
 - **Verification:** 4 code cells, 2 figures; 1.465 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+
+<!-- CHAPTER_41_ENTRIES -->
+
+## Chapter 41: Deployment and efficient inference
+
+Use the [concept guide](CHAPTER_41_GUIDE.md) and [actual execution evidence](CHAPTER_41_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_216"></a>
+### code_216 — Reproducible prediction packages
+
+- **Book home:** section 41.1.
+- **Notebook:** [216_Chapter_41_01_versioned_prediction_package_and_fresh_process_replay.ipynb](notebooks/216_Chapter_41_01_versioned_prediction_package_and_fresh_process_replay.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual source imputation scaling categories and logistic fit bundled as JSON, fresh subprocess reconstruction of raw-record probabilities using only bundled state, schema unit category and format-version validation fixtures, train package serve visual with reproducibility distinct from model validity.
+- **Verification:** 4 code cells, 2 figures; 1.689 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+
+<a id="code_217"></a>
+### code_217 — Serving patterns across model families
+
+- **Book home:** section 41.2.
+- **Notebook:** [217_Chapter_41_02_batch_online_edge_stream_graph_and_solver_paths.ipynb](notebooks/217_Chapter_41_02_batch_online_edge_stream_graph_and_solver_paths.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual batch online and compact edge numerical inference equivalence, per-asset causal streaming state with duplicate and stale rejection, actual daily graph construction neighbour aggregation and source-context retrieval, explicit solver-assisted response path with its own failure contract.
+- **Verification:** 4 code cells, 2 figures; 1.607 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+
+<a id="code_218"></a>
+### code_218 — Latency, throughput, memory and cost
+
+- **Book home:** section 41.3.
+- **Notebook:** [218_Chapter_41_03_foundation_context_retrieval_warm_batch_and_resource_profile.ipynb](notebooks/218_Chapter_41_03_foundation_context_retrieval_warm_batch_and_resource_profile.ipynb).
+- **Data/dependencies:** generated observations plus one explicitly acquired pinned cached checkpoint; [asset guide](CHAPTER_41_ASSETS.md); ordinary inference offline/CPU, no credentials; [pinned environment](requirements-lock.txt).
+- **Scope:** actual pinned TabPFN v2 checkpoint with verified SHA and frozen-parameter context fitting, source-only retrieval and end-to-end request timing including context fit serialization and inference, warm batch-size and context-size observations against compact histogram boosting, concurrent booster-only requests with explicit storage Python-heap and compute-cost boundaries.
+- **Verification:** 4 code cells, 2 figures; 3.268 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+
+<a id="code_219"></a>
+### code_219 — Compression, distillation and numerical precision
+
+- **Book home:** section 41.4.
+- **Notebook:** [219_Chapter_41_04_teacher_pruning_storage_quantization_low_rank_and_distillation.ipynb](notebooks/219_Chapter_41_04_teacher_pruning_storage_quantization_low_rank_and_distillation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual own-model teacher and soft-target distilled student training, magnitude pruning symmetric int8 storage with floating dequantization and factored low-rank forward pass, independent overall rare-slice calibration probability and monotonicity checks, actual observed latency numeric-storage quality frontier without sparse or integer runtime claims.
+- **Verification:** 4 code cells, 2 figures; 2.845 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+
+<a id="code_220"></a>
+### code_220 — Release validation and controlled operation
+
+- **Book home:** section 41.5.
+- **Notebook:** [220_Chapter_41_05_shadow_staged_routing_failure_contract_and_replayed_rollback.ipynb](notebooks/220_Chapter_41_05_shadow_staged_routing_failure_contract_and_replayed_rollback.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual old and candidate logistic model fits with independent development gate and final shadow scores, deterministic staged routing and explicit valid invalid deferred status contracts, actual injected timeout and schema unit failures with bounded fallback rules, rollback to retained old parameters and verified identical prior predictions.
+- **Verification:** 4 code cells, 2 figures; 1.587 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).

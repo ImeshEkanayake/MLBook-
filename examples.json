@@ -10132,6 +10132,243 @@
         "incident suspension and retirement preserve evidence without autonomous structural clearance"
       ],
       "execution_report": "CHAPTER_40_EXECUTION.md"
+    },
+    {
+      "id": "code_216",
+      "chapter": 41,
+      "subtopic": "41.1",
+      "title": "Reproducible prediction packages",
+      "path": "notebooks/216_Chapter_41_01_versioned_prediction_package_and_fresh_process_replay.ipynb",
+      "registry_anchor": "code_216",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_216",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8016,
+      "runtime_seconds": 1.689,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual source imputation scaling categories and logistic fit bundled as JSON",
+        "fresh subprocess reconstruction of raw-record probabilities using only bundled state",
+        "schema unit category and format-version validation fixtures",
+        "train package serve visual with reproducibility distinct from model validity"
+      ],
+      "execution_report": "CHAPTER_41_EXECUTION.md"
+    },
+    {
+      "id": "code_217",
+      "chapter": 41,
+      "subtopic": "41.2",
+      "title": "Serving patterns across model families",
+      "path": "notebooks/217_Chapter_41_02_batch_online_edge_stream_graph_and_solver_paths.ipynb",
+      "registry_anchor": "code_217",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_217",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8017,
+      "runtime_seconds": 1.607,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual batch online and compact edge numerical inference equivalence",
+        "per-asset causal streaming state with duplicate and stale rejection",
+        "actual daily graph construction neighbour aggregation and source-context retrieval",
+        "explicit solver-assisted response path with its own failure contract"
+      ],
+      "execution_report": "CHAPTER_41_EXECUTION.md"
+    },
+    {
+      "id": "code_218",
+      "chapter": 41,
+      "subtopic": "41.3",
+      "title": "Latency, throughput, memory and cost",
+      "path": "notebooks/218_Chapter_41_03_foundation_context_retrieval_warm_batch_and_resource_profile.ipynb",
+      "registry_anchor": "code_218",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_218",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "generated source/final observations and explicitly acquired immutable public TabPFN v2 classifier checkpoint; see CHAPTER_41_ASSETS.md",
+        "downloads_required": true,
+        "api_keys_required": false,
+        "ordinary_run_network_required": false,
+        "ordinary_run_files": [
+          "pinned cached checkpoint declared in CHAPTER_41_ASSET_MANIFEST.json"
+        ],
+        "asset_manifest": "CHAPTER_41_ASSET_MANIFEST.json",
+        "acquisition_script": "scripts/acquire_chapter35_model.py",
+        "runtime_downloads_required": false,
+        "acquisition_guide": "CHAPTER_41_ASSETS.md",
+        "checkpoint_assets": [
+          {
+            "repository": "Prior-Labs/TabPFN-v2-clf",
+            "revision": "f851f2a3c941544733b712d8c0f96dfae9b28862",
+            "filename": "tabpfn-v2-classifier-v2_default.ckpt",
+            "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+            "bytes": 29009539,
+            "cache_relative_path": "build/model-cache/models--Prior-Labs--TabPFN-v2-clf/snapshots/f851f2a3c941544733b712d8c0f96dfae9b28862/tabpfn-v2-classifier-v2_default.ckpt",
+            "licence_notice": "notices/TABPFN_V2_LICENSE.txt"
+          }
+        ]
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "tabpfn": "9.2.0",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8018,
+      "runtime_seconds": 3.268,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pinned TabPFN v2 checkpoint with verified SHA and frozen-parameter context fitting",
+        "source-only retrieval and end-to-end request timing including context fit serialization and inference",
+        "warm batch-size and context-size observations against compact histogram boosting",
+        "concurrent booster-only requests with explicit storage Python-heap and compute-cost boundaries"
+      ],
+      "execution_report": "CHAPTER_41_EXECUTION.md"
+    },
+    {
+      "id": "code_219",
+      "chapter": 41,
+      "subtopic": "41.4",
+      "title": "Compression, distillation and numerical precision",
+      "path": "notebooks/219_Chapter_41_04_teacher_pruning_storage_quantization_low_rank_and_distillation.ipynb",
+      "registry_anchor": "code_219",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_219",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0",
+        "torch": "2.14.1"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8019,
+      "runtime_seconds": 2.845,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual own-model teacher and soft-target distilled student training",
+        "magnitude pruning symmetric int8 storage with floating dequantization and factored low-rank forward pass",
+        "independent overall rare-slice calibration probability and monotonicity checks",
+        "actual observed latency numeric-storage quality frontier without sparse or integer runtime claims"
+      ],
+      "execution_report": "CHAPTER_41_EXECUTION.md"
+    },
+    {
+      "id": "code_220",
+      "chapter": 41,
+      "subtopic": "41.5",
+      "title": "Release validation and controlled operation",
+      "path": "notebooks/220_Chapter_41_05_shadow_staged_routing_failure_contract_and_replayed_rollback.ipynb",
+      "registry_anchor": "code_220",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_220",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8020,
+      "runtime_seconds": 1.587,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual old and candidate logistic model fits with independent development gate and final shadow scores",
+        "deterministic staged routing and explicit valid invalid deferred status contracts",
+        "actual injected timeout and schema unit failures with bounded fallback rules",
+        "rollback to retained old parameters and verified identical prior predictions"
+      ],
+      "execution_report": "CHAPTER_41_EXECUTION.md"
     }
   ]
 }

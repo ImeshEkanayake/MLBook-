@@ -1,0 +1,33 @@
+{
+  "chapter": 41,
+  "verified_on": "2026-10-22",
+  "acquisition_guide": "CHAPTER_41_ASSETS.md",
+  "acquisition_script": "scripts/acquire_chapter35_model.py",
+  "checkpoints": {
+    "tabpfn_v2_classifier": {
+      "repository": "Prior-Labs/TabPFN-v2-clf",
+      "revision": "f851f2a3c941544733b712d8c0f96dfae9b28862",
+      "filename": "tabpfn-v2-classifier-v2_default.ckpt",
+      "sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+      "bytes": 29009539,
+      "cache_relative_path": "build/model-cache/models--Prior-Labs--TabPFN-v2-clf/snapshots/f851f2a3c941544733b712d8c0f96dfae9b28862/tabpfn-v2-classifier-v2_default.ckpt",
+      "licence_notice": "notices/TABPFN_V2_LICENSE.txt"
+    }
+  },
+  "example_checkpoints": {
+    "code_216": [],
+    "code_217": [],
+    "code_218": [
+      "tabpfn_v2_classifier"
+    ],
+    "code_219": [],
+    "code_220": []
+  },
+  "publication_files": [
+    "CHAPTER_41_ASSET_MANIFEST.json",
+    "CHAPTER_41_ASSETS.md",
+    "CHAPTER_35_ASSETS.md",
+    "scripts/acquire_chapter35_model.py",
+    "notices/TABPFN_V2_LICENSE.txt"
+  ]
+}
