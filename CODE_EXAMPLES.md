@@ -2353,3 +2353,59 @@ Use the [concept guide](CHAPTER_39_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual clipped density-ratio regression and effective sample size, actual convex group-max epigraph optimization with feasibility checks, unlabelled mean alignment and equal-budget random versus targeted target labels, independent challenge results with frozen source-envelope acceptance and explicit deferrals.
 - **Verification:** 4 code cells, 2 figures; 1.424 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+
+<!-- CHAPTER_40_ENTRIES -->
+
+## Chapter 40: Fairness, privacy, and security
+
+Use the [concept guide](CHAPTER_40_GUIDE.md) and [actual execution evidence](CHAPTER_40_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_211"></a>
+### code_211 — Group performance and fairness objectives
+
+- **Book home:** section 40.1.
+- **Notebook:** [211_Chapter_40_01_group_performance_uncertainty_and_allocation.ipynb](notebooks/211_Chapter_40_01_group_performance_uncertainty_and_allocation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual subgroup TPR FPR precision calibration and allocation assessment, Wilson frequency intervals and minority-group denominators, independent development group-threshold comparison, unequal outcome coverage contrasted with privileged simulator full audit.
+- **Verification:** 4 code cells, 2 figures; 1.586 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+
+<a id="code_212"></a>
+### code_212 — Sensitive data and minimization
+
+- **Book home:** section 40.2.
+- **Notebook:** [212_Chapter_40_02_sensitive_fields_pseudonyms_and_data_minimization.ipynb](notebooks/212_Chapter_40_02_sensitive_fields_pseudonyms_and_data_minimization.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual household-level pseudonymous grouping with explicit non-anonymity limits, purpose and role based field export and retention fixtures, auxiliary location-linkage diagnostic before and after coarsening, preserved household temporal split rather than random-row mixing.
+- **Verification:** 4 code cells, 2 figures; 1.417 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+
+<a id="code_213"></a>
+### code_213 — Privacy-preserving learning and release
+
+- **Book home:** section 40.3.
+- **Notebook:** [213_Chapter_40_03_privacy_noise_federated_updates_and_disclosure_audit.ipynb](notebooks/213_Chapter_40_03_privacy_noise_federated_updates_and_disclosure_audit.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** bounded household-mean Laplace utility simulation with replacement sensitivity and composition, actual federated local-gradient model averaging and centralized comparator, single-client update disclosure and arithmetic mask cancellation illustration, synthetic copying and rare-record nearest-neighbour disclosure fixtures.
+- **Verification:** 5 code cells, 3 figures; 1.536 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+
+<a id="code_214"></a>
+### code_214 — Model and data security
+
+- **Book home:** section 40.4.
+- **Notebook:** [214_Chapter_40_04_security_threat_access_and_structured_data_boundaries.ipynb](notebooks/214_Chapter_40_04_security_threat_access_and_structured_data_boundaries.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** generated poisoning and trigger backdoor fits assessed independently, bounded measurement evasion and own-model query extraction fixture, strict numeric inference interface treats external-note instructions only as data, artifact digest change detection and query-volume control with explicit limits.
+- **Verification:** 5 code cells, 3 figures; 1.546 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+
+<a id="code_215"></a>
+### code_215 — Governance, misuse and evidence records
+
+- **Book home:** section 40.5.
+- **Notebook:** [215_Chapter_40_05_use_records_audit_trails_and_incident_states.ipynb](notebooks/215_Chapter_40_05_use_records_audit_trails_and_incident_states.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual fitted model metrics bound to an executable evidence/use record, simulated role intended-use and lifecycle state gates, canonical hash-chain audit log with change detection and authenticity limits, incident suspension and retirement preserve evidence without autonomous structural clearance.
+- **Verification:** 4 code cells, 2 figures; 1.465 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).

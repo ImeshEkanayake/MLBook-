@@ -9917,6 +9917,221 @@
         "independent challenge results with frozen source-envelope acceptance and explicit deferrals"
       ],
       "execution_report": "CHAPTER_39_EXECUTION.md"
+    },
+    {
+      "id": "code_211",
+      "chapter": 40,
+      "subtopic": "40.1",
+      "title": "Group performance and fairness objectives",
+      "path": "notebooks/211_Chapter_40_01_group_performance_uncertainty_and_allocation.ipynb",
+      "registry_anchor": "code_211",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_211",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8011,
+      "runtime_seconds": 1.586,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual subgroup TPR FPR precision calibration and allocation assessment",
+        "Wilson frequency intervals and minority-group denominators",
+        "independent development group-threshold comparison",
+        "unequal outcome coverage contrasted with privileged simulator full audit"
+      ],
+      "execution_report": "CHAPTER_40_EXECUTION.md"
+    },
+    {
+      "id": "code_212",
+      "chapter": 40,
+      "subtopic": "40.2",
+      "title": "Sensitive data and minimization",
+      "path": "notebooks/212_Chapter_40_02_sensitive_fields_pseudonyms_and_data_minimization.ipynb",
+      "registry_anchor": "code_212",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_212",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8012,
+      "runtime_seconds": 1.417,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual household-level pseudonymous grouping with explicit non-anonymity limits",
+        "purpose and role based field export and retention fixtures",
+        "auxiliary location-linkage diagnostic before and after coarsening",
+        "preserved household temporal split rather than random-row mixing"
+      ],
+      "execution_report": "CHAPTER_40_EXECUTION.md"
+    },
+    {
+      "id": "code_213",
+      "chapter": 40,
+      "subtopic": "40.3",
+      "title": "Privacy-preserving learning and release",
+      "path": "notebooks/213_Chapter_40_03_privacy_noise_federated_updates_and_disclosure_audit.ipynb",
+      "registry_anchor": "code_213",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_213",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8013,
+      "runtime_seconds": 1.536,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "bounded household-mean Laplace utility simulation with replacement sensitivity and composition",
+        "actual federated local-gradient model averaging and centralized comparator",
+        "single-client update disclosure and arithmetic mask cancellation illustration",
+        "synthetic copying and rare-record nearest-neighbour disclosure fixtures"
+      ],
+      "execution_report": "CHAPTER_40_EXECUTION.md"
+    },
+    {
+      "id": "code_214",
+      "chapter": 40,
+      "subtopic": "40.4",
+      "title": "Model and data security",
+      "path": "notebooks/214_Chapter_40_04_security_threat_access_and_structured_data_boundaries.ipynb",
+      "registry_anchor": "code_214",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_214",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8014,
+      "runtime_seconds": 1.546,
+      "code_cells_executed": 5,
+      "inline_figures": 3,
+      "concepts_demonstrated": [
+        "generated poisoning and trigger backdoor fits assessed independently",
+        "bounded measurement evasion and own-model query extraction fixture",
+        "strict numeric inference interface treats external-note instructions only as data",
+        "artifact digest change detection and query-volume control with explicit limits"
+      ],
+      "execution_report": "CHAPTER_40_EXECUTION.md"
+    },
+    {
+      "id": "code_215",
+      "chapter": 40,
+      "subtopic": "40.5",
+      "title": "Governance, misuse and evidence records",
+      "path": "notebooks/215_Chapter_40_05_use_records_audit_trails_and_incident_states.ipynb",
+      "registry_anchor": "code_215",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_215",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8015,
+      "runtime_seconds": 1.465,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual fitted model metrics bound to an executable evidence/use record",
+        "simulated role intended-use and lifecycle state gates",
+        "canonical hash-chain audit log with change detection and authenticity limits",
+        "incident suspension and retirement preserve evidence without autonomous structural clearance"
+      ],
+      "execution_report": "CHAPTER_40_EXECUTION.md"
     }
   ]
 }
