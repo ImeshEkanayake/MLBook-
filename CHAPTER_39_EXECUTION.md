@@ -1,6 +1,6 @@
 # Chapter 39 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_209 | 39.4 | 4 | 2 | 2.343 |
 | code_210 | 39.5 | 4 | 2 | 1.424 |
 
-Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **20 executed code cells and 10 inline figures**. Current outputs contain no errors and all assertions pass. All ten book figures and ten actual inline figures have been visually reviewed.
 
 ## Actual mechanisms and boundaries
 
@@ -500,3 +500,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and manuscript review
+
+Content revision `89af97569046688cc5ddfe2fbba33dab1cfe555f` passed remote-main/all-tree-blob verification. The reviewed separate second PDF has191 pages; Chapter39 occupies printed648–661. PDF SHA-256 `15c4e431400ce9696c7fbd357e482738b0f5b7ef2d19cb9cea305199f95a8e5e`. All14 new chapter pages, title/guide/three contents pages, eight reference pages, two equations, five-row map and20 exercises were inspected. All164 earlier second-preview body pages are pixel-identical after the one-page front-matter offset. Fixed first-preview PDF byte-identical. Final metadata raw-file verification is retained in local delivery evidence.

@@ -2312,7 +2312,7 @@ Use the [concept guide](CHAPTER_39_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** source-only classifier assessed on separate covariate and conditional shifts, identical observed inputs with changed response law as an observability control, exact class-conditional label-shift generator and prior correction, source-support map and independent label-dependent diagnostics.
 - **Verification:** 4 code cells, 2 figures; 1.641 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
 
 <a id="code_207"></a>
 ### code_207 — Corruption and measurement robustness
@@ -2322,7 +2322,7 @@ Use the [concept guide](CHAPTER_39_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual two-channel temporal sensor regression with source-only augmentation, severity tests for noise missing channel calibration bias and delayed packets, unit timestamp and finite-value validators with explicit reject counts, independent clean and corrupted outcomes without challenge-selected repairs.
 - **Verification:** 4 code cells, 2 figures; 1.674 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
 
 <a id="code_208"></a>
 ### code_208 — Extrapolation and structural generalization
@@ -2332,7 +2332,7 @@ Use the [concept guide](CHAPTER_39_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual frequency-domain elastic chain solver with independent source/final entities, separate graph size member length material load and frequency challenges, learned physical response scaling contrasted with raw feature boosting, changed boundary-condition challenge exposes misspecified physical transfer.
 - **Verification:** 4 code cells, 2 figures; 1.758 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
 
 <a id="code_209"></a>
 ### code_209 — Physical and domain validity
@@ -2342,7 +2342,7 @@ Use the [concept guide](CHAPTER_39_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual source-fitted anisotropic vector response and mechanical comparator, rotated geometry force covariance boundary and equilibrium checks, explicit corruption and support-change stress-test board, separate displacement error force residual energy and field constraints.
 - **Verification:** 4 code cells, 2 figures; 2.343 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
 
 <a id="code_210"></a>
 ### code_210 — Adaptation, stress testing and fallback
@@ -2352,4 +2352,4 @@ Use the [concept guide](CHAPTER_39_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual clipped density-ratio regression and effective sample size, actual convex group-max epigraph optimization with feasibility checks, unlabelled mean alignment and equal-budget random versus targeted target labels, independent challenge results with frozen source-envelope acceptance and explicit deferrals.
 - **Verification:** 4 code cells, 2 figures; 1.424 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
