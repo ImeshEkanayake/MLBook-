@@ -2521,3 +2521,59 @@ Use the [concept guide](CHAPTER_42_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual canonical raw snapshot data feature model and decision version binding, replay of historical unit-conversion defect and threshold decision with exact retained parameters, latest-version reconstruction counterexample and repaired-schema validation, fictional incident ownership suspension and task-based retirement with rejected future use.
 - **Verification:** 4 code cells, 2 figures; 1.514 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+
+<!-- CHAPTER_43_ENTRIES -->
+
+## Chapter 43: Complete projects across problem families
+
+Use the [concept guide](CHAPTER_43_GUIDE.md) and [actual execution evidence](CHAPTER_43_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_226"></a>
+### code_226 — Tabular and relational maintenance prediction
+
+- **Book home:** section 43.1.
+- **Notebook:** [226_Chapter_43_01_relational_asof_risk_baselines_calibration_and_inspection_policy.ipynb](notebooks/226_Chapter_43_01_relational_asof_risk_baselines_calibration_and_inspection_policy.ipynb).
+- **Data/dependencies:** generated task observations plus explicitly acquired pinned cached pretrained files; [asset guide](CHAPTER_43_ASSETS.md); ordinary inference offline/CPU with no credentials; [pinned environment](requirements-lock.txt).
+- **Scope:** actual entity measurement and inspection tables with grouped historical as-of joins and future-record intervention, transparent tree own neural and pinned TabPFN baselines with relational ablation, independent development selection calibration cohort and final building bootstrap subgroup audit, actual inference workload measurements separate from deterministic results and fixed inspection budget.
+- **Verification:** 5 code cells, 3 figures; 4.145 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+
+<a id="code_227"></a>
+### code_227 — Graph-based structural risk and response
+
+- **Book home:** section 43.2.
+- **Notebook:** [227_Chapter_43_02_inductive_node_edge_graph_models_and_unseen_topology_audit.ipynb](notebooks/227_Chapter_43_02_inductive_node_edge_graph_models_and_unseen_topology_audit.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual positive-stiffness structural graph solves with node displacement edge force and graph maximum targets, trained one-hop and two-hop message-passing multitask networks versus relational tabular baselines, whole-structure development selection and unseen-size chord-topology assessment, actual permutation equivariance edge-mask diagnostic and retained equilibrium residual failures.
+- **Verification:** 5 code cells, 3 figures; 2.545 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+
+<a id="code_228"></a>
+### code_228 — Temporal and spatiotemporal sensor forecasting
+
+- **Book home:** section 43.3.
+- **Notebook:** [228_Chapter_43_03_spatiotemporal_backtest_native_forecast_uncertainty_and_stress.ipynb](notebooks/228_Chapter_43_03_spatiotemporal_backtest_native_forecast_uncertainty_and_stress.ipynb).
+- **Data/dependencies:** generated task observations plus explicitly acquired pinned cached pretrained files; [asset guide](CHAPTER_43_ASSETS.md); ordinary inference offline/CPU with no credentials; [pinned environment](requirements-lock.txt).
+- **Scope:** actual generated spatially coupled sensor histories with historical multi-horizon windows and disjoint buildings, seasonal autoregressive boosted own neural and pinned frozen ChronosBolt forecasting baselines, independent development family choice and whole-building maximum-residual interval calibration, future-window intervention plus missing-channel delayed-history and seasonal-change stress tests.
+- **Verification:** 5 code cells, 3 figures; 3.770 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+
+<a id="code_229"></a>
+### code_229 — Physics, inverse inference and learned simulation
+
+- **Book home:** section 43.4.
+- **Notebook:** [229_Chapter_43_04_bar_solver_sparse_inverse_PINN_hybrid_operator_and_verified_design.ipynb](notebooks/229_Chapter_43_04_bar_solver_sparse_inverse_PINN_hybrid_operator_and_verified_design.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual variable-stiffness bar reference solver with manufactured solution and mesh refinement, sparse-sensor scalar inverse stiffness estimation and explicit joint load-stiffness nonidentifiability, actual autograd residual PINN source-trained inverse hybrid and branch-trunk neural operator, independent-grid physical residual extrapolation and surrogate-proposed design verified by refined reference solves.
+- **Verification:** 5 code cells, 3 figures; 2.842 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+
+<a id="code_230"></a>
+### code_230 — Sequential inspection or energy-control decisions
+
+- **Book home:** section 43.5.
+- **Notebook:** [230_Chapter_43_05_storage_Q_policy_causal_planning_constraints_support_and_fallback.ipynb](notebooks/230_Chapter_43_05_storage_Q_policy_causal_planning_constraints_support_and_fallback.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual finite-horizon storage simulator and tabular Q-learning with independent development checkpoint selection, heuristic and causal receding-horizon planner compared on shared independent final episodes, hard energy power constraints tested fallback and whole-episode paired uncertainty, behaviour support and trajectory importance-weight degeneracy audit plus representation provenance crosswalk.
+- **Verification:** 5 code cells, 3 figures; 5.231 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
