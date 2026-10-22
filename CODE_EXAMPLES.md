@@ -2480,7 +2480,7 @@ Use the [concept guide](CHAPTER_42_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual request ledger with invalid deferred scored denominators and daily input-health summaries, as-of delayed-label joins retaining original prediction-time probabilities, fixed maturity horizon separated from label-dependent early arrivals and privileged full truth, delayed-outcome monitoring-loop visual with explicit fictional owners and response thresholds.
 - **Verification:** 4 code cells, 2 figures; 1.510 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
 
 <a id="code_222"></a>
 ### code_222 — Drift, degradation and alert quality
@@ -2490,7 +2490,7 @@ Use the [concept guide](CHAPTER_42_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual pooled-reference and season-matched two-sample distribution tests, same-feature conditional response change with stable prediction distribution but degraded Brier, predeclared fixed-family Bonferroni thresholds and independent-uniform null monitoring simulation, delayed quality evidence separated from nuisance seasonal input alerts.
 - **Verification:** 4 code cells, 2 figures; 1.795 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
 
 <a id="code_223"></a>
 ### code_223 — Feedback loops and changing labels
@@ -2500,7 +2500,7 @@ Use the [concept guide](CHAPTER_42_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual high-score selection with zero outcome support in low-score region, positive-probability audit sampling with known propensity weighted loss and independent assessment, observed selected retraining versus zero-filled-label contamination control, repair-induced outcomes separated from untreated potential outcomes and label-version changes.
 - **Verification:** 4 code cells, 2 figures; 1.720 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
 
 <a id="code_224"></a>
 ### code_224 — Retraining, updating and validation
@@ -2510,7 +2510,7 @@ Use the [concept guide](CHAPTER_42_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual old frozen Platt recalibration full refit recent refit and incremental SGD after sensor-generation change, mature chronological update development and untouched final cohorts with rolling-origin checks, scheduled versus evidence-triggered update decisions with fixed development acceptance criteria, versioned candidate gate and actual retained-prior rollback visual.
 - **Verification:** 4 code cells, 2 figures; 1.514 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
 
 <a id="code_225"></a>
 ### code_225 — Versioning, incident response and retirement
@@ -2520,4 +2520,4 @@ Use the [concept guide](CHAPTER_42_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual canonical raw snapshot data feature model and decision version binding, replay of historical unit-conversion defect and threshold decision with exact retained parameters, latest-version reconstruction counterexample and repaired-schema validation, fictional incident ownership suspension and task-based retirement with rejected future use.
 - **Verification:** 4 code cells, 2 figures; 1.514 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).

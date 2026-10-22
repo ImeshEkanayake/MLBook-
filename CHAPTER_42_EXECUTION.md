@@ -1,6 +1,6 @@
 # Chapter 42 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; content-tree verification passed.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -327,3 +327,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Layout and publication verification
+
+All ten inline figures and ten vector book figures were visually inspected, including repaired timeline labels and a vertically arranged gate. The second preview contains fifteen Chapter42 pages, all reviewed with its five front-matter and ten reference pages. All209 earlier body pages are pixel-identical. Content revision [950e4e03928a602ef18c273cef07b46e6c7fc95e](https://github.com/ImeshEkanayake/MLBook-/commit/950e4e03928a602ef18c273cef07b46e6c7fc95e) has383 remote blobs matching the clean local checkout. The subsequent metadata revision is separately checked for full-tree and commit-addressed raw-file equality. Only companion artifacts are published.
