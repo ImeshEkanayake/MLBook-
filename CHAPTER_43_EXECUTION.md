@@ -1,6 +1,6 @@
 # Chapter 43 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; content-tree verification passed.
 
 All current sources ran in fresh kernels using the unchanged runner. Imports, helpers and generated task observations are internal. code_226 and code_228 also require explicitly acquired pinned cached pretrained files; see the [asset guide](CHAPTER_43_ASSETS.md). Ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency or new asset was added; code_226 and code_228 explicitly reuse pinned existing pretrained checkpoints. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -1176,3 +1176,8 @@ Fresh-kernel and independent vector-export measurements are separate actual runs
 }
 ```
 
+
+
+## Layout and publication verification
+
+All fifteen inline figures and fifteen vector book figures were visually inspected. Repairs include category labels, diagram geometry and within-section figure placement. The second preview contains 26 Chapter 43 pages, all reviewed with its six front-matter and ten reference pages. All 224 earlier body pages are pixel-identical after the added contents-page offset. Content revision [2bb3e5a8a08bfe234db264248d83b9eb4dea64f7](https://github.com/ImeshEkanayake/MLBook-/commit/2bb3e5a8a08bfe234db264248d83b9eb4dea64f7) has 394 remote blobs matching the clean local checkout. The subsequent metadata revision is separately checked for full-tree and commit-addressed raw-file equality. Only companion artifacts are published.

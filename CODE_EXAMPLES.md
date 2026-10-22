@@ -2536,7 +2536,7 @@ Use the [concept guide](CHAPTER_43_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated task observations plus explicitly acquired pinned cached pretrained files; [asset guide](CHAPTER_43_ASSETS.md); ordinary inference offline/CPU with no credentials; [pinned environment](requirements-lock.txt).
 - **Scope:** actual entity measurement and inspection tables with grouped historical as-of joins and future-record intervention, transparent tree own neural and pinned TabPFN baselines with relational ablation, independent development selection calibration cohort and final building bootstrap subgroup audit, actual inference workload measurements separate from deterministic results and fixed inspection budget.
 - **Verification:** 5 code cells, 3 figures; 4.145 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
 
 <a id="code_227"></a>
 ### code_227 — Graph-based structural risk and response
@@ -2546,7 +2546,7 @@ Use the [concept guide](CHAPTER_43_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual positive-stiffness structural graph solves with node displacement edge force and graph maximum targets, trained one-hop and two-hop message-passing multitask networks versus relational tabular baselines, whole-structure development selection and unseen-size chord-topology assessment, actual permutation equivariance edge-mask diagnostic and retained equilibrium residual failures.
 - **Verification:** 5 code cells, 3 figures; 2.545 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
 
 <a id="code_228"></a>
 ### code_228 — Temporal and spatiotemporal sensor forecasting
@@ -2556,7 +2556,7 @@ Use the [concept guide](CHAPTER_43_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated task observations plus explicitly acquired pinned cached pretrained files; [asset guide](CHAPTER_43_ASSETS.md); ordinary inference offline/CPU with no credentials; [pinned environment](requirements-lock.txt).
 - **Scope:** actual generated spatially coupled sensor histories with historical multi-horizon windows and disjoint buildings, seasonal autoregressive boosted own neural and pinned frozen ChronosBolt forecasting baselines, independent development family choice and whole-building maximum-residual interval calibration, future-window intervention plus missing-channel delayed-history and seasonal-change stress tests.
 - **Verification:** 5 code cells, 3 figures; 3.770 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
 
 <a id="code_229"></a>
 ### code_229 — Physics, inverse inference and learned simulation
@@ -2566,7 +2566,7 @@ Use the [concept guide](CHAPTER_43_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual variable-stiffness bar reference solver with manufactured solution and mesh refinement, sparse-sensor scalar inverse stiffness estimation and explicit joint load-stiffness nonidentifiability, actual autograd residual PINN source-trained inverse hybrid and branch-trunk neural operator, independent-grid physical residual extrapolation and surrogate-proposed design verified by refined reference solves.
 - **Verification:** 5 code cells, 3 figures; 2.842 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
 
 <a id="code_230"></a>
 ### code_230 — Sequential inspection or energy-control decisions
@@ -2576,4 +2576,4 @@ Use the [concept guide](CHAPTER_43_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual finite-horizon storage simulator and tabular Q-learning with independent development checkpoint selection, heuristic and causal receding-horizon planner compared on shared independent final episodes, hard energy power constraints tested fallback and whole-episode paired uncertainty, behaviour support and trajectory importance-weight degeneracy audit plus representation provenance crosswalk.
 - **Verification:** 5 code cells, 3 figures; 5.231 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
+- **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_43_EXECUTION.md).
