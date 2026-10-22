@@ -9702,6 +9702,221 @@
         "actual learned temporal attention and integrated gradients with occlusion and parameter randomization controls"
       ],
       "execution_report": "CHAPTER_38_EXECUTION.md"
+    },
+    {
+      "id": "code_206",
+      "chapter": 39,
+      "subtopic": "39.1",
+      "title": "Distribution shifts and support",
+      "path": "notebooks/206_Chapter_39_01_shift_types_support_and_observability.ipynb",
+      "registry_anchor": "code_206",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_206",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8006,
+      "runtime_seconds": 1.641,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "source-only classifier assessed on separate covariate and conditional shifts",
+        "identical observed inputs with changed response law as an observability control",
+        "exact class-conditional label-shift generator and prior correction",
+        "source-support map and independent label-dependent diagnostics"
+      ],
+      "execution_report": "CHAPTER_39_EXECUTION.md"
+    },
+    {
+      "id": "code_207",
+      "chapter": 39,
+      "subtopic": "39.2",
+      "title": "Corruption and measurement robustness",
+      "path": "notebooks/207_Chapter_39_02_sensor_corruptions_augmentation_and_input_validation.ipynb",
+      "registry_anchor": "code_207",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_207",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8007,
+      "runtime_seconds": 1.674,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual two-channel temporal sensor regression with source-only augmentation",
+        "severity tests for noise missing channel calibration bias and delayed packets",
+        "unit timestamp and finite-value validators with explicit reject counts",
+        "independent clean and corrupted outcomes without challenge-selected repairs"
+      ],
+      "execution_report": "CHAPTER_39_EXECUTION.md"
+    },
+    {
+      "id": "code_208",
+      "chapter": 39,
+      "subtopic": "39.3",
+      "title": "Extrapolation and structural generalization",
+      "path": "notebooks/208_Chapter_39_03_dynamic_chain_extrapolation_by_domain_axis.ipynb",
+      "registry_anchor": "code_208",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_208",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8008,
+      "runtime_seconds": 1.758,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual frequency-domain elastic chain solver with independent source/final entities",
+        "separate graph size member length material load and frequency challenges",
+        "learned physical response scaling contrasted with raw feature boosting",
+        "changed boundary-condition challenge exposes misspecified physical transfer"
+      ],
+      "execution_report": "CHAPTER_39_EXECUTION.md"
+    },
+    {
+      "id": "code_209",
+      "chapter": 39,
+      "subtopic": "39.4",
+      "title": "Physical and domain validity",
+      "path": "notebooks/209_Chapter_39_04_physical_stress_board_symmetry_equilibrium_and_bounds.ipynb",
+      "registry_anchor": "code_209",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_209",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8009,
+      "runtime_seconds": 2.343,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual source-fitted anisotropic vector response and mechanical comparator",
+        "rotated geometry force covariance boundary and equilibrium checks",
+        "explicit corruption and support-change stress-test board",
+        "separate displacement error force residual energy and field constraints"
+      ],
+      "execution_report": "CHAPTER_39_EXECUTION.md"
+    },
+    {
+      "id": "code_210",
+      "chapter": 39,
+      "subtopic": "39.5",
+      "title": "Adaptation, stress testing and fallback",
+      "path": "notebooks/210_Chapter_39_05_adaptation_reweighting_group_robustness_and_targeted_labels.ipynb",
+      "registry_anchor": "code_210",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_210",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8010,
+      "runtime_seconds": 1.424,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual clipped density-ratio regression and effective sample size",
+        "actual convex group-max epigraph optimization with feasibility checks",
+        "unlabelled mean alignment and equal-budget random versus targeted target labels",
+        "independent challenge results with frozen source-envelope acceptance and explicit deferrals"
+      ],
+      "execution_report": "CHAPTER_39_EXECUTION.md"
     }
   ]
 }

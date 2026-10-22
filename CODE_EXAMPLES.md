@@ -2297,3 +2297,59 @@ Use the [concept guide](CHAPTER_38_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual graph neural regression and learned sparse edge mask with hard-mask fidelity checks, single-edge model perturbations compared with an independent elastic solver, nodewise displacement error and equilibrium residual maps, actual learned temporal attention and integrated gradients with occlusion and parameter randomization controls.
 - **Verification:** 5 code cells, 3 figures; 3.861 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_38_EXECUTION.md).
+
+<!-- CHAPTER_39_ENTRIES -->
+
+## Chapter 39: Robustness and domain validity
+
+Use the [concept guide](CHAPTER_39_GUIDE.md) and [actual execution evidence](CHAPTER_39_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_206"></a>
+### code_206 — Distribution shifts and support
+
+- **Book home:** section 39.1.
+- **Notebook:** [206_Chapter_39_01_shift_types_support_and_observability.ipynb](notebooks/206_Chapter_39_01_shift_types_support_and_observability.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** source-only classifier assessed on separate covariate and conditional shifts, identical observed inputs with changed response law as an observability control, exact class-conditional label-shift generator and prior correction, source-support map and independent label-dependent diagnostics.
+- **Verification:** 4 code cells, 2 figures; 1.641 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+
+<a id="code_207"></a>
+### code_207 — Corruption and measurement robustness
+
+- **Book home:** section 39.2.
+- **Notebook:** [207_Chapter_39_02_sensor_corruptions_augmentation_and_input_validation.ipynb](notebooks/207_Chapter_39_02_sensor_corruptions_augmentation_and_input_validation.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual two-channel temporal sensor regression with source-only augmentation, severity tests for noise missing channel calibration bias and delayed packets, unit timestamp and finite-value validators with explicit reject counts, independent clean and corrupted outcomes without challenge-selected repairs.
+- **Verification:** 4 code cells, 2 figures; 1.674 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+
+<a id="code_208"></a>
+### code_208 — Extrapolation and structural generalization
+
+- **Book home:** section 39.3.
+- **Notebook:** [208_Chapter_39_03_dynamic_chain_extrapolation_by_domain_axis.ipynb](notebooks/208_Chapter_39_03_dynamic_chain_extrapolation_by_domain_axis.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual frequency-domain elastic chain solver with independent source/final entities, separate graph size member length material load and frequency challenges, learned physical response scaling contrasted with raw feature boosting, changed boundary-condition challenge exposes misspecified physical transfer.
+- **Verification:** 4 code cells, 2 figures; 1.758 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+
+<a id="code_209"></a>
+### code_209 — Physical and domain validity
+
+- **Book home:** section 39.4.
+- **Notebook:** [209_Chapter_39_04_physical_stress_board_symmetry_equilibrium_and_bounds.ipynb](notebooks/209_Chapter_39_04_physical_stress_board_symmetry_equilibrium_and_bounds.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual source-fitted anisotropic vector response and mechanical comparator, rotated geometry force covariance boundary and equilibrium checks, explicit corruption and support-change stress-test board, separate displacement error force residual energy and field constraints.
+- **Verification:** 4 code cells, 2 figures; 2.343 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
+
+<a id="code_210"></a>
+### code_210 — Adaptation, stress testing and fallback
+
+- **Book home:** section 39.5.
+- **Notebook:** [210_Chapter_39_05_adaptation_reweighting_group_robustness_and_targeted_labels.ipynb](notebooks/210_Chapter_39_05_adaptation_reweighting_group_robustness_and_targeted_labels.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual clipped density-ratio regression and effective sample size, actual convex group-max epigraph optimization with feasibility checks, unlabelled mean alignment and equal-budget random versus targeted target labels, independent challenge results with frozen source-envelope acceptance and explicit deferrals.
+- **Verification:** 4 code cells, 2 figures; 1.424 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_39_EXECUTION.md).
