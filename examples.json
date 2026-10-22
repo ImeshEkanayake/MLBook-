@@ -10369,6 +10369,221 @@
         "rollback to retained old parameters and verified identical prior predictions"
       ],
       "execution_report": "CHAPTER_41_EXECUTION.md"
+    },
+    {
+      "id": "code_221",
+      "chapter": 42,
+      "subtopic": "42.1",
+      "title": "What to monitor and when labels arrive",
+      "path": "notebooks/221_Chapter_42_01_daily_input_health_and_asof_delayed_outcome_monitoring.ipynb",
+      "registry_anchor": "code_221",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_221",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8021,
+      "runtime_seconds": 1.51,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual request ledger with invalid deferred scored denominators and daily input-health summaries",
+        "as-of delayed-label joins retaining original prediction-time probabilities",
+        "fixed maturity horizon separated from label-dependent early arrivals and privileged full truth",
+        "delayed-outcome monitoring-loop visual with explicit fictional owners and response thresholds"
+      ],
+      "execution_report": "CHAPTER_42_EXECUTION.md"
+    },
+    {
+      "id": "code_222",
+      "chapter": 42,
+      "subtopic": "42.2",
+      "title": "Drift, degradation and alert quality",
+      "path": "notebooks/222_Chapter_42_02_seasonal_drift_conditional_degradation_and_repeated_alerts.ipynb",
+      "registry_anchor": "code_222",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_222",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8022,
+      "runtime_seconds": 1.795,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual pooled-reference and season-matched two-sample distribution tests",
+        "same-feature conditional response change with stable prediction distribution but degraded Brier",
+        "predeclared fixed-family Bonferroni thresholds and independent-uniform null monitoring simulation",
+        "delayed quality evidence separated from nuisance seasonal input alerts"
+      ],
+      "execution_report": "CHAPTER_42_EXECUTION.md"
+    },
+    {
+      "id": "code_223",
+      "chapter": 42,
+      "subtopic": "42.3",
+      "title": "Feedback loops and changing labels",
+      "path": "notebooks/223_Chapter_42_03_selective_labels_audit_propensities_and_repair_feedback.ipynb",
+      "registry_anchor": "code_223",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_223",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8023,
+      "runtime_seconds": 1.72,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual high-score selection with zero outcome support in low-score region",
+        "positive-probability audit sampling with known propensity weighted loss and independent assessment",
+        "observed selected retraining versus zero-filled-label contamination control",
+        "repair-induced outcomes separated from untreated potential outcomes and label-version changes"
+      ],
+      "execution_report": "CHAPTER_42_EXECUTION.md"
+    },
+    {
+      "id": "code_224",
+      "chapter": 42,
+      "subtopic": "42.4",
+      "title": "Retraining, updating and validation",
+      "path": "notebooks/224_Chapter_42_04_recalibration_refit_incremental_update_and_fixed_release_gate.ipynb",
+      "registry_anchor": "code_224",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_224",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8024,
+      "runtime_seconds": 1.514,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual old frozen Platt recalibration full refit recent refit and incremental SGD after sensor-generation change",
+        "mature chronological update development and untouched final cohorts with rolling-origin checks",
+        "scheduled versus evidence-triggered update decisions with fixed development acceptance criteria",
+        "versioned candidate gate and actual retained-prior rollback visual"
+      ],
+      "execution_report": "CHAPTER_42_EXECUTION.md"
+    },
+    {
+      "id": "code_225",
+      "chapter": 42,
+      "subtopic": "42.5",
+      "title": "Versioning, incident response and retirement",
+      "path": "notebooks/225_Chapter_42_05_versioned_incident_snapshot_replay_repair_and_retirement.ipynb",
+      "registry_anchor": "code_225",
+      "registry_url": "https://github.com/ImeshEkanayake/MLBook-/blob/main/CODE_EXAMPLES.md#code_225",
+      "status": "executed_pending_publication",
+      "publication_verified": false,
+      "verified_on": "2026-10-22",
+      "timezone": "Australia/Melbourne",
+      "data": {
+        "provenance": "locally generated teaching experiments; mechanisms and limitations declared inside notebook",
+        "downloads_required": false,
+        "api_keys_required": false
+      },
+      "tested_versions": {
+        "matplotlib": "3.11.0",
+        "numpy": "2.4.4",
+        "pandas": "3.0.3",
+        "python": "3.14.3",
+        "scikit-learn": "1.9.0",
+        "scipy": "1.17.1",
+        "threadpoolctl": "3.7.0"
+      },
+      "dependency_files": [
+        "requirements.txt",
+        "requirements-lock.txt"
+      ],
+      "hardware": "Darwin arm64 CPU",
+      "seed": 8025,
+      "runtime_seconds": 1.514,
+      "code_cells_executed": 4,
+      "inline_figures": 2,
+      "concepts_demonstrated": [
+        "actual canonical raw snapshot data feature model and decision version binding",
+        "replay of historical unit-conversion defect and threshold decision with exact retained parameters",
+        "latest-version reconstruction counterexample and repaired-schema validation",
+        "fictional incident ownership suspension and task-based retirement with rejected future use"
+      ],
+      "execution_report": "CHAPTER_42_EXECUTION.md"
     }
   ]
 }

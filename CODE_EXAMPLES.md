@@ -2465,3 +2465,59 @@ Use the [concept guide](CHAPTER_41_GUIDE.md) and [actual execution evidence](CHA
 - **Scope:** actual old and candidate logistic model fits with independent development gate and final shadow scores, deterministic staged routing and explicit valid invalid deferred status contracts, actual injected timeout and schema unit failures with bounded fallback rules, rollback to retained old parameters and verified identical prior predictions.
 - **Verification:** 4 code cells, 2 figures; 1.587 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
 - **Status:** published and executed; remote content tree verified. Checked 22 October 2026. [Run evidence](CHAPTER_41_EXECUTION.md).
+
+<!-- CHAPTER_42_ENTRIES -->
+
+## Chapter 42: Monitoring and maintaining models
+
+Use the [concept guide](CHAPTER_42_GUIDE.md) and [actual execution evidence](CHAPTER_42_EXECUTION.md). Generated teaching mechanisms retain the information, task and interpretation limits declared in each notebook.
+
+<a id="code_221"></a>
+### code_221 — What to monitor and when labels arrive
+
+- **Book home:** section 42.1.
+- **Notebook:** [221_Chapter_42_01_daily_input_health_and_asof_delayed_outcome_monitoring.ipynb](notebooks/221_Chapter_42_01_daily_input_health_and_asof_delayed_outcome_monitoring.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual request ledger with invalid deferred scored denominators and daily input-health summaries, as-of delayed-label joins retaining original prediction-time probabilities, fixed maturity horizon separated from label-dependent early arrivals and privileged full truth, delayed-outcome monitoring-loop visual with explicit fictional owners and response thresholds.
+- **Verification:** 4 code cells, 2 figures; 1.510 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+
+<a id="code_222"></a>
+### code_222 — Drift, degradation and alert quality
+
+- **Book home:** section 42.2.
+- **Notebook:** [222_Chapter_42_02_seasonal_drift_conditional_degradation_and_repeated_alerts.ipynb](notebooks/222_Chapter_42_02_seasonal_drift_conditional_degradation_and_repeated_alerts.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual pooled-reference and season-matched two-sample distribution tests, same-feature conditional response change with stable prediction distribution but degraded Brier, predeclared fixed-family Bonferroni thresholds and independent-uniform null monitoring simulation, delayed quality evidence separated from nuisance seasonal input alerts.
+- **Verification:** 4 code cells, 2 figures; 1.795 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+
+<a id="code_223"></a>
+### code_223 — Feedback loops and changing labels
+
+- **Book home:** section 42.3.
+- **Notebook:** [223_Chapter_42_03_selective_labels_audit_propensities_and_repair_feedback.ipynb](notebooks/223_Chapter_42_03_selective_labels_audit_propensities_and_repair_feedback.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual high-score selection with zero outcome support in low-score region, positive-probability audit sampling with known propensity weighted loss and independent assessment, observed selected retraining versus zero-filled-label contamination control, repair-induced outcomes separated from untreated potential outcomes and label-version changes.
+- **Verification:** 4 code cells, 2 figures; 1.720 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+
+<a id="code_224"></a>
+### code_224 — Retraining, updating and validation
+
+- **Book home:** section 42.4.
+- **Notebook:** [224_Chapter_42_04_recalibration_refit_incremental_update_and_fixed_release_gate.ipynb](notebooks/224_Chapter_42_04_recalibration_refit_incremental_update_and_fixed_release_gate.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual old frozen Platt recalibration full refit recent refit and incremental SGD after sensor-generation change, mature chronological update development and untouched final cohorts with rolling-origin checks, scheduled versus evidence-triggered update decisions with fixed development acceptance criteria, versioned candidate gate and actual retained-prior rollback visual.
+- **Verification:** 4 code cells, 2 figures; 1.514 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
+
+<a id="code_225"></a>
+### code_225 — Versioning, incident response and retirement
+
+- **Book home:** section 42.5.
+- **Notebook:** [225_Chapter_42_05_versioned_incident_snapshot_replay_repair_and_retirement.ipynb](notebooks/225_Chapter_42_05_versioned_incident_snapshot_replay_repair_and_retirement.ipynb).
+- **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
+- **Scope:** actual canonical raw snapshot data feature model and decision version binding, replay of historical unit-conversion defect and threshold decision with exact retained parameters, latest-version reconstruction counterexample and repaired-schema validation, fictional incident ownership suspension and task-based retirement with rejected future use.
+- **Verification:** 4 code cells, 2 figures; 1.514 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
+- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_42_EXECUTION.md).
