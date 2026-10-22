@@ -2368,7 +2368,7 @@ Use the [concept guide](CHAPTER_40_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual subgroup TPR FPR precision calibration and allocation assessment, Wilson frequency intervals and minority-group denominators, independent development group-threshold comparison, unequal outcome coverage contrasted with privileged simulator full audit.
 - **Verification:** 4 code cells, 2 figures; 1.586 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
 
 <a id="code_212"></a>
 ### code_212 — Sensitive data and minimization
@@ -2378,7 +2378,7 @@ Use the [concept guide](CHAPTER_40_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual household-level pseudonymous grouping with explicit non-anonymity limits, purpose and role based field export and retention fixtures, auxiliary location-linkage diagnostic before and after coarsening, preserved household temporal split rather than random-row mixing.
 - **Verification:** 4 code cells, 2 figures; 1.417 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
 
 <a id="code_213"></a>
 ### code_213 — Privacy-preserving learning and release
@@ -2388,7 +2388,7 @@ Use the [concept guide](CHAPTER_40_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** bounded household-mean Laplace utility simulation with replacement sensitivity and composition, actual federated local-gradient model averaging and centralized comparator, single-client update disclosure and arithmetic mask cancellation illustration, synthetic copying and rare-record nearest-neighbour disclosure fixtures.
 - **Verification:** 5 code cells, 3 figures; 1.536 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
 
 <a id="code_214"></a>
 ### code_214 — Model and data security
@@ -2398,7 +2398,7 @@ Use the [concept guide](CHAPTER_40_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** generated poisoning and trigger backdoor fits assessed independently, bounded measurement evasion and own-model query extraction fixture, strict numeric inference interface treats external-note instructions only as data, artifact digest change detection and query-volume control with explicit limits.
 - **Verification:** 5 code cells, 3 figures; 1.546 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
 
 <a id="code_215"></a>
 ### code_215 — Governance, misuse and evidence records
@@ -2408,4 +2408,4 @@ Use the [concept guide](CHAPTER_40_GUIDE.md) and [actual execution evidence](CHA
 - **Data/dependencies:** generated locally; no ordinary-run files, network, credentials or GPU; [pinned environment](requirements-lock.txt).
 - **Scope:** actual fitted model metrics bound to an executable evidence/use record, simulated role intended-use and lifecycle state gates, canonical hash-chain audit log with change detection and authenticity limits, incident suspension and retirement preserve evidence without autonomous structural clearance.
 - **Verification:** 4 code cells, 2 figures; 1.465 seconds incl. fresh-kernel lifecycle, Darwin arm64 CPU.
-- **Status:** executed; publication verification pending. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).
+- **Status:** published and executed; remote content verified. Checked 22 October 2026. [Run evidence](CHAPTER_40_EXECUTION.md).

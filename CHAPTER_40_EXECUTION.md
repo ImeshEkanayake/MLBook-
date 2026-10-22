@@ -1,6 +1,6 @@
 # Chapter 40 execution evidence
 
-**Date:** 22 October 2026 (Australia/Melbourne). **Status:** executed; publication verification pending.
+**Date:** 22 October 2026 (Australia/Melbourne). **Status:** published and executed; remote content verified.
 
 All current sources ran in fresh kernels using the unchanged runner. Every import/helper and input is internal; ordinary execution is offline and CPU-only. Actual versions and hardware are printed by every kernel and retained below. No dependency was added. Wall times include kernel lifecycle and are observations, not comparative throughput promises. Check the chapter notes for individual reruns or repairs; independent initial jobs may have run concurrently.
 
@@ -12,7 +12,7 @@ All current sources ran in fresh kernels using the unchanged runner. Every impor
 | code_214 | 40.4 | 5 | 3 | 1.546 |
 | code_215 | 40.5 | 4 | 2 | 1.465 |
 
-Total: **22 executed code cells and 12 inline figures**. Current outputs contain no errors and all assertions pass. Figure review is completed during the book delivery review.
+Total: **22 executed code cells and 12 inline figures**. Current outputs contain no errors and all assertions pass. All 12 book figures and 12 actual inline figures have been visually reviewed.
 
 ## Actual mechanisms and boundaries
 
@@ -425,3 +425,7 @@ Versions: `{"matplotlib": "3.11.0", "numpy": "2.4.4", "pandas": "3.0.3", "python
 }
 ```
 
+
+## Publication and manuscript review
+
+Content revision `4579da30647e6ed407cc18bc78f628f10a0f8065` passed remote-main/all-tree-blob verification. Reviewed separate second PDF:208 pages; Chapter40 printed662–677. SHA-256 `7c22ed35b7b4dba8041f6c6f8bd4312cc5de29940e7331f3fe052cddd0da20bd`. All16 new chapter pages, title/guide/three contents pages, nine reference pages, two equations, five-row map and20 exercises inspected. All178 earlier second-preview body pages are pixel-identical; fixed first-preview PDF byte-identical. The final metadata/raw-file proof is retained in the local delivery evidence.
